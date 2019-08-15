@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 30.0, 30.0, 300.0, 70.0 ],
+		"openrect" : [ 30.0, 30.0, 165.0, 90.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 165.0, 90.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 165.0, 90.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -118,24 +118,33 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-1::obj-126" : [ "live.text", "live.text", 0 ],
+			"obj-1::obj-4" : [ "live.text[1]", "live.text", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "ossia.gl_asyncread.model.maxpat",
-				"bootpath" : "~/Desktop/stable/utility/ossia.gl_asyncread%",
+				"bootpath" : "~/Github/tml-ossia/video/utility/ossia.gl_asyncread%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.gl_asyncread.view.maxpat",
-				"bootpath" : "~/Desktop/stable/utility/ossia.gl_asyncread%",
+				"bootpath" : "~/Github/tml-ossia/video/utility/ossia.gl_asyncread%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.list2parameter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/data/list2parameter",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/patchers/components/data/list2parameter",
+				"name" : "ossia.list2parameter.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/ossia/ossia.list2parameter",
+				"patcherrelativepath" : "../../../../TML-depo/TML-code/ossia/ossia.list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}

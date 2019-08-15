@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 30.0, 30.0, 105.0, 150.0 ],
+		"openrect" : [ 30.0, 30.0, 210.0, 105.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 210.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 105.0, 150.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 210.0, 105.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -138,10 +138,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-8" : [ "live.tab", "live.tab", 0 ],
 			"obj-1::obj-126" : [ "live.text", "live.text", 0 ],
 			"obj-1::obj-14" : [ "live.text[2]", "live.text", 0 ],
 			"obj-1::obj-10" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-8" : [ "live.tab", "live.tab", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -150,7 +150,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ossia.gl_pix_slide.model.maxpat",
-				"bootpath" : "~/Github/phase/ossia/gl_pix_slide",
+				"bootpath" : "~/Github/tml-ossia/video/temporal/ossia.gl_pix_slide",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -158,13 +158,13 @@
 , 			{
 				"name" : "ossia.gl_group_slab.model.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/ossia/openGL",
-				"patcherrelativepath" : "../../../TML-depo/TML-code/ossia/openGL",
+				"patcherrelativepath" : "../../../../TML-depo/TML-code/ossia/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.gl_pix_slide.view.maxpat",
-				"bootpath" : "~/Github/phase/ossia/gl_pix_slide",
+				"bootpath" : "~/Github/tml-ossia/video/temporal/ossia.gl_pix_slide",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -172,21 +172,21 @@
 , 			{
 				"name" : "ossia.gl_group_slab.panel.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/ossia/openGL",
-				"patcherrelativepath" : "../../../TML-depo/TML-code/ossia/openGL",
+				"patcherrelativepath" : "../../../../TML-depo/TML-code/ossia/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.gl_group_slab.view.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/ossia/openGL",
-				"patcherrelativepath" : "../../../TML-depo/TML-code/ossia/openGL",
+				"patcherrelativepath" : "../../../../TML-depo/TML-code/ossia/openGL",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.list2parameter.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/ossia/ossia.list2parameter",
-				"patcherrelativepath" : "../../../TML-depo/TML-code/ossia/ossia.list2parameter",
+				"patcherrelativepath" : "../../../../TML-depo/TML-code/ossia/ossia.list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -122,7 +122,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -539,7 +539,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -558,8 +558,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 645.0, 270.0, 387.0, 33.0 ],
-					"text" : "ossia.parameter dim @type vec2f @range 2 2000 @clip both @description \"Output resolution.\"",
+					"patching_rect" : [ 645.0, 270.0, 361.0, 33.0 ],
+					"text" : "ossia.parameter dim @type vec2f @range 2 2000 @default 2 2 @clip both @description \"Output resolution.\"",
 					"varname" : "tolerance[4]"
 				}
 
@@ -585,7 +585,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -643,14 +643,14 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-19",
+					"id" : "obj-1",
 					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 645.0, 420.0, 105.0, 89.0 ],
-					"text" : "jit.window #0-readback @shared 1 @border 0 @pos 1000 5000 @size 1920. 1080.",
+					"patching_rect" : [ 645.0, 420.0, 100.0, 89.0 ],
+					"text" : "jit.window #0-readback @shared 1 @border 0 @pos 1000 5000 @size 2. 2.",
 					"varname" : "window"
 				}
 
@@ -821,7 +821,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-91", 0 ]
 				}
 
@@ -842,6 +842,16 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "ossia.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.parameter.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
