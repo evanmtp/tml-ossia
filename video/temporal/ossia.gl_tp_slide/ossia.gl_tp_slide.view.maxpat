@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 913.0, 270.0, 493.0, 418.0 ],
+		"rect" : [ 387.0, 106.0, 446.0, 533.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -18,8 +18,8 @@
 		"default_fontname" : "Verdana",
 		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 2,
-		"objectsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -63,7 +63,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 165.0, 135.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, -0.5, 15.0, 16.0 ],
+					"presentation_rect" : [ 105.0, -0.5, 15.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text",
@@ -91,7 +91,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 30.0, 135.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.0, 0.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 90.0, 0.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text[1]",
@@ -136,7 +136,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 30.0, 60.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.0, -0.5, 15.0, 16.0 ],
+					"presentation_rect" : [ 120.0, -0.5, 15.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text[2]",
@@ -198,20 +198,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 75.0, 150.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 15.0, 210.0, 19.0 ],
-					"style" : "",
-					"text" : "#1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 1,
 					"id" : "obj-20",
 					"maxclass" : "comment",
@@ -219,54 +205,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 15.0, 164.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 105.0, 19.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 90.0, 19.0 ],
 					"style" : "",
 					"text" : "gl_pix_slide"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "live.tab",
-					"num_lines_patching" : 1,
-					"num_lines_presentation" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 30.0, 345.0, 100.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 75.0, 150.0, 20.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.tab",
-							"parameter_shortname" : "live.tab",
-							"parameter_type" : 2,
-							"parameter_mmax" : 1.0,
-							"parameter_enum" : [ "fragment", "vertex" ],
-							"parameter_unitstyle" : 0
-						}
-
-					}
-,
-					"varname" : "TOL[3]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 30.0, 375.0, 109.0, 21.0 ],
-					"style" : "",
-					"text" : "ossia.remote vertex",
-					"varname" : "tolerance[3]"
 				}
 
 			}
@@ -278,17 +219,17 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 209.0, 66.0, 19.0 ],
+					"patching_rect" : [ 180.0, 300.0, 66.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 105.0, 45.0, 39.0, 19.0 ],
+					"presentation_rect" : [ 0.0, 60.0, 72.0, 19.0 ],
 					"style" : "",
-					"text" : "decay"
+					"text" : "slide_down"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "slide",
+					"annotation" : "vertical",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"format" : 6,
@@ -298,9 +239,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 159.0, 258.0, 50.0, 21.0 ],
+					"patching_rect" : [ 180.0, 346.0, 50.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 45.0, 45.0, 21.0 ],
+					"presentation_rect" : [ 75.0, 60.0, 50.0, 21.0 ],
 					"style" : "",
 					"triangle" : 0,
 					"varname" : "TOL[1]"
@@ -316,16 +257,16 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 150.0, 285.0, 106.0, 21.0 ],
+					"patching_rect" : [ 180.0, 376.0, 133.0, 21.0 ],
 					"style" : "",
-					"text" : "ossia.remote decay",
+					"text" : "ossia.remote slide_down",
 					"varname" : "tolerance[1]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "slide",
+					"annotation" : "horizontal",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"format" : 6,
@@ -335,9 +276,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 255.0, 50.0, 21.0 ],
+					"patching_rect" : [ 30.0, 346.0, 50.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 45.0, 45.0, 21.0 ],
+					"presentation_rect" : [ 75.0, 30.0, 50.0, 21.0 ],
 					"style" : "",
 					"triangle" : 0,
 					"varname" : "TOL[2]"
@@ -353,9 +294,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 30.0, 285.0, 108.0, 21.0 ],
+					"patching_rect" : [ 30.0, 376.0, 119.0, 21.0 ],
 					"style" : "",
-					"text" : "ossia.remote attack",
+					"text" : "ossia.remote slide_up",
 					"varname" : "tolerance[2]"
 				}
 
@@ -368,11 +309,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 209.0, 63.0, 19.0 ],
+					"patching_rect" : [ 30.0, 300.0, 63.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 45.0, 42.0, 19.0 ],
+					"presentation_rect" : [ 0.0, 30.0, 63.0, 19.0 ],
 					"style" : "",
-					"text" : "attack"
+					"text" : "slide_up"
 				}
 
 			}
@@ -385,7 +326,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 228.0, 108.0, 21.0 ],
+					"patching_rect" : [ 315.0, 285.0, 78.0, 21.0 ],
 					"style" : "",
 					"text" : "ossia.view #1",
 					"varname" : "jmod.hub"
@@ -400,7 +341,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 300.0, 255.0, 25.0, 25.0 ],
+					"patching_rect" : [ 315.0, 312.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -414,8 +355,22 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 195.0, 25.0, 25.0 ],
+					"patching_rect" : [ 315.0, 252.0, 25.0, 25.0 ],
 					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 210.0, 75.0, 150.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 15.0, 135.0, 19.0 ],
+					"style" : "",
+					"text" : "#1"
 				}
 
 			}
@@ -428,9 +383,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 315.0, 345.0, 128.0, 128.0 ],
+					"patching_rect" : [ 255.0, 420.0, 120.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 210.0, 30.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 135.0, 30.0 ],
 					"proportion" : 0.5,
 					"style" : ""
 				}
@@ -445,9 +400,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 345.0, 128.0, 128.0 ],
+					"patching_rect" : [ 255.0, 450.0, 120.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 15.0, 210.0, 90.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 135.0, 90.0 ],
 					"proportion" : 0.5,
 					"style" : ""
 				}
@@ -516,7 +471,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 159.5, 309.0, 135.0, 309.0, 135.0, 249.0, 168.5, 249.0 ],
+					"midpoints" : [ 189.5, 400.0, 165.0, 400.0, 165.0, 340.0, 189.5, 340.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -545,29 +500,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 39.5, 309.0, 15.0, 309.0, 15.0, 249.0, 39.5, 249.0 ],
+					"midpoints" : [ 39.5, 400.0, 15.0, 400.0, 15.0, 340.0, 39.5, 340.0 ],
 					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 39.5, 399.0, 15.0, 399.0, 15.0, 339.0, 39.5, 339.0 ],
-					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-8" : [ "live.tab", "live.tab", 0 ],
 			"obj-126" : [ "live.text", "live.text", 0 ],
 			"obj-10" : [ "live.text[1]", "live.text", 0 ],
 			"obj-14" : [ "live.text[2]", "live.text", 0 ]
@@ -576,21 +515,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "ossia.gl_group_slab.panel.maxpat",
 				"bootpath" : "~/Github/tml-ossia/video/utility/ossi.gl_group_slab",
-				"patcherrelativepath" : "../../utility/ossi.gl_group_slab",
+				"patcherrelativepath" : "../../../../Github/tml-ossia/video/utility/ossi.gl_group_slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.gl_group_slab.view.maxpat",
 				"bootpath" : "~/Github/tml-ossia/video/utility/ossi.gl_group_slab",
-				"patcherrelativepath" : "../../utility/ossi.gl_group_slab",
+				"patcherrelativepath" : "../../../../Github/tml-ossia/video/utility/ossi.gl_group_slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.list2parameter.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/ossia/ossia.list2parameter",
-				"patcherrelativepath" : "../../../../TML-depo/TML-code/ossia/ossia.list2parameter",
+				"patcherrelativepath" : "../../../../Github/TML-depo/TML-code/ossia/ossia.list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
