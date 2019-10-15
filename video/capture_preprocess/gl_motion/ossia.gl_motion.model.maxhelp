@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 772.0, 79.0, 436.0, 747.0 ],
+		"rect" : [ 540.0, 79.0, 783.0, 717.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -99,14 +99,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 772.0, 105.0, 436.0, 721.0 ],
+						"rect" : [ 540.0, 105.0, 783.0, 691.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -135,6 +135,42 @@
 						"subpatcher_template" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 15.0, 375.0, 58.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 240.0, 135.0, 150.0, 74.0 ],
+									"text" : "have to pass drawbangs as an int because ossia.parameter @type impulese is currently broken"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 15.0, 165.0, 22.0, 22.0 ],
+									"text" : "t 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontface" : 0,
 									"fontname" : "Arial",
@@ -181,20 +217,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 30.0, 165.0, 182.0, 22.0 ],
+									"patching_rect" : [ 15.0, 195.0, 182.0, 22.0 ],
 									"text" : "ossia.remote glmotion/drawbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 375.0, 155.0, 22.0 ],
-									"text" : "j.initialized /gl_motion 2000"
 								}
 
 							}
@@ -468,7 +492,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 15.0, 465.0, 177.0, 22.0 ],
-									"text" : "ossia.gl_motion.model glmotion"
+									"text" : "ossia.gl_motion.model glmotion",
+									"varname" : "ossia.gl_motion.model"
 								}
 
 							}
@@ -531,6 +556,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-30", 0 ],
 									"source" : [ "obj-26", 0 ]
 								}
@@ -552,8 +584,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"midpoints" : [ 121.0, 153.0, 39.5, 153.0 ],
+									"destination" : [ "obj-22", 0 ],
 									"source" : [ "obj-5", 1 ]
 								}
 
@@ -633,14 +664,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 436.0, 721.0 ],
+						"rect" : [ 0.0, 26.0, 783.0, 691.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -688,25 +719,21 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-34::obj-3::obj-12" : [ "live.text[3]", "live.text", 0 ],
-			"obj-34::obj-3::obj-34" : [ "live.tab", "live.tab", 0 ],
 			"obj-34::obj-3::obj-47" : [ "live.text[6]", "live.text", 0 ],
-			"obj-34::obj-3::obj-17" : [ "live.text[9]", "live.text", 0 ],
-			"obj-34::obj-3::obj-29" : [ "live.text[5]", "live.text", 0 ],
 			"obj-34::obj-3::obj-126" : [ "live.text", "live.text", 0 ],
+			"obj-34::obj-3::obj-29" : [ "live.text[5]", "live.text", 0 ],
+			"obj-34::obj-3::obj-12" : [ "live.text[3]", "live.text", 0 ],
 			"obj-34::obj-3::obj-5" : [ "live.text[7]", "live.text", 0 ],
-			"obj-34::obj-3::obj-35" : [ "live.text[8]", "live.text", 0 ],
+			"obj-34::obj-3::obj-34" : [ "live.tab", "live.tab", 0 ],
 			"obj-34::obj-3::obj-21" : [ "live.text[2]", "live.text", 0 ],
+			"obj-34::obj-3::obj-17" : [ "live.text[9]", "live.text", 0 ],
+			"obj-34::obj-3::obj-35" : [ "live.text[8]", "live.text", 0 ],
 			"obj-34::obj-3::obj-4" : [ "live.text[1]", "live.text", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-34::obj-3::obj-17" : 				{
-					"parameter_longname" : "live.text[9]"
-				}
-,
 				"obj-34::obj-3::obj-126" : 				{
 					"parameter_longname" : "live.text",
 					"parameter_invisible" : 0,
@@ -714,15 +741,19 @@
 					"parameter_type" : 2
 				}
 ,
-				"obj-34::obj-3::obj-35" : 				{
-					"parameter_longname" : "live.text[8]"
-				}
-,
 				"obj-34::obj-3::obj-21" : 				{
 					"parameter_longname" : "live.text[2]",
 					"parameter_invisible" : 0,
 					"parameter_modmode" : 0,
 					"parameter_type" : 2
+				}
+,
+				"obj-34::obj-3::obj-17" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-34::obj-3::obj-35" : 				{
+					"parameter_longname" : "live.text[8]"
 				}
 ,
 				"obj-34::obj-3::obj-4" : 				{
@@ -752,8 +783,8 @@
 			}
 , 			{
 				"name" : "ossia.gl_group_slab.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/ossia/openGL",
-				"patcherrelativepath" : "../../../../TML-depo/TML-code/ossia/openGL",
+				"bootpath" : "~/Github/tml-ossia/video/utility/ossi.gl_group_slab",
+				"patcherrelativepath" : "../../utility/ossi.gl_group_slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -766,8 +797,8 @@
 			}
 , 			{
 				"name" : "ossia.gl_pix_roberts.model.maxpat",
-				"bootpath" : "~/Desktop/stable/edge/ossia.gl_pix_roberts",
-				"patcherrelativepath" : "../../../../../Desktop/stable/edge/ossia.gl_pix_roberts",
+				"bootpath" : "~/Github/tml-ossia/video/edge/ossia.gl_pix_roberts",
+				"patcherrelativepath" : "../../edge/ossia.gl_pix_roberts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -779,9 +810,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.gl_mean%.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/VIDEO/stable/utility/j.gl_mean%",
-				"patcherrelativepath" : "../../../../TML-depo/TML-code/VIDEO/stable/utility/j.gl_mean%",
+				"name" : "ossia.gl_mean%.maxpat",
+				"bootpath" : "~/Github/TML-depo/TML-code/ossia/openGL/ossia.gl_mean%",
+				"patcherrelativepath" : "../../../../TML-depo/TML-code/ossia/openGL/ossia.gl_mean%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -793,9 +824,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.sum%.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/video/sum%",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/patchers/components/video/sum%",
+				"name" : "ossia.sum%.maxpat",
+				"bootpath" : "~/Github/tml-ossia/video/utility/ossia.sum%",
+				"patcherrelativepath" : "../../utility/ossia.sum%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -803,13 +834,6 @@
 				"name" : "ossia.gl_readback%.maxpat",
 				"bootpath" : "~/Github/TML-depo/TML-code/ossia/openGL/ossia.gl_readback%",
 				"patcherrelativepath" : "../../../../TML-depo/TML-code/ossia/openGL/ossia.gl_readback%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.gl_mean%.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/ossia/openGL/ossia.gl_mean%",
-				"patcherrelativepath" : "../../../../TML-depo/TML-code/ossia/openGL/ossia.gl_mean%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -843,29 +867,22 @@
 			}
 , 			{
 				"name" : "ossia.gl_group_slab.panel.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/ossia/openGL",
-				"patcherrelativepath" : "../../../../TML-depo/TML-code/ossia/openGL",
+				"bootpath" : "~/Github/tml-ossia/video/utility/ossi.gl_group_slab",
+				"patcherrelativepath" : "../../utility/ossi.gl_group_slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.gl_group_slab.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/ossia/openGL",
-				"patcherrelativepath" : "../../../../TML-depo/TML-code/ossia/openGL",
+				"bootpath" : "~/Github/tml-ossia/video/utility/ossi.gl_group_slab",
+				"patcherrelativepath" : "../../utility/ossi.gl_group_slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.list2parameter.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/ossia/ossia.list2parameter",
-				"patcherrelativepath" : "../../../../TML-depo/TML-code/ossia/ossia.list2parameter",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.initialized.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/data/initialized",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/patchers/components/data/initialized",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia/patchers/ossia.list2parameter",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/ossia/patchers/ossia.list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -883,10 +900,6 @@
 			}
 , 			{
 				"name" : "ossia.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
  ],
