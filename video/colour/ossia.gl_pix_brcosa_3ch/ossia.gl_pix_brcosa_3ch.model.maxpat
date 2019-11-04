@@ -57,7 +57,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 225.0, 720.0, 71.0, 21.0 ],
-					"restore" : [ 0.660000026226044 ],
+					"restore" : [ 0.716431796550751 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -119,7 +119,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 45.0, 720.0, 71.0, 21.0 ],
-					"restore" : [ 0.330000013113022 ],
+					"restore" : [ 0.294526815414429 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -217,7 +217,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 375.0, 450.0, 137.0, 69.0 ],
+					"patching_rect" : [ 375.0, 450.0, 139.0, 69.0 ],
 					"text" : "ossia.parameter hi_sa @type float @range 0. 1. @clip free @default 1. @description \"Saturation of high channel.\"",
 					"varname" : "tolerance[4]"
 				}
@@ -279,7 +279,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 450.0, 137.0, 69.0 ],
+					"patching_rect" : [ 210.0, 450.0, 141.0, 69.0 ],
 					"text" : "ossia.parameter hi_co @type float @range 0. 1. @clip free @default 1. @description \"Contrast of high channel.\"",
 					"varname" : "tolerance[9]"
 				}
@@ -429,7 +429,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 210.0, 345.0, 67.0, 21.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 1.059680461883545 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -465,7 +465,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 270.0, 139.0, 69.0 ],
+					"patching_rect" : [ 210.0, 270.0, 141.0, 69.0 ],
 					"text" : "ossia.parameter mi_co @type float @range 0. 1. @clip free @default 1. @description \"Contrast of mid channel.\"",
 					"varname" : "tolerance[7]"
 				}
@@ -651,7 +651,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 90.0, 139.0, 69.0 ],
+					"patching_rect" : [ 210.0, 90.0, 141.0, 69.0 ],
 					"text" : "ossia.parameter lo_co @type float @range 0. 1. @clip free @default 1. @description \"Contrast of low channel.\"",
 					"varname" : "tolerance[1]"
 				}
@@ -677,7 +677,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 45.0, 165.0, 62.0, 21.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -748,7 +748,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 465.0, 705.0, 25.0, 25.0 ]
 				}
 
@@ -833,7 +833,7 @@
 								"box" : 								{
 									"code" : "// sum channels back together\r\nout1 = in1 + in2 + in3;",
 									"fontface" : 0,
-									"fontname" : "Menlo",
+									"fontname" : "<Monospaced>",
 									"fontsize" : 12.0,
 									"id" : "obj-11",
 									"maxclass" : "codebox",
@@ -846,9 +846,9 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "// brcosa effect for low channel\r\nParam lo_br(1);\r\nParam lo_co(1);\nParam lo_sa(1);\r\n\r\nluma = vec(0.62, 0.62, 0.62);\r\n\nsat_coeff = vec(0.2125, 0.7154, 0.0721);\nsat_dot = dot(in1.rgb, sat_coeff);\nsat_vec = vec(sat_dot, sat_dot, sat_dot);\nsa = mix(sat_vec, in1.rgb, lo_sa);\nco = mix(luma, sa, lo_co);\nbr = co * lo_br;\nout1 = vec(br.r, br.g, br.b, in1.a);",
+									"code" : "// brcosa effect for low channel\r\nParam lo_br(1);\r\nParam lo_co(1);\nParam lo_sa(1);\r\n\r\nluma = vec(0.62, 0.62, 0.62);\r\n\nsat_coeff = vec(0.2125, 0.7154, 0.0721);\nsat_dot = dot(in1.rgb, sat_coeff);\nsat_vec = vec(sat_dot, sat_dot, sat_dot);\nsa = mix(sat_vec, in1.rgb, lo_sa);\nco = mix(luma, sa, lo_co);\nbr = co * lo_br;\nout1 = vec(br.r, br.g, br.b, 1);",
 									"fontface" : 0,
-									"fontname" : "Menlo",
+									"fontname" : "<Monospaced>",
 									"fontsize" : 12.0,
 									"id" : "obj-7",
 									"maxclass" : "codebox",
@@ -863,7 +863,7 @@
 								"box" : 								{
 									"code" : "// breakpoints for splitting video by brightness\r\nParam break1(0.33);\r\nParam break2(0.66);\r\n\r\n// calculate monochrome image\r\nlu = in1 * vec(0.299, 0.587, 0.114, 0);\nluma = lu.r + lu.g + lu.b + lu.a;\r\n\r\n// generate three separate channels, interpolated with smoothtep\r\na = 1-smoothstep(0, break1, luma);\r\nb = smoothstep(0, break1, luma)*(1-smoothstep(break2,1,luma));\r\nc = smoothstep(break2, 1, luma);\r\n\r\n// output individual channels\r\nout1 = in1*a;\r\nout2 = in1*b;\r\nout3 = in1*c;",
 									"fontface" : 0,
-									"fontname" : "Menlo",
+									"fontname" : "<Monospaced>",
 									"fontsize" : 12.0,
 									"id" : "obj-13",
 									"maxclass" : "codebox",
@@ -887,9 +887,9 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "// brcosa effect for high channel\r\nParam hi_br(1);\r\nParam hi_co(1);\nParam hi_sa(1);\r\n\r\nluma = vec(0.62, 0.62, 0.62);\r\n\nsat_coeff = vec(0.2125, 0.7154, 0.0721);\nsat_dot = dot(in1.rgb, sat_coeff);\nsat_vec = vec(sat_dot, sat_dot, sat_dot);\nsa = mix(sat_vec, in1.rgb, hi_sa);\nco = mix(luma, sa, hi_co);\nbr = co * hi_br;\nout1 = vec(br.r, br.g, br.b, in1.a);",
+									"code" : "// brcosa effect for high channel\r\nParam hi_br(1);\r\nParam hi_co(1);\nParam hi_sa(1);\r\n\r\nluma = vec(0.62, 0.62, 0.62);\r\n\nsat_coeff = vec(0.2125, 0.7154, 0.0721);\nsat_dot = dot(in1.rgb, sat_coeff);\nsat_vec = vec(sat_dot, sat_dot, sat_dot);\nsa = mix(sat_vec, in1.rgb, hi_sa);\nco = mix(luma, sa, hi_co);\nbr = co * hi_br;\nout1 = vec(br.r, br.g, br.b, 1);",
 									"fontface" : 0,
-									"fontname" : "Menlo",
+									"fontname" : "<Monospaced>",
 									"fontsize" : 12.0,
 									"id" : "obj-10",
 									"maxclass" : "codebox",
@@ -902,9 +902,9 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "// brcosa effect for mid channel\r\nParam mi_br(1);\r\nParam mi_co(1);\nParam mi_sa(1);\r\n\r\nluma = vec(0.62, 0.62, 0.62);\r\n\nsat_coeff = vec(0.2125, 0.7154, 0.0721);\nsat_dot = dot(in1.rgb, sat_coeff);\nsat_vec = vec(sat_dot, sat_dot, sat_dot);\nsa = mix(sat_vec, in1.rgb, mi_sa);\nco = mix(luma, sa, mi_co);\nbr = co * mi_br;\nout1 = vec(br.r, br.g, br.b, in1.a);",
+									"code" : "// brcosa effect for mid channel\r\nParam mi_br(1);\r\nParam mi_co(1);\nParam mi_sa(1);\r\n\r\nluma = vec(0.62, 0.62, 0.62);\r\n\nsat_coeff = vec(0.2125, 0.7154, 0.0721);\nsat_dot = dot(in1.rgb, sat_coeff);\nsat_vec = vec(sat_dot, sat_dot, sat_dot);\nsa = mix(sat_vec, in1.rgb, mi_sa);\nco = mix(luma, sa, mi_co);\nbr = co * mi_br;\nout1 = vec(br.r, br.g, br.b, 1);",
 									"fontface" : 0,
-									"fontname" : "Menlo",
+									"fontname" : "<Monospaced>",
 									"fontsize" : 12.0,
 									"id" : "obj-9",
 									"maxclass" : "codebox",
@@ -1035,7 +1035,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.0, 15.0, 198.0, 69.0 ],
+					"patching_rect" : [ 525.0, 15.0, 202.0, 69.0 ],
 					"text" : "ossia.model #1 @description \"Three-channel (low/mid/high) brightness/contrast/saturation effect, inspired by Photoshop's Shadows and Highlights module.\"",
 					"varname" : "jmod.hub"
 				}
