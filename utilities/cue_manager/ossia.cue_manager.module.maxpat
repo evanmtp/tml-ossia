@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,49 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"data" : 					{
+						"arst" : 						{
+							"test1/attack" : 2.0,
+							"test1/attack_curve" : 1.0,
+							"test1/decay" : 3.0,
+							"test1/decay_curve" : 1.0,
+							"test1/predelay" : 1.0,
+							"test1/release" : 5.0,
+							"test1/release_curve" : 1.0,
+							"test1/sustain" : 4.0
+						}
+,
+						"qwfp" : 						{
+							"test1/attack" : 7.0,
+							"test1/attack_curve" : 2.0,
+							"test1/decay" : 8.0,
+							"test1/decay_curve" : 0.3,
+							"test1/predelay" : 6.0,
+							"test1/release" : 10.0,
+							"test1/release_curve" : 0.6,
+							"test1/sustain" : 9.0
+						}
+
+					}
+,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 4,
+					"outlettype" : [ "dictionary", "", "", "" ],
+					"patching_rect" : [ 315.0, 186.0, 173.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1,
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "dict #1.cuelist @embed 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
@@ -92,7 +135,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "namespace" ],
-					"patching_rect" : [ 315.0, 105.0, 165.0, 22.0 ],
+					"patching_rect" : [ 315.0, 105.0, 195.0, 22.0 ],
 					"text" : "ossia.cue_manager.model #1"
 				}
 
@@ -111,6 +154,16 @@
 					"source" : [ "obj-5", 0 ]
 				}
 
+			}
+ ],
+		"styles" : [ 			{
+				"name" : "Jamoma_highlighted_orange",
+				"default" : 				{
+					"accentcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
 			}
  ]
 	}
