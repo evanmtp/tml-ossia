@@ -44,7 +44,7 @@
 					"comment" : "",
 					"hint" : "int",
 					"id" : "obj-35",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -113,13 +113,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
-					"linecount" : 7,
+					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 135.0, 660.0, 129.0, 111.0 ],
-					"text" : "ossia.parameter grain @range 1. 100. @type int @clip low @description \"interpolation grain in ms\"",
+					"patching_rect" : [ 135.0, 660.0, 165.0, 81.0 ],
+					"text" : "ossia.parameter grain @range 1. 100. @type int @clip low @description \"interpolation grain in ms\" @default 10",
 					"varname" : "step[1]"
 				}
 
@@ -140,7 +140,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -153,7 +153,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -191,13 +191,12 @@
 					"fontname" : "Verdana",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
-					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 270.0, 465.0, 120.0, 67.0 ],
-					"text" : "ossia.parameter interpolate @type int @range 0. 20000. @clip low",
+					"patching_rect" : [ 270.0, 465.0, 497.0, 23.0 ],
+					"text" : "ossia.parameter interpolate @type int @range 0. 20000. @clip low @default 500",
 					"varname" : "rate/max[3]"
 				}
 
@@ -211,8 +210,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 105.0, 226.0, 23.0 ],
-					"text" : "ossia.parameter min @type decimal",
+					"patching_rect" : [ 210.0, 105.0, 300.0, 23.0 ],
+					"text" : "ossia.parameter min @type decimal @default 0.",
 					"varname" : "rate/max[2]"
 				}
 
@@ -226,8 +225,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 140.0, 229.0, 23.0 ],
-					"text" : "ossia.parameter max @type decimal",
+					"patching_rect" : [ 210.0, 140.0, 303.0, 23.0 ],
+					"text" : "ossia.parameter max @type decimal @default 1.",
 					"varname" : "rate/max[1]"
 				}
 
@@ -257,8 +256,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 21.0, 435.0, 23.0 ],
-					"text" : "ossia.parameter rate/min @type int @range 0. 10000. @clip low",
+					"patching_rect" : [ 210.0, 21.0, 476.0, 23.0 ],
+					"text" : "ossia.parameter rate/min @type int @range 0. 10000. @clip low @default 30",
 					"varname" : "rate/min"
 				}
 
@@ -272,8 +271,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 65.0, 439.0, 23.0 ],
-					"text" : "ossia.parameter rate/max @type int @range 5. 10000. @clip low",
+					"patching_rect" : [ 210.0, 65.0, 495.0, 23.0 ],
+					"text" : "ossia.parameter rate/max @type int @range 5. 10000. @clip low @default 1000",
 					"varname" : "rate/max"
 				}
 
@@ -283,12 +282,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 12.0,
 					"id" : "obj-14",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 267.0, 557.0, 23.0 ],
-					"text" : "ossia.parameter step @range 0. 1. @type decimal @clip both @description \"drunk steps\"",
+					"patching_rect" : [ 210.0, 267.0, 552.0, 38.0 ],
+					"text" : "ossia.parameter step @range 0. 1. @type decimal @clip both @description \"drunk steps\" @default 1.",
 					"varname" : "step"
 				}
 
@@ -1324,7 +1324,7 @@
 					"comment" : "",
 					"hint" : "float",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1583,7 +1583,17 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "ossia.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.model.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
