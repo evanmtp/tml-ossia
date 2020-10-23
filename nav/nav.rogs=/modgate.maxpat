@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 442.0, 640.0, 480.0 ],
+		"rect" : [ 337.0, -721.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -472,7 +472,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 8.0,
 					"id" : "obj-74",
-					"items" : [ "<--", ",", "Master", ",", "Slave" ],
+					"items" : [ "<--", ",", "Main", ",", "Sync" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

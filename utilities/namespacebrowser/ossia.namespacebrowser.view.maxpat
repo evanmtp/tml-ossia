@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 273.0, 147.0, 1008.0, 416.0 ],
+		"rect" : [ 651.0, -521.0, 1008.0, 416.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,22 +39,6 @@
 		"subpatcher_template" : "evan_template",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubblepoint" : 0.23,
-					"bubbleside" : 0,
-					"id" : "obj-21",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 135.0, 150.0, 93.0 ],
-					"presentation_linecount" : 5,
-					"text" : "send a bang that requests the unique address of receive objects in the model, which is returned via local_receive."
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
@@ -86,18 +70,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 255.0, 195.0, 49.0, 22.0 ],
 					"text" : "forward"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 450.0, 105.0, 105.0, 22.0 ],
-					"text" : "ossia.remote front"
 				}
 
 			}
@@ -163,32 +135,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 675.0, 360.0, 123.0, 22.0 ],
-					"text" : "ossia.remote address"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-28",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 60.0, 165.0, 22.0, 22.0 ],
-					"text" : "t b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 60.0, 120.0, 117.0, 22.0 ],
-					"text" : "ossia.remote loaded"
+					"patching_rect" : [ 675.0, 360.0, 151.0, 22.0 ],
+					"text" : "ossia.remote nodeAddress"
 				}
 
 			}
@@ -349,7 +297,7 @@
 					"rounded" : 0.0,
 					"style" : "default",
 					"tabmode" : 0,
-					"text" : "/model1/slider1",
+					"text" : "none",
 					"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"varname" : "textEdit"
 				}
@@ -453,14 +401,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 118.5, 152.0, 69.5, 152.0 ],
-					"source" : [ "obj-12", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -524,14 +464,6 @@
 					"destination" : [ "obj-8", 0 ],
 					"midpoints" : [ 684.5, 309.0, 660.0, 309.0, 660.0, 99.0, 684.5, 99.0 ],
 					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"midpoints" : [ 69.5, 198.0, 39.5, 198.0 ],
-					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -608,14 +540,6 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 62.5, 93.0, 459.5, 93.0 ],
-					"source" : [ "obj-9", 2 ]
-				}
-
-			}
  ],
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
@@ -634,9 +558,9 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -648,10 +572,10 @@
 					}
 ,
 					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

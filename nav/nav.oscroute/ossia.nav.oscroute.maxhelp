@@ -932,7 +932,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 180.0, 181.0, 22.0 ],
+					"patching_rect" : [ 17.0, 180.0, 179.0, 20.0 ],
 					"varname" : "ossia.nav.oscroute.view",
 					"viewvisibility" : 1
 				}
@@ -1058,23 +1058,9 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ossia.nav.oscroute.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/cirk2_2/nav.oscroute",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/nav.oscroute",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.namespacebrowser.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/cirk2_2/namespacebrowser",
-				"patcherrelativepath" : "../namespacebrowser",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.get_onscreen_position.js",
-				"bootpath" : "~/Documents/GitHub/cirk2_2/namespacebrowser",
-				"patcherrelativepath" : "../namespacebrowser",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -1084,30 +1070,44 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ossia.namespacebrowser.view.maxpat",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/namespacebrowser",
+				"patcherrelativepath" : "../../utilities/namespacebrowser",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.get_onscreen_position.js",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/namespacebrowser",
+				"patcherrelativepath" : "../../utilities/namespacebrowser",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ossia.nav.oscroute.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/cirk2_2/nav.oscroute",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/nav.oscroute",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/cirk2_2/namespacebrowser",
-				"patcherrelativepath" : "../namespacebrowser",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/namespacebrowser",
+				"patcherrelativepath" : "../../utilities/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.cue_manager.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/cirk2_2/cue_manager",
-				"patcherrelativepath" : "../cue_manager",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/cue_manager",
+				"patcherrelativepath" : "../../utilities/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.cue_manager.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/cirk2_2/cue_manager",
-				"patcherrelativepath" : "../cue_manager",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/cue_manager",
+				"patcherrelativepath" : "../../utilities/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1116,15 +1116,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ossia.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.map.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "ossia.attribute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.view.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -1202,7 +1202,6 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -1214,12 +1213,13 @@
 						"autogradient" : 0
 					}
 ,
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
