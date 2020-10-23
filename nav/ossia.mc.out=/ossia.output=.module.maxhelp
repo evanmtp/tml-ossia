@@ -140,19 +140,18 @@
  ],
 		"parameters" : 		{
 			"obj-12::obj-2::obj-103" : [ "live.text[5]", "live.text", 0 ],
-			"obj-12::obj-2::obj-106" : [ "live.dial[3]", "Release", 0 ],
-			"obj-12::obj-2::obj-107" : [ "live.dial[4]", "Preamp", 0 ],
 			"obj-12::obj-2::obj-126" : [ "live.text[33]", "live.text", 0 ],
 			"obj-12::obj-2::obj-19" : [ "live.slider[1]", "live.slider", 0 ],
-			"obj-12::obj-2::obj-53::obj-12" : [ "Lookahead[1]", "Lookahead", 0 ],
-			"obj-12::obj-2::obj-53::obj-13" : [ "Release[1]", "Release", 0 ],
-			"obj-12::obj-2::obj-53::obj-15" : [ "Postamp[1]", "Postamp", 0 ],
-			"obj-12::obj-2::obj-53::obj-27" : [ "Threshold[1]", "Threshold", 0 ],
-			"obj-12::obj-2::obj-53::obj-30" : [ "live.menu[3]", "live.menu", 0 ],
-			"obj-12::obj-2::obj-53::obj-42" : [ "live.text[12]", "live.text", 0 ],
-			"obj-12::obj-2::obj-53::obj-45" : [ "live.text[11]", "live.text", 0 ],
-			"obj-12::obj-2::obj-53::obj-5" : [ "Preamp[1]", "Preamp", 0 ],
-			"obj-12::obj-2::obj-53::obj-6" : [ "live.text[10]", "live.text", 0 ],
+			"obj-12::obj-2::obj-20" : [ "live.text[3]", "live.text[3]", 0 ],
+			"obj-12::obj-2::obj-6::obj-12" : [ "Lookahead", "Lookahead", 0 ],
+			"obj-12::obj-2::obj-6::obj-13" : [ "Release", "Release", 0 ],
+			"obj-12::obj-2::obj-6::obj-15" : [ "Postamp", "Postamp", 0 ],
+			"obj-12::obj-2::obj-6::obj-27" : [ "Threshold", "Threshold", 0 ],
+			"obj-12::obj-2::obj-6::obj-30" : [ "live.menu", "live.menu", 0 ],
+			"obj-12::obj-2::obj-6::obj-42" : [ "live.text[1]", "live.text", 0 ],
+			"obj-12::obj-2::obj-6::obj-45" : [ "live.text[2]", "live.text", 0 ],
+			"obj-12::obj-2::obj-6::obj-5" : [ "Preamp", "Preamp", 0 ],
+			"obj-12::obj-2::obj-6::obj-6" : [ "live.text", "live.text", 0 ],
 			"obj-12::obj-2::obj-81" : [ "live.text[9]", "live.text[1]", 0 ],
 			"parameterbanks" : 			{
 
@@ -163,22 +162,36 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ossia.output=.module.maxpat",
-				"bootpath" : "~/code/ossia converter/ossia.mc.out=",
+				"bootpath" : "~/code/tml-ossia/nav/ossia.mc.out=",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.output=.model.maxpat",
-				"bootpath" : "~/code/ossia converter/ossia.mc.out=",
+				"bootpath" : "~/code/tml-ossia/nav/ossia.mc.out=",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ossia.limiter=.model.maxpat",
+				"bootpath" : "~/code/tml-ossia/nav/ossia.limiter=",
+				"patcherrelativepath" : "../ossia.limiter=",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ossia.output=.view.maxpat",
-				"bootpath" : "~/code/ossia converter/ossia.mc.out=",
+				"bootpath" : "~/code/tml-ossia/nav/ossia.mc.out=",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.limiter=.view.maxpat",
+				"bootpath" : "~/code/tml-ossia/nav/ossia.limiter=",
+				"patcherrelativepath" : "../ossia.limiter=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
