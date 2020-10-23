@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1027.0, 236.0, 397.0, 329.0 ],
+		"rect" : [ 1439.0, 747.0, 397.0, 329.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -338,7 +338,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 55.0, 15.0, 333.0, 35.0 ],
+					"patching_rect" : [ 55.0, 25.0, 333.0, 35.0 ],
 					"text" : "ossia.parameter audio/mute @type bool @description \"mute prcessingin this patcher but eeo audio on\"",
 					"varname" : "record[2]"
 				}
@@ -352,7 +352,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 249.0, 25.0, 25.0 ]
+					"patching_rect" : [ 15.0, 249.0, 25.0, 25.0 ]
 				}
 
 			}
