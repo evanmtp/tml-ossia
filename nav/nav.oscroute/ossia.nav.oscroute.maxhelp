@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 402.0, 159.0, 387.0, 703.0 ],
+		"rect" : [ 709.0, -971.0, 1015.0, 799.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,21 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubblepoint" : 0.0,
-					"bubbleside" : 2,
-					"id" : "obj-31",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 585.0, 75.0, 150.0, 52.0 ],
-					"text" : "ossia.nav.oscroute works with presets"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"bubblepoint" : 0.0,
@@ -155,165 +140,6 @@
 			}
 , 			{
 				"box" : 				{
-					"data" : 					{
-						"model1" : 						{
-							"model1/slider1" : 0,
-							"model2/slider2" : 0.0,
-							"test_oscroute/active" : 1.0,
-							"test_oscroute/namespacebrowser/address" : "/model1/slider1",
-							"test_oscroute/scalebypass" : 0.0,
-							"test_oscroute/function/parameters/1_name" : "offset",
-							"test_oscroute/function/parameters/1_value" : 0.4,
-							"test_oscroute/function/parameters/2_name" : "width",
-							"test_oscroute/function/parameters/2_value" : 0.32,
-							"test_oscroute/function/parameters/curveList" : 0.32,
-							"test_oscroute/input/max" : 125.0,
-							"test_oscroute/input/min" : 0.0,
-							"test_oscroute/output/max" : 1.0,
-							"test_oscroute/output/min" : 0.0,
-							"test_oscroute/process/function" : "tanh",
-							"test_oscroute/process/clipmode" : "both",
-							"test_oscroute/process/mode" : 1.0,
-							"test_oscroute/process/rampTime" : 3.0,
-							"test_oscroute/slide/down" : 2.0,
-							"test_oscroute/slide/up" : 1.0
-						}
-,
-						"model2" : 						{
-							"model1/slider1" : 94,
-							"model2/slider2" : 0.746667,
-							"test_oscroute/active" : 1.0,
-							"test_oscroute/namespacebrowser/address" : "/model2/slider2",
-							"test_oscroute/scalebypass" : 0.0,
-							"test_oscroute/function/parameters/1_name" : "offset",
-							"test_oscroute/function/parameters/1_value" : 0.4,
-							"test_oscroute/function/parameters/2_name" : "width",
-							"test_oscroute/function/parameters/2_value" : 0.32,
-							"test_oscroute/function/parameters/curveList" : [ "curveList", 0.0, 0.0, "exponential", "base", 1.0, 0.261236, 1.0, "exponential", "base", 1.0, 0.497191, 0.357595, "exponential", "base", 1.0, 0.710674, 0.281646, "exponential", "base", 1.0, 0.766854, 0.68038, "exponential", "base", 1.0, 1.0, 1.0, "exponential", "base", 1.0 ],
-							"test_oscroute/input/max" : 1.0,
-							"test_oscroute/input/min" : 0.0,
-							"test_oscroute/output/max" : 0.9,
-							"test_oscroute/output/min" : 0.1,
-							"test_oscroute/process/function" : "freehand",
-							"test_oscroute/process/clipmode" : "low",
-							"test_oscroute/process/mode" : 0.0,
-							"test_oscroute/process/rampTime" : 6.0,
-							"test_oscroute/slide/down" : 5.0,
-							"test_oscroute/slide/up" : 4.0
-						}
-,
-						"kaiser" : 						{
-							"model1/slider1" : 116,
-							"model2/slider2" : 0.92,
-							"test_oscroute/active" : 1.0,
-							"test_oscroute/namespacebrowser/address" : "/model2/slider2",
-							"test_oscroute/scalebypass" : 0.0,
-							"test_oscroute/function/parameters/1_name" : "alpha",
-							"test_oscroute/function/parameters/1_value" : 0.12,
-							"test_oscroute/function/parameters/2_name" : "beta",
-							"test_oscroute/function/parameters/2_value" : 30.950001,
-							"test_oscroute/function/parameters/curveList" : [ "curveList", 0.0, 0.0, "exponential", "base", 1.0, 1.0, 1.0, "exponential", "base", 1.0 ],
-							"test_oscroute/input/max" : 1.0,
-							"test_oscroute/input/min" : 0.0,
-							"test_oscroute/output/max" : 0.9,
-							"test_oscroute/output/min" : 0.1,
-							"test_oscroute/process/function" : "kaiser",
-							"test_oscroute/process/clipmode" : "low",
-							"test_oscroute/process/mode" : 0.0,
-							"test_oscroute/process/rampTime" : 6.0,
-							"test_oscroute/slide/down" : 5.0,
-							"test_oscroute/slide/up" : 4.0
-						}
-,
-						"log" : 						{
-							"model1/slider1" : 88,
-							"model2/slider2" : 0.693333,
-							"test_oscroute/active" : 1.0,
-							"test_oscroute/namespacebrowser/address" : "/model1/slider1",
-							"test_oscroute/scalebypass" : 0.0,
-							"test_oscroute/function/parameters/1_name" : "base",
-							"test_oscroute/function/parameters/1_value" : 0.002,
-							"test_oscroute/function/parameters/2_name" : "width",
-							"test_oscroute/function/parameters/2_value" : 0.05,
-							"test_oscroute/function/parameters/curveList" : [ "curveList", 0.0, 0.0, "exponential", "base", 1.0, 1.0, 1.0, "exponential", "base", 1.0 ],
-							"test_oscroute/input/max" : 125.0,
-							"test_oscroute/input/min" : 0.0,
-							"test_oscroute/output/max" : 1.0,
-							"test_oscroute/output/min" : 0.0,
-							"test_oscroute/process/function" : "logarithm",
-							"test_oscroute/process/clipmode" : "both",
-							"test_oscroute/process/mode" : 1.0,
-							"test_oscroute/process/rampTime" : 3.0,
-							"test_oscroute/slide/down" : 2.0,
-							"test_oscroute/slide/up" : 1.0
-						}
-,
-						"tukey" : 						{
-							"model1/slider1" : 0,
-							"model2/slider2" : 0.0,
-							"test_oscroute/active" : 1.0,
-							"test_oscroute/namespacebrowser/address" : "/model1/slider1",
-							"test_oscroute/scalebypass" : 0.0,
-							"test_oscroute/function/parameters/1_name" : "alpha",
-							"test_oscroute/function/parameters/1_value" : 0.971,
-							"test_oscroute/function/parameters/2_name" : "width",
-							"test_oscroute/function/parameters/2_value" : 0.05,
-							"test_oscroute/function/parameters/curveList" : [ "curveList", 0.0, 0.0, "exponential", "base", 1.0, 1.0, 1.0, "exponential", "base", 1.0 ],
-							"test_oscroute/input/max" : 125.0,
-							"test_oscroute/input/min" : 0.0,
-							"test_oscroute/output/max" : 1.0,
-							"test_oscroute/output/min" : 0.0,
-							"test_oscroute/process/function" : "tukey",
-							"test_oscroute/process/clipmode" : "both",
-							"test_oscroute/process/mode" : 1.0,
-							"test_oscroute/process/rampTime" : 3.0,
-							"test_oscroute/slide/down" : 2.0,
-							"test_oscroute/slide/up" : 1.0
-						}
-,
-						"tanh" : 						{
-							"model1/slider1" : 0,
-							"model2/slider2" : 0.0,
-							"test_oscroute/active" : 1.0,
-							"test_oscroute/namespacebrowser/address" : "/model1/slider1",
-							"test_oscroute/scalebypass" : 0.0,
-							"test_oscroute/function/parameters/1_name" : "offset",
-							"test_oscroute/function/parameters/1_value" : 0.4,
-							"test_oscroute/function/parameters/2_name" : "width",
-							"test_oscroute/function/parameters/2_value" : 0.068,
-							"test_oscroute/function/parameters/curveList" : 0.32,
-							"test_oscroute/input/max" : 125.0,
-							"test_oscroute/input/min" : 0.0,
-							"test_oscroute/output/max" : 1.0,
-							"test_oscroute/output/min" : 0.0,
-							"test_oscroute/process/function" : "tanh",
-							"test_oscroute/process/clipmode" : "both",
-							"test_oscroute/process/mode" : 1.0,
-							"test_oscroute/process/rampTime" : 3.0,
-							"test_oscroute/slide/down" : 2.0,
-							"test_oscroute/slide/up" : 1.0
-						}
-
-					}
-,
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 270.0, 585.0, 155.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 1,
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "dict cues.cuelist @embed 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -321,54 +147,6 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 285.0, 345.0, 40.0, 22.0 ],
 					"text" : "* 127."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "cues" ],
-					"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
-					"bgmode" : 2,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-9",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "ossia.cue_manager.view.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 495.0, 120.0, 272.0, 548.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "none",
-					"color" : [ 0.989256, 0.417462, 0.031845, 1.0 ],
-					"id" : "obj-64",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "namespace" ],
-					"patching_rect" : [ 270.0, 645.0, 187.0, 22.0 ],
-					"text" : "ossia.cue_manager.model cues 1",
-					"varname" : "ossia.cue_manager.model"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-61",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 615.0, 139.0, 22.0 ],
-					"text" : "ossia.device simple_test"
 				}
 
 			}
@@ -910,15 +688,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 315.0, 166.0, 22.0 ],
-					"text" : "ossia.nav.oscroute.model test",
+					"patching_rect" : [ 15.0, 315.0, 200.0, 22.0 ],
+					"text" : "ossia.nav.oscroute.model route_test",
 					"varname" : "ossia.nav.oscroute.model"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "test" ],
+					"args" : [ "route_test" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1007,37 +785,12 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-64", 0 ],
-					"source" : [ "obj-61", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
-					"midpoints" : [ 279.5, 669.0, 255.0, 669.0, 255.0, 609.0, 279.5, 609.0 ],
-					"source" : [ "obj-64", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
 			"obj-1::obj-10::obj-10::obj-145" : [ "live.menu[4]", "live.menu", 0 ],
 			"obj-1::obj-10::obj-196" : [ "live.text[10]", "live.text", 0 ],
 			"obj-1::obj-182" : [ "live.text[11]", "live.text[4]", 0 ],
 			"obj-25" : [ "toggle", "toggle", 0 ],
-			"obj-9::obj-110::obj-114" : [ "live.text[8]", "live.text", 0 ],
-			"obj-9::obj-110::obj-36" : [ "live.text[7]", "live.text", 0 ],
-			"obj-9::obj-114" : [ "live.text[6]", "live.text", 0 ],
-			"obj-9::obj-14" : [ "live.text[4]", "live.text", 0 ],
-			"obj-9::obj-210" : [ "live.text[9]", "live.text", 0 ],
-			"obj-9::obj-288" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-9::obj-32" : [ "live.text[5]", "live.text", 0 ],
-			"obj-9::obj-45" : [ "live.text[2]", "live.text", 0 ],
-			"obj-9::obj-52" : [ "live.text[3]", "live.text", 0 ],
-			"obj-9::obj-68" : [ "live.text[1]", "live.text", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -1098,20 +851,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ossia.cue_manager.model.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/utilities/cue_manager",
-				"patcherrelativepath" : "../../utilities/cue_manager",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.cue_manager.view.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/utilities/cue_manager",
-				"patcherrelativepath" : "../../utilities/cue_manager",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
@@ -1132,11 +871,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ossia.parameter.mxo",
+				"name" : "j.stats.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.stats.mxo",
+				"name" : "ossia.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -1149,38 +888,6 @@
 			}
 , 			{
 				"name" : "ease.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.device.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.tree.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.iter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.collect.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.value.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.dict2llll.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.subs.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.reg.mxo",
 				"type" : "iLaX"
 			}
  ],
@@ -1202,7 +909,12 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -1214,12 +926,7 @@
 						"autogradient" : 0
 					}
 ,
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
