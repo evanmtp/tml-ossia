@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 709.0, -971.0, 1015.0, 799.0 ],
+		"rect" : [ 709.0, -971.0, 615.0, 799.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,22 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.905882352941176, 0.650980392156863, 0.650980392156863, 1.0 ],
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"bubbleusescolors" : 1,
+					"id" : "obj-19",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 285.0, 225.0, 66.0 ],
+					"text" : "currently contains j.stats - to be replaced by something from Digital Orchestra Toolbox - as well as j.map"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"bubblepoint" : 0.0,
@@ -157,7 +173,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 525.0, 150.0, 141.0 ],
+					"patching_rect" : [ 15.0, 555.0, 150.0, 141.0 ],
 					"text" : "to do:\n\ncheck behaviour of activation button\n\ntest functions\n\nset up defaults\n\ntest presets"
 				}
 
@@ -171,7 +187,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.0, 345.0, 50.0, 22.0 ]
+					"patching_rect" : [ 45.0, 375.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -437,7 +453,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 375.0, 255.0, 135.0 ],
+					"patching_rect" : [ 15.0, 405.0, 255.0, 135.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 5
 				}
@@ -688,7 +704,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 315.0, 200.0, 22.0 ],
+					"patching_rect" : [ 15.0, 345.0, 200.0, 22.0 ],
 					"text" : "ossia.nav.oscroute.model route_test",
 					"varname" : "ossia.nav.oscroute.model"
 				}
@@ -871,11 +887,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.stats.mxo",
+				"name" : "ossia.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ossia.parameter.mxo",
+				"name" : "j.stats.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -927,6 +943,15 @@
 					}
 ,
 					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "tap",
+				"default" : 				{
+					"fontname" : [ "Lato Light" ]
 				}
 ,
 				"parentstyle" : "",
