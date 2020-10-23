@@ -315,14 +315,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 8.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 10.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 434.0, 237.0, 130.0, 15.0 ],
+					"patching_rect" : [ 434.0, 237.0, 154.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 2.0, 230.25, 15.0 ],
+					"presentation_rect" : [ 2.0, 1.0, 228.0, 18.0 ],
 					"text" : "#1"
 				}
 
