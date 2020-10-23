@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 707.0, -781.0, 836.0, 514.0 ],
+		"rect" : [ 707.0, -781.0, 436.0, 514.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -54,7 +54,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -143,7 +143,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "none",
-					"args" : [ "namespacebrowser" ],
+					"args" : [ "#1/namespacebrowser" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -250,6 +250,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -1351,7 +1352,6 @@
 													"fontface" : 3,
 													"fontname" : "Lato Heavy",
 													"fontsize" : 12.0,
-													"hidden" : 1,
 													"id" : "obj-77",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -5652,6 +5652,7 @@
 													"fontface" : 1,
 													"fontname" : "Lato Heavy",
 													"fontsize" : 12.0,
+													"hidden" : 1,
 													"id" : "obj-81",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -6263,6 +6264,7 @@
 												"box" : 												{
 													"bgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 													"format" : 6,
+													"hidden" : 1,
 													"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 													"id" : "obj-168",
 													"maxclass" : "flonum",
@@ -6283,6 +6285,7 @@
 												"box" : 												{
 													"bgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 													"format" : 6,
+													"hidden" : 1,
 													"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 													"id" : "obj-170",
 													"maxclass" : "flonum",
@@ -6412,7 +6415,6 @@
 													"gridcolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 													"gridstep_x" : 1.0,
 													"gridstep_y" : 1.0,
-													"hidden" : 1,
 													"id" : "obj-29",
 													"legend" : 0,
 													"linecolor" : [ 0.333333, 0.333333, 0.333333, 1.0 ],
@@ -7419,13 +7421,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-169",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 135.0, 165.0, 195.0, 35.0 ],
-									"text" : "ossia.remote namespacebrowser/nodeAddress"
+									"patching_rect" : [ 135.0, 165.0, 282.0, 22.0 ],
+									"text" : "ossia.remote #1/namespacebrowser/nodeAddress"
 								}
 
 							}
@@ -7561,7 +7562,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
-									"midpoints" : [ 232.5, 212.0, 144.5, 212.0 ],
+									"midpoints" : [ 276.0, 212.0, 144.5, 212.0 ],
 									"source" : [ "obj-169", 1 ]
 								}
 
@@ -7731,6 +7732,7 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -7743,12 +7745,11 @@
 									}
 ,
 									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ]
+									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7821,55 +7822,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-10::obj-10::obj-145" : [ "live.menu[4]", "live.menu", 0 ],
-			"obj-10::obj-196" : [ "live.text[10]", "live.text", 0 ],
-			"obj-182" : [ "live.text[11]", "live.text[4]", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.namespacebrowser.view.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/utilities/namespacebrowser",
-				"patcherrelativepath" : "../../utilities/namespacebrowser",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.get_onscreen_position.js",
-				"bootpath" : "~/Documents/Github/tml-ossia/utilities/namespacebrowser",
-				"patcherrelativepath" : "../../utilities/namespacebrowser",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.attribute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.view.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
@@ -7887,6 +7839,7 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -7899,12 +7852,11 @@
 					}
 ,
 					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ]
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

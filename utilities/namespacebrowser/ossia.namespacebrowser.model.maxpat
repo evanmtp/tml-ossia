@@ -41,75 +41,51 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
 					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 914.0, 196.0, 61.0, 22.0 ],
-					"text" : "delay 100"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 915.0, 255.0, 54.0, 22.0 ],
-					"text" : "deferlow"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 0.690196078431373, 0.690196078431373, 1.0 ],
-					"id" : "obj-133",
-					"linecount" : 6,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1005.0, 165.0, 225.0, 87.0 ],
-					"text" : "this a pretty hacky workaround for the problem of making it so that the floating window can only be opened using the GUI button in the view, and can't be triggered by loading the patcher, preset, recall, etc. Is there a better way??"
+					"patching_rect" : [ 600.0, 45.0, 150.0, 66.0 ],
+					"text" : "open this patcher when the user clicks on the button in the view"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-131",
-					"linecount" : 7,
+					"id" : "obj-15",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 915.0, 285.0, 176.0, 102.0 ],
-					"text" : "ossia.parameter local_receive @type string @invisible 1 @description \"Sends the address of the local receive object back to the view, so that it can send back the bang.\" @recall_safe 1 @mode GET"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-128",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 915.0, 165.0, 58.0, 22.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-127",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 915.0, 225.0, 63.0, 22.0 ],
-					"text" : "#0-front"
+					"patching_rect" : [ 600.0, 165.0, 285.0, 22.0 ],
+					"text" : "r #1-origin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.552941176470588, 0.631372549019608, 0.964705882352941, 1.0 ],
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 600.0, 135.0, 72.0, 22.0 ],
+					"text" : "s #0-front"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 600.0, 105.0, 270.0, 22.0 ],
+					"text" : "r #1-open"
 				}
 
 			}
@@ -1165,19 +1141,6 @@
 					"outlettype" : [ "front" ],
 					"patching_rect" : [ 150.0, 330.0, 39.0, 22.0 ],
 					"text" : "t front"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 0.690196078431373, 0.690196078431373, 1.0 ],
-					"id" : "obj-44",
-					"linecount" : 6,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 915.0, 405.0, 150.0, 87.0 ],
-					"text" : "ensure that the stored address is recalled to the text box, and is selected and targeted when the patch is opened (to verify with presets)"
 				}
 
 			}
@@ -2763,7 +2726,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 20.0, 375.0, 730.0 ],
 					"rowheight" : 20,
-					"rows" : 365,
+					"rows" : 33,
 					"sccolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"selmode" : 3,
 					"sgcolor" : [ 0.7, 0.7, 0.7, 0.701961 ],
@@ -2963,8 +2926,7 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -2977,10 +2939,11 @@
 									}
 ,
 									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3120,7 +3083,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 915.0, 1365.0, 240.0, 49.0 ],
+					"patching_rect" : [ 915.0, 1365.0, 243.0, 49.0 ],
 					"text" : "ossia.parameter nodeAddress @type string @default none @description \"ossia node address.\""
 				}
 
@@ -3161,7 +3124,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 374.0, 19.840848806366047 ],
 					"style" : "default",
-					"text" : "/model1/slider1",
+					"text" : "none",
 					"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"varname" : "textedit"
 				}
@@ -3240,7 +3203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 45.0, 225.0, 22.0 ],
+					"patching_rect" : [ 210.0, 45.0, 256.0, 22.0 ],
 					"text" : "ossia.model #1"
 				}
 
@@ -3447,21 +3410,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-35",
-					"linecount" : 6,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 600.0, 90.0, 189.0, 89.0 ],
-					"text" : "ossia.parameter origin @type vec2f @invisible 1 @description \"Offset value used to position this window beside the menu button in the view.\" @recall_safe 1 @mode SET"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"border" : 0,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -3523,7 +3471,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 20.0, 180.0, 730.0 ],
 					"rowheight" : 20,
-					"rows" : 4,
+					"rows" : 3,
 					"sccolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"selmode" : 3,
 					"sgcolor" : [ 0.7, 0.7, 0.7, 0.701961 ],
@@ -3587,6 +3535,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"midpoints" : [ 159.5, 211.0, 489.5, 211.0 ],
 					"order" : 0,
@@ -3604,20 +3559,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-127", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-128", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"order" : 1,
 					"source" : [ "obj-13", 0 ]
@@ -3630,6 +3571,13 @@
 					"midpoints" : [ 819.5, 947.0, 954.25, 947.0, 954.25, 904.0, 1089.0, 904.0 ],
 					"order" : 0,
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -3751,13 +3699,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-83", 0 ],
-					"source" : [ "obj-35", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-36", 0 ]
@@ -3870,13 +3811,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
 					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-131", 0 ],
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -4037,13 +3971,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-99", 0 ],
 					"source" : [ "obj-69", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-127", 0 ],
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -4358,6 +4285,15 @@
 			}
  ],
 		"styles" : [ 			{
+				"name" : "Jamoma_highlighted_orange",
+				"default" : 				{
+					"accentcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "jpatcher001",
 				"parentstyle" : "",
 				"multi" : 0
@@ -4365,8 +4301,7 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -4379,10 +4314,11 @@
 					}
 ,
 					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
