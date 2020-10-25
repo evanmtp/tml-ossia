@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 197.0, 96.0, 301.0, 105.0 ],
+		"rect" : [ 197.0, 96.0, 1052.0, 668.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -110,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.0, 226.0, 84.0, 22.0 ],
+					"patching_rect" : [ 339.916748000000098, 226.0, 84.0, 22.0 ],
 					"text" : "set #1"
 				}
 
@@ -122,7 +122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 318.0, 196.0, 60.0, 22.0 ],
+					"patching_rect" : [ 339.916748000000098, 196.0, 60.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -135,7 +135,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 318.0, 263.251448571681976, 119.0, 16.0 ],
+					"patching_rect" : [ 339.916748000000098, 263.251448571681976, 119.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.371293706510528, 2.0, 119.0, 16.0 ],
 					"text" : "#1"
@@ -396,7 +396,7 @@
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 104.0, 422.0, 323.0 ],
 						"bglocked" : 0,
-						"openinpresentation" : 0,
+						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
