@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 109.0, 154.0, 299.0, 83.0 ],
+		"rect" : [ 109.0, 154.0, 296.0, 81.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -55,7 +55,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -70,7 +70,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 181.0, 81.0, 22.0 ],
+					"patching_rect" : [ 31.0, 181.0, 99.0, 22.0 ],
 					"text" : "ossia.view #1"
 				}
 
@@ -625,34 +625,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-12" : [ "Lookahead", "Lookahead", 0 ],
-			"obj-13" : [ "Release", "Release", 0 ],
-			"obj-15" : [ "Postamp", "Postamp", 0 ],
-			"obj-27" : [ "Threshold", "Threshold", 0 ],
-			"obj-30" : [ "live.menu", "live.menu", 0 ],
-			"obj-42" : [ "live.text[1]", "live.text", 0 ],
-			"obj-45" : [ "live.text[2]", "live.text", 0 ],
-			"obj-5" : [ "Preamp", "Preamp", 0 ],
-			"obj-6" : [ "live.text", "live.text", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.view.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
