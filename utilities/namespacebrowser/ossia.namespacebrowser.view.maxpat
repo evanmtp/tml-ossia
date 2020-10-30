@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 651.0, -521.0, 1008.0, 416.0 ],
+		"rect" : [ 340.0, 105.0, 1159.0, 758.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -43,9 +43,10 @@
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 375.0, 90.0, 22.0 ],
-					"text" : "s #1-origin"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 30.0, 300.0, 110.0, 22.0 ],
+					"text" : "ossia.remote origin"
 				}
 
 			}
@@ -54,9 +55,10 @@
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 105.0, 87.0, 22.0 ],
-					"text" : "s #1-open"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 255.0, 105.0, 107.0, 22.0 ],
+					"text" : "ossia.remote open"
 				}
 
 			}
@@ -67,7 +69,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 780.0, 255.0, 60.0, 20.0 ],
+					"patching_rect" : [ 570.0, 240.0, 60.0, 20.0 ],
 					"text" : "delete?"
 				}
 
@@ -80,7 +82,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 840.0, 165.0, 150.0, 33.0 ],
+					"patching_rect" : [ 630.0, 150.0, 150.0, 33.0 ],
 					"text" : "fires on tab for... some reason?"
 				}
 
@@ -94,7 +96,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 180.0, 150.0, 66.0 ],
+					"patching_rect" : [ 90.0, 105.0, 150.0, 66.0 ],
 					"text" : "set the coordinates of the floating patcher so it lines up with the menu button"
 				}
 
@@ -109,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 210.0, 150.0, 79.0 ],
+					"patching_rect" : [ 255.0, 135.0, 150.0, 79.0 ],
 					"text" : "send a bang to open the model as a floating patcher that contains the address search UI"
 				}
 
@@ -122,7 +124,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 675.0, 360.0, 151.0, 22.0 ],
+					"patching_rect" : [ 465.0, 345.0, 151.0, 22.0 ],
 					"text" : "ossia.remote nodeAddress"
 				}
 
@@ -146,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 675.0, 30.0, 172.0, 22.0 ],
+					"patching_rect" : [ 465.0, 15.0, 172.0, 22.0 ],
 					"text" : "ossia.view #1"
 				}
 
@@ -162,7 +164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 675.0, 195.0, 70.0, 35.0 ],
+					"patching_rect" : [ 465.0, 180.0, 70.0, 35.0 ],
 					"text" : "substitute bang none",
 					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ]
 				}
@@ -176,7 +178,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 795.0, 195.0, 25.0, 25.0 ]
+					"patching_rect" : [ 585.0, 180.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -189,7 +191,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 795.0, 165.0, 36.0, 22.0 ],
+					"patching_rect" : [ 585.0, 150.0, 36.0, 22.0 ],
 					"text" : "sel 9"
 				}
 
@@ -204,7 +206,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 675.0, 285.0, 77.0, 22.0 ],
+					"patching_rect" : [ 465.0, 270.0, 77.0, 22.0 ],
 					"text" : "prepend hint",
 					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ]
 				}
@@ -220,7 +222,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 675.0, 255.0, 105.0, 22.0 ],
+					"patching_rect" : [ 465.0, 240.0, 105.0, 22.0 ],
 					"text" : "t l l",
 					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ]
 				}
@@ -235,7 +237,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 675.0, 165.0, 61.0, 22.0 ],
+					"patching_rect" : [ 465.0, 150.0, 61.0, 22.0 ],
 					"text" : "route text"
 				}
 
@@ -249,7 +251,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 675.0, 60.0, 25.0, 25.0 ]
+					"patching_rect" : [ 465.0, 45.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -266,7 +268,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 675.0, 105.0, 163.0, 42.0 ],
+					"patching_rect" : [ 465.0, 90.0, 163.0, 42.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 18.0, 0.0, 1262.0, 20.0 ],
 					"rounded" : 0.0,
@@ -288,7 +290,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 300.0, 87.0, 22.0 ],
+					"patching_rect" : [ 105.0, 225.0, 87.0, 22.0 ],
 					"text" : "loadmess 18 0"
 				}
 
@@ -302,7 +304,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 345.0, 89.0, 22.0 ],
+					"patching_rect" : [ 30.0, 270.0, 89.0, 22.0 ],
 					"text" : "vexpr $i1 + $i2"
 				}
 
@@ -314,7 +316,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 270.0, 163.0, 22.0 ],
+					"patching_rect" : [ 30.0, 195.0, 163.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "o.get_onscreen_position.js",
 						"parameter_enable" : 0
@@ -331,7 +333,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 240.0, 156.0, 22.0 ],
+					"patching_rect" : [ 30.0, 165.0, 156.0, 22.0 ],
 					"text" : "screenposition menuwidget"
 				}
 
@@ -391,7 +393,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 735.5, 242.0, 684.5, 242.0 ],
+					"midpoints" : [ 525.5, 227.0, 474.5, 227.0 ],
 					"source" : [ "obj-17", 1 ]
 				}
 
@@ -413,7 +415,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"midpoints" : [ 770.5, 345.0, 684.5, 345.0 ],
+					"midpoints" : [ 560.5, 330.0, 474.5, 330.0 ],
 					"source" : [ "obj-22", 1 ]
 				}
 
@@ -421,7 +423,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 684.5, 309.0, 660.0, 309.0, 660.0, 99.0, 684.5, 99.0 ],
+					"midpoints" : [ 474.5, 294.0, 450.0, 294.0, 450.0, 84.0, 474.5, 84.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -429,7 +431,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 684.5, 392.0, 643.5, 392.0, 643.5, 94.0, 684.5, 94.0 ],
+					"midpoints" : [ 474.5, 377.0, 433.5, 377.0, 433.5, 79.0, 474.5, 79.0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -517,8 +519,13 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -529,12 +536,7 @@
 						"autogradient" : 0
 					}
 ,
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
