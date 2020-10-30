@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -291,7 +291,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -776,8 +776,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 428.25, 18.5, 157.0, 23.0 ],
-					"text" : "ossia.remote rand1/metro"
+					"patching_rect" : [ 428.25, 18.5, 178.0, 23.0 ],
+					"text" : "ossia.remote rand1/out/metro"
 				}
 
 			}
@@ -831,7 +831,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 18.25, 335.5, 120.0, 68.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
+					"setminmax" : [ 0.0, 6.0 ],
 					"setstyle" : 2
 				}
 
@@ -863,7 +863,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

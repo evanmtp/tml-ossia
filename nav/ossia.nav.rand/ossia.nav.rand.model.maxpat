@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 373.0, 79.0, 782.0, 1014.0 ],
+		"rect" : [ 373.0, 79.0, 722.0, 1014.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -103,7 +103,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 345.0, 900.0, 404.0, 38.0 ],
+					"patching_rect" : [ 345.0, 900.0, 330.0, 38.0 ],
 					"text" : "ossia.parameter out/final/int @mode get @type int @description \"integer output.\""
 				}
 
@@ -118,7 +118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 135.0, 660.0, 169.0, 81.0 ],
+					"patching_rect" : [ 135.0, 660.0, 172.0, 81.0 ],
 					"text" : "ossia.parameter grain @range 1. 100. @type int @clip low @description \"interpolation grain in ms\" @default 10",
 					"varname" : "step[1]"
 				}
@@ -191,11 +191,12 @@
 					"fontname" : "Verdana",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 270.0, 465.0, 497.0, 23.0 ],
+					"patching_rect" : [ 270.0, 465.0, 285.0, 38.0 ],
 					"text" : "ossia.parameter interpolate @type int @range 0. 20000. @clip low @default 500",
 					"varname" : "rate/max[3]"
 				}
@@ -241,8 +242,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 213.5, 448.0, 38.0 ],
-					"text" : "ossia.parameter on @type bool @ramp/drive none @range 0 1 @clip both @description \"Toggle qmetro on/off\"",
+					"patching_rect" : [ 210.0, 213.5, 345.0, 38.0 ],
+					"text" : "ossia.parameter on @type bool @range 0 1 @clip both @description \"Toggle qmetro on/off\"",
 					"varname" : "toggle"
 				}
 
@@ -287,7 +288,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 267.0, 360.0, 38.0 ],
+					"patching_rect" : [ 210.0, 267.0, 364.0, 38.0 ],
 					"text" : "ossia.parameter step @range 0. 1. @type float @clip both @description \"drunk steps\" @default 1.",
 					"varname" : "step"
 				}
@@ -303,8 +304,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 90.0, 360.0, 429.0, 23.0 ],
-					"text" : "ossia.parameter metro @mode get @type impulse @description bang"
+					"patching_rect" : [ 90.0, 360.0, 454.0, 23.0 ],
+					"text" : "ossia.parameter out/metro @mode get @type impulse @description bang"
 				}
 
 			}
@@ -319,7 +320,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 75.0, 900.0, 150.0, 81.0 ],
+					"patching_rect" : [ 75.0, 900.0, 152.0, 81.0 ],
 					"text" : "ossia.parameter out/final @mode get @type float @description \"final and interpolated output\""
 				}
 
