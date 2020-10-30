@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 912.0, 422.0, 811.0, 532.0 ],
+		"rect" : [ 294.0, 215.0, 811.0, 710.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -101,13 +101,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 912.0, 448.0, 811.0, 506.0 ],
+						"rect" : [ 294.0, 241.0, 811.0, 684.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -138,12 +138,52 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Lato Regular",
+									"fontsize" : 13.0,
+									"id" : "obj-36",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 105.0, 465.0, 22.0 ],
+									"text" : "Reports raw and normalized values from the onboard sensors.",
+									"textcolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato Regular",
+									"fontsize" : 13.0,
+									"id" : "obj-35",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 90.0, 465.0, 22.0 ],
+									"text" : "Acquire sensor data from an x-OSC. Only reports IMU data."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato Regular",
+									"fontsize" : 48.0,
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 15.0, 550.0, 64.0 ],
+									"text" : "ossia.xosc_imu.model"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-7",
 									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 435.0, 210.0, 100.0 ],
+									"patching_rect" : [ 15.0, 495.0, 210.0, 100.0 ],
 									"text" : "In order to minimize excess parameter registration, there are three versions of this model:\n\nxosc_imu - IMU (motion) data\nxosc_io - analog/digital inputs\nxosc_full - both IMU and inputs"
 								}
 
@@ -154,7 +194,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 540.0, 165.0, 150.0, 21.0 ],
+									"patching_rect" : [ 540.0, 225.0, 150.0, 21.0 ],
 									"text" : "⇡ Accelerometer z ⇣",
 									"textjustification" : 1
 								}
@@ -166,7 +206,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 675.0, 315.0, 120.0, 25.0 ],
+									"patching_rect" : [ 675.0, 375.0, 120.0, 25.0 ],
 									"text" : "⤒ Gyroscope pitch ⤓ ",
 									"textjustification" : 1
 								}
@@ -178,7 +218,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 540.0, 180.0, 150.0, 25.0 ],
+									"patching_rect" : [ 540.0, 240.0, 150.0, 25.0 ],
 									"text" : "⤽ Gyroscope yaw ⤼",
 									"textjustification" : 1
 								}
@@ -190,7 +230,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 540.0, 435.0, 150.0, 25.0 ],
+									"patching_rect" : [ 540.0, 495.0, 150.0, 25.0 ],
 									"text" : "⟲ Gyroscope roll ⟳",
 									"textjustification" : 1
 								}
@@ -202,7 +242,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 675.0, 300.0, 120.0, 20.0 ],
+									"patching_rect" : [ 675.0, 360.0, 120.0, 20.0 ],
 									"text" : "↨ Accelerometer y ↨",
 									"textjustification" : 1
 								}
@@ -214,7 +254,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 540.0, 420.0, 150.0, 21.0 ],
+									"patching_rect" : [ 540.0, 480.0, 150.0, 21.0 ],
 									"text" : "⇠ Accelerometer x ⇢",
 									"textjustification" : 1
 								}
@@ -226,7 +266,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 555.0, 210.0, 120.0, 20.0 ],
+									"patching_rect" : [ 555.0, 270.0, 120.0, 20.0 ],
 									"text" : "⬇ front of device ⬇"
 								}
 
@@ -240,7 +280,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 555.0, 225.0, 120.0, 180.0 ],
+									"patching_rect" : [ 555.0, 285.0, 120.0, 180.0 ],
 									"pic" : "Untitled:/Users/syrinx/Desktop/xosc.png"
 								}
 
@@ -252,7 +292,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 555.0, 75.0, 135.0, 60.0 ],
+									"patching_rect" : [ 555.0, 135.0, 135.0, 60.0 ],
 									"text" : "This module considers the front of the device to be the edge with the x-OSC stamp:"
 								}
 
@@ -266,7 +306,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 315.0, 75.0, 191.0, 78.0 ],
+									"patching_rect" : [ 315.0, 135.0, 191.0, 78.0 ],
 									"text" : "Set the port to receive data on inside the [+] pop-out window. This window also shows the x-OSC's temperature and battery level."
 								}
 
@@ -278,7 +318,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.0, 225.0, 181.0, 74.0 ],
+									"patching_rect" : [ 330.0, 285.0, 181.0, 74.0 ],
 									"text" : "The [live.text] toggles beside or below each channel of data will activate or disactivate the corresponding Jamoma paramter."
 								}
 
@@ -290,7 +330,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.0, 330.0, 199.0, 100.0 ],
+									"patching_rect" : [ 330.0, 390.0, 199.0, 100.0 ],
 									"text" : "* Notes:\n\n-The accelerometer channels sit at a constant bias when the device is rotated. Perhaps we should add a DC block option in order to get only changing values?"
 								}
 
@@ -302,7 +342,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 285.0, 72.0, 22.0 ],
+									"patching_rect" : [ 15.0, 345.0, 72.0, 22.0 ],
 									"text" : "loadmess 1"
 								}
 
@@ -318,7 +358,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1536,7 +1576,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 15.0, 255.0, 86.0, 22.0 ],
+									"patching_rect" : [ 15.0, 315.0, 86.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1556,7 +1596,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 15.0, 315.0, 24.0, 24.0 ]
+									"patching_rect" : [ 15.0, 375.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1568,7 +1608,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "jit_matrix", "bang", "" ],
-									"patching_rect" : [ 15.0, 345.0, 92.0, 76.0 ],
+									"patching_rect" : [ 15.0, 405.0, 92.0, 76.0 ],
 									"text" : "jit.world default @erase_color 0.8 0.8 0.8 1. @fsmenubar 0 @enable 1"
 								}
 
@@ -1580,7 +1620,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.0, 150.0, 162.0, 74.0 ],
+									"patching_rect" : [ 330.0, 210.0, 162.0, 74.0 ],
 									"text" : "Click (or tap!) on the multisliders to preview sensor data. Preview state does not affect capture/output."
 								}
 
@@ -1602,7 +1642,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 75.0, 300.0, 140.0 ],
+									"patching_rect" : [ 15.0, 135.0, 300.0, 140.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1615,30 +1655,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 225.0, 187.0, 22.0 ],
+									"patching_rect" : [ 15.0, 285.0, 187.0, 22.0 ],
 									"text" : "ossia.xosc_imu.model xosc_imu1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"args" : [ "@name", "xosc_imu.model", "@description", "Acquire sensor data from an x-OSC. Only reports IMU data." ],
-									"bgmode" : 1,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-12",
-									"lockeddragscroll" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "j.maxhelpui.maxpat",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 0.0, 0.0, 810.0, 60.0 ],
-									"prototypename" : "bphelp",
-									"varname" : "maxhelpui",
-									"viewvisibility" : 1
 								}
 
 							}
@@ -1656,6 +1674,56 @@
 									"source" : [ "obj-59", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "Jamoma_highlighted_orange",
+								"default" : 								{
+									"accentcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "jpatcher001",
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "jpink",
+								"default" : 								{
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "tap",
+								"default" : 								{
+									"fontname" : [ "Lato Light" ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -1686,13 +1754,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 811.0, 506.0 ],
+						"rect" : [ 0.0, 26.0, 811.0, 684.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1790,43 +1858,29 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "j.maxhelpui.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/data/maxhelpui",
-				"patcherrelativepath" : "../../../Max 8/Packages/Jamoma/patchers/components/data/maxhelpui",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.maxhelpuiButton.png",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/data/maxhelpui",
-				"patcherrelativepath" : "../../../Max 8/Packages/Jamoma/patchers/components/data/maxhelpui",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "ossia.xosc_imu.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/cirk2_2/xosc_imu",
+				"bootpath" : "~/Documents/Github/tml-ossia/sensors/xosc_imu",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "qom.maxpat",
-				"bootpath" : "~/Documents/GitHub/cirk2_2/utilities",
-				"patcherrelativepath" : "../utilities",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities",
+				"patcherrelativepath" : "../../utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delta.maxpat",
-				"bootpath" : "~/Documents/GitHub/cirk2_2/utilities",
-				"patcherrelativepath" : "../utilities",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities",
+				"patcherrelativepath" : "../../utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.xosc_imu.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/cirk2_2/xosc_imu",
+				"bootpath" : "~/Documents/Github/tml-ossia/sensors/xosc_imu",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
