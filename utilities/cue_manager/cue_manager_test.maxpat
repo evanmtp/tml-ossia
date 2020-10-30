@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 592.0, 79.0, 1112.0, 959.0 ],
+		"rect" : [ 534.0, 79.0, 1112.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,9 +52,9 @@
 							"complexosc/modratio" : 3.0,
 							"complexosc/modfreq" : 613.881408999999962,
 							"complexosc/modratioman" : 1,
-							"complexosc/audio/gain" : -13.165355,
-							"complexosc/audio/mute" : 1.0,
-							"complexosc/carrierfreq" : 0.693789,
+							"complexosc/audio/gain" : -7.181103,
+							"complexosc/audio/mute" : 0.0,
+							"complexosc/carrierfreq" : 649.578002999999967,
 							"complexosc/carriersinsaw" : 0.503937,
 							"complexosc/mapcarrierfreq/settingList" : [ 1, 0, 0.0, 0.0, 0.0, 0.0, 0.0, "s", 0, "s", 0.0, "s", 0.0, "s", "s" ],
 							"complexosc/mapcarrierfreq/input/max" : 0.0,
@@ -84,11 +84,11 @@
 							"complexosc/mapwavefolder/input/max" : 0.0,
 							"complexosc/mapwavefolder/input/min" : 0.0,
 							"complexosc/mapwavefolder/mapwavefolder/namespacebrowser/nodeAddress" : "none",
-							"complexosc/modindex" : 6.29921,
-							"complexosc/modnoise" : 0.88189,
-							"complexosc/noisefilt" : 10708.664061999999831,
+							"complexosc/modindex" : 0.15748,
+							"complexosc/modnoise" : 0.188977,
+							"complexosc/noisefilt" : 15590.556640999999217,
 							"complexosc/squareorsaw" : 0,
-							"complexosc/wavefolder" : 0.724409,
+							"complexosc/wavefolder" : 0.291338,
 							"complexosc/modAmt/carrierfreq" : 0.0,
 							"complexosc/modAmt/carriersinsaw" : 0.0,
 							"complexosc/modAmt/modfreq" : 0.0,
@@ -102,12 +102,12 @@
 ,
 						"yueah" : 						{
 							"complexosc/modratio" : 4.0,
-							"complexosc/modfreq" : 0.686884,
+							"complexosc/modfreq" : 31.41404,
 							"complexosc/modratioman" : 0,
-							"complexosc/audio/gain" : -23.937004000000002,
+							"complexosc/audio/gain" : -7.779528,
 							"complexosc/audio/mute" : 0.0,
-							"complexosc/carrierfreq" : 13.01994,
-							"complexosc/carriersinsaw" : 0.692913,
+							"complexosc/carrierfreq" : 445.391143999999997,
+							"complexosc/carriersinsaw" : 0.251968,
 							"complexosc/mapcarrierfreq/settingList" : [ 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, "s", 0, "s", 0.0, "s", 0.0, "s", "s" ],
 							"complexosc/mapcarrierfreq/input/max" : 0.0,
 							"complexosc/mapcarrierfreq/input/min" : 0.0,
@@ -136,9 +136,61 @@
 							"complexosc/mapwavefolder/input/max" : 0.0,
 							"complexosc/mapwavefolder/input/min" : 0.0,
 							"complexosc/mapwavefolder/mapwavefolder/namespacebrowser/nodeAddress" : "none",
-							"complexosc/modindex" : 4.488187,
-							"complexosc/modnoise" : 0.692914,
-							"complexosc/noisefilt" : 8976.379882999999609,
+							"complexosc/modindex" : 0.07874,
+							"complexosc/modnoise" : 0.102363,
+							"complexosc/noisefilt" : 6299.214355000000069,
+							"complexosc/squareorsaw" : 0,
+							"complexosc/wavefolder" : 1.0,
+							"complexosc/modAmt/carrierfreq" : 0.0,
+							"complexosc/modAmt/carriersinsaw" : 0.0,
+							"complexosc/modAmt/modfreq" : 0.0,
+							"complexosc/modAmt/modindex" : 0.0,
+							"complexosc/modAmt/modnoise" : 0.0,
+							"complexosc/modAmt/noisefilt" : 0.0,
+							"complexosc/modAmt/wavefolder" : 0.0,
+							"cues/recall" : "*",
+							"names/nodeAddress" : "none"
+						}
+,
+						"sogood" : 						{
+							"complexosc/modratio" : 4.0,
+							"complexosc/modfreq" : 6.448373,
+							"complexosc/modratioman" : 0,
+							"complexosc/audio/gain" : -2.992126,
+							"complexosc/audio/mute" : 0.0,
+							"complexosc/carrierfreq" : 445.391143999999997,
+							"complexosc/carriersinsaw" : 0.251968,
+							"complexosc/mapcarrierfreq/settingList" : [ 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, "s", 0, "s", 0.0, "s", 0.0, "s", "s" ],
+							"complexosc/mapcarrierfreq/input/max" : 0.0,
+							"complexosc/mapcarrierfreq/input/min" : 0.0,
+							"complexosc/mapcarrierfreq/mapcarrierfreq/namespacebrowser/nodeAddress" : "none",
+							"complexosc/mapcarriersinsaw/settingList" : [ 1, 0, 0.0, 0.0, 0.0, 0.0, 0.0, "s", 0, "s", 0.0, "s", 0.0, "s", "s" ],
+							"complexosc/mapcarriersinsaw/input/max" : 0.0,
+							"complexosc/mapcarriersinsaw/input/min" : 0.0,
+							"complexosc/mapcarriersinsaw/mapcarriersinsaw/namespacebrowser/nodeAddress" : "none",
+							"complexosc/mapmodfreq/settingList" : [ 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, "s", 0, "s", 0.0, "s", 0.0, "s", "s" ],
+							"complexosc/mapmodfreq/input/max" : 0.0,
+							"complexosc/mapmodfreq/input/min" : 0.0,
+							"complexosc/mapmodfreq/mapmodfreq/namespacebrowser/nodeAddress" : "none",
+							"complexosc/mapmodindex/settingList" : [ 1, 0, 0.0, 0.0, 0.0, 0.0, 0.0, "s", 0, "s", 0.0, "s", 0.0, "s", "s" ],
+							"complexosc/mapmodindex/input/max" : 0.0,
+							"complexosc/mapmodindex/input/min" : 0.0,
+							"complexosc/mapmodindex/mapmodindex/namespacebrowser/nodeAddress" : "none",
+							"complexosc/mapmodnoise/settingList" : [ 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, "s", 0, "s", 0.0, "s", 0.0, "s", "s" ],
+							"complexosc/mapmodnoise/input/max" : 0.0,
+							"complexosc/mapmodnoise/input/min" : 0.0,
+							"complexosc/mapmodnoise/mapmodnoise/namespacebrowser/nodeAddress" : "none",
+							"complexosc/mapnoisefilt/settingList" : [ 1, 0, 0.0, 0.0, 0.0, 0.0, 0.0, "s", 0, "s", 0.0, "s", 0.0, "s", "s" ],
+							"complexosc/mapnoisefilt/input/max" : 0.0,
+							"complexosc/mapnoisefilt/input/min" : 0.0,
+							"complexosc/mapnoisefilt/mapnoisefilt/namespacebrowser/nodeAddress" : "none",
+							"complexosc/mapwavefolder/settingList" : [ 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, "s", 0, "s", 0.0, "s", 0.0, "s", "s" ],
+							"complexosc/mapwavefolder/input/max" : 0.0,
+							"complexosc/mapwavefolder/input/min" : 0.0,
+							"complexosc/mapwavefolder/mapwavefolder/namespacebrowser/nodeAddress" : "none",
+							"complexosc/modindex" : 0.15748,
+							"complexosc/modnoise" : 0.118111,
+							"complexosc/noisefilt" : 6299.214355000000069,
 							"complexosc/squareorsaw" : 0,
 							"complexosc/wavefolder" : 1.0,
 							"complexosc/modAmt/carrierfreq" : 0.0,
@@ -512,70 +564,70 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ossia.cue_manager.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/cue_manager",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/cue_manager",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.cue_manager.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/cue_manager",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/cue_manager",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/namespacebrowser",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/namespacebrowser",
 				"patcherrelativepath" : "../namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.get_onscreen_position.js",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/namespacebrowser",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/namespacebrowser",
 				"patcherrelativepath" : "../namespacebrowser",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/namespacebrowser",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/namespacebrowser",
 				"patcherrelativepath" : "../namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.pvh.complexosc~.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/PVH-maxlib_ossia/ossia.pvh.complexosc~",
+				"bootpath" : "~/Documents/Github/PVH-maxlib_ossia/ossia.pvh.complexosc~",
 				"patcherrelativepath" : "../../../PVH-maxlib_ossia/ossia.pvh.complexosc~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.pvh.chanctl~.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/PVH-maxlib_ossia/ossia.pvh.chanctl~",
+				"bootpath" : "~/Documents/Github/PVH-maxlib_ossia/ossia.pvh.chanctl~",
 				"patcherrelativepath" : "../../../PVH-maxlib_ossia/ossia.pvh.chanctl~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polycomplexosc.maxpat",
-				"bootpath" : "~/Documents/GitHub/PVH-maxlib_ossia/ossia.pvh.complexosc~/include",
+				"bootpath" : "~/Documents/Github/PVH-maxlib_ossia/ossia.pvh.complexosc~/include",
 				"patcherrelativepath" : "../../../PVH-maxlib_ossia/ossia.pvh.complexosc~/include",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "complexosc.gendsp",
-				"bootpath" : "~/Documents/GitHub/PVH-maxlib_ossia/ossia.pvh.complexosc~/include",
+				"bootpath" : "~/Documents/Github/PVH-maxlib_ossia/ossia.pvh.complexosc~/include",
 				"patcherrelativepath" : "../../../PVH-maxlib_ossia/ossia.pvh.complexosc~/include",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.oscroute.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.oscroute",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/nav.oscroute",
 				"patcherrelativepath" : "../../nav/nav.oscroute",
 				"type" : "JSON",
 				"implicit" : 1
@@ -588,21 +640,21 @@
 			}
 , 			{
 				"name" : "ossia.pvh.complexosc~.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/PVH-maxlib_ossia/ossia.pvh.complexosc~",
+				"bootpath" : "~/Documents/Github/PVH-maxlib_ossia/ossia.pvh.complexosc~",
 				"patcherrelativepath" : "../../../PVH-maxlib_ossia/ossia.pvh.complexosc~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.oscroute.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.oscroute",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/nav.oscroute",
 				"patcherrelativepath" : "../../nav/nav.oscroute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.pvh.chanctl~.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/PVH-maxlib_ossia/ossia.pvh.chanctl~",
+				"bootpath" : "~/Documents/Github/PVH-maxlib_ossia/ossia.pvh.chanctl~",
 				"patcherrelativepath" : "../../../PVH-maxlib_ossia/ossia.pvh.chanctl~",
 				"type" : "JSON",
 				"implicit" : 1
