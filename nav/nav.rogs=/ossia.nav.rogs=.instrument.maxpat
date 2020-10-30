@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 739.0, 171.0, 640.0, 480.0 ],
+		"rect" : [ 280.0, 300.0, 526.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -175,7 +175,6 @@
 			"obj-1::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
 			"obj-1::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
 			"obj-1::obj-11" : [ "live.text[34]", "live.text", 0 ],
-			"obj-1::obj-126" : [ "live.text[36]", "live.text", 0 ],
 			"obj-1::obj-45" : [ "live.numbox[6]", "live.numbox[8]", 4 ],
 			"obj-1::obj-50" : [ "live.text[35]", "live.text", 0 ],
 			"obj-1::obj-51" : [ "Soundfile[1]", "Soundfile", 0 ],
@@ -213,7 +212,7 @@
 			"obj-1::obj-7::obj-70::obj-10::obj-196" : [ "live.text[18]", "live.text", 0 ],
 			"obj-1::obj-7::obj-70::obj-182" : [ "live.text[19]", "live.text[4]", 0 ],
 			"obj-1::obj-89" : [ "lock[1]", "Lock", 0 ],
-			"obj-2::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[4]", "Mode", 0 ],
+			"obj-2::obj-14::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[4]", "Mode", 0 ],
 			"obj-3::obj-9::obj-126" : [ "live.text[11]", "live.text", 0 ],
 			"obj-3::obj-9::obj-22" : [ "live.text[4]", "live.text[5]", 0 ],
 			"obj-3::obj-9::obj-30" : [ "live.numbox[3]", "live.numbox[8]", 4 ],
@@ -232,10 +231,6 @@
 			"parameter_overrides" : 			{
 				"obj-1::obj-11" : 				{
 					"parameter_longname" : "live.text[34]"
-				}
-,
-				"obj-1::obj-126" : 				{
-					"parameter_longname" : "live.text[36]"
 				}
 ,
 				"obj-1::obj-50" : 				{
@@ -409,8 +404,8 @@
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities/namespacebrowser",
-				"patcherrelativepath" : "../../utilities/namespacebrowser",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia/patchers/ossia.namespacebrowser",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/ossia/patchers/ossia.namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -520,7 +515,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "rogs~.mxo",
+				"name" : "ossia.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -528,7 +523,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ossia.model.mxo",
+				"name" : "rogs~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -549,10 +544,6 @@
 			}
 , 			{
 				"name" : "ossia.explorer.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ease.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -601,11 +592,8 @@
 				"name" : "jpink",
 				"default" : 				{
 					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -617,7 +605,10 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
