@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+		"rect" : [ 739.0, 171.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,27 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "modulate" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-4",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "ossia.nav.rand.module.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 361.0, 170.0, 156.0, 72.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "output" ],
 					"bgmode" : 0,
@@ -110,7 +131,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "audio.connect", "" ],
+					"outlettype" : [ "multichannelsignal", "" ],
 					"patching_rect" : [ 4.0, 195.0, 176.0, 22.0 ],
 					"text" : "ossia.nav.rogs=.model nav.rogs",
 					"varname" : "ossia.nav.rogs=.model"
@@ -148,14 +169,15 @@
 			"obj-12::obj-2::obj-6::obj-5" : [ "Preamp", "Preamp", 0 ],
 			"obj-12::obj-2::obj-6::obj-6" : [ "live.text", "live.text", 0 ],
 			"obj-12::obj-2::obj-81" : [ "live.text[9]", "live.text[1]", 0 ],
-			"obj-1::obj-100" : [ "live.text[32]", "live.text", 0 ],
 			"obj-1::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
 			"obj-1::obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
 			"obj-1::obj-108::obj-32" : [ "live.text[7]", "live.text[3]", 0 ],
 			"obj-1::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
 			"obj-1::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
 			"obj-1::obj-11" : [ "live.text[34]", "live.text", 0 ],
-			"obj-1::obj-126" : [ "live.text[35]", "live.text", 0 ],
+			"obj-1::obj-126" : [ "live.text[36]", "live.text", 0 ],
+			"obj-1::obj-45" : [ "live.numbox[6]", "live.numbox[8]", 4 ],
+			"obj-1::obj-50" : [ "live.text[35]", "live.text", 0 ],
 			"obj-1::obj-51" : [ "Soundfile[1]", "Soundfile", 0 ],
 			"obj-1::obj-68" : [ "DropFile[1]", "DropFile", 0 ],
 			"obj-1::obj-69" : [ "SelectFile[1]", "SelectFile", 0 ],
@@ -195,7 +217,7 @@
 			"obj-3::obj-9::obj-126" : [ "live.text[11]", "live.text", 0 ],
 			"obj-3::obj-9::obj-22" : [ "live.text[4]", "live.text[5]", 0 ],
 			"obj-3::obj-9::obj-30" : [ "live.numbox[3]", "live.numbox[8]", 4 ],
-			"obj-3::obj-9::obj-34" : [ "live.numbox[6]", "live.numbox[8]", 4 ],
+			"obj-3::obj-9::obj-34" : [ "live.numbox[7]", "live.numbox[8]", 4 ],
 			"obj-3::obj-9::obj-37" : [ "live.text[10]", "live.text", 0 ],
 			"obj-3::obj-9::obj-44::obj-1" : [ "live.text[6]", "live.text[2]", 0 ],
 			"obj-3::obj-9::obj-44::obj-12" : [ "live.numbox[2]", "live.numbox", 0 ],
@@ -208,15 +230,15 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-100" : 				{
-					"parameter_longname" : "live.text[32]"
-				}
-,
 				"obj-1::obj-11" : 				{
 					"parameter_longname" : "live.text[34]"
 				}
 ,
 				"obj-1::obj-126" : 				{
+					"parameter_longname" : "live.text[36]"
+				}
+,
+				"obj-1::obj-50" : 				{
 					"parameter_longname" : "live.text[35]"
 				}
 ,
@@ -342,6 +364,10 @@
 ,
 				"obj-3::obj-9::obj-22" : 				{
 					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-3::obj-9::obj-34" : 				{
+					"parameter_longname" : "live.numbox[7]"
 				}
 ,
 				"obj-3::obj-9::obj-37" : 				{
@@ -473,6 +499,27 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ossia.nav.rand.module.maxpat",
+				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.rand",
+				"patcherrelativepath" : "../ossia.nav.rand",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.nav.rand.model.maxpat",
+				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.rand",
+				"patcherrelativepath" : "../ossia.nav.rand",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.nav.rand.view.maxpat",
+				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.rand",
+				"patcherrelativepath" : "../ossia.nav.rand",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "rogs~.mxo",
 				"type" : "iLaX"
 			}
@@ -506,14 +553,6 @@
 			}
 , 			{
 				"name" : "ease.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.gain=.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.dcblock=.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -561,11 +600,13 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -576,9 +617,7 @@
 						"autogradient" : 0
 					}
 ,
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

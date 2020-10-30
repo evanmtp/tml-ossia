@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1104.0, 79.0, 782.0, 1014.0 ],
+		"rect" : [ 373.0, 79.0, 782.0, 1014.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -118,7 +118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 135.0, 660.0, 165.0, 81.0 ],
+					"patching_rect" : [ 135.0, 660.0, 169.0, 81.0 ],
 					"text" : "ossia.parameter grain @range 1. 100. @type int @clip low @description \"interpolation grain in ms\" @default 10",
 					"varname" : "step[1]"
 				}
@@ -210,8 +210,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 105.0, 300.0, 23.0 ],
-					"text" : "ossia.parameter min @type decimal @default 0.",
+					"patching_rect" : [ 210.0, 105.0, 280.0, 23.0 ],
+					"text" : "ossia.parameter min @type float @default 0.",
 					"varname" : "rate/max[2]"
 				}
 
@@ -225,8 +225,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 140.0, 303.0, 23.0 ],
-					"text" : "ossia.parameter max @type decimal @default 1.",
+					"patching_rect" : [ 210.0, 140.0, 284.0, 23.0 ],
+					"text" : "ossia.parameter max @type float @default 1.",
 					"varname" : "rate/max[1]"
 				}
 
@@ -287,8 +287,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 267.0, 552.0, 38.0 ],
-					"text" : "ossia.parameter step @range 0. 1. @type decimal @clip both @description \"drunk steps\" @default 1.",
+					"patching_rect" : [ 210.0, 267.0, 360.0, 38.0 ],
+					"text" : "ossia.parameter step @range 0. 1. @type float @clip both @description \"drunk steps\" @default 1.",
 					"varname" : "step"
 				}
 
@@ -314,13 +314,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 12.0,
 					"id" : "obj-5",
-					"linecount" : 6,
+					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 105.0, 900.0, 126.0, 96.0 ],
-					"text" : "ossia.parameter out/final @mode get @type decimal @description \"final and interpolated output\""
+					"patching_rect" : [ 75.0, 900.0, 150.0, 81.0 ],
+					"text" : "ossia.parameter out/final @mode get @type float @description \"final and interpolated output\""
 				}
 
 			}
@@ -339,13 +339,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1270.0, 93.0, 616.0, 514.0 ],
+						"rect" : [ 1270.0, 93.0, 358.0, 409.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -385,7 +385,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -978,7 +978,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1294,13 +1294,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"linecount" : 6,
+					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 75.0, 465.0, 141.0, 96.0 ],
-					"text" : "ossia.parameter out/pre-interpolation @mode get @type decimal @description \"pre-interpolated number.\""
+					"patching_rect" : [ 75.0, 465.0, 180.0, 81.0 ],
+					"text" : "ossia.parameter out/pre-interpolation @mode get @type float @description \"pre-interpolated number.\""
 				}
 
 			}
@@ -1406,7 +1406,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 39.5, 888.0, 114.5, 888.0 ],
+					"midpoints" : [ 39.5, 888.0, 84.5, 888.0 ],
 					"order" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
