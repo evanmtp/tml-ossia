@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 331.0, 45.0, 150.0, 74.0 ],
+					"text" : "to add to osc route:\n\n- offset\n- absDif\n- Delta"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "modulate" ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -54,7 +66,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 361.0, 170.0, 156.0, 72.0 ],
+					"patching_rect" : [ 331.0, 132.0, 156.0, 72.0 ],
 					"viewvisibility" : 1
 				}
 
