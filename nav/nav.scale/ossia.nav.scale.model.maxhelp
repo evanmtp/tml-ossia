@@ -4,22 +4,22 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 582.0, -965.0, 553.0, 638.0 ],
+		"rect" : [ 8.0, 79.0, 959.0, 685.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Verdana",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
+		"gridsnaponopen" : 2,
+		"objectsnaponopen" : 0,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -40,6 +40,47 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Lato Regular",
+					"fontsize" : 13.0,
+					"id" : "obj-36",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 105.0, 465.0, 53.0 ],
+					"text" : "ossia.nav.scale.model contains temporal processing (slide), amplitude scaling and various mapping functions, as well as a Schmitt trigger for extracting a binary value from a continuous signal.",
+					"textcolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Lato Regular",
+					"fontsize" : 13.0,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 90.0, 465.0, 22.0 ],
+					"text" : "Filter, normalize and condition numbers"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Lato Regular",
+					"fontsize" : 48.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 15.0, 550.0, 64.0 ],
+					"text" : "ossia.nav.scale.model"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"bubblepoint" : 0.4,
 					"bubbleside" : 3,
@@ -49,7 +90,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 240.0, 330.0, 37.0 ],
+					"patching_rect" : [ 164.0, 329.0, 330.0, 37.0 ],
 					"text" : "select from direct input (x), first difference (Δx), second difference (Δx2), velocity (Vx) or quantity of motion (QoM)"
 				}
 
@@ -60,8 +101,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 480.0, 135.0, 19.0 ],
-					"text" : "0.71"
+					"patching_rect" : [ 14.0, 569.0, 135.0, 19.0 ],
+					"text" : "190.00"
 				}
 
 			}
@@ -73,7 +114,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 375.0, 70.0, 21.0 ],
+					"patching_rect" : [ 44.0, 464.0, 70.0, 21.0 ],
 					"text" : "prepend set"
 				}
 
@@ -86,7 +127,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 195.0, 70.0, 21.0 ],
+					"patching_rect" : [ 59.0, 284.0, 70.0, 21.0 ],
 					"text" : "prepend set"
 				}
 
@@ -97,8 +138,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 300.0, 135.0, 19.0 ],
-					"text" : "165"
+					"patching_rect" : [ 14.0, 389.0, 135.0, 19.0 ],
+					"text" : "159"
 				}
 
 			}
@@ -111,7 +152,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.0, 165.0, 270.0, 25.0 ],
+					"patching_rect" : [ 644.0, 254.0, 270.0, 25.0 ],
 					"text" : "set the scaling function using the + panel."
 				}
 
@@ -126,7 +167,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 210.0, 210.0, 25.0 ],
+					"patching_rect" : [ 284.0, 299.0, 210.0, 25.0 ],
 					"text" : "slide: input smoothing via [slide]."
 				}
 
@@ -141,7 +182,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 150.0, 156.0, 59.0 ],
+					"patching_rect" : [ 344.0, 239.0, 156.0, 59.0 ],
 					"text" : "filter: calculate the mean or the median of the input value over n samples."
 				}
 
@@ -156,7 +197,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 315.0, 255.0, 25.0 ],
+					"patching_rect" : [ 239.0, 404.0, 255.0, 25.0 ],
 					"text" : "out min/max: set range of scaled output."
 				}
 
@@ -171,7 +212,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 285.0, 300.0, 25.0 ],
+					"patching_rect" : [ 194.0, 374.0, 300.0, 25.0 ],
 					"text" : "in min/max: set range of input values to be scaled."
 				}
 
@@ -186,7 +227,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 375.0, 255.0, 25.0 ],
+					"patching_rect" : [ 239.0, 464.0, 255.0, 25.0 ],
 					"text" : "offset: add constant offset to output."
 				}
 
@@ -200,7 +241,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 345.0, 210.0, 25.0 ],
+					"patching_rect" : [ 284.0, 434.0, 210.0, 25.0 ],
 					"text" : "slide: output smoothing via [slide]."
 				}
 
@@ -215,7 +256,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 405.0, 255.0, 25.0 ],
+					"patching_rect" : [ 239.0, 494.0, 255.0, 25.0 ],
 					"text" : "ramp: additional output smoothing via [line]."
 				}
 
@@ -229,7 +270,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.0, 240.0, 285.0, 25.0 ],
+					"patching_rect" : [ 644.0, 329.0, 285.0, 25.0 ],
 					"text" : "reset: reset input min and max to default values."
 				}
 
@@ -244,7 +285,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 435.0, 141.0, 159.0 ],
+					"patching_rect" : [ 509.0, 524.0, 141.0, 159.0 ],
 					"text" : "clip mode:\n----: none\n---|: high\n|---: low\n|--|: both\nfold: reflect at bounds\nwrap: wrap at bounds\n\nNote that clipping takes place after offset has been applied."
 				}
 
@@ -258,7 +299,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.0, 375.0, 260.0, 35.0 ],
+					"patching_rect" : [ 644.0, 464.0, 260.0, 35.0 ],
 					"text" : "click the top-right corner of the multislider to toggle display on and off."
 				}
 
@@ -272,7 +313,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.0, 330.0, 285.0, 35.0 ],
+					"patching_rect" : [ 644.0, 419.0, 285.0, 35.0 ],
 					"text" : "Schmitt trigger: trigger with hysteresis. See inside for toggle, debounce and ramp controls."
 				}
 
@@ -285,7 +326,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.0, 270.0, 255.0, 59.0 ],
+					"patching_rect" : [ 644.0, 359.0, 255.0, 59.0 ],
 					"text" : "window size: number of samples used to automatically calculate min and max  (under minmax, running minmax and running mean&stddev modes)"
 				}
 
@@ -307,7 +348,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 180.0, 150.0, 245.0 ],
+					"patching_rect" : [ 494.0, 269.0, 150.0, 245.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -320,7 +361,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 330.0, 146.0, 21.0 ],
+					"patching_rect" : [ 14.0, 434.0, 146.0, 21.0 ],
 					"text" : "ossia.nav.scale.model scale"
 				}
 
@@ -335,7 +376,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 90.0, 75.0, 23.0 ],
+					"patching_rect" : [ 14.0, 179.0, 75.0, 23.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -356,7 +397,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 405.0, 135.0, 90.0 ],
+					"patching_rect" : [ 14.0, 494.0, 135.0, 90.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 4,
@@ -378,7 +419,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -554,7 +595,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 150.0, 110.0, 23.0 ],
+					"patching_rect" : [ 14.0, 239.0, 110.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -576,7 +617,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 120.0, 15.0, 15.0 ]
+					"patching_rect" : [ 14.0, 209.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -596,7 +637,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 225.0, 135.0, 90.0 ],
+					"patching_rect" : [ 14.0, 314.0, 135.0, 90.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"setminmax" : [ 0.0, 300.0 ],
 					"setstyle" : 4,
@@ -605,33 +646,11 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"args" : [ "@name", "j.nav.scale.model", "@description", "Filter, normalize and condition numbers." ],
-					"background" : 1,
-					"bgmode" : 1,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "j.maxhelpui.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1.0, 1.0, 944.0, 59.0 ],
-					"prototypename" : "bphelp",
-					"viewvisibility" : 1
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 24.5, 206.0, 24.5, 206.0 ],
+					"midpoints" : [ 23.5, 295.0, 23.5, 295.0 ],
 					"order" : 1,
 					"source" : [ "obj-15", 0 ]
 				}
@@ -641,7 +660,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 24.5, 183.5, 69.5, 183.5 ],
+					"midpoints" : [ 23.5, 272.5, 68.5, 272.5 ],
 					"order" : 0,
 					"source" : [ "obj-15", 0 ]
 				}
@@ -681,7 +700,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 24.5, 362.5, 54.5, 362.5 ],
+					"midpoints" : [ 23.5, 451.5, 53.5, 451.5 ],
 					"order" : 0,
 					"source" : [ "obj-21", 0 ]
 				}
@@ -691,7 +710,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 69.5, 272.5, 24.5, 272.5 ],
+					"midpoints" : [ 68.5, 361.5, 23.5, 361.5 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -700,7 +719,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 54.5, 437.5, 24.5, 437.5 ],
+					"midpoints" : [ 53.5, 526.5, 23.5, 526.5 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -747,20 +766,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "j.maxhelpui.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/data/maxhelpui",
-				"patcherrelativepath" : "../../../../Max 8/Packages/Jamoma/patchers/components/data/maxhelpui",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.maxhelpuiButton.png",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/data/maxhelpui",
-				"patcherrelativepath" : "../../../../Max 8/Packages/Jamoma/patchers/components/data/maxhelpui",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "ossia.nav.scale.model.maxpat",
 				"bootpath" : "~/Documents/Github/tml-ossia/nav/nav.scale",
 				"patcherrelativepath" : ".",
@@ -771,13 +776,6 @@
 				"name" : "autoscale.maxpat",
 				"bootpath" : "~/Documents/Github/tml-ossia/data/autoscale",
 				"patcherrelativepath" : "../../data/autoscale",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.initialized.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/data/initialized",
-				"patcherrelativepath" : "../../../../Max 8/Packages/Jamoma/patchers/components/data/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -811,10 +809,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "ossia.parameter.mxo",
 				"type" : "iLaX"
 			}
@@ -835,7 +829,57 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "Jamoma_highlighted_orange",
+				"default" : 				{
+					"accentcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "jpatcher001",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "jpink",
+				"default" : 				{
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "tap",
+				"default" : 				{
+					"fontname" : [ "Lato Light" ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
