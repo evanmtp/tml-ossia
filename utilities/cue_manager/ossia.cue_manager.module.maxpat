@@ -4,22 +4,22 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 659.0, 181.0, 483.0, 560.0 ],
+		"openrect" : [ 30.0, 30.0, 270.0, 545.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
+		"gridsnaponopen" : 2,
+		"objectsnaponopen" : 0,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -40,49 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"data" : 					{
-						"arst" : 						{
-							"test1/attack" : 2.0,
-							"test1/attack_curve" : 1.0,
-							"test1/decay" : 3.0,
-							"test1/decay_curve" : 1.0,
-							"test1/predelay" : 1.0,
-							"test1/release" : 5.0,
-							"test1/release_curve" : 1.0,
-							"test1/sustain" : 4.0
-						}
-,
-						"qwfp" : 						{
-							"test1/attack" : 7.0,
-							"test1/attack_curve" : 2.0,
-							"test1/decay" : 8.0,
-							"test1/decay_curve" : 0.3,
-							"test1/predelay" : 6.0,
-							"test1/release" : 10.0,
-							"test1/release_curve" : 0.6,
-							"test1/sustain" : 9.0
-						}
-
-					}
-,
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 315.0, 186.0, 173.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 1,
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "dict #1.cuelist @embed 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
 					"index" : 1,
@@ -90,7 +47,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 60.0, 30.0, 30.0 ]
+					"patching_rect" : [ 285.0, 45.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -102,7 +59,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 315.0, 135.0, 30.0, 30.0 ]
+					"patching_rect" : [ 285.0, 120.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -135,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "namespace" ],
-					"patching_rect" : [ 315.0, 105.0, 195.0, 22.0 ],
+					"patching_rect" : [ 285.0, 90.0, 195.0, 22.0 ],
 					"text" : "ossia.cue_manager.model #1"
 				}
 
