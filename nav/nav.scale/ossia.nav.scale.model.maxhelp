@@ -90,7 +90,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 164.0, 329.0, 330.0, 37.0 ],
+					"patching_rect" : [ 165.0, 330.0, 330.0, 37.0 ],
 					"text" : "select from direct input (x), first difference (Δx), second difference (Δx2), velocity (Vx) or quantity of motion (QoM)"
 				}
 
@@ -102,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 569.0, 135.0, 19.0 ],
-					"text" : "0.09"
+					"text" : "0.45"
 				}
 
 			}
@@ -139,7 +139,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 389.0, 135.0, 19.0 ],
-					"text" : "167"
+					"text" : "154"
 				}
 
 			}
@@ -152,7 +152,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 644.0, 254.0, 270.0, 25.0 ],
+					"patching_rect" : [ 645.0, 270.0, 270.0, 25.0 ],
 					"text" : "set the scaling function using the + panel."
 				}
 
@@ -167,7 +167,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 284.0, 299.0, 210.0, 25.0 ],
+					"patching_rect" : [ 285.0, 300.0, 210.0, 25.0 ],
 					"text" : "slide: input smoothing via [slide]."
 				}
 
@@ -182,7 +182,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 344.0, 239.0, 156.0, 59.0 ],
+					"patching_rect" : [ 345.0, 240.0, 156.0, 59.0 ],
 					"text" : "filter: calculate the mean or the median of the input value over n samples."
 				}
 
@@ -197,7 +197,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.0, 404.0, 255.0, 25.0 ],
+					"patching_rect" : [ 240.0, 405.0, 255.0, 25.0 ],
 					"text" : "out min/max: set range of scaled output."
 				}
 
@@ -212,7 +212,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 374.0, 300.0, 25.0 ],
+					"patching_rect" : [ 195.0, 375.0, 300.0, 25.0 ],
 					"text" : "in min/max: set range of input values to be scaled."
 				}
 
@@ -227,7 +227,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.0, 464.0, 255.0, 25.0 ],
+					"patching_rect" : [ 240.0, 465.0, 255.0, 25.0 ],
 					"text" : "offset: add constant offset to output."
 				}
 
@@ -241,7 +241,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 284.0, 434.0, 210.0, 25.0 ],
+					"patching_rect" : [ 285.0, 435.0, 210.0, 25.0 ],
 					"text" : "slide: output smoothing via [slide]."
 				}
 
@@ -256,7 +256,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.0, 494.0, 255.0, 25.0 ],
+					"patching_rect" : [ 240.0, 495.0, 255.0, 25.0 ],
 					"text" : "ramp: additional output smoothing via [line]."
 				}
 
@@ -270,7 +270,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 644.0, 329.0, 285.0, 25.0 ],
+					"patching_rect" : [ 645.0, 330.0, 285.0, 25.0 ],
 					"text" : "reset: reset input min and max to default values."
 				}
 
@@ -285,7 +285,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 502.0, 547.0, 141.0, 159.0 ],
+					"patching_rect" : [ 495.0, 555.0, 141.0, 159.0 ],
 					"text" : "clip mode:\n----: none\n---|: high\n|---: low\n|--|: both\nfold: reflect at bounds\nwrap: wrap at bounds\n\nNote that clipping takes place after offset has been applied."
 				}
 
@@ -299,7 +299,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 644.0, 464.0, 260.0, 35.0 ],
+					"patching_rect" : [ 645.0, 495.0, 260.0, 35.0 ],
 					"text" : "click the top-right corner of the multislider to toggle display on and off."
 				}
 
@@ -313,7 +313,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 644.0, 419.0, 285.0, 35.0 ],
+					"patching_rect" : [ 645.0, 450.0, 285.0, 35.0 ],
 					"text" : "Schmitt trigger: trigger with hysteresis. See inside for toggle, debounce and ramp controls."
 				}
 
