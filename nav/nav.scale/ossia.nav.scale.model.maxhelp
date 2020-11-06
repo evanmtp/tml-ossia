@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 8.0, 79.0, 959.0, 685.0 ],
+		"rect" : [ 34.0, 79.0, 959.0, 864.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -47,7 +47,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 105.0, 465.0, 53.0 ],
+					"patching_rect" : [ 15.0, 105.0, 466.0, 53.0 ],
 					"text" : "ossia.nav.scale.model contains temporal processing (slide), amplitude scaling and various mapping functions, as well as a Schmitt trigger for extracting a binary value from a continuous signal.",
 					"textcolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ]
 				}
@@ -102,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 569.0, 135.0, 19.0 ],
-					"text" : "190.00"
+					"text" : "0.09"
 				}
 
 			}
@@ -139,7 +139,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 389.0, 135.0, 19.0 ],
-					"text" : "159"
+					"text" : "167"
 				}
 
 			}
@@ -285,7 +285,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 509.0, 524.0, 141.0, 159.0 ],
+					"patching_rect" : [ 502.0, 547.0, 141.0, 159.0 ],
 					"text" : "clip mode:\n----: none\n---|: high\n|---: low\n|--|: both\nfold: reflect at bounds\nwrap: wrap at bounds\n\nNote that clipping takes place after offset has been applied."
 				}
 
@@ -348,7 +348,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 494.0, 269.0, 150.0, 245.0 ],
+					"patching_rect" : [ 494.0, 269.0, 156.0, 279.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -730,6 +730,7 @@
 			"obj-4::obj-126" : [ "live.text[33]", "live.text", 0 ],
 			"obj-4::obj-32" : [ "live.text[6]", "live.text", 0 ],
 			"obj-4::obj-39" : [ "live.text", "live.text", 0 ],
+			"obj-4::obj-41" : [ "live.text[1]", "live.text", 0 ],
 			"obj-4::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
 			"parameterbanks" : 			{
 
@@ -767,35 +768,56 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ossia.nav.scale.model.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/nav/nav.scale",
+				"bootpath" : "~/code/tml-ossia/nav/nav.scale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autoscale.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/data/autoscale",
+				"bootpath" : "~/code/tml-ossia/data/autoscale",
 				"patcherrelativepath" : "../../data/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delta.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/utilities",
-				"patcherrelativepath" : "../../utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/basic_programming",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/basic_programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/depot_support",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/depot_support",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/depot_support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/depot_support",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/depot_support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "qom.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/utilities",
+				"bootpath" : "~/code/tml-ossia/utilities",
 				"patcherrelativepath" : "../../utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.scale.view.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/nav/nav.scale",
+				"bootpath" : "~/code/tml-ossia/nav/nav.scale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -847,13 +869,7 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -864,7 +880,13 @@
 						"autogradient" : 0
 					}
 ,
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
