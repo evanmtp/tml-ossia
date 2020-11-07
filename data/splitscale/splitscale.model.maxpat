@@ -145,7 +145,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 660.0, 270.0, 196.0, 92.0 ],
+					"patching_rect" : [ 495.0, 480.0, 196.0, 92.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"setstyle" : 2
 				}
@@ -1827,7 +1827,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
-					"midpoints" : [ 504.5, 258.0, 669.5, 258.0 ],
+					"midpoints" : [ 504.5, 258.0, 504.5, 258.0 ],
 					"order" : 0,
 					"source" : [ "obj-59", 0 ]
 				}
