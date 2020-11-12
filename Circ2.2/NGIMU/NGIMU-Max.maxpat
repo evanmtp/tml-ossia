@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 224.0, 79.0, 1398.0, 1030.0 ],
+		"rect" : [ 34.0, 79.0, 1561.0, 1030.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,67 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-165",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 341.799987999999985, 65.0, 162.0, 62.0 ],
+					"presentation_linecount" : 3,
+					"text" : "/euler 70, /sensors 200, /quaternion 0, /humidity 0, /earth 0, /temperature 0, /battery 0.1, /rssi 0, /matrix 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-153",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 341.799987999999985, 145.0, 135.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "spat5.osc.prepend /rate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 216.399993999999992, 253.5, 63.0, 22.0 ],
+					"text" : "/wifi/mode"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 690.0, 449.0, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-54",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 463.399993999999879, 231.0, 24.0, 24.0 ]
+					"patching_rect" : [ 714.600005999999894, 226.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -57,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 544.399993999999879, 248.0, 150.0, 33.0 ],
+					"patching_rect" : [ 795.600005999999894, 243.0, 150.0, 33.0 ],
 					"text" : "AP (acess point) mode = 0\nClient (infrastructure) = 1"
 				}
 
@@ -69,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 463.399993999999879, 259.0, 79.0, 22.0 ],
+					"patching_rect" : [ 714.600005999999894, 254.0, 79.0, 22.0 ],
 					"text" : "/wifi/mode $1"
 				}
 
@@ -861,6 +915,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 14.0,
 					"format" : 6,
 					"id" : "obj-92",
 					"ignoreclick" : 1,
@@ -869,7 +924,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1079.0, 661.5, 38.0, 22.0 ],
+					"patching_rect" : [ 1079.0, 661.5, 43.0, 24.0 ],
 					"triangle" : 0,
 					"triscale" : 0.0
 				}
@@ -998,11 +1053,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-44",
-					"linecount" : 9,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1233.0, 856.5, 172.0, 127.0 ],
+					"patching_rect" : [ 1233.0, 856.5, 173.0, 114.0 ],
 					"text" : "/magnitudes\nThe magnitudes message contains measurements of the gyroscope, accelerometer, and magnetometer magnitudes.\n1: Gyroscope magnitude °/\n2: Accelerometer mag. g\n3: Magnetometer mag. μT"
 				}
 
@@ -1096,7 +1151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.799987999999985, 205.0, 29.0, 22.0 ],
+					"patching_rect" : [ 635.0, 200.0, 29.0, 22.0 ],
 					"text" : "thru"
 				}
 
@@ -1176,7 +1231,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 865.0, 210.0, 150.0, 47.0 ],
+					"patching_rect" : [ 1116.200012000000015, 205.0, 150.0, 47.0 ],
 					"text" : "The AHRS initialise command will reinitialise the AHRS algorithm."
 				}
 
@@ -1188,7 +1243,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 383.799987999999985, 24.0, 151.0, 100.0 ],
+					"patching_rect" : [ 635.0, 19.0, 154.0, 100.0 ],
 					"text" : "The identify command will cause all the LEDs to rapidly flash for 5 seconds. This may be of use when trying to identify a specific device within a group of multiple devices."
 				}
 
@@ -1200,7 +1255,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 706.799987999999985, 129.0, 153.0, 60.0 ],
+					"patching_rect" : [ 958.0, 124.0, 153.0, 60.0 ],
 					"text" : "The restore default command will reset all device settings to their factory default values."
 				}
 
@@ -1212,7 +1267,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 706.799987999999985, 26.0, 153.0, 74.0 ],
+					"patching_rect" : [ 958.0, 21.0, 153.0, 74.0 ],
 					"text" : "The reset command will perform a software reset. This is equivalent to switching the device off and then on again. "
 				}
 
@@ -1224,7 +1279,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 706.799987999999985, 99.0, 39.0, 22.0 ],
+					"patching_rect" : [ 958.0, 94.0, 39.0, 22.0 ],
 					"text" : "/reset"
 				}
 
@@ -1236,7 +1291,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 542.899993999999992, 24.0, 153.0, 141.0 ],
+					"patching_rect" : [ 794.100006000000008, 19.0, 153.0, 141.0 ],
 					"text" : "The sleep command will put the device into sleep mode (switched off). The device will not enter sleep mode until 3 seconds after the command is received to ensure that the host is able to confirm the command before it is executed."
 				}
 
@@ -1248,7 +1303,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 865.0, 26.0, 150.0, 141.0 ],
+					"patching_rect" : [ 1116.200012000000015, 21.0, 150.0, 141.0 ],
 					"text" : "The mute command inhibits the sending of all data messages listed in Section 7.1. Command confirmation messages and setting read/write response messages will still be sent. The device will remain muted until an unmute command is sent."
 				}
 
@@ -1260,7 +1315,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 906.0, 167.0, 52.0, 22.0 ],
+					"patching_rect" : [ 1157.200012000000015, 162.0, 52.0, 22.0 ],
 					"text" : "/unmute"
 				}
 
@@ -1272,7 +1327,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 865.0, 167.0, 39.0, 22.0 ],
+					"patching_rect" : [ 1116.200012000000015, 162.0, 39.0, 22.0 ],
 					"text" : "/mute"
 				}
 
@@ -1284,7 +1339,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 706.799987999999985, 191.0, 48.0, 22.0 ],
+					"patching_rect" : [ 958.0, 186.0, 48.0, 22.0 ],
 					"text" : "/default"
 				}
 
@@ -1296,7 +1351,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1035.0, 26.0, 253.0, 275.0 ],
+					"patching_rect" : [ 1286.200012000000015, 21.0, 256.0, 275.0 ],
 					"text" : "7.4. Settings\nDevice settings are read and written using OSC messages. The settings tab of the device software provides access to all device settings and includes detailed documentation for each setting.\n7.4.1. Read\nSettings are read by sending an OSC message with the corresponding setting OSC address and no arguments. The device will respond with an OSC message with the same OSC address and the current setting value as an argument.\n7.4.2. Write\nSettings are written by sending an OSC message with the corresponding setting OSC address and an argument value. The device will respond with an OSC message with the same OSC address and the new setting value as an argument."
 				}
 
@@ -1308,7 +1363,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 865.0, 259.0, 81.0, 22.0 ],
+					"patching_rect" : [ 1116.200012000000015, 254.0, 81.0, 22.0 ],
 					"text" : "/ahrs/initialise"
 				}
 
@@ -1320,7 +1375,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 542.899993999999992, 167.0, 41.0, 22.0 ],
+					"patching_rect" : [ 794.100006000000008, 162.0, 41.0, 22.0 ],
 					"text" : "/sleep"
 				}
 
@@ -1332,7 +1387,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.799987999999985, 122.0, 50.0, 22.0 ],
+					"patching_rect" : [ 739.0, 104.0, 50.0, 22.0 ],
 					"text" : "/identify"
 				}
 
@@ -1374,13 +1429,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-97",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 379.799987999999985, 384.0, 50.0, 62.0 ],
-					"text" : "46.594002 32.894001"
+					"patching_rect" : [ 379.799987999999985, 384.0, 50.0, 49.0 ],
+					"text" : "44.64 32.605999"
 				}
 
 			}
@@ -1813,13 +1868,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-56",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.899993999999992, 123.0, 112.0, 49.0 ],
-					"text" : "/rate/euler 50, /rate/quaternion 0, /rate/humidity 0"
+					"patching_rect" : [ 225.899993999999992, 94.0, 110.100006000000008, 62.0 ],
+					"text" : "/rate/euler 50, /rate/quaternion 0, /rate/humidity 0, /rate/earth 0"
 				}
 
 			}
@@ -1946,21 +2001,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 83.0, 57.0, 103.0, 24.0 ],
 					"rounded" : 2.0,
-					"text" : "192.168.1.4",
+					"text" : "192.168.1.2",
 					"wordwrap" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.499877999999967, 384.0, 90.0, 35.0 ],
-					"text" : "/wifi/send/ip 192.168.1.2"
 				}
 
 			}
@@ -1984,7 +2026,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 83.0, 312.0, 97.0, 22.0 ],
-					"text" : "udpreceive 8003"
+					"text" : "udpreceive 8000"
 				}
 
 			}
@@ -2206,8 +2248,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
-					"midpoints" : [ 472.899993999999879, 291.0, 436.099990999999932, 291.0, 436.099990999999932, 194.0, 393.299987999999985, 194.0 ],
+					"midpoints" : [ 724.100005999999894, 286.0, 687.300002999999947, 286.0, 687.300002999999947, 189.0, 644.5, 189.0 ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-153", 0 ]
 				}
 
 			}
@@ -2241,6 +2290,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-153", 0 ],
+					"source" : [ "obj-165", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
@@ -2265,14 +2321,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
 					"source" : [ "obj-3", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 1 ],
-					"order" : 2,
-					"source" : [ "obj-3", 5 ]
 				}
 
 			}
@@ -2329,6 +2377,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"order" : 2,
+					"source" : [ "obj-3", 5 ]
 				}
 
 			}
@@ -2399,7 +2455,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 393.299987999999985, 237.0, 349.899993999999992, 237.0, 349.899993999999992, 180.0, 92.5, 180.0 ],
+					"midpoints" : [ 644.5, 237.0, 349.899993999999992, 237.0, 349.899993999999992, 180.0, 92.5, 180.0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2471,6 +2527,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-55", 0 ]
 				}
 
 			}
@@ -2599,6 +2662,10 @@
 				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "spat5.osc.prepend.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0
