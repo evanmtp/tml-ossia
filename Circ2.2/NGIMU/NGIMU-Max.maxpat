@@ -41,14 +41,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-165",
-					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 341.799987999999985, 65.0, 162.0, 62.0 ],
-					"presentation_linecount" : 3,
-					"text" : "/euler 70, /sensors 200, /quaternion 0, /humidity 0, /earth 0, /temperature 0, /battery 0.1, /rssi 0, /matrix 0"
+					"patching_rect" : [ 341.799987999999985, 65.0, 627.0, 22.0 ],
+					"presentation_linecount" : 4,
+					"text" : "/euler 70, /sensors 200, /quaternion 0, /humidity 0, /earth 0, /temperature 0, /battery 0.1, /rssi 0, /matrix 0, /altitude 20"
 				}
 
 			}
@@ -896,8 +895,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 973.0, 799.0, 75.0, 22.0 ],
-					"text" : "route /altitue"
+					"patching_rect" : [ 973.0, 799.0, 81.0, 22.0 ],
+					"text" : "route /altitude"
 				}
 
 			}
@@ -2327,14 +2326,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-111", 0 ],
-					"order" : 5,
-					"source" : [ "obj-3", 5 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-112", 0 ],
 					"order" : 4,
 					"source" : [ "obj-3", 5 ]
 				}
@@ -2342,8 +2333,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-117", 0 ],
+					"destination" : [ "obj-112", 0 ],
 					"order" : 3,
+					"source" : [ "obj-3", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-117", 0 ],
+					"order" : 2,
 					"source" : [ "obj-3", 5 ]
 				}
 
@@ -2377,14 +2376,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"order" : 2,
-					"source" : [ "obj-3", 5 ]
 				}
 
 			}
