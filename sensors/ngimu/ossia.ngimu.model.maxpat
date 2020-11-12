@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -70.0, -1001.0, 1814.0, 967.0 ],
+		"rect" : [ -90.0, -1001.0, 1814.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 90.0, 780.0, 40.0, 22.0 ],
+					"text" : "* 0.01"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -49,7 +61,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 555.0, 795.0, 105.0, 94.0 ],
+					"patching_rect" : [ 555.0, 810.0, 105.0, 94.0 ],
 					"text" : "ossia.parameter battery/charge @mode get @type float @clip free @description \"Battery charging status.\"",
 					"varname" : "numChannels[74]"
 				}
@@ -66,7 +78,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 435.0, 795.0, 106.0, 94.0 ],
+					"patching_rect" : [ 435.0, 810.0, 106.0, 94.0 ],
 					"text" : "ossia.parameter battery/current @mode get @type float @clip free @description \"Battery current in mA.\"",
 					"varname" : "numChannels[73]"
 				}
@@ -83,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 330.0, 795.0, 94.0, 106.0 ],
+					"patching_rect" : [ 330.0, 810.0, 94.0, 106.0 ],
 					"text" : "ossia.parameter battery/voltage @mode get @type float @clip free @description \"Battery voltage in V.\"",
 					"varname" : "numChannels[72]"
 				}
@@ -100,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 795.0, 105.0, 94.0 ],
+					"patching_rect" : [ 210.0, 810.0, 105.0, 94.0 ],
 					"text" : "ossia.parameter battery/time @mode get @type float @clip free @description \"Battery time to empty in minutes.\"",
 					"varname" : "numChannels[71]"
 				}
@@ -153,7 +165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 90.0, 944.79999977350235, 645.0, 22.0 ],
+					"patching_rect" : [ 90.0, 989.79999977350235, 645.0, 22.0 ],
 					"text" : "unpack f f f"
 				}
 
@@ -165,7 +177,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 870.0, 990.0, 125.0, 22.0 ],
+					"patching_rect" : [ 870.0, 1035.0, 125.0, 22.0 ],
 					"text" : "scale -180. 180. -1. 1."
 				}
 
@@ -181,7 +193,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 825.0, 1230.0, 90.0, 118.0 ],
+					"patching_rect" : [ 825.0, 1275.0, 93.0, 118.0 ],
 					"text" : "ossia.parameter euler/z/norm @type float @range -1. 1. @clip both @mode GET @description \"Euler z angle (normalized).\"",
 					"varname" : "numChannels[11]"
 				}
@@ -194,7 +206,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 570.0, 990.0, 125.0, 22.0 ],
+					"patching_rect" : [ 570.0, 1035.0, 125.0, 22.0 ],
 					"text" : "scale -180. 180. -1. 1."
 				}
 
@@ -210,7 +222,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 540.0, 1230.0, 93.0, 118.0 ],
+					"patching_rect" : [ 540.0, 1275.0, 93.0, 118.0 ],
 					"text" : "ossia.parameter euler/y/norm @type float @range -1. 1. @clip both @mode GET @description \"Euler y angle (normalized).\"",
 					"varname" : "numChannels[59]"
 				}
@@ -227,7 +239,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 1230.0, 93.0, 118.0 ],
+					"patching_rect" : [ 240.0, 1275.0, 93.0, 118.0 ],
 					"text" : "ossia.parameter euler/x/norm @type float @range -1. 1. @clip both @mode GET @description \"Euler x angle (normalized).\"",
 					"varname" : "numChannels[63]"
 				}
@@ -240,7 +252,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 990.0, 125.0, 22.0 ],
+					"patching_rect" : [ 270.0, 1035.0, 125.0, 22.0 ],
 					"text" : "scale -180. 180. -1. 1."
 				}
 
@@ -252,7 +264,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 735.0, 1095.0, 48.0, 22.0 ],
+					"patching_rect" : [ 735.0, 1140.0, 48.0, 22.0 ],
 					"text" : "route 0"
 				}
 
@@ -264,7 +276,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 735.0, 1125.0, 34.0, 22.0 ],
+					"patching_rect" : [ 735.0, 1170.0, 34.0, 22.0 ],
 					"text" : "t 0 0"
 				}
 
@@ -280,7 +292,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 735.0, 990.0, 93.0, 94.0 ],
+					"patching_rect" : [ 735.0, 1035.0, 93.0, 94.0 ],
 					"text" : "ossia.parameter euler/z/active @type bool @mode SET @description \"Toggle Euler z readings.\"",
 					"varname" : "numChannels[64]"
 				}
@@ -293,7 +305,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 735.0, 1185.0, 92.0, 22.0 ],
+					"patching_rect" : [ 735.0, 1230.0, 92.0, 22.0 ],
 					"text" : "prepend enable"
 				}
 
@@ -305,7 +317,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 435.0, 1095.0, 48.0, 22.0 ],
+					"patching_rect" : [ 435.0, 1140.0, 48.0, 22.0 ],
 					"text" : "route 0"
 				}
 
@@ -317,7 +329,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 435.0, 1125.0, 34.0, 22.0 ],
+					"patching_rect" : [ 435.0, 1170.0, 34.0, 22.0 ],
 					"text" : "t 0 0"
 				}
 
@@ -333,7 +345,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 435.0, 990.0, 93.0, 94.0 ],
+					"patching_rect" : [ 435.0, 1035.0, 93.0, 94.0 ],
 					"text" : "ossia.parameter euler/y/active @type bool @mode SET @description \"Toggle Euler y readings.\"",
 					"varname" : "numChannels[65]"
 				}
@@ -346,7 +358,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.0, 1185.0, 92.0, 22.0 ],
+					"patching_rect" : [ 435.0, 1230.0, 92.0, 22.0 ],
 					"text" : "prepend enable"
 				}
 
@@ -358,7 +370,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 120.0, 1095.0, 48.0, 22.0 ],
+					"patching_rect" : [ 120.0, 1140.0, 48.0, 22.0 ],
 					"text" : "route 0"
 				}
 
@@ -370,7 +382,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 120.0, 1125.0, 34.0, 22.0 ],
+					"patching_rect" : [ 120.0, 1170.0, 34.0, 22.0 ],
 					"text" : "t 0 0"
 				}
 
@@ -386,7 +398,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 120.0, 990.0, 93.0, 94.0 ],
+					"patching_rect" : [ 120.0, 1035.0, 93.0, 94.0 ],
 					"text" : "ossia.parameter euler/x/active @type bool @mode SET @description \"Toggle Euler x readings.\"",
 					"varname" : "numChannels[66]"
 				}
@@ -399,7 +411,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 1185.0, 92.0, 22.0 ],
+					"patching_rect" : [ 120.0, 1230.0, 92.0, 22.0 ],
 					"text" : "prepend enable"
 				}
 
@@ -415,7 +427,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 720.0, 1230.0, 90.0, 118.0 ],
+					"patching_rect" : [ 720.0, 1275.0, 93.0, 118.0 ],
 					"text" : "ossia.parameter euler/z/raw @type float @range -180. 180. @clip free @mode GET @description \"Euler z angle (raw value).\"",
 					"varname" : "numChannels[67]"
 				}
@@ -432,7 +444,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 405.0, 1230.0, 90.0, 130.0 ],
+					"patching_rect" : [ 405.0, 1275.0, 93.0, 130.0 ],
 					"text" : "ossia.parameter euler/y/raw @mode get @type float @range -180. 180. @clip free @mode get @description \"Euler y angle (raw value).\"",
 					"varname" : "numChannels[68]"
 				}
@@ -449,7 +461,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 90.0, 1230.0, 90.0, 118.0 ],
+					"patching_rect" : [ 90.0, 1275.0, 93.0, 118.0 ],
 					"text" : "ossia.parameter euler/x/raw @type float @range -180. 180. @clip free @mode GET @description \"Euler x angle (raw value).\"",
 					"varname" : "numChannels[69]"
 				}
@@ -462,7 +474,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 90.0, 915.0, 66.0, 22.0 ],
+					"patching_rect" : [ 90.0, 960.0, 66.0, 22.0 ],
 					"text" : "route euler"
 				}
 
@@ -1102,7 +1114,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 150.0, 3075.0, 112.0, 94.0 ],
+					"patching_rect" : [ 150.0, 3075.0, 115.0, 94.0 ],
 					"text" : "ossia.parameter acc/pitch/offset @type float @range -1. 1. @clip wrap @description \"Offset for accelerometer pitch.\"",
 					"varname" : "numChannels[61]"
 				}
@@ -1700,8 +1712,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 555.0, 2085.0, 122.0, 118.0 ],
-					"text" : "ossia.parameter gyro/pitch/qom/norm @mode get @type float @range 0. 1. @clip both @description \"Gyroscope pitch quantity of motion (normalized).\"",
+					"patching_rect" : [ 555.0, 2085.0, 105.0, 118.0 ],
+					"text" : "ossia.parameter gyro/x/qom/norm @mode get @type float @range 0. 1. @clip both @description \"Gyroscope x quantity of motion (normalized).\"",
 					"varname" : "numChannels[39]"
 				}
 
@@ -1713,8 +1725,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 555.0, 2054.999878000000081, 152.0, 22.0 ],
-					"text" : "scale 0. 3996.036621 0. 1."
+					"patching_rect" : [ 555.0, 2054.999878000000081, 110.0, 22.0 ],
+					"text" : "scale 0. 4016. 0. 1."
 				}
 
 			}
@@ -1729,8 +1741,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 885.0, 2085.0, 112.0, 118.0 ],
-					"text" : "ossia.parameter gyro/roll/qom/norm @mode get @type float @range 0. 1. @clip both @description \"Gyroscope roll quantity of motion (normalized).\"",
+					"patching_rect" : [ 885.0, 2085.0, 105.0, 118.0 ],
+					"text" : "ossia.parameter gyro/y/qom/norm @mode get @type float @range 0. 1. @clip both @description \"Gyroscope y quantity of motion (normalized).\"",
 					"varname" : "numChannels[38]"
 				}
 
@@ -1742,8 +1754,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 885.0, 2055.0, 152.0, 22.0 ],
-					"text" : "scale 0. 3996.036621 0. 1."
+					"patching_rect" : [ 885.0, 2055.0, 110.0, 22.0 ],
+					"text" : "scale 0. 4016. 0. 1."
 				}
 
 			}
@@ -1758,8 +1770,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1245.0, 2085.0, 120.0, 118.0 ],
-					"text" : "ossia.parameter gyro/yaw/qom/norm @mode get @type float @range 0. 1. @clip both @description \"Gyroscope yaw quantity of motion (normalized).\"",
+					"patching_rect" : [ 1245.0, 2085.0, 105.0, 118.0 ],
+					"text" : "ossia.parameter gyro/z/qom/norm @mode get @type float @range 0. 1. @clip both @description \"Gyroscope z quantity of motion (normalized).\"",
 					"varname" : "numChannels[37]"
 				}
 
@@ -1771,8 +1783,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1245.0, 2055.0, 152.0, 22.0 ],
-					"text" : "scale 0. 3996.036621 0. 1."
+					"patching_rect" : [ 1245.0, 2055.0, 110.0, 22.0 ],
+					"text" : "scale 0. 4016. 0. 1."
 				}
 
 			}
@@ -1932,7 +1944,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 840.0, 570.0, 105.0, 118.0 ],
+					"patching_rect" : [ 840.0, 570.0, 111.0, 118.0 ],
 					"text" : "ossia.parameter gyro/z/norm @mode get @type float @range -1. 1. @clip both @description \"Gyroscopex axis in °/s (normalized value).\"",
 					"varname" : "numChannels[30]"
 				}
@@ -1961,7 +1973,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 555.0, 570.0, 105.0, 118.0 ],
+					"patching_rect" : [ 555.0, 570.0, 108.0, 118.0 ],
 					"text" : "ossia.parameter gyro/y/norm @mode get @type float @range -1. 1. @clip both @description \"Gyroscope x axis in °/s (normalized value).\"",
 					"varname" : "numChannels[31]"
 				}
@@ -1978,7 +1990,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 570.0, 105.0, 118.0 ],
+					"patching_rect" : [ 240.0, 570.0, 108.0, 118.0 ],
 					"text" : "ossia.parameter gyro/x/norm @mode get @type float @range -1. 1. @clip both @description \"Gyroscope x axis in °/s (normalized value).\"",
 					"varname" : "numChannels[29]"
 				}
@@ -2106,7 +2118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2355.0, 2325.0, 116.0, 81.0 ],
+					"patching_rect" : [ 2355.0, 2325.0, 123.0, 81.0 ],
 					"text" : "ossia.parameter mag/qom @mode get @type float @clip free @description \"Magnetometer total quantity of motion.\"",
 					"varname" : "numChannels[22]"
 				}
@@ -2470,13 +2482,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-181",
-					"linecount" : 8,
+					"linecount" : 9,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1095.0, 2085.0, 108.0, 106.0 ],
-					"text" : "ossia.parameter gyro/yaw/qom/raw @mode get @type float @clip free @description \"Gyroscope yaw quantity of motion.\"",
+					"patching_rect" : [ 1095.0, 2085.0, 94.0, 118.0 ],
+					"text" : "ossia.parameter gyro/z/qom/raw @mode get @type float @clip free @description \"Gyroscope z quantity of motion.\"",
 					"varname" : "numChannels[12]"
 				}
 
@@ -2493,7 +2505,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 750.0, 2085.0, 105.0, 106.0 ],
-					"text" : "ossia.parameter gyro/roll/qom/raw @mode get @type float @clip free @description \"Gyroscope roll quantity of motion.\"",
+					"text" : "ossia.parameter gyro/y/qom/raw @mode get @type float @clip free @description \"Gyroscope y quantity of motion.\"",
 					"varname" : "numChannels[13]"
 				}
 
@@ -2504,13 +2516,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-183",
-					"linecount" : 7,
+					"linecount" : 8,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 420.0, 2085.0, 120.0, 94.0 ],
-					"text" : "ossia.parameter gyro/pitch/qom/raw @mode get @type float @clip free @description \"Gyroscope pitch quantity of motion.\"",
+					"patching_rect" : [ 420.0, 2085.0, 105.0, 106.0 ],
+					"text" : "ossia.parameter gyro/x/qom/raw @mode get @type float @clip free @description \"Gyroscope x axis quantity of motion.\"",
 					"varname" : "numChannels[14]"
 				}
 
@@ -2582,8 +2594,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1065.0, 1965.0, 151.0, 22.0 ],
-					"text" : "ossia.remote gyro/yaw/raw"
+					"patching_rect" : [ 1065.0, 1965.0, 136.0, 22.0 ],
+					"text" : "ossia.remote gyro/z/raw"
 				}
 
 			}
@@ -2594,8 +2606,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 720.0, 1965.0, 146.0, 22.0 ],
-					"text" : "ossia.remote gyro/roll/raw"
+					"patching_rect" : [ 720.0, 1965.0, 136.0, 22.0 ],
+					"text" : "ossia.remote gyro/y/raw"
 				}
 
 			}
@@ -2606,8 +2618,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 390.0, 1965.0, 155.0, 22.0 ],
-					"text" : "ossia.remote gyro/pitch/raw"
+					"patching_rect" : [ 390.0, 1965.0, 136.0, 22.0 ],
+					"text" : "ossia.remote gyro/x/raw"
 				}
 
 			}
@@ -3251,7 +3263,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 90.0, 795.0, 109.0, 94.0 ],
+					"patching_rect" : [ 90.0, 810.0, 109.0, 94.0 ],
 					"text" : "ossia.parameter battery/percentage @mode get @type float @clip free @description \"Battery level in %.\"",
 					"varname" : "numChannels[10]"
 				}
@@ -3307,7 +3319,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3355,12 +3367,12 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-18",
-					"linecount" : 9,
+					"linecount" : 8,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 720.0, 570.0, 105.0, 118.0 ],
+					"patching_rect" : [ 720.0, 570.0, 109.0, 106.0 ],
 					"text" : "ossia.parameter gyro/z/raw @mode get @type float @range -2008. 2008. @clip free @description \"Gyroscope z axis in °/s (raw value).\"",
 					"varname" : "numChannels[3]"
 				}
@@ -3406,12 +3418,12 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-15",
-					"linecount" : 9,
+					"linecount" : 8,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 405.0, 570.0, 105.0, 118.0 ],
+					"patching_rect" : [ 405.0, 570.0, 109.0, 106.0 ],
 					"text" : "ossia.parameter gyro/y/raw @mode get @type float @range -2008. 2008. @clip free @description \"Gyroscope y axis in °/s (raw value).\"",
 					"varname" : "numChannels[4]"
 				}
@@ -3474,12 +3486,12 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-9",
-					"linecount" : 9,
+					"linecount" : 8,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 90.0, 570.0, 105.0, 118.0 ],
+					"patching_rect" : [ 90.0, 570.0, 109.0, 106.0 ],
 					"text" : "ossia.parameter gyro/x/raw @mode get @type float @range -2008. 2008. @clip free @description \"Gyroscope x axis in °/s (raw value).\"",
 					"varname" : "numChannels[5]"
 				}
@@ -3513,7 +3525,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-117", 0 ],
-					"midpoints" : [ 54.5, 900.0, 99.5, 900.0 ],
+					"midpoints" : [ 54.5, 947.0, 99.5, 947.0 ],
 					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -3826,7 +3838,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-147", 0 ],
-					"midpoints" : [ 879.5, 1217.0, 834.5, 1217.0 ],
+					"midpoints" : [ 879.5, 1262.0, 834.5, 1262.0 ],
 					"source" : [ "obj-135", 0 ]
 				}
 
@@ -3917,7 +3929,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-149", 0 ],
-					"midpoints" : [ 579.5, 1217.0, 549.5, 1217.0 ],
+					"midpoints" : [ 579.5, 1262.0, 549.5, 1262.0 ],
 					"source" : [ "obj-148", 0 ]
 				}
 
@@ -3925,7 +3937,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-150", 0 ],
-					"midpoints" : [ 279.5, 1217.0, 249.5, 1217.0 ],
+					"midpoints" : [ 279.5, 1262.0, 249.5, 1262.0 ],
 					"source" : [ "obj-151", 0 ]
 				}
 
@@ -3940,7 +3952,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-156", 0 ],
-					"midpoints" : [ 773.5, 1170.0, 744.5, 1170.0 ],
+					"midpoints" : [ 773.5, 1215.0, 744.5, 1215.0 ],
 					"source" : [ "obj-152", 1 ]
 				}
 
@@ -3948,7 +3960,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-147", 0 ],
-					"midpoints" : [ 759.5, 1158.0, 834.5, 1158.0 ],
+					"midpoints" : [ 759.5, 1203.0, 834.5, 1203.0 ],
 					"order" : 0,
 					"source" : [ "obj-153", 1 ]
 				}
@@ -3964,7 +3976,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-176", 0 ],
-					"midpoints" : [ 759.5, 1158.0, 729.5, 1158.0 ],
+					"midpoints" : [ 759.5, 1203.0, 729.5, 1203.0 ],
 					"order" : 1,
 					"source" : [ "obj-153", 1 ]
 				}
@@ -3988,7 +4000,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-147", 0 ],
-					"midpoints" : [ 744.5, 1218.0, 834.5, 1218.0 ],
+					"midpoints" : [ 744.5, 1263.0, 834.5, 1263.0 ],
 					"order" : 0,
 					"source" : [ "obj-156", 0 ]
 				}
@@ -3997,7 +4009,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-176", 0 ],
-					"midpoints" : [ 744.5, 1218.0, 729.5, 1218.0 ],
+					"midpoints" : [ 744.5, 1263.0, 729.5, 1263.0 ],
 					"order" : 1,
 					"source" : [ "obj-156", 0 ]
 				}
@@ -4013,7 +4025,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-162", 0 ],
-					"midpoints" : [ 473.5, 1170.0, 444.5, 1170.0 ],
+					"midpoints" : [ 473.5, 1215.0, 444.5, 1215.0 ],
 					"source" : [ "obj-157", 1 ]
 				}
 
@@ -4021,7 +4033,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-149", 0 ],
-					"midpoints" : [ 459.5, 1158.0, 549.5, 1158.0 ],
+					"midpoints" : [ 459.5, 1203.0, 549.5, 1203.0 ],
 					"order" : 0,
 					"source" : [ "obj-158", 1 ]
 				}
@@ -4037,7 +4049,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-177", 0 ],
-					"midpoints" : [ 459.5, 1158.0, 414.5, 1158.0 ],
+					"midpoints" : [ 459.5, 1203.0, 414.5, 1203.0 ],
 					"order" : 1,
 					"source" : [ "obj-158", 1 ]
 				}
@@ -4060,7 +4072,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-149", 0 ],
-					"midpoints" : [ 444.5, 1218.0, 549.5, 1218.0 ],
+					"midpoints" : [ 444.5, 1263.0, 549.5, 1263.0 ],
 					"order" : 0,
 					"source" : [ "obj-162", 0 ]
 				}
@@ -4069,7 +4081,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-177", 0 ],
-					"midpoints" : [ 444.5, 1218.0, 414.5, 1218.0 ],
+					"midpoints" : [ 444.5, 1263.0, 414.5, 1263.0 ],
 					"order" : 1,
 					"source" : [ "obj-162", 0 ]
 				}
@@ -4092,7 +4104,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-170", 0 ],
-					"midpoints" : [ 158.5, 1170.0, 129.5, 1170.0 ],
+					"midpoints" : [ 158.5, 1215.0, 129.5, 1215.0 ],
 					"source" : [ "obj-164", 1 ]
 				}
 
@@ -4100,7 +4112,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-150", 0 ],
-					"midpoints" : [ 144.5, 1158.0, 249.5, 1158.0 ],
+					"midpoints" : [ 144.5, 1203.0, 249.5, 1203.0 ],
 					"order" : 0,
 					"source" : [ "obj-166", 1 ]
 				}
@@ -4116,7 +4128,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-184", 0 ],
-					"midpoints" : [ 144.5, 1158.0, 99.5, 1158.0 ],
+					"midpoints" : [ 144.5, 1203.0, 99.5, 1203.0 ],
 					"order" : 1,
 					"source" : [ "obj-166", 1 ]
 				}
@@ -4149,7 +4161,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-174", 0 ],
-					"midpoints" : [ 467.5, 1998.0, 399.5, 1998.0 ],
+					"midpoints" : [ 458.0, 1998.0, 399.5, 1998.0 ],
 					"order" : 1,
 					"source" : [ "obj-169", 1 ]
 				}
@@ -4158,7 +4170,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-178", 0 ],
-					"midpoints" : [ 467.5, 1998.0, 429.5, 1998.0 ],
+					"midpoints" : [ 458.0, 1998.0, 429.5, 1998.0 ],
 					"order" : 0,
 					"source" : [ "obj-169", 1 ]
 				}
@@ -4167,7 +4179,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-150", 0 ],
-					"midpoints" : [ 129.5, 1218.0, 249.5, 1218.0 ],
+					"midpoints" : [ 129.5, 1263.0, 249.5, 1263.0 ],
 					"order" : 0,
 					"source" : [ "obj-170", 0 ]
 				}
@@ -4176,7 +4188,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-184", 0 ],
-					"midpoints" : [ 129.5, 1218.0, 99.5, 1218.0 ],
+					"midpoints" : [ 129.5, 1263.0, 99.5, 1263.0 ],
 					"order" : 1,
 					"source" : [ "obj-170", 0 ]
 				}
@@ -4185,7 +4197,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-174", 1 ],
-					"midpoints" : [ 793.0, 1998.0, 735.0, 1998.0 ],
+					"midpoints" : [ 788.0, 1998.0, 735.0, 1998.0 ],
 					"order" : 1,
 					"source" : [ "obj-172", 1 ]
 				}
@@ -4194,7 +4206,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-179", 0 ],
-					"midpoints" : [ 793.0, 1998.0, 759.5, 1998.0 ],
+					"midpoints" : [ 788.0, 1998.0, 759.5, 1998.0 ],
 					"order" : 0,
 					"source" : [ "obj-172", 1 ]
 				}
@@ -4203,7 +4215,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-174", 2 ],
-					"midpoints" : [ 1140.5, 1998.0, 1070.5, 1998.0 ],
+					"midpoints" : [ 1133.0, 1998.0, 1070.5, 1998.0 ],
 					"order" : 1,
 					"source" : [ "obj-173", 1 ]
 				}
@@ -4212,7 +4224,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-180", 0 ],
-					"midpoints" : [ 1140.5, 1998.0, 1104.5, 1998.0 ],
+					"midpoints" : [ 1133.0, 1998.0, 1104.5, 1998.0 ],
 					"order" : 0,
 					"source" : [ "obj-173", 1 ]
 				}
@@ -4286,7 +4298,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-135", 0 ],
-					"midpoints" : [ 725.5, 977.899999886751175, 879.5, 977.899999886751175 ],
+					"midpoints" : [ 725.5, 1022.899999886751175, 879.5, 1022.899999886751175 ],
 					"order" : 0,
 					"source" : [ "obj-185", 2 ]
 				}
@@ -4295,7 +4307,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-148", 0 ],
-					"midpoints" : [ 412.5, 977.899999886751175, 579.5, 977.899999886751175 ],
+					"midpoints" : [ 412.5, 1022.899999886751175, 579.5, 1022.899999886751175 ],
 					"order" : 0,
 					"source" : [ "obj-185", 1 ]
 				}
@@ -4304,7 +4316,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-151", 0 ],
-					"midpoints" : [ 99.5, 977.899999886751175, 279.5, 977.899999886751175 ],
+					"midpoints" : [ 99.5, 1022.899999886751175, 279.5, 1022.899999886751175 ],
 					"order" : 0,
 					"source" : [ "obj-185", 0 ]
 				}
@@ -4313,7 +4325,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-176", 0 ],
-					"midpoints" : [ 725.5, 1097.900030386751041, 729.5, 1097.900030386751041 ],
+					"midpoints" : [ 725.5, 1142.900030386751041, 729.5, 1142.900030386751041 ],
 					"order" : 1,
 					"source" : [ "obj-185", 2 ]
 				}
@@ -4322,7 +4334,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-177", 0 ],
-					"midpoints" : [ 412.5, 1097.899999886751175, 414.5, 1097.899999886751175 ],
+					"midpoints" : [ 412.5, 1142.899999886751175, 414.5, 1142.899999886751175 ],
 					"order" : 1,
 					"source" : [ "obj-185", 1 ]
 				}
@@ -5296,7 +5308,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
+					"destination" : [ "obj-70", 0 ],
 					"midpoints" : [ 99.5, 783.0, 99.5, 783.0 ],
 					"source" : [ "obj-52", 0 ]
 				}
@@ -5471,6 +5483,13 @@
 					"destination" : [ "obj-21", 0 ],
 					"midpoints" : [ 1179.5, 558.0, 1164.5, 558.0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-70", 0 ]
 				}
 
 			}
@@ -5778,34 +5797,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "qom.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/utilities",
-				"patcherrelativepath" : "../../utilities",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "delta.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/utilities",
-				"patcherrelativepath" : "../../utilities",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

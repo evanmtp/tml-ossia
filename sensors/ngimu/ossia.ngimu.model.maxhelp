@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 294.0, 215.0, 811.0, 710.0 ],
+		"rect" : [ 376.0, -1001.0, 811.0, 710.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 294.0, 241.0, 811.0, 684.0 ],
+						"rect" : [ 376.0, -975.0, 811.0, 684.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -159,7 +159,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 90.0, 465.0, 22.0 ],
-									"text" : "Acquire sensor data from an x-OSC. Only reports IMU data."
+									"text" : "Acquire sensor data from an NGIMU. Only reports IMU data."
 								}
 
 							}
@@ -172,7 +172,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 15.0, 550.0, 64.0 ],
-									"text" : "ossia.xosc_imu.model"
+									"text" : "ossia.ngimu.model"
 								}
 
 							}
@@ -1628,7 +1628,7 @@
 , 							{
 								"box" : 								{
 									"annotation" : "none",
-									"args" : [ "xosc_imu1" ],
+									"args" : [ "ngimu_1" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -1637,7 +1637,7 @@
 									"id" : "obj-2",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.xosc_imu.view.maxpat",
+									"name" : "ossia.ngimu.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
@@ -1655,8 +1655,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 285.0, 187.0, 22.0 ],
-									"text" : "ossia.xosc_imu.model xosc_imu1"
+									"patching_rect" : [ 15.0, 285.0, 158.0, 22.0 ],
+									"text" : "ossia.ngimu.model ngimu_1"
 								}
 
 							}
@@ -1693,13 +1693,9 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -1710,7 +1706,11 @@
 										"autogradient" : 0
 									}
 ,
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1858,8 +1858,8 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "ossia.xosc_imu.model.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/sensors/xosc_imu",
+				"name" : "ossia.ngimu.model.maxpat",
+				"bootpath" : "~/Documents/Github/tml-ossia/sensors/ngimu",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1879,8 +1879,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ossia.xosc_imu.view.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/sensors/xosc_imu",
+				"name" : "ossia.ngimu.view.maxpat",
+				"bootpath" : "~/Documents/Github/tml-ossia/sensors/ngimu",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1891,10 +1891,6 @@
 			}
 , 			{
 				"name" : "ossia.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.oscroute.mxo",
 				"type" : "iLaX"
 			}
 , 			{
