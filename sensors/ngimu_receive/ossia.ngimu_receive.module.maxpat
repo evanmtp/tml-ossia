@@ -50,7 +50,7 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "ossia.ngimu.view.maxpat",
+					"name" : "ossia.ngimu_receive.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -72,8 +72,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 150.0, 125.0, 22.0 ],
-					"text" : "ossia.ngimu.model #1",
+					"patching_rect" : [ 15.0, 150.0, 171.0, 22.0 ],
+					"text" : "ossia.ngimu_receive.model #1",
 					"varname" : "ossia.model #1"
 				}
 
@@ -134,8 +134,8 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "ossia.ngimu.model.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/sensors/ngimu",
+				"name" : "ossia.ngimu_receive.model.maxpat",
+				"bootpath" : "~/Documents/Github/tml-ossia/sensors/ngimu_receive",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -155,8 +155,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ossia.ngimu.view.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/sensors/ngimu",
+				"name" : "ossia.ngimu_receive.view.maxpat",
+				"bootpath" : "~/Documents/Github/tml-ossia/sensors/ngimu_receive",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

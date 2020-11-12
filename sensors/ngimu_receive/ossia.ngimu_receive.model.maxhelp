@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 913.0, -496.0, 811.0, 710.0 ],
+		"rect" : [ 302.0, -963.0, 811.0, 710.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 913.0, -470.0, 811.0, 684.0 ],
+						"rect" : [ 302.0, -937.0, 811.0, 684.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -159,7 +159,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 90.0, 465.0, 22.0 ],
-									"text" : "Acquire sensor data from an NGIMU. Only reports IMU data."
+									"text" : "Receive sensor data from an NGIMU over the network. Only reports IMU data."
 								}
 
 							}
@@ -605,7 +605,7 @@
 									"id" : "obj-2",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.ngimu.view.maxpat",
+									"name" : "ossia.ngimu_receive.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
@@ -623,8 +623,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 285.0, 158.0, 22.0 ],
-									"text" : "ossia.ngimu.model ngimu_1"
+									"patching_rect" : [ 15.0, 285.0, 203.0, 22.0 ],
+									"text" : "ossia.ngimu_receive.model ngimu_1"
 								}
 
 							}
@@ -834,8 +834,8 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "ossia.ngimu.model.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/sensors/ngimu",
+				"name" : "ossia.ngimu_receive.model.maxpat",
+				"bootpath" : "~/Documents/Github/tml-ossia/sensors/ngimu_receive",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -855,8 +855,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ossia.ngimu.view.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/sensors/ngimu",
+				"name" : "ossia.ngimu_receive.view.maxpat",
+				"bootpath" : "~/Documents/Github/tml-ossia/sensors/ngimu_receive",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

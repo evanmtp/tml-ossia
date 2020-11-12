@@ -580,34 +580,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1320.0, 195.0, 180.0, 22.0 ],
-					"text" : "udpsend 255.255.255.255 9000"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-20",
-					"linecount" : 7,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1320.0, 45.0, 93.0, 94.0 ],
-					"text" : "ossia.parameter sendosc @type list @mode SET @description \"Send OSC commands to NGIMU.\"",
-					"varname" : "numChannels[70]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-185",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -4956,13 +4928,6 @@
 					"destination" : [ "obj-72", 0 ],
 					"midpoints" : [ 1554.5, 2328.0, 1554.5, 2328.0 ],
 					"source" : [ "obj-199", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-20", 0 ]
 				}
 
 			}
