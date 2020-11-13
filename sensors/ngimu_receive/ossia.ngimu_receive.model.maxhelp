@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -101,7 +101,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -186,7 +186,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 315.0, 180.0, 194.0, 198.0 ],
+									"patching_rect" : [ 315.0, 180.0, 196.0, 198.0 ],
 									"text" : "Set the port to receive data on inside the [+] pop-out window. This window also shows the NGIMU's temperature and battery level.\n\nThe \"rates\" button opens a menu that allows you to set the rate at which the NGIMU sends each type of measurement message out over the network. Note that this has no effect on the sample rates, which are fixed on the device."
 								}
 
@@ -226,7 +226,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -462,7 +462,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.0, 255.0, 166.0, 60.0 ],
+									"patching_rect" : [ 330.0, 255.0, 169.0, 60.0 ],
 									"text" : "Click on the multisliders to preview sensor data. Preview state does not affect capture/output."
 								}
 
@@ -497,8 +497,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.0, 600.0, 162.0, 22.0 ],
-									"text" : "ossia.ngimu.model ngimu_r1"
+									"patching_rect" : [ 165.0, 600.0, 207.0, 22.0 ],
+									"text" : "ossia.ngimu_receive.model ngimu_r1"
 								}
 
 							}
@@ -535,8 +535,7 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
-									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -548,11 +547,12 @@
 										"autogradient" : 0
 									}
 ,
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -596,7 +596,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -951,29 +951,29 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "ossia.ngimu.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/sensors/ngimu",
-				"patcherrelativepath" : "../ngimu",
+				"name" : "ossia.ngimu_receive.model.maxpat",
+				"bootpath" : "~/Documents/Github/tml-ossia/sensors/ngimu_receive",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "qom.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities",
 				"patcherrelativepath" : "../../utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delta.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities",
 				"patcherrelativepath" : "../../utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.ngimu_receive.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/sensors/ngimu_receive",
+				"bootpath" : "~/Documents/Github/tml-ossia/sensors/ngimu_receive",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 238.0, 105.0, 561.0, 548.0 ],
+		"rect" : [ 238.0, 282.0, 561.0, 371.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -3244,7 +3244,7 @@
 					"presentation_rect" : [ 174.0, 2.0, 60.666671999999998, 15.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"slidercolor" : [ 0.0, 1.0, 0.0, 1.0 ]
+					"slidercolor" : [ 1.0, 0.5, 0.0, 1.0 ]
 				}
 
 			}
@@ -3413,7 +3413,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"openrect" : [ 30.0, 30.0, 195.0, 209.999999701976776 ],
+						"openrect" : [ 30.0, 30.0, 195.0, 405.999999701976776 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -3443,16 +3443,121 @@
 						"showontab" : 0,
 						"assistshowspatchername" : 0,
 						"title" : "/xosc_imu(view)",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-42",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 90.0, 285.0, 140.0, 22.0 ],
+									"text" : "ossia.remote wifi/send/ip"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-49",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 450.0, 885.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 330.0, 150.0, 20.0 ],
+									"text" : "wifi mode"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-47",
+									"maxclass" : "live.tab",
+									"num_lines_patching" : 1,
+									"num_lines_presentation" : 1,
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "float" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 450.0, 915.0, 100.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 360.0, 150.0, 20.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_enum" : [ "AP", "client" ],
+											"parameter_longname" : "live.tab[1]",
+											"parameter_mmax" : 1,
+											"parameter_shortname" : "live.tab",
+											"parameter_type" : 2,
+											"parameter_unitstyle" : 9
+										}
+
+									}
+,
+									"varname" : "live.tab"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-44",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 450.0, 945.0, 110.0, 22.0 ],
+									"text" : "prepend /wifi/mode"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-41",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 450.0, 975.0, 161.0, 22.0 ],
+									"text" : "ossia.remote sendosc/global"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"id" : "obj-37",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 405.0, 240.0, 162.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 105.0, 162.0, 20.0 ],
+									"text" : "destination address"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"id" : "obj-33",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 90.0, 240.0, 160.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 15.0, 160.0, 20.0 ],
+									"text" : "sensor address"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-21",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 420.0, 345.0, 131.0, 22.0 ],
-									"text" : "ossia.remote send/port"
+									"patching_rect" : [ 420.0, 525.0, 165.0, 22.0 ],
+									"text" : "ossia.remote wifi/forward/port"
 								}
 
 							}
@@ -3462,9 +3567,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 345.0, 135.0, 45.0, 20.0 ],
+									"patching_rect" : [ 345.0, 315.0, 45.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 150.0, 45.0, 20.0 ],
+									"presentation_rect" : [ 15.0, 135.0, 45.0, 20.0 ],
 									"text" : "ip"
 								}
 
@@ -3476,7 +3581,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 420.0, 180.0, 61.0, 22.0 ],
+									"patching_rect" : [ 420.0, 360.0, 61.0, 22.0 ],
 									"text" : "route text"
 								}
 
@@ -3490,9 +3595,9 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 420.0, 135.0, 165.0, 35.0 ],
+									"patching_rect" : [ 420.0, 315.0, 165.0, 35.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 75.0, 150.0, 105.0, 22.0 ],
+									"presentation_rect" : [ 75.0, 135.0, 105.0, 22.0 ],
 									"tabmode" : 0,
 									"text" : "192.168.1.3"
 								}
@@ -3505,8 +3610,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 420.0, 210.0, 119.0, 22.0 ],
-									"text" : "ossia.remote send/ip"
+									"patching_rect" : [ 420.0, 285.0, 154.0, 22.0 ],
+									"text" : "ossia.remote wifi/forward/ip"
 								}
 
 							}
@@ -3516,9 +3621,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 345.0, 315.0, 45.0, 20.0 ],
+									"patching_rect" : [ 345.0, 495.0, 45.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 180.0, 45.0, 20.0 ],
+									"presentation_rect" : [ 15.0, 165.0, 45.0, 20.0 ],
 									"text" : "port"
 								}
 
@@ -3532,9 +3637,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 420.0, 315.0, 50.0, 22.0 ],
+									"patching_rect" : [ 420.0, 495.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 75.0, 180.0, 75.0, 22.0 ]
+									"presentation_rect" : [ 75.0, 165.0, 75.0, 22.0 ]
 								}
 
 							}
@@ -3546,9 +3651,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 165.0, 915.0, 44.0, 15.0 ],
+									"patching_rect" : [ 165.0, 885.0, 44.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 75.0, 314.488636363636374, 45.0, 16.022727272727252 ],
+									"presentation_rect" : [ 90.0, 299.488636363636374, 75.0, 16.022727272727252 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
@@ -3573,7 +3678,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.0, 975.0, 52.0, 22.0 ],
+									"patching_rect" : [ 165.0, 945.0, 52.0, 22.0 ],
 									"text" : "/unmute"
 								}
 
@@ -3585,7 +3690,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 225.0, 975.0, 39.0, 22.0 ],
+									"patching_rect" : [ 225.0, 945.0, 39.0, 22.0 ],
 									"text" : "/mute"
 								}
 
@@ -3597,7 +3702,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
-									"patching_rect" : [ 165.0, 945.0, 150.0, 22.0 ],
+									"patching_rect" : [ 165.0, 915.0, 150.0, 22.0 ],
 									"text" : "sel 0 1"
 								}
 
@@ -3609,7 +3714,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 90.0, 975.0, 50.0, 22.0 ],
+									"patching_rect" : [ 90.0, 945.0, 50.0, 22.0 ],
 									"text" : "/identify"
 								}
 
@@ -3623,9 +3728,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 90.0, 945.0, 44.0, 15.0 ],
+									"patching_rect" : [ 90.0, 915.0, 44.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 314.488636363636374, 45.0, 16.022727272727252 ],
+									"presentation_rect" : [ 15.0, 299.488636363636374, 75.0, 16.022727272727252 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
@@ -3649,9 +3754,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 360.0, 870.0, 45.0, 33.0 ],
+									"patching_rect" : [ 360.0, 840.0, 45.0, 33.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 120.0, 240.0, 75.0, 20.0 ],
+									"presentation_rect" : [ 120.0, 225.0, 75.0, 20.0 ],
 									"text" : "time (min)"
 								}
 
@@ -3662,9 +3767,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 150.0, 870.0, 19.0, 20.0 ],
+									"patching_rect" : [ 150.0, 840.0, 19.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 150.0, 210.0, 19.0, 20.0 ],
+									"presentation_rect" : [ 150.0, 195.0, 19.0, 20.0 ],
 									"text" : "%"
 								}
 
@@ -3676,7 +3781,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 300.0, 840.0, 89.0, 22.0 ],
+									"patching_rect" : [ 300.0, 810.0, 89.0, 22.0 ],
 									"text" : "speedlim 1000"
 								}
 
@@ -3691,9 +3796,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 300.0, 870.0, 50.0, 22.0 ],
+									"patching_rect" : [ 300.0, 840.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 75.0, 240.0, 45.0, 22.0 ],
+									"presentation_rect" : [ 75.0, 225.0, 45.0, 22.0 ],
 									"triscale" : 0.0
 								}
 
@@ -3705,7 +3810,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 300.0, 810.0, 143.0, 22.0 ],
+									"patching_rect" : [ 300.0, 780.0, 143.0, 22.0 ],
 									"text" : "ossia.remote battery/time"
 								}
 
@@ -3717,33 +3822,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 90.0, 1020.0, 125.0, 22.0 ],
-									"text" : "ossia.remote sendosc"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-20",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 90.0, 360.0, 135.0, 22.0 ],
-									"text" : "prepend /wifi/send/port"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-18",
-									"linecount" : 2,
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 90.0, 390.0, 81.0, 35.0 ],
-									"text" : "ossia.remote sendosc"
+									"patching_rect" : [ 90.0, 990.0, 158.0, 22.0 ],
+									"text" : "ossia.remote sendosc/direct"
 								}
 
 							}
@@ -3753,9 +3833,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 135.0, 45.0, 20.0 ],
+									"patching_rect" : [ 15.0, 315.0, 45.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 60.0, 45.0, 20.0 ],
+									"presentation_rect" : [ 15.0, 45.0, 45.0, 20.0 ],
 									"text" : "ip"
 								}
 
@@ -3767,7 +3847,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 90.0, 180.0, 61.0, 22.0 ],
+									"patching_rect" : [ 90.0, 360.0, 61.0, 22.0 ],
 									"text" : "route text"
 								}
 
@@ -3781,35 +3861,11 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 90.0, 135.0, 165.0, 35.0 ],
+									"patching_rect" : [ 90.0, 315.0, 165.0, 35.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 75.0, 60.0, 105.0, 22.0 ],
+									"presentation_rect" : [ 75.0, 45.0, 105.0, 22.0 ],
 									"tabmode" : 0,
 									"text" : "192.168.1.4"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-14",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 90.0, 210.0, 119.0, 22.0 ],
-									"text" : "prepend /wifi/send/ip"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-13",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 90.0, 240.0, 125.0, 22.0 ],
-									"text" : "ossia.remote sendosc"
 								}
 
 							}
@@ -3845,7 +3901,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 90.0, 690.0, 89.0, 22.0 ],
+									"patching_rect" : [ 90.0, 660.0, 89.0, 22.0 ],
 									"text" : "speedlim 1000"
 								}
 
@@ -3857,7 +3913,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 90.0, 840.0, 89.0, 22.0 ],
+									"patching_rect" : [ 90.0, 810.0, 89.0, 22.0 ],
 									"text" : "speedlim 1000"
 								}
 
@@ -3868,9 +3924,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 870.0, 45.0, 20.0 ],
+									"patching_rect" : [ 15.0, 840.0, 45.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 210.0, 45.0, 20.0 ],
+									"presentation_rect" : [ 15.0, 195.0, 45.0, 20.0 ],
 									"text" : "battery"
 								}
 
@@ -3885,9 +3941,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 90.0, 870.0, 50.0, 22.0 ],
+									"patching_rect" : [ 90.0, 840.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 75.0, 210.0, 75.0, 22.0 ],
+									"presentation_rect" : [ 75.0, 195.0, 75.0, 22.0 ],
 									"triscale" : 0.0
 								}
 
@@ -3899,7 +3955,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 90.0, 810.0, 181.0, 22.0 ],
+									"patching_rect" : [ 90.0, 780.0, 181.0, 22.0 ],
 									"text" : "ossia.remote battery/percentage"
 								}
 
@@ -3913,9 +3969,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 225.0, 690.0, 30.0, 15.0 ],
+									"patching_rect" : [ 420.0, 615.0, 30.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 270.0, 45.0, 22.0 ],
+									"presentation_rect" : [ 15.0, 255.0, 45.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
@@ -3940,7 +3996,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 225.0, 720.0, 236.0, 22.0 ],
+									"patching_rect" : [ 420.0, 645.0, 236.0, 22.0 ],
 									"text" : "ossia.remote temperature/processor/active"
 								}
 
@@ -3951,7 +4007,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 720.0, 45.0, 20.0 ],
+									"patching_rect" : [ 15.0, 690.0, 45.0, 20.0 ],
 									"text" : "temp"
 								}
 
@@ -3966,9 +4022,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 90.0, 720.0, 50.0, 22.0 ],
+									"patching_rect" : [ 90.0, 690.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 75.0, 270.0, 75.0, 22.0 ],
+									"presentation_rect" : [ 75.0, 255.0, 75.0, 22.0 ],
 									"triscale" : 0.0
 								}
 
@@ -3980,7 +4036,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 90.0, 660.0, 201.0, 22.0 ],
+									"patching_rect" : [ 90.0, 630.0, 201.0, 22.0 ],
 									"text" : "ossia.remote temperature/processor"
 								}
 
@@ -3992,7 +4048,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 90.0, 285.0, 114.0, 22.0 ],
+									"patching_rect" : [ 90.0, 465.0, 114.0, 22.0 ],
 									"text" : "ossia.remote port/in"
 								}
 
@@ -4003,9 +4059,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 330.0, 45.0, 20.0 ],
+									"patching_rect" : [ 15.0, 510.0, 45.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 90.0, 45.0, 20.0 ],
+									"presentation_rect" : [ 15.0, 75.0, 45.0, 20.0 ],
 									"text" : "port"
 								}
 
@@ -4019,9 +4075,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 90.0, 315.0, 50.0, 22.0 ],
+									"patching_rect" : [ 90.0, 495.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 75.0, 90.0, 75.0, 22.0 ]
+									"presentation_rect" : [ 75.0, 75.0, 75.0, 22.0 ]
 								}
 
 							}
@@ -4042,7 +4098,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
-									"midpoints" : [ 99.5, 309.0, 99.5, 309.0 ],
+									"midpoints" : [ 99.5, 489.0, 99.5, 489.0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -4063,14 +4119,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
-									"source" : [ "obj-14", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-14", 0 ],
+									"destination" : [ "obj-42", 0 ],
+									"midpoints" : [ 99.5, 384.0, 75.0, 384.0, 75.0, 279.0, 99.5, 279.0 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -4092,7 +4142,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-196", 0 ],
-									"midpoints" : [ 234.5, 708.0, 234.5, 708.0 ],
+									"midpoints" : [ 429.5, 633.0, 429.5, 633.0 ],
 									"source" : [ "obj-195", 0 ]
 								}
 
@@ -4100,7 +4150,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-195", 0 ],
-									"midpoints" : [ 234.5, 744.0, 210.0, 744.0, 210.0, 687.0, 234.5, 687.0 ],
+									"midpoints" : [ 429.5, 669.0, 405.0, 669.0, 405.0, 612.0, 429.5, 612.0 ],
 									"source" : [ "obj-196", 0 ]
 								}
 
@@ -4114,15 +4164,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"source" : [ "obj-20", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-40", 0 ],
-									"midpoints" : [ 429.5, 369.0, 405.0, 369.0, 405.0, 309.0, 429.5, 309.0 ],
+									"midpoints" : [ 429.5, 549.0, 405.0, 549.0, 405.0, 489.0, 429.5, 489.0 ],
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -4130,6 +4173,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-35", 0 ],
+									"midpoints" : [ 429.5, 384.0, 405.0, 384.0, 405.0, 279.0, 429.5, 279.0 ],
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -4158,16 +4202,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 99.5, 339.0, 75.0, 339.0, 75.0, 279.0, 99.5, 279.0 ],
-									"order" : 1,
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-20", 0 ],
-									"order" : 0,
+									"midpoints" : [ 99.5, 519.0, 75.0, 519.0, 75.0, 459.0, 99.5, 459.0 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -4182,7 +4217,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"midpoints" : [ 99.5, 1008.0, 99.5, 1008.0 ],
+									"midpoints" : [ 99.5, 978.0, 99.5, 978.0 ],
 									"source" : [ "obj-31", 0 ]
 								}
 
@@ -4190,7 +4225,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-34", 0 ],
-									"midpoints" : [ 240.0, 970.5, 234.5, 970.5 ],
+									"midpoints" : [ 240.0, 940.5, 234.5, 940.5 ],
 									"source" : [ "obj-32", 1 ]
 								}
 
@@ -4205,15 +4240,23 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"midpoints" : [ 234.5, 1008.0, 99.5, 1008.0 ],
+									"midpoints" : [ 234.5, 978.0, 99.5, 978.0 ],
 									"source" : [ "obj-34", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"midpoints" : [ 429.5, 309.0, 429.5, 309.0 ],
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"midpoints" : [ 174.5, 1008.0, 99.5, 1008.0 ],
+									"midpoints" : [ 174.5, 978.0, 99.5, 978.0 ],
 									"source" : [ "obj-36", 0 ]
 								}
 
@@ -4236,6 +4279,28 @@
 								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
 									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"midpoints" : [ 99.5, 309.0, 99.5, 309.0 ],
+									"source" : [ "obj-42", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-41", 0 ],
+									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-44", 0 ],
+									"source" : [ "obj-47", 0 ]
 								}
 
 							}
@@ -4445,7 +4510,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 45.0, 117.0, 21.0 ],
+					"patching_rect" : [ 195.0, 45.0, 118.0, 21.0 ],
 					"text" : "ossia.view #1",
 					"varname" : "jmod.hub"
 				}
