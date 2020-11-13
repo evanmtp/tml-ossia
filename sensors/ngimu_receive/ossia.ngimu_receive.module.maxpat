@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 30.0, 30.0, 300.0, 140.0 ],
+		"openrect" : [ 30.0, 30.0, 300.0, 390.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -55,9 +55,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
+					"patching_rect" : [ 0.0, 0.0, 300.0, 390.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 390.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -72,7 +72,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 150.0, 171.0, 22.0 ],
+					"patching_rect" : [ 15.0, 405.0, 171.0, 22.0 ],
 					"text" : "ossia.ngimu_receive.model #1",
 					"varname" : "ossia.model #1"
 				}
@@ -86,7 +86,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 189.0, 26.0, 26.0 ]
+					"patching_rect" : [ 15.0, 444.0, 26.0, 26.0 ]
 				}
 
 			}
@@ -104,13 +104,48 @@
 			"obj-1::obj-108" : [ "live.text[6]", "live.text", 0 ],
 			"obj-1::obj-109::obj-195" : [ "live.toggle[42]", "live.toggle", 0 ],
 			"obj-1::obj-126" : [ "live.text[7]", "live.text", 0 ],
-			"obj-1::obj-152" : [ "live.text[9]", "live.text", 0 ],
 			"obj-1::obj-16" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"obj-1::obj-18" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-1::obj-188" : [ "live.text[16]", "live.text", 0 ],
 			"obj-1::obj-19" : [ "live.text", "live.text", 0 ],
+			"obj-1::obj-205" : [ "live.text[12]", "live.text", 0 ],
+			"obj-1::obj-213" : [ "multislider[2]", "multislider[1]", 0 ],
+			"obj-1::obj-217" : [ "live.toggle[33]", "live.toggle", 0 ],
 			"obj-1::obj-22" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-223" : [ "live.text[13]", "live.text", 0 ],
+			"obj-1::obj-231" : [ "multislider[4]", "multislider[1]", 0 ],
+			"obj-1::obj-237" : [ "live.text[18]", "live.text", 0 ],
+			"obj-1::obj-246" : [ "multislider[5]", "multislider[1]", 0 ],
+			"obj-1::obj-247" : [ "live.toggle[14]", "live.toggle", 0 ],
+			"obj-1::obj-249" : [ "live.toggle[15]", "live.toggle", 0 ],
+			"obj-1::obj-251" : [ "live.toggle[16]", "live.toggle", 0 ],
+			"obj-1::obj-253" : [ "live.toggle[17]", "live.toggle", 0 ],
+			"obj-1::obj-255" : [ "live.toggle[18]", "live.toggle", 0 ],
+			"obj-1::obj-257" : [ "live.toggle[19]", "live.toggle", 0 ],
+			"obj-1::obj-259" : [ "live.toggle[20]", "live.toggle", 0 ],
+			"obj-1::obj-261" : [ "live.toggle[21]", "live.toggle", 0 ],
+			"obj-1::obj-263" : [ "live.toggle[22]", "live.toggle", 0 ],
+			"obj-1::obj-266" : [ "live.toggle[34]", "live.toggle", 0 ],
+			"obj-1::obj-268" : [ "live.toggle[35]", "live.toggle", 0 ],
+			"obj-1::obj-271" : [ "live.toggle[24]", "live.toggle", 0 ],
 			"obj-1::obj-28" : [ "multislider[7]", "multislider[1]", 0 ],
+			"obj-1::obj-280" : [ "live.text[19]", "live.text", 0 ],
+			"obj-1::obj-288" : [ "multislider[8]", "multislider[1]", 0 ],
+			"obj-1::obj-301" : [ "live.toggle[25]", "live.toggle", 0 ],
+			"obj-1::obj-303" : [ "live.toggle[26]", "live.toggle", 0 ],
+			"obj-1::obj-305" : [ "live.toggle[27]", "live.toggle", 0 ],
+			"obj-1::obj-307" : [ "live.toggle[28]", "live.toggle", 0 ],
+			"obj-1::obj-309" : [ "live.toggle[29]", "live.toggle", 0 ],
+			"obj-1::obj-311" : [ "live.toggle[30]", "live.toggle", 0 ],
+			"obj-1::obj-313" : [ "live.toggle[43]", "live.toggle", 0 ],
+			"obj-1::obj-315" : [ "live.toggle[44]", "live.toggle", 0 ],
+			"obj-1::obj-317" : [ "live.toggle[45]", "live.toggle", 0 ],
+			"obj-1::obj-333" : [ "live.toggle[46]", "live.toggle", 0 ],
+			"obj-1::obj-335" : [ "live.toggle[31]", "live.toggle", 0 ],
+			"obj-1::obj-337" : [ "live.toggle[32]", "live.toggle", 0 ],
 			"obj-1::obj-34" : [ "multislider[1]", "multislider[1]", 0 ],
+			"obj-1::obj-344" : [ "live.text[14]", "live.text", 0 ],
+			"obj-1::obj-360" : [ "live.text[15]", "live.text", 0 ],
 			"obj-1::obj-38" : [ "live.toggle[4]", "live.toggle", 0 ],
 			"obj-1::obj-40" : [ "live.toggle[5]", "live.toggle", 0 ],
 			"obj-1::obj-42" : [ "live.toggle[6]", "live.toggle", 0 ],
@@ -135,28 +170,28 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ossia.ngimu_receive.model.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/sensors/ngimu_receive",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/sensors/ngimu_receive",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "qom.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/utilities",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities",
 				"patcherrelativepath" : "../../utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delta.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/utilities",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities",
 				"patcherrelativepath" : "../../utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.ngimu_receive.view.maxpat",
-				"bootpath" : "~/Documents/Github/tml-ossia/sensors/ngimu_receive",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/sensors/ngimu_receive",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
