@@ -40,24 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-292",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 990.0, 1005.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-267",
+					"id" : "obj-266",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 1065.0, 1019.79999977350235, 645.0, 22.0 ],
-					"text" : "unpack f f f"
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1650.0, 1170.0, 48.0, 22.0 ],
+					"text" : "route 0"
 				}
 
 			}
@@ -65,11 +54,11 @@
 				"box" : 				{
 					"id" : "obj-268",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1845.0, 1065.0, 125.0, 22.0 ],
-					"text" : "scale -180. 180. -1. 1."
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 1650.0, 1200.0, 34.0, 22.0 ],
+					"text" : "t 0 0"
 				}
 
 			}
@@ -79,13 +68,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-269",
-					"linecount" : 9,
+					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1800.0, 1305.0, 93.0, 118.0 ],
-					"text" : "ossia.parameter euler/z/norm @type float @range -1. 1. @clip both @mode GET @description \"Euler z angle (normalized).\"",
+					"patching_rect" : [ 1650.0, 1065.0, 120.0, 81.0 ],
+					"text" : "ossia.parameter quaternion/z/active @type bool @mode SET @description \"Toggle quaternion z element readings.\"",
 					"varname" : "numChannels[79]"
 				}
 
@@ -94,11 +83,11 @@
 				"box" : 				{
 					"id" : "obj-270",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1545.0, 1065.0, 125.0, 22.0 ],
-					"text" : "scale -180. 180. -1. 1."
+					"patching_rect" : [ 1650.0, 1260.0, 92.0, 22.0 ],
+					"text" : "prepend enable"
 				}
 
 			}
@@ -113,38 +102,81 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1515.0, 1305.0, 93.0, 118.0 ],
-					"text" : "ossia.parameter euler/y/norm @type float @range -1. 1. @clip both @mode GET @description \"Euler y angle (normalized).\"",
+					"patching_rect" : [ 1635.0, 1305.0, 105.0, 118.0 ],
+					"text" : "ossia.parameter quaternion/z/raw @type float @range -1. 1. @clip free @mode GET @description \"Quaternion z element (raw value).\"",
 					"varname" : "numChannels[80]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-272",
-					"linecount" : 9,
+					"id" : "obj-228",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1215.0, 1305.0, 93.0, 118.0 ],
-					"text" : "ossia.parameter euler/x/norm @type float @range -1. 1. @clip both @mode GET @description \"Euler x angle (normalized).\"",
-					"varname" : "numChannels[81]"
+					"patching_rect" : [ 1167.0, 810.0, 47.0, 22.0 ],
+					"text" : "zl nth 2"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-273",
-					"maxclass" : "newobj",
-					"numinlets" : 6,
+					"id" : "obj-227",
+					"maxclass" : "message",
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1245.0, 1065.0, 125.0, 22.0 ],
-					"text" : "scale -180. 180. -1. 1."
+					"patching_rect" : [ 1290.0, 915.0, 105.0, 22.0 ],
+					"text" : "0.912897"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-224",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "int", "int" ],
+					"patching_rect" : [ 1275.0, 855.0, 48.0, 22.0 ],
+					"text" : "peak 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-223",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "int", "int" ],
+					"patching_rect" : [ 1215.0, 855.0, 56.0, 22.0 ],
+					"text" : "trough 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-219",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1155.0, 915.0, 105.0, 22.0 ],
+					"text" : "-0.922074"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-267",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "float", "float", "float", "float" ],
+					"patching_rect" : [ 1065.0, 1019.79999977350235, 585.0, 22.0 ],
+					"text" : "unpack f f f f"
 				}
 
 			}
@@ -155,7 +187,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1710.0, 1170.0, 48.0, 22.0 ],
+					"patching_rect" : [ 1470.0, 1170.0, 48.0, 22.0 ],
 					"text" : "route 0"
 				}
 
@@ -167,7 +199,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 1710.0, 1200.0, 34.0, 22.0 ],
+					"patching_rect" : [ 1470.0, 1200.0, 34.0, 22.0 ],
 					"text" : "t 0 0"
 				}
 
@@ -178,13 +210,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-276",
-					"linecount" : 7,
+					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1710.0, 1065.0, 93.0, 94.0 ],
-					"text" : "ossia.parameter euler/z/active @type bool @mode SET @description \"Toggle Euler z readings.\"",
+					"patching_rect" : [ 1470.0, 1065.0, 135.0, 81.0 ],
+					"text" : "ossia.parameter quaternion/y/active @type bool @mode SET @description \"Toggle quaternion y element readings.\"",
 					"varname" : "numChannels[82]"
 				}
 
@@ -196,7 +228,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1710.0, 1260.0, 92.0, 22.0 ],
+					"patching_rect" : [ 1470.0, 1260.0, 92.0, 22.0 ],
 					"text" : "prepend enable"
 				}
 
@@ -208,7 +240,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1410.0, 1170.0, 48.0, 22.0 ],
+					"patching_rect" : [ 1305.0, 1170.0, 48.0, 22.0 ],
 					"text" : "route 0"
 				}
 
@@ -220,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 1410.0, 1200.0, 34.0, 22.0 ],
+					"patching_rect" : [ 1305.0, 1200.0, 34.0, 22.0 ],
 					"text" : "t 0 0"
 				}
 
@@ -231,13 +263,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-280",
-					"linecount" : 7,
+					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1410.0, 1065.0, 93.0, 94.0 ],
-					"text" : "ossia.parameter euler/y/active @type bool @mode SET @description \"Toggle Euler y readings.\"",
+					"patching_rect" : [ 1305.0, 1065.0, 120.0, 81.0 ],
+					"text" : "ossia.parameter quaternion/x/active @type bool @mode SET @description \"Toggle quaternion x element readings.\"",
 					"varname" : "numChannels[83]"
 				}
 
@@ -249,7 +281,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1410.0, 1260.0, 92.0, 22.0 ],
+					"patching_rect" : [ 1305.0, 1260.0, 92.0, 22.0 ],
 					"text" : "prepend enable"
 				}
 
@@ -284,13 +316,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-284",
-					"linecount" : 7,
+					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1095.0, 1065.0, 93.0, 94.0 ],
-					"text" : "ossia.parameter euler/x/active @type bool @mode SET @description \"Toggle Euler x readings.\"",
+					"patching_rect" : [ 1125.0, 1065.0, 120.0, 81.0 ],
+					"text" : "ossia.parameter quaternion/w/active @type bool @mode SET @description \"Toggle quaternion w element readings.\"",
 					"varname" : "numChannels[84]"
 				}
 
@@ -318,8 +350,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1695.0, 1305.0, 93.0, 118.0 ],
-					"text" : "ossia.parameter euler/z/raw @type float @range -180. 180. @clip free @mode GET @description \"Euler z angle (raw value).\"",
+					"patching_rect" : [ 1455.0, 1305.0, 105.0, 118.0 ],
+					"text" : "ossia.parameter quaternion/y/raw @type float @range -1. 1. @clip free @mode GET @description \"Quaternion y element (raw value).\"",
 					"varname" : "numChannels[85]"
 				}
 
@@ -330,13 +362,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-287",
-					"linecount" : 10,
+					"linecount" : 9,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1380.0, 1305.0, 93.0, 130.0 ],
-					"text" : "ossia.parameter euler/y/raw @mode get @type float @range -180. 180. @clip free @mode get @description \"Euler y angle (raw value).\"",
+					"patching_rect" : [ 1275.0, 1305.0, 105.0, 118.0 ],
+					"text" : "ossia.parameter quaternion/x/raw @type float @range -1. 1. @clip free @mode GET @description \"Quaternion x element (raw value).\"",
 					"varname" : "numChannels[86]"
 				}
 
@@ -352,8 +384,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1065.0, 1305.0, 93.0, 118.0 ],
-					"text" : "ossia.parameter euler/x/raw @type float @range -180. 180. @clip free @mode GET @description \"Euler x angle (raw value).\"",
+					"patching_rect" : [ 1065.0, 1305.0, 105.0, 118.0 ],
+					"text" : "ossia.parameter quaternion/w/raw @type float @range -1. 1. @clip free @mode GET @description \"Quaternion w element (raw value).\"",
 					"varname" : "numChannels[87]"
 				}
 
@@ -5096,6 +5128,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-219", 1 ],
+					"source" : [ "obj-223", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-227", 1 ],
+					"source" : [ "obj-224", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-226", 0 ],
 					"source" : [ "obj-225", 0 ]
 				}
@@ -5106,6 +5152,22 @@
 					"destination" : [ "obj-229", 0 ],
 					"midpoints" : [ 335.5, 1668.0, 339.5, 1668.0 ],
 					"source" : [ "obj-225", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-223", 0 ],
+					"order" : 1,
+					"source" : [ "obj-228", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-224", 0 ],
+					"order" : 0,
+					"source" : [ "obj-228", 0 ]
 				}
 
 			}
@@ -5350,35 +5412,29 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-268", 0 ],
-					"midpoints" : [ 1700.5, 1052.899999886751175, 1854.5, 1052.899999886751175 ],
-					"order" : 0,
-					"source" : [ "obj-267", 2 ]
+					"source" : [ "obj-266", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-270", 0 ],
-					"midpoints" : [ 1387.5, 1052.899999886751175, 1554.5, 1052.899999886751175 ],
-					"order" : 0,
-					"source" : [ "obj-267", 1 ]
+					"midpoints" : [ 1688.5, 1245.0, 1659.5, 1245.0 ],
+					"source" : [ "obj-266", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-273", 0 ],
-					"midpoints" : [ 1074.5, 1052.899999886751175, 1254.5, 1052.899999886751175 ],
-					"order" : 0,
-					"source" : [ "obj-267", 0 ]
+					"destination" : [ "obj-271", 0 ],
+					"source" : [ "obj-267", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-286", 0 ],
-					"midpoints" : [ 1700.5, 1172.900030386751041, 1704.5, 1172.900030386751041 ],
-					"order" : 1,
+					"midpoints" : [ 1451.833333333333258, 1172.900030386751041, 1464.5, 1172.900030386751041 ],
 					"source" : [ "obj-267", 2 ]
 				}
 
@@ -5386,8 +5442,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-287", 0 ],
-					"midpoints" : [ 1387.5, 1172.899999886751175, 1389.5, 1172.899999886751175 ],
-					"order" : 1,
+					"midpoints" : [ 1263.166666666666742, 1172.899999886751175, 1284.5, 1172.899999886751175 ],
 					"source" : [ "obj-267", 1 ]
 				}
 
@@ -5395,16 +5450,29 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-288", 0 ],
-					"order" : 1,
 					"source" : [ "obj-267", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-269", 0 ],
-					"midpoints" : [ 1854.5, 1292.0, 1809.5, 1292.0 ],
+					"destination" : [ "obj-270", 0 ],
 					"source" : [ "obj-268", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-271", 0 ],
+					"midpoints" : [ 1674.5, 1233.0, 1644.5, 1233.0 ],
+					"source" : [ "obj-268", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-266", 0 ],
+					"source" : [ "obj-269", 0 ]
 				}
 
 			}
@@ -5426,16 +5494,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-271", 0 ],
-					"midpoints" : [ 1554.5, 1292.0, 1524.5, 1292.0 ],
+					"midpoints" : [ 1659.5, 1293.0, 1644.5, 1293.0 ],
 					"source" : [ "obj-270", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-272", 0 ],
-					"midpoints" : [ 1254.5, 1292.0, 1224.5, 1292.0 ],
-					"source" : [ "obj-273", 0 ]
 				}
 
 			}
@@ -5449,17 +5509,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-277", 0 ],
-					"midpoints" : [ 1748.5, 1245.0, 1719.5, 1245.0 ],
+					"midpoints" : [ 1508.5, 1245.0, 1479.5, 1245.0 ],
 					"source" : [ "obj-274", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-269", 0 ],
-					"midpoints" : [ 1734.5, 1233.0, 1809.5, 1233.0 ],
-					"order" : 0,
-					"source" : [ "obj-275", 1 ]
 				}
 
 			}
@@ -5473,8 +5524,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-286", 0 ],
-					"midpoints" : [ 1734.5, 1233.0, 1704.5, 1233.0 ],
-					"order" : 1,
+					"midpoints" : [ 1494.5, 1233.0, 1464.5, 1233.0 ],
 					"source" : [ "obj-275", 1 ]
 				}
 
@@ -5488,18 +5538,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-269", 0 ],
-					"midpoints" : [ 1719.5, 1293.0, 1809.5, 1293.0 ],
-					"order" : 0,
-					"source" : [ "obj-277", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-286", 0 ],
-					"midpoints" : [ 1719.5, 1293.0, 1704.5, 1293.0 ],
-					"order" : 1,
+					"midpoints" : [ 1479.5, 1293.0, 1464.5, 1293.0 ],
 					"source" : [ "obj-277", 0 ]
 				}
 
@@ -5514,17 +5554,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-281", 0 ],
-					"midpoints" : [ 1448.5, 1245.0, 1419.5, 1245.0 ],
+					"midpoints" : [ 1343.5, 1245.0, 1314.5, 1245.0 ],
 					"source" : [ "obj-278", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-271", 0 ],
-					"midpoints" : [ 1434.5, 1233.0, 1524.5, 1233.0 ],
-					"order" : 0,
-					"source" : [ "obj-279", 1 ]
 				}
 
 			}
@@ -5538,8 +5569,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-287", 0 ],
-					"midpoints" : [ 1434.5, 1233.0, 1389.5, 1233.0 ],
-					"order" : 1,
+					"midpoints" : [ 1329.5, 1233.0, 1284.5, 1233.0 ],
 					"source" : [ "obj-279", 1 ]
 				}
 
@@ -5561,18 +5591,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-271", 0 ],
-					"midpoints" : [ 1419.5, 1293.0, 1524.5, 1293.0 ],
-					"order" : 0,
-					"source" : [ "obj-281", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-287", 0 ],
-					"midpoints" : [ 1419.5, 1293.0, 1389.5, 1293.0 ],
-					"order" : 1,
+					"midpoints" : [ 1314.5, 1293.0, 1284.5, 1293.0 ],
 					"source" : [ "obj-281", 0 ]
 				}
 
@@ -5594,15 +5614,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-272", 0 ],
-					"midpoints" : [ 1119.5, 1233.0, 1224.5, 1233.0 ],
-					"order" : 0,
-					"source" : [ "obj-283", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-285", 0 ],
 					"source" : [ "obj-283", 0 ]
 				}
@@ -5612,7 +5623,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-288", 0 ],
 					"midpoints" : [ 1119.5, 1233.0, 1074.5, 1233.0 ],
-					"order" : 1,
 					"source" : [ "obj-283", 1 ]
 				}
 
@@ -5626,25 +5636,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-272", 0 ],
-					"midpoints" : [ 1104.5, 1293.0, 1224.5, 1293.0 ],
-					"order" : 0,
-					"source" : [ "obj-285", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-288", 0 ],
 					"midpoints" : [ 1104.5, 1293.0, 1074.5, 1293.0 ],
-					"order" : 1,
 					"source" : [ "obj-285", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-267", 0 ],
+					"destination" : [ "obj-228", 0 ],
 					"order" : 0,
 					"source" : [ "obj-289", 0 ]
 				}
@@ -5652,7 +5652,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-292", 1 ],
+					"destination" : [ "obj-267", 0 ],
 					"order" : 1,
 					"source" : [ "obj-289", 0 ]
 				}
