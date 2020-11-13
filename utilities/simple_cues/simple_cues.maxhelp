@@ -48,7 +48,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 450.0, 112.0, 79.0 ],
-					"presentation_linecount" : 4,
 					"text" : "simple_cues must be connected in a loop with ossia.device"
 				}
 
@@ -64,7 +63,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 375.0, 112.0, 51.0 ],
-					"presentation_linecount" : 3,
 					"text" : "save and load presets to/from external files"
 				}
 
@@ -80,7 +78,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 285.0, 126.0, 64.0 ],
-					"presentation_linecount" : 4,
 					"text" : "select cues from the dropdown menu to recall them"
 				}
 
@@ -95,7 +92,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 300.0, 330.0, 142.0, 64.0 ],
-					"presentation_linecount" : 4,
 					"text" : "select a cue from the dropdown menu and click delete to delete it"
 				}
 
@@ -110,7 +106,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 300.0, 270.0, 144.0, 91.0 ],
-					"presentation_linecount" : 6,
 					"text" : "type in the textedit and press enter to save a cue. If you enter the name of an existing cue, it will be replaced."
 				}
 
@@ -174,6 +169,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bubble" : 1,
