@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 806.0, 234.0, 1109.0, 859.0 ],
+		"rect" : [ 1058.0, 380.0, 888.0, 859.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,28 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "mdlys" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-2",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "ossia.nav.oscroute.module.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 675.0, 225.0, 180.0, 30.0 ],
+					"varname" : "ossia.nav.oscroute.model",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"id" : "obj-25",
@@ -48,8 +70,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 315.0, 630.0, 104.75, 45.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 105.0, 615.0, 104.75, 45.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -63,13 +84,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-3",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 240.0, 690.0, 306.0, 49.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 30.0, 675.0, 240.0, 69.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -80,42 +100,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-24",
-					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 7,
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 465.0, 630.0, 82.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"text" : "ircamverb~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-23",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 750.0, 150.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 735.0, 360.0, 91.0, 22.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 705.0, 330.0, 91.0, 22.0 ],
 					"text" : "pitch/detune $1"
 				}
 
@@ -127,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 750.0, 90.0, 130.0, 22.0 ],
+					"patching_rect" : [ 705.0, 300.0, 130.0, 22.0 ],
 					"text" : "j.nav.scale.module test"
 				}
 
@@ -139,7 +129,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 750.0, 60.0, 22.0, 22.0 ],
+					"patching_rect" : [ 705.0, 270.0, 22.0, 22.0 ],
 					"text" : "r z"
 				}
 
@@ -151,7 +141,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "int" ],
-					"patching_rect" : [ 165.0, 660.0, 5.0, 100.0 ]
+					"patching_rect" : [ 360.0, 660.0, 5.0, 100.0 ]
 				}
 
 			}
@@ -162,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 630.0, 465.0, 31.0, 22.0 ],
+					"patching_rect" : [ 480.0, 315.0, 31.0, 22.0 ],
 					"text" : "sig~"
 				}
 
@@ -174,7 +164,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 630.0, 420.0, 22.0, 22.0 ],
+					"patching_rect" : [ 480.0, 270.0, 22.0, 22.0 ],
 					"text" : "r x"
 				}
 
@@ -196,7 +186,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 630.0, 570.0, 150.0, 105.0 ],
+					"patching_rect" : [ 480.0, 390.0, 150.0, 105.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -211,7 +201,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 630.0, 540.0, 187.0, 22.0 ],
+					"patching_rect" : [ 480.0, 360.0, 187.0, 22.0 ],
 					"text" : "j.nav.autoscale~.model autoscale"
 				}
 
@@ -231,27 +221,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 75.0, 165.0, 150.0, 175.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "nav.cook~.module.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 390.0, 390.0, 150.0, 175.0 ],
+					"patching_rect" : [ 30.0, 165.0, 150.0, 175.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -272,7 +242,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 345.0, 135.0, 300.0, 175.0 ],
+					"patching_rect" : [ 255.0, 15.0, 300.0, 175.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -293,7 +263,7 @@
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 30.0, 375.0, 300.0, 210.0 ],
+					"patching_rect" : [ 30.0, 345.0, 300.0, 210.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -304,7 +274,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 795.0, 45.0, 45.0 ]
+					"patching_rect" : [ 30.0, 750.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -333,16 +303,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"order" : 1,
 					"source" : [ "obj-16", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-11", 0 ],
+					"order" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
 					"order" : 0,
-					"source" : [ "obj-16", 0 ]
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -356,7 +333,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 324.5, 606.0, 249.5, 606.0 ],
+					"midpoints" : [ 114.5, 591.0, 39.5, 591.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -385,7 +362,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -400,7 +377,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -416,14 +393,13 @@
 		"parameters" : 		{
 			"obj-16::obj-1::obj-39" : [ "live.text", "live.text", 0 ],
 			"obj-16::obj-1::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
-			"obj-1::obj-1::obj-118" : [ "live.text[3]", "FILTER", 0 ],
-			"obj-1::obj-1::obj-17" : [ "Gain", "Gain", 0 ],
-			"obj-1::obj-1::obj-25" : [ "OutMin", "Max", 0 ],
-			"obj-1::obj-1::obj-27" : [ "Compand", "Comp", 0 ],
-			"obj-1::obj-1::obj-38" : [ "OutMax", "Min", 0 ],
-			"obj-1::obj-1::obj-72" : [ "Smooth", "Smooth", 0 ],
-			"obj-1::obj-1::obj-88" : [ "Drive", "Drive", 0 ],
-			"obj-1::obj-1::obj-9" : [ "Invert", "Invert", 0 ],
+			"obj-2::obj-1::obj-11::obj-14" : [ "live.text[20]", "live.text", 0 ],
+			"obj-2::obj-1::obj-11::obj-15" : [ "live.text[21]", "live.text", 0 ],
+			"obj-2::obj-2::obj-10::obj-10::obj-145" : [ "live.menu[4]", "live.menu", 0 ],
+			"obj-2::obj-2::obj-10::obj-196" : [ "live.text[10]", "live.text", 0 ],
+			"obj-2::obj-2::obj-10::obj-32" : [ "live.text[1]", "live.text", 0 ],
+			"obj-2::obj-2::obj-10::obj-7" : [ "live.text[5]", "live.text", 0 ],
+			"obj-2::obj-2::obj-182" : [ "live.text[11]", "live.text[4]", 0 ],
 			"obj-5::obj-1::obj-118" : [ "live.text[4]", "FILTER", 0 ],
 			"obj-5::obj-1::obj-17" : [ "Gain[1]", "Gain", 0 ],
 			"obj-5::obj-1::obj-25" : [ "OutMin[1]", "Max", 0 ],
@@ -462,6 +438,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-2::obj-10::obj-7" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
 				"obj-5::obj-1::obj-118" : 				{
 					"parameter_longname" : "live.text[4]"
 				}
@@ -653,6 +633,48 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ossia.nav.oscroute.module.maxpat",
+				"bootpath" : "~/code/tml-ossia/nav/nav.oscroute",
+				"patcherrelativepath" : "../nav/nav.oscroute",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.nav.oscroute.model.maxpat",
+				"bootpath" : "~/code/tml-ossia/nav/nav.oscroute",
+				"patcherrelativepath" : "../nav/nav.oscroute",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.namespacebrowser.model.maxpat",
+				"bootpath" : "~/code/tml-ossia/utilities/namespacebrowser",
+				"patcherrelativepath" : "../utilities/namespacebrowser",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.nav.oscroute.view.maxpat",
+				"bootpath" : "~/code/tml-ossia/nav/nav.oscroute",
+				"patcherrelativepath" : "../nav/nav.oscroute",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.namespacebrowser.view.maxpat",
+				"bootpath" : "~/code/tml-ossia/utilities/namespacebrowser",
+				"patcherrelativepath" : "../utilities/namespacebrowser",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.get_onscreen_position.js",
+				"bootpath" : "~/code/tml-ossia/utilities/namespacebrowser",
+				"patcherrelativepath" : "../utilities/namespacebrowser",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
@@ -810,6 +832,34 @@
 			}
 , 			{
 				"name" : "ircamverb~.control.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.fuzzysearch.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.explorer.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.attribute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.view.mxo",
 				"type" : "iLaX"
 			}
  ],
