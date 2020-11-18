@@ -268,7 +268,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 355.0, 276.0, 95.0, 22.0 ],
+					"patching_rect" : [ 355.0, 268.0, 95.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -364,7 +364,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 18.0, 296.0, 218.0, 35.0 ],
+					"patching_rect" : [ 18.0, 296.0, 220.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 18.0, 296.0, 218.0, 35.0 ],
@@ -372,7 +372,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "spat5.ircamverb @initwith \"/source/number 2, /speaker/number 8\""
+					"text" : "spat5.ircamverb @initwith \"/source/number 2, /speaker/number 2\""
 				}
 
 			}
@@ -386,12 +386,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 1.0, 337.5, 199.0, 35.0 ],
+					"patching_rect" : [ 1.0, 337.5, 259.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "spat5.ircamverb~ @sources 2 @speakers 8 @internals 8 @mc 1"
+					"text" : "spat5.ircamverb~ @sources 2 @speakers 2 @internals 8 @mc 1"
 				}
 
 			}
@@ -535,7 +535,7 @@
 				"patchline" : 				{
 					"color" : [ 0.10256053507328, 0.321527034044266, 0.802744746208191, 1.0 ],
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 364.5, 446.0, 350.0, 446.0, 350.0, 299.0, 364.5, 299.0 ],
+					"midpoints" : [ 364.5, 446.0, 350.0, 446.0, 350.0, 300.0, 364.5, 300.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1627,12 +1627,6 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"bgfillcolor" : 					{
@@ -1644,7 +1638,13 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
