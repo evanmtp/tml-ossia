@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 365.0, 157.5, 153.0, 33.0 ],
+					"text" : "hacky way to get stuff in if need there be."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.427450980392157, 0.537254901960784, 1.0, 1.0 ],
 					"id" : "obj-10",
 					"maxclass" : "newobj",
@@ -310,7 +322,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "multichannelsignal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.000002023841859, 40.000000059604645, 30.0, 30.0 ]
 								}
 
@@ -469,7 +481,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-47",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -496,7 +508,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 927.0, 548.0, 825.0, 484.0 ],
+						"rect" : [ 1061.0, 79.0, 825.0, 484.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -524,8 +536,18 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 110.0, 368.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-69",
 									"maxclass" : "message",
@@ -533,7 +555,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 14.0, 339.0, 174.0, 22.0 ],
-									"presentation_linecount" : 4,
 									"text" : "/channel/1/equalizer/bypass $1"
 								}
 
@@ -572,12 +593,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-1",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 320.0, 176.0, 233.0, 22.0 ],
-									"text" : "ossia.parameter audio/bypass @type bool",
+									"patching_rect" : [ 320.0, 176.0, 184.0, 35.0 ],
+									"text" : "ossia.parameter audio/bypass @type bool @default 1",
 									"varname" : "record[1]"
 								}
 
@@ -699,7 +721,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 320.0, 206.0, 40.0, 20.0 ],
+									"patching_rect" : [ 320.0, 217.0, 40.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
@@ -1890,7 +1912,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 334.0, 198.0, 90.0, 22.0 ],
+					"patching_rect" : [ 334.0, 198.0, 93.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2123,7 +2145,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "multichannelsignal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 38.0, 27.0, 30.0, 30.0 ],
 									"varname" : "u765017902"
 								}
@@ -2249,7 +2271,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2277,7 +2299,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2289,11 +2311,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 54.0, 8.0, 30.0, 30.0 ]
 				}
 
@@ -2424,7 +2446,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 414.5, 366.25, 62.5, 366.25 ],
+					"midpoints" : [ 417.5, 366.25, 62.5, 366.25 ],
 					"source" : [ "obj-46", 1 ]
 				}
 
@@ -2508,6 +2530,88 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-39::obj-47" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-46::obj-25" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-46::obj-31" : [ "live.dial[9]", "automute", 0 ],
+			"obj-46::obj-34" : [ "live.toggle[5]", "live.toggle[2]", 0 ],
+			"obj-46::obj-37" : [ "live.toggle[3]", "live.toggle[2]", 0 ],
+			"obj-46::obj-42::obj-58" : [ "live.text[10]", "live.text[9]", 0 ],
+			"obj-46::obj-42::obj-62" : [ "live.text[12]", "live.text[9]", 0 ],
+			"obj-46::obj-42::obj-6::obj-3" : [ "live.text", "live.text", 0 ],
+			"obj-46::obj-42::obj-6::obj-6" : [ "live.text[1]", "live.text", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spat5.dsp.control.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/spat5/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spat5.dsp.mute.bypass.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/spat5/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spat5_to_ossia.maxpat",
+				"bootpath" : "~/code/tml-ossia/nav/components",
+				"patcherrelativepath" : "../components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spat5.equalizer.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.cascade~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.osc.replace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.osc.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.osc.routepass.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.osc.collect.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.osc.iter.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
