@@ -1,341 +1,419 @@
 {
-	"one" : 	{
-		"myOsc/modratio" : 0.0,
-		"myOsc/modfreq" : 0.0,
-		"myOsc/modratioman" : 0,
-		"myOsc/audio/gain" : 0.0,
-		"myOsc/audio/mute" : 0.0,
-		"myOsc/carrierfreq" : 1.0,
-		"myOsc/carriersinsaw" : 0.0,
-		"myOsc/mapcarrierfreq/abs" : 0.0,
-		"myOsc/mapcarrierfreq/abs2" : 0.0,
-		"myOsc/mapcarrierfreq/namespacebrowser/local_receive" : "1050-front",
-		"myOsc/mapcarrierfreq/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapcarrierfreq/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapcarrierfreq/offset" : 0.0,
-		"myOsc/mapcarrierfreq/offset2" : 0.0,
-		"myOsc/mapcarrierfreq/scalebypass" : 1.0,
-		"myOsc/mapcarrierfreq/input/max" : 1.0,
-		"myOsc/mapcarrierfreq/input/min" : 0.0,
-		"myOsc/mapcarrierfreq/output/max" : 1.0,
-		"myOsc/mapcarrierfreq/output/min" : 0.0,
-		"myOsc/mapcarriersinsaw/abs" : 0.0,
-		"myOsc/mapcarriersinsaw/abs2" : 0.0,
-		"myOsc/mapcarriersinsaw/namespacebrowser/local_receive" : "1046-front",
-		"myOsc/mapcarriersinsaw/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapcarriersinsaw/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapcarriersinsaw/offset" : 0.0,
-		"myOsc/mapcarriersinsaw/offset2" : 0.0,
-		"myOsc/mapcarriersinsaw/scalebypass" : 1.0,
-		"myOsc/mapcarriersinsaw/input/max" : 1.0,
-		"myOsc/mapcarriersinsaw/input/min" : 0.0,
-		"myOsc/mapcarriersinsaw/output/max" : 1.0,
-		"myOsc/mapcarriersinsaw/output/min" : 0.0,
-		"myOsc/mapmodfreq/abs" : 0.0,
-		"myOsc/mapmodfreq/abs2" : 0.0,
-		"myOsc/mapmodfreq/namespacebrowser/local_receive" : "1042-front",
-		"myOsc/mapmodfreq/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapmodfreq/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapmodfreq/offset" : 0.0,
-		"myOsc/mapmodfreq/offset2" : 0.0,
-		"myOsc/mapmodfreq/scalebypass" : 1.0,
-		"myOsc/mapmodfreq/input/max" : 1.0,
-		"myOsc/mapmodfreq/input/min" : 0.0,
-		"myOsc/mapmodfreq/output/max" : 1.0,
-		"myOsc/mapmodfreq/output/min" : 0.0,
-		"myOsc/mapmodindex/abs" : 0.0,
-		"myOsc/mapmodindex/abs2" : 0.0,
-		"myOsc/mapmodindex/namespacebrowser/local_receive" : "1038-front",
-		"myOsc/mapmodindex/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapmodindex/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapmodindex/offset" : 0.0,
-		"myOsc/mapmodindex/offset2" : 0.0,
-		"myOsc/mapmodindex/scalebypass" : 1.0,
-		"myOsc/mapmodindex/input/max" : 1.0,
-		"myOsc/mapmodindex/input/min" : 0.0,
-		"myOsc/mapmodindex/output/max" : 1.0,
-		"myOsc/mapmodindex/output/min" : 0.0,
-		"myOsc/mapmodnoise/abs" : 0.0,
-		"myOsc/mapmodnoise/abs2" : 0.0,
-		"myOsc/mapmodnoise/namespacebrowser/local_receive" : "1030-front",
-		"myOsc/mapmodnoise/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapmodnoise/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapmodnoise/offset" : 0.0,
-		"myOsc/mapmodnoise/offset2" : 0.0,
-		"myOsc/mapmodnoise/scalebypass" : 1.0,
-		"myOsc/mapmodnoise/input/max" : 1.0,
-		"myOsc/mapmodnoise/input/min" : 0.0,
-		"myOsc/mapmodnoise/output/max" : 1.0,
-		"myOsc/mapmodnoise/output/min" : 0.0,
-		"myOsc/mapnoisefilt/abs" : 0.0,
-		"myOsc/mapnoisefilt/abs2" : 0.0,
-		"myOsc/mapnoisefilt/namespacebrowser/local_receive" : "1026-front",
-		"myOsc/mapnoisefilt/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapnoisefilt/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapnoisefilt/offset" : 0.0,
-		"myOsc/mapnoisefilt/offset2" : 0.0,
-		"myOsc/mapnoisefilt/scalebypass" : 1.0,
-		"myOsc/mapnoisefilt/input/max" : 1.0,
-		"myOsc/mapnoisefilt/input/min" : 0.0,
-		"myOsc/mapnoisefilt/output/max" : 1.0,
-		"myOsc/mapnoisefilt/output/min" : 0.0,
-		"myOsc/mapwavefolder/abs" : 0.0,
-		"myOsc/mapwavefolder/abs2" : 0.0,
-		"myOsc/mapwavefolder/namespacebrowser/local_receive" : "1034-front",
-		"myOsc/mapwavefolder/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapwavefolder/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapwavefolder/offset" : 0.0,
-		"myOsc/mapwavefolder/offset2" : 0.0,
-		"myOsc/mapwavefolder/scalebypass" : 1.0,
-		"myOsc/mapwavefolder/input/max" : 1.0,
-		"myOsc/mapwavefolder/input/min" : 0.0,
-		"myOsc/mapwavefolder/output/max" : 1.0,
-		"myOsc/mapwavefolder/output/min" : 0.0,
-		"myOsc/modindex" : 0.0,
-		"myOsc/modnoise" : 0.0,
-		"myOsc/noisefilt" : 0.0,
-		"myOsc/squareorsaw" : 0,
-		"myOsc/wavefolder" : 0.0,
-		"myOsc/mod/carrierfreq" : 0.0,
-		"myOsc/mod/carriersinsaw" : 0.0,
-		"myOsc/mod/modfreq" : 0.0,
-		"myOsc/mod/modindex" : 0.0,
-		"myOsc/mod/modnoise" : 0.0,
-		"myOsc/mod/noisefilt" : 0.0,
-		"myOsc/mod/wavefolder" : 0.0,
-		"myOsc/modAmt/carrierfreq" : 0.0,
-		"myOsc/modAmt/carriersinsaw" : 0.0,
-		"myOsc/modAmt/modfreq" : 0.0,
-		"myOsc/modAmt/modindex" : 0.0,
-		"myOsc/modAmt/modnoise" : 0.0,
-		"myOsc/modAmt/noisefilt" : 0.0,
-		"myOsc/modAmt/wavefolder" : 0.0
-	}
-,
-	"two" : 	{
-		"myOsc/modratio" : 0.0,
-		"myOsc/modfreq" : 0.0,
-		"myOsc/modratioman" : 0,
-		"myOsc/audio/gain" : 0.0,
-		"myOsc/audio/mute" : 0.0,
-		"myOsc/carrierfreq" : 2.0,
-		"myOsc/carriersinsaw" : 0.0,
-		"myOsc/mapcarrierfreq/abs" : 0.0,
-		"myOsc/mapcarrierfreq/abs2" : 0.0,
-		"myOsc/mapcarrierfreq/namespacebrowser/local_receive" : "1050-front",
-		"myOsc/mapcarrierfreq/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapcarrierfreq/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapcarrierfreq/offset" : 0.0,
-		"myOsc/mapcarrierfreq/offset2" : 0.0,
-		"myOsc/mapcarrierfreq/scalebypass" : 1.0,
-		"myOsc/mapcarrierfreq/input/max" : 1.0,
-		"myOsc/mapcarrierfreq/input/min" : 0.0,
-		"myOsc/mapcarrierfreq/output/max" : 1.0,
-		"myOsc/mapcarrierfreq/output/min" : 0.0,
-		"myOsc/mapcarriersinsaw/abs" : 0.0,
-		"myOsc/mapcarriersinsaw/abs2" : 0.0,
-		"myOsc/mapcarriersinsaw/namespacebrowser/local_receive" : "1046-front",
-		"myOsc/mapcarriersinsaw/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapcarriersinsaw/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapcarriersinsaw/offset" : 0.0,
-		"myOsc/mapcarriersinsaw/offset2" : 0.0,
-		"myOsc/mapcarriersinsaw/scalebypass" : 1.0,
-		"myOsc/mapcarriersinsaw/input/max" : 1.0,
-		"myOsc/mapcarriersinsaw/input/min" : 0.0,
-		"myOsc/mapcarriersinsaw/output/max" : 1.0,
-		"myOsc/mapcarriersinsaw/output/min" : 0.0,
-		"myOsc/mapmodfreq/abs" : 0.0,
-		"myOsc/mapmodfreq/abs2" : 0.0,
-		"myOsc/mapmodfreq/namespacebrowser/local_receive" : "1042-front",
-		"myOsc/mapmodfreq/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapmodfreq/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapmodfreq/offset" : 0.0,
-		"myOsc/mapmodfreq/offset2" : 0.0,
-		"myOsc/mapmodfreq/scalebypass" : 1.0,
-		"myOsc/mapmodfreq/input/max" : 1.0,
-		"myOsc/mapmodfreq/input/min" : 0.0,
-		"myOsc/mapmodfreq/output/max" : 1.0,
-		"myOsc/mapmodfreq/output/min" : 0.0,
-		"myOsc/mapmodindex/abs" : 0.0,
-		"myOsc/mapmodindex/abs2" : 0.0,
-		"myOsc/mapmodindex/namespacebrowser/local_receive" : "1038-front",
-		"myOsc/mapmodindex/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapmodindex/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapmodindex/offset" : 0.0,
-		"myOsc/mapmodindex/offset2" : 0.0,
-		"myOsc/mapmodindex/scalebypass" : 1.0,
-		"myOsc/mapmodindex/input/max" : 1.0,
-		"myOsc/mapmodindex/input/min" : 0.0,
-		"myOsc/mapmodindex/output/max" : 1.0,
-		"myOsc/mapmodindex/output/min" : 0.0,
-		"myOsc/mapmodnoise/abs" : 0.0,
-		"myOsc/mapmodnoise/abs2" : 0.0,
-		"myOsc/mapmodnoise/namespacebrowser/local_receive" : "1030-front",
-		"myOsc/mapmodnoise/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapmodnoise/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapmodnoise/offset" : 0.0,
-		"myOsc/mapmodnoise/offset2" : 0.0,
-		"myOsc/mapmodnoise/scalebypass" : 1.0,
-		"myOsc/mapmodnoise/input/max" : 1.0,
-		"myOsc/mapmodnoise/input/min" : 0.0,
-		"myOsc/mapmodnoise/output/max" : 1.0,
-		"myOsc/mapmodnoise/output/min" : 0.0,
-		"myOsc/mapnoisefilt/abs" : 0.0,
-		"myOsc/mapnoisefilt/abs2" : 0.0,
-		"myOsc/mapnoisefilt/namespacebrowser/local_receive" : "1026-front",
-		"myOsc/mapnoisefilt/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapnoisefilt/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapnoisefilt/offset" : 0.0,
-		"myOsc/mapnoisefilt/offset2" : 0.0,
-		"myOsc/mapnoisefilt/scalebypass" : 1.0,
-		"myOsc/mapnoisefilt/input/max" : 1.0,
-		"myOsc/mapnoisefilt/input/min" : 0.0,
-		"myOsc/mapnoisefilt/output/max" : 1.0,
-		"myOsc/mapnoisefilt/output/min" : 0.0,
-		"myOsc/mapwavefolder/abs" : 0.0,
-		"myOsc/mapwavefolder/abs2" : 0.0,
-		"myOsc/mapwavefolder/namespacebrowser/local_receive" : "1034-front",
-		"myOsc/mapwavefolder/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapwavefolder/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapwavefolder/offset" : 0.0,
-		"myOsc/mapwavefolder/offset2" : 0.0,
-		"myOsc/mapwavefolder/scalebypass" : 1.0,
-		"myOsc/mapwavefolder/input/max" : 1.0,
-		"myOsc/mapwavefolder/input/min" : 0.0,
-		"myOsc/mapwavefolder/output/max" : 1.0,
-		"myOsc/mapwavefolder/output/min" : 0.0,
-		"myOsc/modindex" : 0.0,
-		"myOsc/modnoise" : 0.0,
-		"myOsc/noisefilt" : 0.0,
-		"myOsc/squareorsaw" : 0,
-		"myOsc/wavefolder" : 0.0,
-		"myOsc/mod/carrierfreq" : 0.0,
-		"myOsc/mod/carriersinsaw" : 0.0,
-		"myOsc/mod/modfreq" : 0.0,
-		"myOsc/mod/modindex" : 0.0,
-		"myOsc/mod/modnoise" : 0.0,
-		"myOsc/mod/noisefilt" : 0.0,
-		"myOsc/mod/wavefolder" : 0.0,
-		"myOsc/modAmt/carrierfreq" : 0.0,
-		"myOsc/modAmt/carriersinsaw" : 0.0,
-		"myOsc/modAmt/modfreq" : 0.0,
-		"myOsc/modAmt/modindex" : 0.0,
-		"myOsc/modAmt/modnoise" : 0.0,
-		"myOsc/modAmt/noisefilt" : 0.0,
-		"myOsc/modAmt/wavefolder" : 0.0
-	}
-,
-	"three" : 	{
-		"myOsc/modratio" : 0.0,
-		"myOsc/modfreq" : 0.0,
-		"myOsc/modratioman" : 0,
-		"myOsc/audio/gain" : 0.0,
-		"myOsc/audio/mute" : 0.0,
-		"myOsc/carrierfreq" : 3.0,
-		"myOsc/carriersinsaw" : 0.0,
-		"myOsc/mapcarrierfreq/abs" : 0.0,
-		"myOsc/mapcarrierfreq/abs2" : 0.0,
-		"myOsc/mapcarrierfreq/namespacebrowser/local_receive" : "1050-front",
-		"myOsc/mapcarrierfreq/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapcarrierfreq/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapcarrierfreq/offset" : 0.0,
-		"myOsc/mapcarrierfreq/offset2" : 0.0,
-		"myOsc/mapcarrierfreq/scalebypass" : 1.0,
-		"myOsc/mapcarrierfreq/input/max" : 1.0,
-		"myOsc/mapcarrierfreq/input/min" : 0.0,
-		"myOsc/mapcarrierfreq/output/max" : 1.0,
-		"myOsc/mapcarrierfreq/output/min" : 0.0,
-		"myOsc/mapcarriersinsaw/abs" : 0.0,
-		"myOsc/mapcarriersinsaw/abs2" : 0.0,
-		"myOsc/mapcarriersinsaw/namespacebrowser/local_receive" : "1046-front",
-		"myOsc/mapcarriersinsaw/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapcarriersinsaw/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapcarriersinsaw/offset" : 0.0,
-		"myOsc/mapcarriersinsaw/offset2" : 0.0,
-		"myOsc/mapcarriersinsaw/scalebypass" : 1.0,
-		"myOsc/mapcarriersinsaw/input/max" : 1.0,
-		"myOsc/mapcarriersinsaw/input/min" : 0.0,
-		"myOsc/mapcarriersinsaw/output/max" : 1.0,
-		"myOsc/mapcarriersinsaw/output/min" : 0.0,
-		"myOsc/mapmodfreq/abs" : 0.0,
-		"myOsc/mapmodfreq/abs2" : 0.0,
-		"myOsc/mapmodfreq/namespacebrowser/local_receive" : "1042-front",
-		"myOsc/mapmodfreq/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapmodfreq/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapmodfreq/offset" : 0.0,
-		"myOsc/mapmodfreq/offset2" : 0.0,
-		"myOsc/mapmodfreq/scalebypass" : 1.0,
-		"myOsc/mapmodfreq/input/max" : 1.0,
-		"myOsc/mapmodfreq/input/min" : 0.0,
-		"myOsc/mapmodfreq/output/max" : 1.0,
-		"myOsc/mapmodfreq/output/min" : 0.0,
-		"myOsc/mapmodindex/abs" : 0.0,
-		"myOsc/mapmodindex/abs2" : 0.0,
-		"myOsc/mapmodindex/namespacebrowser/local_receive" : "1038-front",
-		"myOsc/mapmodindex/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapmodindex/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapmodindex/offset" : 0.0,
-		"myOsc/mapmodindex/offset2" : 0.0,
-		"myOsc/mapmodindex/scalebypass" : 1.0,
-		"myOsc/mapmodindex/input/max" : 1.0,
-		"myOsc/mapmodindex/input/min" : 0.0,
-		"myOsc/mapmodindex/output/max" : 1.0,
-		"myOsc/mapmodindex/output/min" : 0.0,
-		"myOsc/mapmodnoise/abs" : 0.0,
-		"myOsc/mapmodnoise/abs2" : 0.0,
-		"myOsc/mapmodnoise/namespacebrowser/local_receive" : "1030-front",
-		"myOsc/mapmodnoise/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapmodnoise/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapmodnoise/offset" : 0.0,
-		"myOsc/mapmodnoise/offset2" : 0.0,
-		"myOsc/mapmodnoise/scalebypass" : 1.0,
-		"myOsc/mapmodnoise/input/max" : 1.0,
-		"myOsc/mapmodnoise/input/min" : 0.0,
-		"myOsc/mapmodnoise/output/max" : 1.0,
-		"myOsc/mapmodnoise/output/min" : 0.0,
-		"myOsc/mapnoisefilt/abs" : 0.0,
-		"myOsc/mapnoisefilt/abs2" : 0.0,
-		"myOsc/mapnoisefilt/namespacebrowser/local_receive" : "1026-front",
-		"myOsc/mapnoisefilt/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapnoisefilt/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapnoisefilt/offset" : 0.0,
-		"myOsc/mapnoisefilt/offset2" : 0.0,
-		"myOsc/mapnoisefilt/scalebypass" : 1.0,
-		"myOsc/mapnoisefilt/input/max" : 1.0,
-		"myOsc/mapnoisefilt/input/min" : 0.0,
-		"myOsc/mapnoisefilt/output/max" : 1.0,
-		"myOsc/mapnoisefilt/output/min" : 0.0,
-		"myOsc/mapwavefolder/abs" : 0.0,
-		"myOsc/mapwavefolder/abs2" : 0.0,
-		"myOsc/mapwavefolder/namespacebrowser/local_receive" : "1034-front",
-		"myOsc/mapwavefolder/namespacebrowser/nodeAddress" : "none",
-		"myOsc/mapwavefolder/namespacebrowser/origin" : [ 0.0, 0.0 ],
-		"myOsc/mapwavefolder/offset" : 0.0,
-		"myOsc/mapwavefolder/offset2" : 0.0,
-		"myOsc/mapwavefolder/scalebypass" : 1.0,
-		"myOsc/mapwavefolder/input/max" : 1.0,
-		"myOsc/mapwavefolder/input/min" : 0.0,
-		"myOsc/mapwavefolder/output/max" : 1.0,
-		"myOsc/mapwavefolder/output/min" : 0.0,
-		"myOsc/modindex" : 0.0,
-		"myOsc/modnoise" : 0.0,
-		"myOsc/noisefilt" : 0.0,
-		"myOsc/squareorsaw" : 0,
-		"myOsc/wavefolder" : 0.0,
-		"myOsc/mod/carrierfreq" : 0.0,
-		"myOsc/mod/carriersinsaw" : 0.0,
-		"myOsc/mod/modfreq" : 0.0,
-		"myOsc/mod/modindex" : 0.0,
-		"myOsc/mod/modnoise" : 0.0,
-		"myOsc/mod/noisefilt" : 0.0,
-		"myOsc/mod/wavefolder" : 0.0,
-		"myOsc/modAmt/carrierfreq" : 0.0,
-		"myOsc/modAmt/carriersinsaw" : 0.0,
-		"myOsc/modAmt/modfreq" : 0.0,
-		"myOsc/modAmt/modindex" : 0.0,
-		"myOsc/modAmt/modnoise" : 0.0,
-		"myOsc/modAmt/noisefilt" : 0.0,
-		"myOsc/modAmt/wavefolder" : 0.0
-	}
-
+    "nav.rogs": {
+        "mapTrigger": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1189-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapTurn": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1185-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapSpread": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1181-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapOnsetVar": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1177-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapPitch": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1173-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapPvar": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1169-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapSize": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1165-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapSpeed": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1161-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapPosition": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1157-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapGain": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1153-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "scrubUI": 0.5746644735336304,
+        "selection": [
+            3528.375,
+            43686.75
+        ],
+        "selection": {
+            "mode": false,
+            "range": [
+                3528.375,
+                43686.75
+            ]
+        },
+        "bufferName": [
+            "1149-Audio"
+        ],
+        "numChannels": 2,
+        "grain": {
+            "onsetVar": 0.0,
+            "duration": 217.0,
+            "overlap": 100,
+            "trigger": {
+                "mode": false,
+                "note": 0,
+                "lock": false,
+                "freq": 57.0,
+                "variance": {
+                    "on": false,
+                    "gainVar": {
+                        "randomnessRate": 0.0,
+                        "range": []
+                    },
+                    "rateVar": {
+                        "spread": 0.0,
+                        "randomnessRate": 0.0
+                    }
+                }
+            }
+        },
+        "mod": {
+            "trigger": 0.0,
+            "turn": 0.0,
+            "spread": 0.0,
+            "onsetVar": 0.0,
+            "pitch": 0.0,
+            "pitchVar": 0.0,
+            "size": 0.0,
+            "speed": 0.0,
+            "position": 0.0,
+            "gain": 0.0
+        },
+        "modAmt": {
+            "trigger": 0.0,
+            "turn": 0.0,
+            "spread": 0.0,
+            "onsetVar": 0.0,
+            "pitch": 0.0,
+            "pitchVar": 0.0,
+            "size": 0.0,
+            "speed": 0.0,
+            "position": 0.0,
+            "gain": 0.0
+        },
+        "pan": {
+            "rate": 0.4000000059604645,
+            "spread": 0.20000000298023225,
+            "mode": false
+        },
+        "pitch": {
+            "transpose": 0.0,
+            "variation": 15.0
+        },
+        "waveform": {
+            "line": 9442.3095703125,
+            "display": [
+                0,
+                -1
+            ],
+            "normalize": 0.0
+        },
+        "playback": {
+            "direction": 0,
+            "speed": 1.0,
+            "position": 0.03614457696676254
+        },
+        "file": {
+            "ms": 119583.8984375,
+            "size": [
+                "0:1:59:583"
+            ],
+            "open": "Macintosh HD:/Users/navid/Library/Mobile Documents/com~apple~CloudDocs/Sounds/Cycleing74_Cycles/Vol.01.Sustained.Encounters/Other Realms 48k/CasimirEffect.wav"
+        },
+        "audio": {
+            "gain": -49.716548919677737,
+            "mute": false
+        },
+        "mapperGate": {
+            "position": 0,
+            "speed": 0,
+            "onsetVar": 0,
+            "size": 0,
+            "trigger": 0,
+            "pitch": 0,
+            "pitchVar": 0,
+            "turn": 0,
+            "gain": 0,
+            "spread": 0
+        },
+        "buffer": {
+            "message": [
+                "replace",
+                "Macintosh HD:/Users/navid/Library/Mobile Documents/com~apple~CloudDocs/Sounds/Cycleing74_Cycles/Vol.01.Sustained.Encounters/Other Realms 48k/CasimirEffect.wav"
+            ]
+        }
+    },
+    "output": {
+        "limiter": {
+            "preamp": 0.0,
+            "postamp": 0.0,
+            "threshold": 0.0,
+            "lookahead": 100,
+            "release": 700.0,
+            "mode": "",
+            "active": false,
+            "dcblocker": {
+                "active": true
+            }
+        },
+        "audio": {
+            "gain": 0.0,
+            "gain": {
+                "interpolation": 100.0
+            },
+            "mute": false
+        },
+        "dsp": {
+            "active": true
+        }
+    },
+    "eq": {
+        "audio": {
+            "bypass": false,
+            "mix": 100.0,
+            "gain": 0.0,
+            "mute": false
+        },
+        "filter.1": {
+            "octave_bandwidth": 1.9289407345839296e-22,
+            "gain": -0.4017983376979828,
+            "frequency": 39.37528610229492,
+            "type": "peaknotch"
+        },
+        "filter.2": {
+            "octave_bandwidth": 1.9289407345839296e-22,
+            "gain": -0.4017983376979828,
+            "frequency": 39.37528610229492,
+            "type": "peaknotch"
+        },
+        "filter.3": {
+            "octave_bandwidth": 1.9289407345839296e-22,
+            "gain": -0.4017983376979828,
+            "frequency": 39.37528610229492,
+            "type": "peaknotch"
+        },
+        "filter.4": {
+            "octave_bandwidth": 1.9289407345839296e-22,
+            "gain": -0.4017983376979828,
+            "frequency": 39.37528610229492,
+            "type": "peaknotch"
+        },
+        "filter.5": {
+            "octave_bandwidth": 1.9289407345839296e-22,
+            "gain": -0.4017983376979828,
+            "frequency": 39.37528610229492,
+            "type": "peaknotch"
+        }
+    }
 }
