@@ -1,0 +1,419 @@
+{
+    "nav.rogs": {
+        "mapTrigger": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1079-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapTurn": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1075-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapSpread": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1071-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapOnsetVar": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1067-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapPitch": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1063-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapPvar": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1059-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapSize": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1055-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapSpeed": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1051-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapPosition": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1047-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "mapGain": {
+            "namespacebrowser": {
+                "nodeAddress": "none",
+                "origin": [
+                    0.0,
+                    0.0
+                ],
+                "local_receive": "1043-front"
+            },
+            "settingList": [],
+            "scalebypass": true,
+            "offset2": 0.0,
+            "abs": false,
+            "abs2": false,
+            "offset": 0.0,
+            "input": {
+                "max": 1.0,
+                "min": 0.0
+            },
+            "output": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "scrubUI": 0.0,
+        "selection": [
+            0.0,
+            0.0
+        ],
+        "selection": {
+            "mode": false,
+            "range": [
+                0.0,
+                20640.294921875
+            ]
+        },
+        "bufferName": [
+            "1039-Audio"
+        ],
+        "numChannels": 2,
+        "grain": {
+            "onsetVar": 0.0,
+            "duration": 300.0,
+            "overlap": 100,
+            "trigger": {
+                "mode": false,
+                "note": 0,
+                "lock": false,
+                "freq": 30.0,
+                "variance": {
+                    "on": false,
+                    "gainVar": {
+                        "randomnessRate": 0.0,
+                        "range": []
+                    },
+                    "rateVar": {
+                        "spread": 0.0,
+                        "randomnessRate": 0.0
+                    }
+                }
+            }
+        },
+        "mod": {
+            "trigger": 0.0,
+            "turn": 0.0,
+            "spread": 0.0,
+            "onsetVar": 0.0,
+            "pitch": 0.0,
+            "pitchVar": 0.0,
+            "size": 0.0,
+            "speed": 0.0,
+            "position": 0.0,
+            "gain": 0.0
+        },
+        "modAmt": {
+            "trigger": 0.0,
+            "turn": 0.0,
+            "spread": 0.0,
+            "onsetVar": 0.0,
+            "pitch": 0.0,
+            "pitchVar": 0.0,
+            "size": 0.0,
+            "speed": 0.0,
+            "position": 0.0,
+            "gain": 0.0
+        },
+        "pan": {
+            "rate": 1.0,
+            "spread": 0.33000001311302187,
+            "mode": false
+        },
+        "pitch": {
+            "transpose": 0.0,
+            "variation": 0.0
+        },
+        "waveform": {
+            "line": 7563.38720703125,
+            "display": [
+                0,
+                -1
+            ],
+            "normalize": 0.0
+        },
+        "playback": {
+            "direction": 0,
+            "speed": 1.899999976158142,
+            "position": 0.0
+        },
+        "file": {
+            "ms": 20640.294921875,
+            "size": [
+                "0:0:20:640"
+            ],
+            "open": "Macintosh HD:/Users/tml/Desktop/nav_audio_files/LoonCalls.aif"
+        },
+        "audio": {
+            "gain": 0.0,
+            "mute": false
+        },
+        "mapperGate": {
+            "position": 0,
+            "speed": 0,
+            "onsetVar": 0,
+            "size": 0,
+            "trigger": 0,
+            "pitch": 0,
+            "pitchVar": 0,
+            "turn": 0,
+            "gain": 0,
+            "spread": 0
+        },
+        "buffer": {
+            "message": [
+                "replace",
+                "Macintosh HD:/Users/tml/Desktop/nav_audio_files/LoonCalls.aif"
+            ]
+        }
+    },
+    "eq": {
+        "audio": {
+            "bypass": false,
+            "mix": 100.0,
+            "gain": 0.0,
+            "mute": false
+        },
+        "filter.1": {
+            "octave_bandwidth": 0.9588802456855774,
+            "gain": 0.0,
+            "frequency": 1000.0,
+            "type": "peaknotch"
+        },
+        "filter.2": {
+            "octave_bandwidth": 0.9588802456855774,
+            "gain": 0.0,
+            "frequency": 1000.0,
+            "type": "peaknotch"
+        },
+        "filter.3": {
+            "octave_bandwidth": 0.9588802456855774,
+            "gain": 0.0,
+            "frequency": 1000.0,
+            "type": "peaknotch"
+        },
+        "filter.4": {
+            "octave_bandwidth": 0.9588802456855774,
+            "gain": 0.0,
+            "frequency": 1000.0,
+            "type": "peaknotch"
+        },
+        "filter.5": {
+            "octave_bandwidth": 0.9588802456855774,
+            "gain": 0.0,
+            "frequency": 1000.0,
+            "type": "peaknotch"
+        }
+    },
+    "output": {
+        "limiter": {
+            "preamp": 0.0,
+            "postamp": 0.0,
+            "threshold": 0.0,
+            "lookahead": 100,
+            "release": 700.0,
+            "mode": "",
+            "active": false,
+            "dcblocker": {
+                "active": true
+            }
+        },
+        "audio": {
+            "gain": 0.0,
+            "gain": {
+                "interpolation": 100.0
+            },
+            "mute": false
+        },
+        "dsp": {
+            "active": false
+        }
+    }
+}
