@@ -1,0 +1,30 @@
+{
+	"peter1" : 	{
+		"rand1/grain" : 10,
+		"rand1/interpolate" : 500,
+		"rand1/max" : 1.0,
+		"rand1/min" : 0.0,
+		"rand1/on" : 1.0,
+		"rand1/step" : 1.0,
+		"rand1/out/final" : 0.557325,
+		"rand1/out/final/int" : 557,
+		"rand1/out/metro" : "bang",
+		"rand1/out/pre-interpolation" : 0.942,
+		"rand1/rate/max" : 1000,
+		"rand1/rate/min" : 30,
+		"testnav/abs" : 0.0,
+		"testnav/abs2" : 0.0,
+		"testnav/namespacebrowser/local_receive" : "1916-front",
+		"testnav/namespacebrowser/nodeAddress" : "/rand1/out/final",
+		"testnav/namespacebrowser/origin" : [ 203.0, 202.0 ],
+		"testnav/offset" : 0.0,
+		"testnav/offset2" : 0.0,
+		"testnav/scalebypass" : 1.0,
+		"testnav/settingList" : [ 1, 0.0, 0.0, 0.0, "s", 0, "s", 0.0, "s", 0.0, "s", "s" ],
+		"testnav/input/max" : 1.0,
+		"testnav/input/min" : 0.0,
+		"testnav/output/max" : 1.0,
+		"testnav/output/min" : 0.0
+	}
+
+}
