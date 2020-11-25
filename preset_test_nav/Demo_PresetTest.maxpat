@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 740.0, 111.0, 495.0, 404.0 ],
+		"rect" : [ 1550.0, 328.0, 972.0, 404.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -151,8 +151,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 90.0, 165.0, 122.0, 22.0 ],
-									"text" : "sonify.main.cues.json"
+									"patching_rect" : [ 90.0, 165.0, 95.0, 22.0 ],
+									"text" : "soundCues.json"
 								}
 
 							}
@@ -310,7 +310,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 323.0, 154.5, 138.0, 22.0 ],
+					"patching_rect" : [ 323.0, 200.5, 138.0, 22.0 ],
 					"text" : "ossia.device sonify.main"
 				}
 
@@ -434,7 +434,7 @@
 				"patchline" : 				{
 					"color" : [ 0.10256053507328, 0.321527034044266, 0.802744746208191, 1.0 ],
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 332.5, 179.5, 318.0, 179.5, 318.0, 39.5, 332.5, 39.5 ],
+					"midpoints" : [ 332.5, 225.0, 318.0, 225.0, 318.0, 39.0, 332.5, 39.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -905,14 +905,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ossia.nav.rogs=.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.rogs=",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/nav.rogs=",
 				"patcherrelativepath" : "../nav/nav.rogs=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.oscroute.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.oscroute",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/nav.oscroute",
 				"patcherrelativepath" : "../nav/nav.oscroute",
 				"type" : "JSON",
 				"implicit" : 1
@@ -925,98 +925,98 @@
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities/namespacebrowser",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/namespacebrowser",
 				"patcherrelativepath" : "../utilities/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.rogs=.view.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.rogs=",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/nav.rogs=",
 				"patcherrelativepath" : "../nav/nav.rogs=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.oscroute.view.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.oscroute",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/nav.oscroute",
 				"patcherrelativepath" : "../nav/nav.oscroute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.view.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities/namespacebrowser",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/namespacebrowser",
 				"patcherrelativepath" : "../utilities/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.get_onscreen_position.js",
-				"bootpath" : "~/code/tml-ossia/utilities/namespacebrowser",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/namespacebrowser",
 				"patcherrelativepath" : "../utilities/namespacebrowser",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.equalizer=.module.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.equalizer=",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/ossia.equalizer=",
 				"patcherrelativepath" : "../nav/ossia.equalizer=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.equalizer=.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.equalizer=",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/ossia.equalizer=",
 				"patcherrelativepath" : "../nav/ossia.equalizer=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.equalizer=.view.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.equalizer=",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/ossia.equalizer=",
 				"patcherrelativepath" : "../nav/ossia.equalizer=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.output=.module.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.mc.out=",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/ossia.mc.out=",
 				"patcherrelativepath" : "../nav/ossia.mc.out=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.output=.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.mc.out=",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/ossia.mc.out=",
 				"patcherrelativepath" : "../nav/ossia.mc.out=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.limiter=.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.limiter=",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/ossia.limiter=",
 				"patcherrelativepath" : "../nav/ossia.limiter=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.output=.view.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.mc.out=",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/ossia.mc.out=",
 				"patcherrelativepath" : "../nav/ossia.mc.out=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.limiter=.view.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.limiter=",
+				"bootpath" : "~/Documents/Github/tml-ossia/nav/ossia.limiter=",
 				"patcherrelativepath" : "../nav/ossia.limiter=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simple_cues.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities/simple_cues",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/simple_cues",
 				"patcherrelativepath" : "../utilities/simple_cues",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1102,13 +1102,9 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -1119,7 +1115,11 @@
 						"autogradient" : 0
 					}
 ,
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
