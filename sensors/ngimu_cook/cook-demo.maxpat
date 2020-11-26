@@ -143,8 +143,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 270.0, 150.0, 33.0 ],
-									"text" : "< put this after your udp recieve in your patch"
+									"patching_rect" : [ 345.0, 255.0, 225.0, 33.0 ],
+									"text" : "< put one of these after your udp recieve in your sonification patch"
 								}
 
 							}
@@ -154,7 +154,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 270.0, 121.0, 22.0 ],
+									"patching_rect" : [ 225.0, 255.0, 121.0, 22.0 ],
 									"text" : "ossia.imu.cook.1 test"
 								}
 
