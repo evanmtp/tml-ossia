@@ -143,7 +143,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 345.0, 255.0, 225.0, 33.0 ],
+									"patching_rect" : [ 360.0, 240.0, 225.0, 33.0 ],
 									"text" : "< put one of these after your udp recieve in your sonification patch"
 								}
 
@@ -154,7 +154,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 225.0, 255.0, 121.0, 22.0 ],
+									"patching_rect" : [ 240.0, 240.0, 121.0, 22.0 ],
 									"text" : "ossia.imu.cook.1 test"
 								}
 
@@ -639,7 +639,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 255.0, 171.0, 38.0 ],
+									"patching_rect" : [ 15.0, 240.0, 171.0, 38.0 ],
 									"text" : "sensor fusion ideas:\nhighpass gyro + low pass acc"
 								}
 
