@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 188.0, 203.0, 636.0, 657.0 ],
+		"rect" : [ 188.0, 203.0, 472.0, 428.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 188.0, 229.0, 636.0, 631.0 ],
+						"rect" : [ 188.0, 229.0, 472.0, 402.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -138,12 +138,163 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 105.0, 450.0, 71.0, 20.0 ],
-									"text" : "gycro -acco"
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 8,
+											"minor" : 1,
+											"revision" : 8,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-7",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 140.0, 130.0, 71.0, 20.0 ],
+													"text" : "gycro -acco"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-56",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 50.0, 190.0, 121.0, 22.0 ],
+													"text" : "sensor_speed_tester"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-53",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 50.0, 130.0, 85.0, 22.0 ],
+													"text" : "route /sensors"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-51",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 8,
+													"outlettype" : [ "float", "float", "float", "float", "float", "float", "float", "float" ],
+													"patching_rect" : [ 50.0, 160.0, 154.0, 22.0 ],
+													"text" : "unpack 0. 0. 0. 0. 0. 0. 0. 0."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"annotation" : "Acquire sensor data from an x-OSC. Only reports IMU data.",
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 50.0, 100.0, 162.0, 22.0 ],
+													"text" : "ossia.ngimu.model ngimu_r1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-3",
+													"index" : 1,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 50.0, 272.0, 30.0, 30.0 ]
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-53", 0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-56", 0 ],
+													"source" : [ "obj-51", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-51", 0 ],
+													"source" : [ "obj-53", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-56", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 15.0, 300.0, 51.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p speed"
 								}
 
 							}
@@ -155,43 +306,30 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 15.0, 540.0, 50.0, 22.0 ]
+									"patching_rect" : [ 15.0, 330.0, 50.0, 22.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-56",
+									"id" : "obj-32",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 15.0, 510.0, 121.0, 22.0 ],
-									"text" : "sensor_speed_tester"
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 315.0, 21.0, 124.0, 22.0 ],
+									"text" : "udpreceive 69696969"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-53",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 450.0, 85.0, 22.0 ],
-									"text" : "route /sensors"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-51",
+									"id" : "obj-18",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 8,
-									"outlettype" : [ "float", "float", "float", "float", "float", "float", "float", "float" ],
-									"patching_rect" : [ 15.0, 480.0, 154.0, 22.0 ],
-									"text" : "unpack 0. 0. 0. 0. 0. 0. 0. 0."
+									"numoutlets" : 0,
+									"patching_rect" : [ 315.0, 60.0, 133.0, 22.0 ],
+									"text" : "ossia.imu.cook.1 wheel"
 								}
 
 							}
@@ -212,50 +350,23 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 15.0, 300.0, 390.0 ],
+									"patching_rect" : [ 0.0, 0.0, 300.0, 390.0 ],
 									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"annotation" : "Acquire sensor data from an x-OSC. Only reports IMU data.",
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 420.0, 162.0, 22.0 ],
-									"text" : "ossia.ngimu.model ngimu_r1"
 								}
 
 							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-53", 0 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-56", 0 ],
-									"source" : [ "obj-51", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-51", 0 ],
-									"source" : [ "obj-53", 0 ]
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-32", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
-									"source" : [ "obj-56", 0 ]
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -1072,7 +1183,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 636.0, 631.0 ],
+						"rect" : [ 0.0, 26.0, 472.0, 402.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1421,6 +1532,20 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "ossia.ngimu_receive.view.maxpat",
+				"bootpath" : "~/code/tml-ossia/sensors/ngimu_receive",
+				"patcherrelativepath" : "../sensors/ngimu_receive",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.imu.cook.1.maxpat",
+				"bootpath" : "~/code/tml-ossia/sensors/ngimu_cook",
+				"patcherrelativepath" : "../sensors/ngimu_cook",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ossia.ngimu.model.maxpat",
 				"bootpath" : "~/code/tml-ossia/sensors/ngimu",
 				"patcherrelativepath" : "../sensors/ngimu",
@@ -1442,13 +1567,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ossia.ngimu_receive.view.maxpat",
-				"bootpath" : "~/code/tml-ossia/sensors/ngimu_receive",
-				"patcherrelativepath" : "../sensors/ngimu_receive",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "sensor_speed_tester.maxpat",
 				"bootpath" : "~/code/tml-ossia/utilities",
 				"patcherrelativepath" : "../utilities",
@@ -1456,11 +1574,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ossia.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.model.mxo",
+				"name" : "ossia.view.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -1468,7 +1582,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ossia.view.mxo",
+				"name" : "ossia.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.router.mxo",
 				"type" : "iLaX"
 			}
  ],
