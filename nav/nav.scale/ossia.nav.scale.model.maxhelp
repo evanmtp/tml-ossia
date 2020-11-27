@@ -102,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 569.0, 135.0, 19.0 ],
-					"text" : "0.36"
+					"text" : "0.10"
 				}
 
 			}
@@ -139,7 +139,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 390.0, 135.0, 19.0 ],
-					"text" : "205"
+					"text" : "114"
 				}
 
 			}
@@ -348,7 +348,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 494.0, 269.0, 156.0, 279.0 ],
+					"patching_rect" : [ 495.0, 270.0, 156.0, 279.0 ],
 					"viewvisibility" : 1
 				}
 
