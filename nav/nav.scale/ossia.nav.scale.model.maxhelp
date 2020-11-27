@@ -102,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 569.0, 135.0, 19.0 ],
-					"text" : "0.45"
+					"text" : "0.10"
 				}
 
 			}
@@ -138,8 +138,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 389.0, 135.0, 19.0 ],
-					"text" : "154"
+					"patching_rect" : [ 15.0, 390.0, 135.0, 19.0 ],
+					"text" : "114"
 				}
 
 			}
@@ -348,7 +348,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 494.0, 269.0, 156.0, 279.0 ],
+					"patching_rect" : [ 495.0, 270.0, 156.0, 279.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -710,7 +710,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 68.5, 361.5, 23.5, 361.5 ],
+					"midpoints" : [ 68.5, 361.5, 24.5, 361.5 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -768,56 +768,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ossia.nav.scale.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.scale",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.scale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autoscale.maxpat",
-				"bootpath" : "~/code/tml-ossia/data/autoscale",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/data/autoscale",
 				"patcherrelativepath" : "../../data/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delta.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/basic_programming",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/basic_programming",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities",
+				"patcherrelativepath" : "../../utilities",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/depot_support",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/depot_support",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/depot_support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/depot_support",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/CNMAT-CNMAT-MMJ-Depot-ef44fd1/patchers/depot_support",
-				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "qom.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities",
 				"patcherrelativepath" : "../../utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.scale.view.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.scale",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.scale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -869,6 +848,8 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -881,12 +862,10 @@
 					}
 ,
 					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
