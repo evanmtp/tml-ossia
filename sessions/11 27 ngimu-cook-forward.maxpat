@@ -2094,15 +2094,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.map.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "ossia.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{

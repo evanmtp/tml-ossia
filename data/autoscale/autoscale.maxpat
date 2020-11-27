@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 109.0, -948.0, 1366.0, 891.0 ],
+		"rect" : [ 109.0, 79.0, 1366.0, 891.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -181,7 +181,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -439,7 +439,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -538,8 +538,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 6,
 									"outlettype" : [ "int", "float", "float", "float", "float", "" ],
-									"patching_rect" : [ 86.0, 119.0, 188.0, 21.0 ],
-									"text" : "j.stats 2000 200 @windowed 1"
+									"patching_rect" : [ 86.0, 119.0, 165.0, 21.0 ],
+									"text" : "j.stats 6000 200 @windowed 1"
 								}
 
 							}
@@ -729,7 +729,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -799,8 +799,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 6,
 									"outlettype" : [ "int", "float", "float", "float", "float", "" ],
-									"patching_rect" : [ 86.0, 119.0, 188.0, 21.0 ],
-									"text" : "j.stats 2000 200 @windowed 1"
+									"patching_rect" : [ 86.0, 119.0, 165.0, 21.0 ],
+									"text" : "j.stats 6000 200 @windowed 1"
 								}
 
 							}
@@ -942,7 +942,7 @@
 				"box" : 				{
 					"comment" : "Messages out, /min, /max",
 					"id" : "obj-11",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1014,7 +1014,7 @@
 				"box" : 				{
 					"comment" : "Scaled values out",
 					"id" : "obj-16",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1026,11 +1026,11 @@
 				"box" : 				{
 					"comment" : "Incoming values and messages",
 					"id" : "obj-17",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "clear" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 435.0, 62.0, 25.0, 25.0 ]
 				}
 
@@ -1344,7 +1344,17 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "ossia.router.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.stats.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
