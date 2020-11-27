@@ -13,6 +13,8 @@
 		"rect" : [ 59.0, 104.0, 1098.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
