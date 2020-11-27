@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 1123.0, 480.0 ],
+		"rect" : [ 75.0, 79.0, 1811.0, 886.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -66,8 +66,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 570.0, 60.0, 164.0, 22.0 ],
-					"text" : "udpsend 192.168.0.102 9114"
+					"patching_rect" : [ 570.0, 60.0, 165.0, 22.0 ],
+					"text" : "udpsend 192.168.0.102 7803"
 				}
 
 			}
@@ -77,8 +77,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 390.0, 60.0, 164.0, 22.0 ],
-					"text" : "udpsend 192.168.0.102 9113"
+					"patching_rect" : [ 390.0, 60.0, 165.0, 22.0 ],
+					"text" : "udpsend 192.168.0.102 7802"
 				}
 
 			}
@@ -88,8 +88,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 60.0, 164.0, 22.0 ],
-					"text" : "udpsend 192.168.0.102 9112"
+					"patching_rect" : [ 210.0, 60.0, 165.0, 22.0 ],
+					"text" : "udpsend 192.168.0.102 7801"
 				}
 
 			}
@@ -99,8 +99,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 60.0, 163.0, 22.0 ],
-					"text" : "udpsend 192.168.0.102 9111"
+					"patching_rect" : [ 30.0, 60.0, 165.0, 22.0 ],
+					"text" : "udpsend 192.168.0.102 7800"
 				}
 
 			}
@@ -110,8 +110,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 555.0, 105.0, 164.0, 22.0 ],
-					"text" : "udpsend 192.168.0.103 9114"
+					"patching_rect" : [ 555.0, 105.0, 165.0, 22.0 ],
+					"text" : "udpsend 192.168.0.103 7803"
 				}
 
 			}
@@ -121,8 +121,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 375.0, 105.0, 164.0, 22.0 ],
-					"text" : "udpsend 192.168.0.103 9113"
+					"patching_rect" : [ 375.0, 105.0, 165.0, 22.0 ],
+					"text" : "udpsend 192.168.0.103 7802"
 				}
 
 			}
@@ -132,8 +132,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 105.0, 164.0, 22.0 ],
-					"text" : "udpsend 192.168.0.103 9112"
+					"patching_rect" : [ 195.0, 105.0, 165.0, 22.0 ],
+					"text" : "udpsend 192.168.0.103 7801"
 				}
 
 			}
@@ -155,8 +155,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 105.0, 163.0, 22.0 ],
-					"text" : "udpsend 192.168.0.103 9111"
+					"patching_rect" : [ 15.0, 105.0, 165.0, 22.0 ],
+					"text" : "udpsend 192.168.0.103 7800"
 				}
 
 			}

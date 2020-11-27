@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 15.0, 75.0, 33.0 ],
+					"patching_rect" : [ 45.0, 15.0, 78.0, 33.0 ],
 					"text" : "replacement for j.qom"
 				}
 
@@ -71,10 +71,10 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 15.0, 192.0, 40.0, 21.0 ],
-					"text" : "delta"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 192.0, 53.0, 21.0 ],
+					"text" : "tml.delta"
 				}
 
 			}
