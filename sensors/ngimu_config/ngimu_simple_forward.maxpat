@@ -40,12 +40,34 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 750.0, 105.0, 150.0, 20.0 ],
+					"text" : "Navid"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 750.0, 60.0, 150.0, 20.0 ],
+					"text" : "Peter"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 570.0, 60.0, 165.0, 22.0 ],
-					"text" : "udpsend 192.168.0.102 9004"
+					"patching_rect" : [ 570.0, 60.0, 164.0, 22.0 ],
+					"text" : "udpsend 192.168.0.102 9114"
 				}
 
 			}
@@ -55,8 +77,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 390.0, 60.0, 165.0, 22.0 ],
-					"text" : "udpsend 192.168.0.102 9003"
+					"patching_rect" : [ 390.0, 60.0, 164.0, 22.0 ],
+					"text" : "udpsend 192.168.0.102 9113"
 				}
 
 			}
@@ -66,8 +88,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 60.0, 165.0, 22.0 ],
-					"text" : "udpsend 192.168.0.102 9002"
+					"patching_rect" : [ 210.0, 60.0, 164.0, 22.0 ],
+					"text" : "udpsend 192.168.0.102 9112"
 				}
 
 			}
@@ -77,8 +99,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 60.0, 165.0, 22.0 ],
-					"text" : "udpsend 192.168.0.102 9001"
+					"patching_rect" : [ 30.0, 60.0, 163.0, 22.0 ],
+					"text" : "udpsend 192.168.0.102 9111"
 				}
 
 			}
@@ -88,8 +110,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 555.0, 105.0, 165.0, 22.0 ],
-					"text" : "udpsend 192.168.0.103 9004"
+					"patching_rect" : [ 555.0, 105.0, 164.0, 22.0 ],
+					"text" : "udpsend 192.168.0.103 9114"
 				}
 
 			}
@@ -99,8 +121,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 375.0, 105.0, 165.0, 22.0 ],
-					"text" : "udpsend 192.168.0.103 9003"
+					"patching_rect" : [ 375.0, 105.0, 164.0, 22.0 ],
+					"text" : "udpsend 192.168.0.103 9113"
 				}
 
 			}
@@ -110,8 +132,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 105.0, 165.0, 22.0 ],
-					"text" : "udpsend 192.168.0.103 9002"
+					"patching_rect" : [ 195.0, 105.0, 164.0, 22.0 ],
+					"text" : "udpsend 192.168.0.103 9112"
 				}
 
 			}
@@ -133,8 +155,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 105.0, 165.0, 22.0 ],
-					"text" : "udpsend 192.168.0.103 9001"
+					"patching_rect" : [ 15.0, 105.0, 163.0, 22.0 ],
+					"text" : "udpsend 192.168.0.103 9111"
 				}
 
 			}
@@ -178,6 +200,15 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
+					"order" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -185,6 +216,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
+					"order" : 1,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"order" : 0,
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -192,6 +232,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
+					"order" : 1,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"order" : 0,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -199,6 +248,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
+					"order" : 1,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
