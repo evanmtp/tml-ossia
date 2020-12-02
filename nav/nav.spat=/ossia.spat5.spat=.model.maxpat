@@ -3647,7 +3647,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 104.0, 262.0, 409.0 ],
+										"rect" : [ 58.0, 104.0, 262.0, 409.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -5192,7 +5192,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 939.0, 490.0, 859.0, 478.0 ],
+						"rect" : [ 752.0, 231.0, 859.0, 478.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5220,6 +5220,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -5232,18 +5233,6 @@
 									"patching_rect" : [ 250.5, 351.5, 368.0, 22.0 ],
 									"text" : "ossia.parameter audio/autoMute/attack @type float @default 10000",
 									"varname" : "record[6]"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-133",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "float" ],
-									"patching_rect" : [ 250.5, 376.5, 45.0, 22.0 ],
-									"text" : "/ 1000."
 								}
 
 							}
@@ -5282,31 +5271,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 250.5, 252.5, 94.0, 21.0 ],
 									"text" : "/dsp/automute $1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"focusbordercolor" : [ 0.0, 0.019608, 0.078431, 0.0 ],
-									"id" : "obj-31",
-									"maxclass" : "live.dial",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 250.5, 296.5, 62.0, 48.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_longname" : "live.dial[15]",
-											"parameter_mmax" : 60000.0,
-											"parameter_shortname" : "automute",
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 2
-										}
-
-									}
-,
-									"varname" : "live.dial[7]"
 								}
 
 							}
@@ -5577,13 +5541,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-30", 0 ],
-									"source" : [ "obj-133", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-136", 0 ],
 									"source" : [ "obj-135", 0 ]
 								}
@@ -5621,13 +5578,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-139", 0 ],
 									"source" : [ "obj-30", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
-									"source" : [ "obj-31", 0 ]
 								}
 
 							}
@@ -5682,7 +5632,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-133", 0 ],
+									"destination" : [ "obj-30", 0 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -8871,7 +8821,6 @@
 		"parameters" : 		{
 			"obj-140::obj-13" : [ "live.toggle[89]", "live.toggle[89]", 0 ],
 			"obj-140::obj-135" : [ "live.toggle[11]", "live.toggle", 0 ],
-			"obj-140::obj-31" : [ "live.dial[15]", "automute", 0 ],
 			"obj-140::obj-34" : [ "live.toggle[12]", "live.toggle[2]", 0 ],
 			"obj-140::obj-37" : [ "live.toggle[3]", "live.toggle[2]", 0 ],
 			"obj-148::obj-125::obj-47" : [ "live.numbox[9]", "live.numbox", 0 ],
