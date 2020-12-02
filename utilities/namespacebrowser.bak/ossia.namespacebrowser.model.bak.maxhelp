@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 776.0, 79.0, 810.0, 762.0 ],
+		"rect" : [ 776.0, -1001.0, 810.0, 762.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -406,7 +406,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 330.0, 135.0, 22.0 ],
-					"text" : "address none"
+					"text" : "address /browse/slider"
 				}
 
 			}
@@ -780,7 +780,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 15.0, 210.0, 222.0, 21.0 ],
-					"varname" : "ossia.namespacebrowser.view",
 					"viewvisibility" : 1
 				}
 
@@ -944,23 +943,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-13::obj-123::obj-14" : [ "live.text", "live.text", 0 ],
-			"obj-13::obj-123::obj-15" : [ "live.text[1]", "live.text", 0 ],
+			"obj-11::obj-14" : [ "live.text", "live.text", 0 ],
+			"obj-11::obj-15" : [ "live.text[1]", "live.text", 0 ],
 			"obj-25" : [ "toggle", "toggle", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-13::obj-123::obj-14" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-13::obj-123::obj-15" : 				{
+				"obj-11::obj-15" : 				{
 					"parameter_longname" : "live.text[1]"
 				}
 
@@ -971,21 +962,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ossia.namespacebrowser.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/namespacebrowser",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/namespacebrowser",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/namespacebrowser",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/namespacebrowser",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.get_onscreen_position.js",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/namespacebrowser",
+				"bootpath" : "~/Documents/Github/tml-ossia/utilities/namespacebrowser",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -999,19 +990,19 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ossia.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "ossia.fuzzysearch.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "ossia.explorer.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
  ],
@@ -1033,10 +1024,9 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
-					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -1047,9 +1037,10 @@
 						"autogradient" : 0
 					}
 ,
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
