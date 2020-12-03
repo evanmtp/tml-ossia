@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 373.0, 79.0, 722.0, 1014.0 ],
+		"rect" : [ 185.0, 79.0, 722.0, 783.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,11 +44,11 @@
 					"comment" : "",
 					"hint" : "int",
 					"id" : "obj-35",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 930.0, 33.0, 33.0 ]
+					"patching_rect" : [ 285.0, 900.0, 33.0, 33.0 ]
 				}
 
 			}
@@ -140,7 +140,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -153,7 +153,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -315,13 +315,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 12.0,
 					"id" : "obj-5",
-					"linecount" : 5,
+					"linecount" : 8,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 75.0, 900.0, 152.0, 81.0 ],
-					"text" : "ossia.parameter out/final @mode get @type float @description \"final and interpolated output\""
+					"patching_rect" : [ 75.0, 900.0, 105.0, 125.0 ],
+					"text" : "ossia.parameter out/final/float @mode get @type float @description \"final and interpolated output\""
 				}
 
 			}
@@ -1325,11 +1325,11 @@
 					"comment" : "",
 					"hint" : "float",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 930.0, 33.0, 33.0 ]
+					"patching_rect" : [ 30.0, 900.0, 33.0, 33.0 ]
 				}
 
 			}
@@ -1584,17 +1584,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "ossia.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.model.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
