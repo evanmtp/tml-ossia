@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 97.0, 79.0, 662.0, 618.0 ],
+		"rect" : [ 97.0, 79.0, 736.0, 811.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,32 @@
 		"subpatcher_template" : "evan_template",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 255.0, 555.0, 48.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.gain~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 2,
@@ -210,7 +236,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 525.0, 150.0, 37.0 ],
+					"patching_rect" : [ 90.0, 630.0, 150.0, 37.0 ],
 					"text" : "outputs 2-channel multicable signal"
 				}
 
@@ -223,7 +249,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 450.0, 150.0, 37.0 ],
+					"patching_rect" : [ 90.0, 555.0, 150.0, 37.0 ],
 					"text" : "expects 2-channel multicable input"
 				}
 
@@ -235,7 +261,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 15.0, 525.0, 84.0, 22.0 ],
+					"patching_rect" : [ 15.0, 630.0, 84.0, 22.0 ],
 					"text" : "mc.unpack~ 2"
 				}
 
@@ -246,7 +272,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 555.0, 45.0, 45.0 ]
+					"patching_rect" : [ 15.0, 660.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -283,7 +309,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 15.0, 465.0, 60.0, 22.0 ],
+					"patching_rect" : [ 15.0, 570.0, 60.0, 22.0 ],
 					"text" : "mc.pack~"
 				}
 
@@ -295,7 +321,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 15.0, 405.0, 45.0, 45.0 ]
+					"patching_rect" : [ 15.0, 510.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -315,7 +341,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 135.0, 270.0, 255.0 ],
+					"patching_rect" : [ 15.0, 135.0, 270.0, 360.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -327,7 +353,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 15.0, 495.0, 224.0, 22.0 ],
+					"patching_rect" : [ 15.0, 600.0, 224.0, 22.0 ],
 					"text" : "ossia.nav.mubu.shaker.model myShaker",
 					"varname" : "ossia.nav.mubu.shaker.model"
 				}
@@ -387,6 +413,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"order" : 1,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -407,8 +442,11 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-21" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-2::obj-107" : [ "live.text[6]", "live.text", 0 ],
 			"obj-2::obj-17" : [ "live.text[3]", "live.text", 0 ],
 			"obj-2::obj-175" : [ "live.text[4]", "live.text", 0 ],
+			"obj-2::obj-34" : [ "live.text[5]", "live.text", 0 ],
 			"obj-2::obj-4" : [ "live.numbox[6]", "live.numbox[8]", 4 ],
 			"obj-2::obj-7" : [ "live.text[63]", "live.text", 0 ],
 			"obj-2::obj-83" : [ "live.text[2]", "live.text", 0 ],
@@ -452,14 +490,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ossia.nav.mubu.shaker.model.maxpat",
-				"bootpath" : "~/Github/tml-ossia/nav/nav.mubu.shaker",
+				"bootpath" : "~/code/tml-ossia/nav/nav.mubu.shaker",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.oscroute.model.maxpat",
-				"bootpath" : "~/Github/tml-ossia/nav/nav.oscroute",
+				"bootpath" : "~/code/tml-ossia/nav/nav.oscroute",
 				"patcherrelativepath" : "../nav.oscroute",
 				"type" : "JSON",
 				"implicit" : 1
@@ -472,14 +510,14 @@
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.model.maxpat",
-				"bootpath" : "~/Github/tml-ossia/utilities/namespacebrowser",
+				"bootpath" : "~/code/tml-ossia/utilities/namespacebrowser",
 				"patcherrelativepath" : "../../utilities/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.mubu.shaker.view.maxpat",
-				"bootpath" : "~/Github/tml-ossia/nav/nav.mubu.shaker",
+				"bootpath" : "~/code/tml-ossia/nav/nav.mubu.shaker",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -552,12 +590,6 @@
 				"name" : "jpink",
 				"default" : 				{
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -568,7 +600,13 @@
 						"autogradient" : 0
 					}
 ,
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
