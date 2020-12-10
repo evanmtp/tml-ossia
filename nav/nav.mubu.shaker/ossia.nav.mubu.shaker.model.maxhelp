@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 97.0, 79.0, 736.0, 811.0 ],
+		"rect" : [ 43.0, 79.0, 736.0, 811.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 255.0, 555.0, 48.0, 136.0 ],
+					"patching_rect" : [ 255.0, 600.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -236,7 +236,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 630.0, 150.0, 37.0 ],
+					"patching_rect" : [ 90.0, 675.0, 150.0, 37.0 ],
 					"text" : "outputs 2-channel multicable signal"
 				}
 
@@ -249,7 +249,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 555.0, 150.0, 37.0 ],
+					"patching_rect" : [ 90.0, 600.0, 150.0, 37.0 ],
 					"text" : "expects 2-channel multicable input"
 				}
 
@@ -261,7 +261,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 15.0, 630.0, 84.0, 22.0 ],
+					"patching_rect" : [ 15.0, 675.0, 84.0, 22.0 ],
 					"text" : "mc.unpack~ 2"
 				}
 
@@ -272,7 +272,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 660.0, 45.0, 45.0 ]
+					"patching_rect" : [ 15.0, 705.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -309,7 +309,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 15.0, 570.0, 60.0, 22.0 ],
+					"patching_rect" : [ 15.0, 615.0, 60.0, 22.0 ],
 					"text" : "mc.pack~"
 				}
 
@@ -321,7 +321,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 15.0, 510.0, 45.0, 45.0 ]
+					"patching_rect" : [ 15.0, 555.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -341,7 +341,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 135.0, 270.0, 360.0 ],
+					"patching_rect" : [ 15.0, 135.0, 270.0, 405.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -353,7 +353,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 15.0, 600.0, 224.0, 22.0 ],
+					"patching_rect" : [ 15.0, 645.0, 224.0, 22.0 ],
 					"text" : "ossia.nav.mubu.shaker.model myShaker",
 					"varname" : "ossia.nav.mubu.shaker.model"
 				}
@@ -444,12 +444,21 @@
 		"parameters" : 		{
 			"obj-21" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-2::obj-107" : [ "live.text[6]", "live.text", 0 ],
-			"obj-2::obj-17" : [ "live.text[3]", "live.text", 0 ],
-			"obj-2::obj-175" : [ "live.text[4]", "live.text", 0 ],
-			"obj-2::obj-34" : [ "live.text[5]", "live.text", 0 ],
+			"obj-2::obj-17" : [ "live.text[7]", "live.text", 0 ],
+			"obj-2::obj-171::obj-86" : [ "SelectFile[2]", "SelectFile", 0 ],
+			"obj-2::obj-171::obj-90" : [ "DropFile[2]", "DropFile", 0 ],
 			"obj-2::obj-4" : [ "live.numbox[6]", "live.numbox[8]", 4 ],
+			"obj-2::obj-61::obj-10::obj-10::obj-145" : [ "live.menu[4]", "live.menu", 0 ],
+			"obj-2::obj-61::obj-10::obj-196" : [ "live.text[10]", "live.text", 0 ],
+			"obj-2::obj-61::obj-10::obj-32" : [ "live.text[1]", "live.text", 0 ],
+			"obj-2::obj-61::obj-10::obj-7" : [ "live.text", "live.text", 0 ],
+			"obj-2::obj-61::obj-182" : [ "live.text[11]", "live.text[4]", 0 ],
+			"obj-2::obj-61::obj-7::obj-123::obj-14" : [ "live.text[3]", "live.text", 0 ],
+			"obj-2::obj-61::obj-7::obj-123::obj-15" : [ "live.text[2]", "live.text", 0 ],
 			"obj-2::obj-7" : [ "live.text[63]", "live.text", 0 ],
-			"obj-2::obj-83" : [ "live.text[2]", "live.text", 0 ],
+			"obj-2::obj-83" : [ "live.text[4]", "live.text", 0 ],
+			"obj-2::obj-86" : [ "SelectFile[1]", "SelectFile", 0 ],
+			"obj-2::obj-90" : [ "DropFile[1]", "DropFile", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -457,14 +466,34 @@
 			"parameter_overrides" : 			{
 				"obj-2::obj-17" : 				{
 					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[3]",
+					"parameter_longname" : "live.text[7]",
 					"parameter_modmode" : 0,
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
 ,
+				"obj-2::obj-171::obj-86" : 				{
+					"parameter_invisible" : 2,
+					"parameter_longname" : "SelectFile[2]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-2::obj-171::obj-90" : 				{
+					"parameter_longname" : "DropFile[2]"
+				}
+,
 				"obj-2::obj-4" : 				{
 					"parameter_longname" : "live.numbox[6]"
+				}
+,
+				"obj-2::obj-61::obj-7::obj-123::obj-14" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-2::obj-61::obj-7::obj-123::obj-15" : 				{
+					"parameter_longname" : "live.text[2]"
 				}
 ,
 				"obj-2::obj-7" : 				{
@@ -477,10 +506,22 @@
 ,
 				"obj-2::obj-83" : 				{
 					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[2]",
+					"parameter_longname" : "live.text[4]",
 					"parameter_modmode" : 0,
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
+				}
+,
+				"obj-2::obj-86" : 				{
+					"parameter_invisible" : 2,
+					"parameter_longname" : "SelectFile[1]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-2::obj-90" : 				{
+					"parameter_longname" : "DropFile[1]"
 				}
 
 			}
@@ -490,14 +531,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ossia.nav.mubu.shaker.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.mubu.shaker",
+				"bootpath" : "~/Github/tml-ossia/nav/nav.mubu.shaker",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.oscroute.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.oscroute",
+				"bootpath" : "~/Github/tml-ossia/nav/nav.oscroute",
 				"patcherrelativepath" : "../nav.oscroute",
 				"type" : "JSON",
 				"implicit" : 1
@@ -510,16 +551,37 @@
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities/namespacebrowser",
+				"bootpath" : "~/Github/tml-ossia/utilities/namespacebrowser",
 				"patcherrelativepath" : "../../utilities/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.mubu.shaker.view.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.mubu.shaker",
+				"bootpath" : "~/Github/tml-ossia/nav/nav.mubu.shaker",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.nav.oscroute.view.maxpat",
+				"bootpath" : "~/Github/tml-ossia/nav/nav.oscroute",
+				"patcherrelativepath" : "../nav.oscroute",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.namespacebrowser.view.maxpat",
+				"bootpath" : "~/Github/tml-ossia/utilities/namespacebrowser",
+				"patcherrelativepath" : "../../utilities/namespacebrowser",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.get_onscreen_position.js",
+				"bootpath" : "~/Github/tml-ossia/utilities/namespacebrowser",
+				"patcherrelativepath" : "../../utilities/namespacebrowser",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -531,15 +593,15 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "ossia.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "mubu.concat~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "mubu.knn.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -570,6 +632,18 @@
 				"name" : "mubu.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "ossia.attribute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.fuzzysearch.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.explorer.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
@@ -589,7 +663,13 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -600,12 +680,6 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
