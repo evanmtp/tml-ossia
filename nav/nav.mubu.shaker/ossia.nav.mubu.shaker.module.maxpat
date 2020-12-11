@@ -93,7 +93,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 270.0, 255.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 272.0, 321.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 272.0, 405.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -137,8 +137,8 @@
 		"parameters" : 		{
 			"obj-2::obj-107" : [ "live.text[6]", "live.text", 0 ],
 			"obj-2::obj-17" : [ "live.text[8]", "live.text", 0 ],
-			"obj-2::obj-175" : [ "live.text[4]", "live.text", 0 ],
-			"obj-2::obj-34" : [ "live.text[5]", "live.text", 0 ],
+			"obj-2::obj-171::obj-86" : [ "SelectFile[2]", "SelectFile", 0 ],
+			"obj-2::obj-171::obj-90" : [ "DropFile[2]", "DropFile", 0 ],
 			"obj-2::obj-4" : [ "live.numbox[6]", "live.numbox[8]", 4 ],
 			"obj-2::obj-61::obj-10::obj-10::obj-145" : [ "live.menu[4]", "live.menu", 0 ],
 			"obj-2::obj-61::obj-10::obj-196" : [ "live.text[10]", "live.text", 0 ],
@@ -149,6 +149,8 @@
 			"obj-2::obj-61::obj-7::obj-123::obj-15" : [ "live.text[3]", "live.text", 0 ],
 			"obj-2::obj-7" : [ "live.text[63]", "live.text", 0 ],
 			"obj-2::obj-83" : [ "live.text[7]", "live.text", 0 ],
+			"obj-2::obj-86" : [ "SelectFile[1]", "SelectFile", 0 ],
+			"obj-2::obj-90" : [ "DropFile[1]", "DropFile", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -268,6 +270,10 @@
 			}
 , 			{
 				"name" : "j.stats.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
 				"type" : "iLaX"
 			}
 , 			{
