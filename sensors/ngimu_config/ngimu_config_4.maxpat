@@ -266,6 +266,38 @@
 					"parameter_longname" : "live.text[6]"
 				}
 ,
+				"obj-6::obj-135" : 				{
+					"parameter_longname" : "live.text[23]"
+				}
+,
+				"obj-6::obj-136" : 				{
+					"parameter_longname" : "live.text[24]"
+				}
+,
+				"obj-6::obj-137" : 				{
+					"parameter_longname" : "live.text[26]"
+				}
+,
+				"obj-6::obj-138" : 				{
+					"parameter_longname" : "live.text[19]"
+				}
+,
+				"obj-6::obj-139" : 				{
+					"parameter_longname" : "live.text[20]"
+				}
+,
+				"obj-6::obj-140" : 				{
+					"parameter_longname" : "live.text[21]"
+				}
+,
+				"obj-6::obj-141" : 				{
+					"parameter_longname" : "live.text[22]"
+				}
+,
+				"obj-6::obj-344" : 				{
+					"parameter_longname" : "live.text[25]"
+				}
+,
 				"obj-8::obj-135" : 				{
 					"parameter_longname" : "live.text[30]"
 				}
