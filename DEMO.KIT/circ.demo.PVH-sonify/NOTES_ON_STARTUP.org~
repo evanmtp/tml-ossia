@@ -1,0 +1,18 @@
+* Juggling
+
+1) Load /juggling/#JUGGLE_PATCH.maxpat, in its own instance of max.
+
+2) Select 'new3' preset in simple cues (jamoma cue will auto load).
+
+3) Load /juggling/18_12_2020_juggling8 Project/17_12_2020_juggling7.als in Ableton.
+
+4) Adjust levels of 3 clubs in MIDI-ctl interface that is part of the Max juggling patch (bottom left, 8 sliders).
+
+
+* Wheel
+
+1) Load /wheel/#WHEEL_PATCH.maxpat, in its own instance of max.
+
+2) select 'cue10' preset in simple cues.
+
+3) Load /wheel/18_12_2020_wheel2_FINALPATCH_SHOWTIME Project/18_12_2020_wheel2_FINALPATCH_SHOWTIME.als
