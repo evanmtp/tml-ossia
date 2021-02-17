@@ -122,13 +122,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-28",
-									"linecount" : 27,
+									"linecount" : 58,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 90.0, 1053.0, 370.0 ],
-									"text" : "/channel/number 1 /channel/1/equalizer/bypass 0 /channel/1/equalizer/gain 0. /channel/1/equalizer/filter/1/active 1 /channel/1/equalizer/filter/1/freq 50. /channel/1/equalizer/filter/1/order 2 /channel/1/equalizer/filter/2/active 1 /channel/1/equalizer/filter/2/freq 100. /channel/1/equalizer/filter/2/gain 0. /channel/1/equalizer/filter/2/q 1. /channel/1/equalizer/filter/3/active 1 /channel/1/equalizer/filter/3/freq 500. /channel/1/equalizer/filter/3/gain 0. /channel/1/equalizer/filter/3/q 1. /channel/1/equalizer/filter/4/active 1 /channel/1/equalizer/filter/4/freq 1000. /channel/1/equalizer/filter/4/gain 0. /channel/1/equalizer/filter/4/q 1. /channel/1/equalizer/filter/5/active 1 /channel/1/equalizer/filter/5/freq 2000. /channel/1/equalizer/filter/5/gain -7.4 /channel/1/equalizer/filter/5/q 3.8 /channel/1/equalizer/filter/6/active 1 /channel/1/equalizer/filter/6/freq 5000. /channel/1/equalizer/filter/6/gain 0. /channel/1/equalizer/filter/6/q 1. /channel/1/equalizer/filter/7/active 1 /channel/1/equalizer/filter/7/freq 2868. /channel/1/equalizer/filter/7/gain 7.6 /channel/1/equalizer/filter/7/q 1. /channel/1/equalizer/filter/8/active 1 /channel/1/equalizer/filter/8/freq 2653. /channel/1/equalizer/filter/8/order 2 /channel/1/equalizer/filter/1/color 0. 0. 0.513726 1. /channel/1/equalizer/filter/2/color 0. 0.07451 1. 1. /channel/1/equalizer/filter/3/color 0. 0.654902 1. 1. /channel/1/equalizer/filter/4/color 0.215686 1. 0.780392 1. /channel/1/equalizer/filter/5/color 0.796078 1. 0.2 1. /channel/1/equalizer/filter/6/color 1. 0.639216 0. 1. /channel/1/equalizer/filter/7/color 1. 0.058824 0. 1. /channel/1/equalizer/filter/8/color 0.498039 0. 0. 1. /channel/1/filtergraph/curve/number 9 /channel/1/filtergraph/samplerate 44100. /channel/1/filtergraph/title /channel/1/filtergraph/curve/1/visible 1 /channel/1/filtergraph/curve/1/foreground/color 0. 0. 0.513726 1. /channel/1/filtergraph/curve/1/color 0. 0. 0.513726 1. /channel/1/filtergraph/curve/1/fill 0 /channel/1/filtergraph/curve/1/thickness 1. /channel/1/filtergraph/curve/2/visible 1 /channel/1/filtergraph/curve/2/foreground/color 0. 0.07451 1. 1. /channel/1/filtergraph/curve/2/color 0. 0.07451 1. 1. /channel/1/filtergraph/curve/2/fill 0 /channel/1/filtergraph/curve/2/thickness 1. /channel/1/filtergraph/curve/3/visible 1 /channel/1/filtergraph/curve/3/foreground/color 0. 0.654902 1. 1. /channel/1/filtergraph/curve/3/color 0. 0.654902 1. 1. /channel/1/filtergraph/curve/3/fill 0 /channel/1/filtergraph/curve/3/thickness 1. /channel/1/filtergraph/curve/4/visible 1 /channel/1/filtergraph/curve/4/foreground/color 0.215686 1. 0.780392 1. /channel/1/filtergraph/curve/4/color 0.215686 1. 0.780392 1. /channel/1/filtergraph/curve/4/fill 0 /channel/1/filtergraph/curve/4/thickness 1. /channel/1/filtergraph/curve/5/visible 1 /channel/1/filtergraph/curve/5/foreground/color 0.796078 1. 0.2 1. /channel/1/filtergraph/curve/5/color 0.796078 1. 0.2 1. /channel/1/filtergraph/curve/5/fill 0 /channel/1/filtergraph/curve/5/thickness 1. /channel/1/filtergraph/curve/6/visible 1 /channel/1/filtergraph/curve/6/foreground/color 1. 0.639216 0. 1. /channel/1/filtergraph/curve/6/color 1. 0.639216 0. 1. /channel/1/filtergraph/curve/6/fill 0 /channel/1/filtergraph/curve/6/thickness 1. /channel/1/filtergraph/curve/7/visible 1 /channel/1/filtergraph/curve/7/foreground/color 1. 0.058824 0. 1. /channel/1/filtergraph/curve/7/color 1. 0.058824 0. 1. /channel/1/filtergraph/curve/7/fill 0 /channel/1/filtergraph/curve/7/thickness 1. /channel/1/filtergraph/curve/8/visible 1 /channel/1/filtergraph/curve/8/foreground/color 0.498039 0. 0. 1. /channel/1/filtergraph/curve/8/color 0.498039 0. 0. 1. /channel/1/filtergraph/curve/8/fill 0 /channel/1/filtergraph/curve/8/thickness 1. /channel/1/filtergraph/curve/9/visible 1 /channel/1/filtergraph/curve/9/foreground/color 0. 0. 0. 0.2 /channel/1/filtergraph/curve/9/color 0. 0. 0. 1. /channel/1/filtergraph/curve/9/fill 1 /channel/1/filtergraph/curve/9/thickness 3. /channel/1/filtergraph/mode magnitude /channel/1/filtergraph/font/size 10. /channel/1/filtergraph/grid/visible 1 /channel/1/filtergraph/grid/color 0.501961 0.501961 0.501961 1. /channel/1/filtergraph/phase/unwrap 0 /channel/1/filtergraph/phase/min -180. /channel/1/filtergraph/phase/max 180. /channel/1/filtergraph/freq/min 20. /channel/1/filtergraph/freq/max 22050. /channel/1/filtergraph/freq/logscale 1 /channel/1/filtergraph/magnitude/min -12. /channel/1/filtergraph/magnitude/max 12. /channel/1/filtergraph/magnitude/logscale 1 /channel/1/filtergraph/xtick/visible 1 /channel/1/filtergraph/xtick/color 0.501961 0.501961 0.501961 0.65098 /channel/1/filtergraph/xtick/position topandmiddle /channel/1/filtergraph/ytick/visible 1 /channel/1/filtergraph/ytick/color 0. 0. 0. 1. /channel/1/filtergraph/cursor/visible 0 /channel/1/filtergraph/cursor/color 1. 0. 0. 1. /channel/1/filtergraph/background/color 1. 1. 1. 0. /channel/1/filtergraph/frame/visible 1 /channel/1/filtergraph/frame/color 0. 0. 0. 1. /channel/1/filtergraph/frame/rounded 5. /channel/1/filtergraph/frame/thickness 2. /channel/1/filtergraph/marker/number 0 /channel/1/controllers/visible 1"
+									"text" : "/source/number 5 /source/1/visible 1 /source/1/editable 1 /source/1/select 0 /source/1/hidewhenmute 0 /source/1/aed -15.486629 0. 1.149666 /source/1/constraint/circular 0 /source/1/coordinates/visible 1 /source/1/orientation/mode default /source/1/orientation 0. 0. 0. 1. /source/1/lookat/aed 90. 0. 0. /source/1/proportion 100. /source/1/color 0.490196 1. 0. 1. /source/1/image  /source/1/label \"1\" /source/1/label/visible 1 /source/1/label/color 0. 0. 0. 1. /source/1/label/justification centred /source/1/vumeter/visible 0 /source/1/vumeter/level -60. /source/1/aperture 80. /source/1/aperture/visible 1 /source/1/aperture/color 1. 1. 1. 1. /source/1/radius/visible 0 /source/1/history/visible 0 /source/1/history/size 100 /source/1/history/color 0.490196 1. 0. 1. /source/1/history/thickness 1. /source/2/visible 1 /source/2/editable 1 /source/2/select 0 /source/2/hidewhenmute 0 /source/2/aed -1.219379 0. 1.156422 /source/2/constraint/circular 0 /source/2/coordinates/visible 1 /source/2/orientation/mode default /source/2/orientation 0. 0. 0. 1. /source/2/lookat/aed 90. 0. 0. /source/2/proportion 100. /source/2/color 0.490196 1. 0. 1. /source/2/image  /source/2/label \"2\" /source/2/label/visible 1 /source/2/label/color 0. 0. 0. 1. /source/2/label/justification centred /source/2/vumeter/visible 0 /source/2/vumeter/level -60. /source/2/aperture 80. /source/2/aperture/visible 1 /source/2/aperture/color 1. 1. 1. 1. /source/2/radius/visible 0 /source/2/history/visible 0 /source/2/history/size 100 /source/2/history/color 0.490196 1. 0. 1. /source/2/history/thickness 1. /source/3/visible 1 /source/3/editable 1 /source/3/select 0 /source/3/hidewhenmute 0 /source/3/aed 12.773861 0. 1.150931 /source/3/constraint/circular 0 /source/3/coordinates/visible 1 /source/3/orientation/mode default /source/3/orientation 0. 0. 0. 1. /source/3/lookat/aed 90. 0. 0. /source/3/proportion 100. /source/3/color 0.490196 1. 0. 1. /source/3/image  /source/3/label \"3\" /source/3/label/visible 1 /source/3/label/color 0. 0. 0. 1. /source/3/label/justification centred /source/3/vumeter/visible 0 /source/3/vumeter/level -60. /source/3/aperture 80. /source/3/aperture/visible 1 /source/3/aperture/color 1. 1. 1. 1. /source/3/radius/visible 0 /source/3/history/visible 0 /source/3/history/size 100 /source/3/history/color 0.490196 1. 0. 1. /source/3/history/thickness 1. /source/4/visible 1 /source/4/editable 1 /source/4/select 0 /source/4/hidewhenmute 0 /source/4/aed -22.943317 0. 1.160361 /source/4/constraint/circular 0 /source/4/coordinates/visible 1 /source/4/orientation/mode default /source/4/orientation 0. 0. 0. 1. /source/4/lookat/aed 90. 0. 0. /source/4/proportion 100. /source/4/color 0.490196 1. 0. 1. /source/4/image  /source/4/label \"4\" /source/4/label/visible 1 /source/4/label/color 0. 0. 0. 1. /source/4/label/justification centred /source/4/vumeter/visible 0 /source/4/vumeter/level -60. /source/4/aperture 80. /source/4/aperture/visible 1 /source/4/aperture/color 1. 1. 1. 1. /source/4/radius/visible 0 /source/4/history/visible 0 /source/4/history/size 100 /source/4/history/color 0.490196 1. 0. 1. /source/4/history/thickness 1. /source/5/visible 1 /source/5/editable 1 /source/5/select 1 /source/5/hidewhenmute 0 /source/5/aed 44.660889 0. 0.654717 /source/5/constraint/circular 0 /source/5/coordinates/visible 1 /source/5/orientation/mode default /source/5/orientation 0. 0. 0. 1. /source/5/lookat/aed 90. 0. 0. /source/5/proportion 100. /source/5/color 0.490196 1. 0. 1. /source/5/image  /source/5/label \"5\" /source/5/label/visible 1 /source/5/label/color 0. 0. 0. 1. /source/5/label/justification centred /source/5/vumeter/visible 0 /source/5/vumeter/level -60. /source/5/aperture 80. /source/5/aperture/visible 1 /source/5/aperture/color 1. 1. 1. 1. /source/5/radius/visible 0 /source/5/history/visible 0 /source/5/history/size 100 /source/5/history/color 0.490196 1. 0. 1. /source/5/history/thickness 1. /speaker/number 2 /speakers/aed -30. 0. 1. 30. 0. 1. /speaker/1/visible 1 /speaker/1/editable 0 /speaker/1/select 0 /speaker/1/aed -30. 0. 1. /speaker/1/constraint/circular 0 /speaker/1/coordinates/visible 1 /speaker/1/proportion 100. /speaker/1/color 0. 0. 0. 1. /speaker/1/image  /speaker/1/label \"1\" /speaker/1/label/visible 1 /speaker/1/label/color 1. 1. 1. 1. /speaker/1/label/justification centred /speaker/1/vumeter/visible 0 /speaker/1/vumeter/level -60. /speaker/2/visible 1 /speaker/2/editable 0 /speaker/2/select 0 /speaker/2/aed 30. 0. 1. /speaker/2/constraint/circular 0 /speaker/2/coordinates/visible 1 /speaker/2/proportion 100. /speaker/2/color 0. 0. 0. 1. /speaker/2/image  /speaker/2/label \"2\" /speaker/2/label/visible 1 /speaker/2/label/color 1. 1. 1. 1. /speaker/2/label/justification centred /speaker/2/vumeter/visible 0 /speaker/2/vumeter/level -60. /stereo/number 0 /subwoofer/number 0 /listener/visible 1 /listener/editable 0 /listener/select 0 /listener/aed 90. 0. 0. /listener/constraint/circular 0 /listener/coordinates/visible 1 /listener/orientation/mode default /listener/orientation 0. 0. 0. 1. /listener/lookat/aed 90. 0. 0. /listener/proportion 100. /listener/color 0. 0. 0. 0. /listener/headphones/visible 0 /multi/number 0 /microphone/number 0 /eigenmike/number 0 /format aed /background/color 0.709804 0.709804 0.709804 1. /backgroundimage/file  /backgroundimage/visible 1 /backgroundimage/opacity 1. /backgroundimage/scale 100. /backgroundimage/angle 0. /backgroundimage/offset/xy 0. 0. /backgroundimage/quality medium /display/zoom 100. /display/offset/xyz 0. 0. 0. /display/zoom/lock 0 /axis/visible 1 /axis/label/visible 1 /axis/origin/visible 1 /axis/color 1. 1. 1. 1. /axis/thickness 2. /grid/visible 1 /grid/mode circular /grid/spacing 1. /grid/line/number 30 /grid/angulardivisions/number 16 /grid/angulardivisions/visible 0 /grid/dashed 0 /grid/color 1. 1. 1. 0.498039 /grid/thickness 1. /legend/visible 1 /legend/color 1. 1. 1. 1. /legend/unit meters /emphasis/source 1 /emphasis/speaker 0 /emphasis/microphone 0 /ruler/visible 0 /ruler/color 1. 1. 1. 1. /ruler/unit meters /hoa/number 0 /anchor/number 0 /phone/number 0 /area/number 0 /speakerhull/visible 0 /speakerhull/color 0. 0. 0. 1. /speakerhull/fill 0 /speakerhull/fill/color 0. 0. 0. 0.298039 /settings/visible 0 /settings/editable 1 /layout single /source/1/pres 84.1 /source/1/warm 30. /source/1/bril 30. /source/1/prer 77.2 /source/1/revp 34. /source/1/env 24. /source/1/axis/params -11. 0. 0. 0. 177. 5657. /source/1/axis/mute 0 /source/1/axis/bypass 0 /source/1/omni/params 0. 1.7 0. -3.8 177. 5657. /source/1/omni/mute 0 /source/1/omni/bypass 0 /source/1/color 0.490196 1. 0. 1. /source/1/doppler 0 /source/1/air 1 /source/1/air/freq 10000. /source/1/drop 6. /source/1/drop/mode log2 /source/1/radius 1. /source/1/room/destination 1 /source/1/mute 0 /source/1/solo 0 /source/1/direct/mute 0 /source/1/early/mute 0 /source/1/cluster/mute 0 /source/1/reverb/mute 0 /source/1/early/width 30. /source/1/early/shape 50. /source/1/spread 0. /source/1/panrev 0. /source/1/lock 0 /source/2/pres 86.2 /source/2/warm 30. /source/2/bril 30. /source/2/prer 48. /source/2/revp 34. /source/2/env 24. /source/2/axis/params 0. 0. 0. 0. 177. 5657. /source/2/axis/mute 0 /source/2/axis/bypass 0 /source/2/omni/params 0. 1.7 0. -3.8 177. 5657. /source/2/omni/mute 0 /source/2/omni/bypass 0 /source/2/color 0.490196 1. 0. 1. /source/2/doppler 0 /source/2/air 1 /source/2/air/freq 10000. /source/2/drop 6. /source/2/drop/mode log2 /source/2/radius 1. /source/2/room/destination 1 /source/2/mute 0 /source/2/solo 0 /source/2/direct/mute 0 /source/2/early/mute 0 /source/2/cluster/mute 0 /source/2/reverb/mute 0 /source/2/early/width 30. /source/2/early/shape 50. /source/2/spread 0. /source/2/panrev 0. /source/2/lock 0 /source/3/pres 86.3 /source/3/warm 30. /source/3/bril 30. /source/3/prer 48. /source/3/revp 34. /source/3/env 24. /source/3/axis/params 0. 0. 0. 0. 177. 5657. /source/3/axis/mute 0 /source/3/axis/bypass 0 /source/3/omni/params 0. 1.7 0. -3.8 177. 5657. /source/3/omni/mute 0 /source/3/omni/bypass 0 /source/3/color 0.490196 1. 0. 1. /source/3/doppler 0 /source/3/air 1 /source/3/air/freq 10000. /source/3/drop 6. /source/3/drop/mode log2 /source/3/radius 1. /source/3/room/destination 1 /source/3/mute 0 /source/3/solo 0 /source/3/direct/mute 0 /source/3/early/mute 0 /source/3/cluster/mute 0 /source/3/reverb/mute 0 /source/3/early/width 30. /source/3/early/shape 50. /source/3/spread 0. /source/3/panrev 0. /source/3/lock 0 /source/4/pres 86.1 /source/4/warm 30. /source/4/bril 30. /source/4/prer 48. /source/4/revp 34. /source/4/env 24. /source/4/axis/params 0. 0. 0. 0. 177. 5657. /source/4/axis/mute 0 /source/4/axis/bypass 0 /source/4/omni/params 0. 1.7 0. -3.8 177. 5657. /source/4/omni/mute 0 /source/4/omni/bypass 0 /source/4/color 0.490196 1. 0. 1. /source/4/doppler 0 /source/4/air 1 /source/4/air/freq 10000. /source/4/drop 6. /source/4/drop/mode log2 /source/4/radius 1. /source/4/room/destination 1 /source/4/mute 0 /source/4/solo 0 /source/4/direct/mute 0 /source/4/early/mute 0 /source/4/cluster/mute 0 /source/4/reverb/mute 0 /source/4/early/width 30. /source/4/early/shape 50. /source/4/spread 0. /source/4/panrev 0. /source/4/lock 0 /source/5/pres 90. /source/5/warm 30. /source/5/bril 30. /source/5/prer 48. /source/5/revp 34. /source/5/env 24. /source/5/axis/params 0. 0. 0. 0. 177. 5657. /source/5/axis/mute 0 /source/5/axis/bypass 0 /source/5/omni/params 0. 1.7 0. -3.8 177. 5657. /source/5/omni/mute 0 /source/5/omni/bypass 0 /source/5/color 0.490196 1. 0. 1. /source/5/doppler 0 /source/5/air 1 /source/5/air/freq 10000. /source/5/drop 6. /source/5/drop/mode log2 /source/5/radius 1. /source/5/room/destination 1 /source/5/mute 0 /source/5/solo 0 /source/5/direct/mute 0 /source/5/early/mute 0 /source/5/cluster/mute 0 /source/5/reverb/mute 0 /source/5/early/width 30. /source/5/early/shape 50. /source/5/spread 0. /source/5/panrev 0. /source/5/lock 0 /room/number 2 /room/1/reverberance 65. /room/1/heaviness 25. /room/1/liveness 35. /room/1/reverb/fl 250. /room/1/reverb/fh 8000. /room/1/reverb/air/enable 1 /room/1/reverb/air/freq 10000. /room/1/reverb/infinite 0 /room/1/reverb/roomsize 2000. /room/1/early/min 22.2 /room/1/early/max 39.7 /room/1/early/distr 0.5 /room/1/cluster/min 42.5 /room/1/cluster/max 105.6 /room/1/cluster/distr 0.5 /room/1/reverb/min 95.4 /room/1/reverb/density 0.86 /room/1/reverb/roomoffset 0. /room/1/mute 0 /room/2/reverberance 65. /room/2/heaviness 25. /room/2/liveness 35. /room/2/reverb/fl 250. /room/2/reverb/fh 8000. /room/2/reverb/air/enable 1 /room/2/reverb/air/freq 10000. /room/2/reverb/infinite 0 /room/2/reverb/roomsize 2000. /room/2/early/min 22.2 /room/2/early/max 39.7 /room/2/early/distr 0.5 /room/2/cluster/min 42.5 /room/2/cluster/max 105.6 /room/2/cluster/distr 0.5 /room/2/reverb/min 95.4 /room/2/reverb/density 0.86 /room/2/reverb/roomoffset 0. /room/2/mute 0 /internals 8 /viewer/visible 1 /viewer/only 0 /style factors"
 								}
 
 							}
@@ -222,9 +222,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 11.0 ]
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -233,9 +233,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 10.0 ]
+									"fontsize" : [ 10.0 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -244,6 +244,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -253,9 +255,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ]
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -280,7 +280,17 @@
 							}
 , 							{
 								"name" : "EAMIR",
+								"newobj" : 								{
+									"fontface" : [ 0 ],
+									"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+									"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ],
+									"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ]
+								}
+,
 								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
+									"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
@@ -291,16 +301,15 @@
 										"autogradient" : 0
 									}
 ,
-									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
-									"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-									"fontface" : [ 0 ],
 									"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
-									"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
 									"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.4, 1.0, 1.0 ]
+									"color" : [ 0.8, 0.4, 1.0, 1.0 ],
+									"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ]
 								}
 ,
 								"umenu" : 								{
+									"fontface" : [ 0 ],
+									"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.701961, 0.415686, 0.886275, 0.37 ],
@@ -310,16 +319,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"fontface" : [ 0 ],
-									"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ]
-								}
-,
-								"newobj" : 								{
-									"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-									"fontface" : [ 0 ],
-									"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-									"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -360,9 +360,9 @@
 , 							{
 								"name" : "default_style",
 								"newobj" : 								{
-									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 								}
 ,
 								"toggle" : 								{
@@ -382,9 +382,9 @@
 , 							{
 								"name" : "default_style-1",
 								"newobj" : 								{
-									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 								}
 ,
 								"toggle" : 								{
@@ -404,9 +404,9 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-									"fontsize" : [ 13.0 ]
+									"fontsize" : [ 13.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -415,6 +415,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -424,8 +425,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 9.0 ]
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -443,12 +443,12 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"fontsize" : [ 14.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -456,7 +456,14 @@
 							}
 , 							{
 								"name" : "master_style",
+								"newobj" : 								{
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+								}
+,
 								"message" : 								{
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
@@ -466,8 +473,12 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
+
+								}
 ,
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								"attrui" : 								{
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 								}
 ,
 								"umenu" : 								{
@@ -483,42 +494,7 @@
 
 								}
 ,
-								"newobj" : 								{
-									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-								}
-,
-								"gain~" : 								{
-									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"color" : [ 1.0, 0.861448, 0.16921, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
-								}
-,
 								"ezadc~" : 								{
-									"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"button" : 								{
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-									"color" : [ 1.0, 0.95051, 0.0, 1.0 ]
-								}
-,
-								"toggle" : 								{
-									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"ezdac~" : 								{
 									"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -529,18 +505,42 @@
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
-								"attrui" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+								"slider" : 								{
+									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
 								}
 ,
-								"multislider" : 								{
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+								"button" : 								{
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+									"color" : [ 1.0, 0.95051, 0.0, 1.0 ]
+								}
+,
+								"ezdac~" : 								{
+									"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"gain~" : 								{
+									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"color" : [ 1.0, 0.861448, 0.16921, 1.0 ]
 								}
 ,
 								"function" : 								{
 									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"multislider" : 								{
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
@@ -549,7 +549,14 @@
 							}
 , 							{
 								"name" : "master_style-1",
+								"newobj" : 								{
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+								}
+,
 								"message" : 								{
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
@@ -559,8 +566,12 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
+
+								}
 ,
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								"attrui" : 								{
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 								}
 ,
 								"umenu" : 								{
@@ -576,42 +587,7 @@
 
 								}
 ,
-								"newobj" : 								{
-									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-								}
-,
-								"gain~" : 								{
-									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"color" : [ 1.0, 0.861448, 0.16921, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
-								}
-,
 								"ezadc~" : 								{
-									"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"button" : 								{
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-									"color" : [ 1.0, 0.95051, 0.0, 1.0 ]
-								}
-,
-								"toggle" : 								{
-									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"ezdac~" : 								{
 									"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -622,18 +598,42 @@
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
-								"attrui" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+								"slider" : 								{
+									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
 								}
 ,
-								"multislider" : 								{
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+								"button" : 								{
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+									"color" : [ 1.0, 0.95051, 0.0, 1.0 ]
+								}
+,
+								"ezdac~" : 								{
+									"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"gain~" : 								{
+									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"color" : [ 1.0, 0.861448, 0.16921, 1.0 ]
 								}
 ,
 								"function" : 								{
 									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"multislider" : 								{
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
@@ -679,6 +679,8 @@
 , 							{
 								"name" : "minimal",
 								"default" : 								{
+									"patchlinecolor" : [ 0.65, 0.65, 0.65, 0.9 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
@@ -689,13 +691,11 @@
 										"autogradient" : 0
 									}
 ,
-									"patchlinecolor" : [ 0.65, 0.65, 0.65, 0.9 ],
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"elementcolor" : [ 0.32549, 0.345098, 0.372549, 0.44 ],
 									"selectioncolor" : [ 0.862745, 0.741176, 0.137255, 0.7 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.878431, 0.878431, 0.858824, 1.0 ],
-									"color" : [ 0.345098, 0.513725, 0.572549, 0.78 ]
+									"color" : [ 0.345098, 0.513725, 0.572549, 0.78 ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -858,8 +858,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -868,8 +868,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -878,8 +878,8 @@
 , 							{
 								"name" : "newobjYellow-3",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -888,8 +888,8 @@
 , 							{
 								"name" : "newobjYellow-4",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -898,8 +898,8 @@
 , 							{
 								"name" : "newobjYellow-5",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -908,8 +908,8 @@
 , 							{
 								"name" : "newobjYellow-6",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1032,9 +1032,9 @@
 , 							{
 								"name" : "tap-dark",
 								"default" : 								{
-									"fontname" : [ "Ableton Sans Light Regular" ],
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 									"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
+									"fontname" : [ "Ableton Sans Light Regular" ],
 									"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ]
 								}
 ,
@@ -1074,8 +1074,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 266.0, 207.0, 22.0 ],
-					"text" : "ossia.parameter #2 @type list"
+					"patching_rect" : [ 15.0, 266.0, 240.0, 22.0 ],
+					"text" : "ossia.parameter #2 @type list @priority 2"
 				}
 
 			}
@@ -1263,13 +1263,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-28",
-									"linecount" : 27,
+									"linecount" : 57,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 60.0, 1094.0, 370.0 ],
-									"text" : "/channel/number 1, /channel/1/equalizer/bypass 0, /channel/1/equalizer/gain 0., /channel/1/equalizer/filter/1/active 1, /channel/1/equalizer/filter/1/freq 50., /channel/1/equalizer/filter/1/order 2, /channel/1/equalizer/filter/2/active 1, /channel/1/equalizer/filter/2/freq 100., /channel/1/equalizer/filter/2/gain 0., /channel/1/equalizer/filter/2/q 1., /channel/1/equalizer/filter/3/active 1, /channel/1/equalizer/filter/3/freq 500., /channel/1/equalizer/filter/3/gain 0., /channel/1/equalizer/filter/3/q 1., /channel/1/equalizer/filter/4/active 1, /channel/1/equalizer/filter/4/freq 1000., /channel/1/equalizer/filter/4/gain 0., /channel/1/equalizer/filter/4/q 1., /channel/1/equalizer/filter/5/active 1, /channel/1/equalizer/filter/5/freq 2000., /channel/1/equalizer/filter/5/gain -7.4, /channel/1/equalizer/filter/5/q 3.8, /channel/1/equalizer/filter/6/active 1, /channel/1/equalizer/filter/6/freq 5000., /channel/1/equalizer/filter/6/gain 0., /channel/1/equalizer/filter/6/q 1., /channel/1/equalizer/filter/7/active 1, /channel/1/equalizer/filter/7/freq 2868., /channel/1/equalizer/filter/7/gain 7.6, /channel/1/equalizer/filter/7/q 1., /channel/1/equalizer/filter/8/active 1, /channel/1/equalizer/filter/8/freq 2653., /channel/1/equalizer/filter/8/order 2, /channel/1/equalizer/filter/1/color 0. 0. 0.513726 1., /channel/1/equalizer/filter/2/color 0. 0.07451 1. 1., /channel/1/equalizer/filter/3/color 0. 0.654902 1. 1., /channel/1/equalizer/filter/4/color 0.215686 1. 0.780392 1., /channel/1/equalizer/filter/5/color 0.796078 1. 0.2 1., /channel/1/equalizer/filter/6/color 1. 0.639216 0. 1., /channel/1/equalizer/filter/7/color 1. 0.058824 0. 1., /channel/1/equalizer/filter/8/color 0.498039 0. 0. 1., /channel/1/filtergraph/curve/number 9, /channel/1/filtergraph/samplerate 44100., /channel/1/filtergraph/title, /channel/1/filtergraph/curve/1/visible 1, /channel/1/filtergraph/curve/1/foreground/color 0. 0. 0.513726 1., /channel/1/filtergraph/curve/1/color 0. 0. 0.513726 1., /channel/1/filtergraph/curve/1/fill 0, /channel/1/filtergraph/curve/1/thickness 1., /channel/1/filtergraph/curve/2/visible 1, /channel/1/filtergraph/curve/2/foreground/color 0. 0.07451 1. 1., /channel/1/filtergraph/curve/2/color 0. 0.07451 1. 1., /channel/1/filtergraph/curve/2/fill 0, /channel/1/filtergraph/curve/2/thickness 1., /channel/1/filtergraph/curve/3/visible 1, /channel/1/filtergraph/curve/3/foreground/color 0. 0.654902 1. 1., /channel/1/filtergraph/curve/3/color 0. 0.654902 1. 1., /channel/1/filtergraph/curve/3/fill 0, /channel/1/filtergraph/curve/3/thickness 1., /channel/1/filtergraph/curve/4/visible 1, /channel/1/filtergraph/curve/4/foreground/color 0.215686 1. 0.780392 1., /channel/1/filtergraph/curve/4/color 0.215686 1. 0.780392 1., /channel/1/filtergraph/curve/4/fill 0, /channel/1/filtergraph/curve/4/thickness 1., /channel/1/filtergraph/curve/5/visible 1, /channel/1/filtergraph/curve/5/foreground/color 0.796078 1. 0.2 1., /channel/1/filtergraph/curve/5/color 0.796078 1. 0.2 1., /channel/1/filtergraph/curve/5/fill 0, /channel/1/filtergraph/curve/5/thickness 1., /channel/1/filtergraph/curve/6/visible 1, /channel/1/filtergraph/curve/6/foreground/color 1. 0.639216 0. 1., /channel/1/filtergraph/curve/6/color 1. 0.639216 0. 1., /channel/1/filtergraph/curve/6/fill 0, /channel/1/filtergraph/curve/6/thickness 1., /channel/1/filtergraph/curve/7/visible 1, /channel/1/filtergraph/curve/7/foreground/color 1. 0.058824 0. 1., /channel/1/filtergraph/curve/7/color 1. 0.058824 0. 1., /channel/1/filtergraph/curve/7/fill 0, /channel/1/filtergraph/curve/7/thickness 1., /channel/1/filtergraph/curve/8/visible 1, /channel/1/filtergraph/curve/8/foreground/color 0.498039 0. 0. 1., /channel/1/filtergraph/curve/8/color 0.498039 0. 0. 1., /channel/1/filtergraph/curve/8/fill 0, /channel/1/filtergraph/curve/8/thickness 1., /channel/1/filtergraph/curve/9/visible 1, /channel/1/filtergraph/curve/9/foreground/color 0. 0. 0. 0.2, /channel/1/filtergraph/curve/9/color 0. 0. 0. 1., /channel/1/filtergraph/curve/9/fill 1, /channel/1/filtergraph/curve/9/thickness 3., /channel/1/filtergraph/mode magnitude, /channel/1/filtergraph/font/size 10., /channel/1/filtergraph/grid/visible 1, /channel/1/filtergraph/grid/color 0.501961 0.501961 0.501961 1., /channel/1/filtergraph/phase/unwrap 0, /channel/1/filtergraph/phase/min -180., /channel/1/filtergraph/phase/max 180., /channel/1/filtergraph/freq/min 20., /channel/1/filtergraph/freq/max 22050., /channel/1/filtergraph/freq/logscale 1, /channel/1/filtergraph/magnitude/min -12., /channel/1/filtergraph/magnitude/max 12., /channel/1/filtergraph/magnitude/logscale 1, /channel/1/filtergraph/xtick/visible 1, /channel/1/filtergraph/xtick/color 0.501961 0.501961 0.501961 0.65098, /channel/1/filtergraph/xtick/position topandmiddle, /channel/1/filtergraph/ytick/visible 1, /channel/1/filtergraph/ytick/color 0. 0. 0. 1., /channel/1/filtergraph/cursor/visible 0, /channel/1/filtergraph/cursor/color 1. 0. 0. 1., /channel/1/filtergraph/background/color 1. 1. 1. 0., /channel/1/filtergraph/frame/visible 1, /channel/1/filtergraph/frame/color 0. 0. 0. 1., /channel/1/filtergraph/frame/rounded 5., /channel/1/filtergraph/frame/thickness 2., /channel/1/filtergraph/marker/number 0, /channel/1/controllers/visible 1"
+									"text" : "/source/number 5, /source/1/visible 1, /source/1/editable 1, /source/1/select 0, /source/1/hidewhenmute 0, /source/1/aed -15.486629 0. 1.149666, /source/1/constraint/circular 0, /source/1/coordinates/visible 1, /source/1/orientation/mode default, /source/1/orientation 0. 0. 0. 1., /source/1/lookat/aed 90. 0. 0., /source/1/proportion 100., /source/1/color 0.490196 1. 0. 1., /source/1/image, /source/1/label 1, /source/1/label/visible 1, /source/1/label/color 0. 0. 0. 1., /source/1/label/justification centred, /source/1/vumeter/visible 0, /source/1/vumeter/level -60., /source/1/aperture 80., /source/1/aperture/visible 1, /source/1/aperture/color 1. 1. 1. 1., /source/1/radius/visible 0, /source/1/history/visible 0, /source/1/history/size 100, /source/1/history/color 0.490196 1. 0. 1., /source/1/history/thickness 1., /source/2/visible 1, /source/2/editable 1, /source/2/select 0, /source/2/hidewhenmute 0, /source/2/aed -1.219379 0. 1.156422, /source/2/constraint/circular 0, /source/2/coordinates/visible 1, /source/2/orientation/mode default, /source/2/orientation 0. 0. 0. 1., /source/2/lookat/aed 90. 0. 0., /source/2/proportion 100., /source/2/color 0.490196 1. 0. 1., /source/2/image, /source/2/label 2, /source/2/label/visible 1, /source/2/label/color 0. 0. 0. 1., /source/2/label/justification centred, /source/2/vumeter/visible 0, /source/2/vumeter/level -60., /source/2/aperture 80., /source/2/aperture/visible 1, /source/2/aperture/color 1. 1. 1. 1., /source/2/radius/visible 0, /source/2/history/visible 0, /source/2/history/size 100, /source/2/history/color 0.490196 1. 0. 1., /source/2/history/thickness 1., /source/3/visible 1, /source/3/editable 1, /source/3/select 0, /source/3/hidewhenmute 0, /source/3/aed 12.773861 0. 1.150931, /source/3/constraint/circular 0, /source/3/coordinates/visible 1, /source/3/orientation/mode default, /source/3/orientation 0. 0. 0. 1., /source/3/lookat/aed 90. 0. 0., /source/3/proportion 100., /source/3/color 0.490196 1. 0. 1., /source/3/image, /source/3/label 3, /source/3/label/visible 1, /source/3/label/color 0. 0. 0. 1., /source/3/label/justification centred, /source/3/vumeter/visible 0, /source/3/vumeter/level -60., /source/3/aperture 80., /source/3/aperture/visible 1, /source/3/aperture/color 1. 1. 1. 1., /source/3/radius/visible 0, /source/3/history/visible 0, /source/3/history/size 100, /source/3/history/color 0.490196 1. 0. 1., /source/3/history/thickness 1., /source/4/visible 1, /source/4/editable 1, /source/4/select 0, /source/4/hidewhenmute 0, /source/4/aed -22.943317 0. 1.160361, /source/4/constraint/circular 0, /source/4/coordinates/visible 1, /source/4/orientation/mode default, /source/4/orientation 0. 0. 0. 1., /source/4/lookat/aed 90. 0. 0., /source/4/proportion 100., /source/4/color 0.490196 1. 0. 1., /source/4/image, /source/4/label 4, /source/4/label/visible 1, /source/4/label/color 0. 0. 0. 1., /source/4/label/justification centred, /source/4/vumeter/visible 0, /source/4/vumeter/level -60., /source/4/aperture 80., /source/4/aperture/visible 1, /source/4/aperture/color 1. 1. 1. 1., /source/4/radius/visible 0, /source/4/history/visible 0, /source/4/history/size 100, /source/4/history/color 0.490196 1. 0. 1., /source/4/history/thickness 1., /source/5/visible 1, /source/5/editable 1, /source/5/select 1, /source/5/hidewhenmute 0, /source/5/aed 44.660889 0. 0.654717, /source/5/constraint/circular 0, /source/5/coordinates/visible 1, /source/5/orientation/mode default, /source/5/orientation 0. 0. 0. 1., /source/5/lookat/aed 90. 0. 0., /source/5/proportion 100., /source/5/color 0.490196 1. 0. 1., /source/5/image, /source/5/label 5, /source/5/label/visible 1, /source/5/label/color 0. 0. 0. 1., /source/5/label/justification centred, /source/5/vumeter/visible 0, /source/5/vumeter/level -60., /source/5/aperture 80., /source/5/aperture/visible 1, /source/5/aperture/color 1. 1. 1. 1., /source/5/radius/visible 0, /source/5/history/visible 0, /source/5/history/size 100, /source/5/history/color 0.490196 1. 0. 1., /source/5/history/thickness 1., /speaker/number 2, /speakers/aed -30. 0. 1. 30. 0. 1., /speaker/1/visible 1, /speaker/1/editable 0, /speaker/1/select 0, /speaker/1/aed -30. 0. 1., /speaker/1/constraint/circular 0, /speaker/1/coordinates/visible 1, /speaker/1/proportion 100., /speaker/1/color 0. 0. 0. 1., /speaker/1/image, /speaker/1/label 1, /speaker/1/label/visible 1, /speaker/1/label/color 1. 1. 1. 1., /speaker/1/label/justification centred, /speaker/1/vumeter/visible 0, /speaker/1/vumeter/level -60., /speaker/2/visible 1, /speaker/2/editable 0, /speaker/2/select 0, /speaker/2/aed 30. 0. 1., /speaker/2/constraint/circular 0, /speaker/2/coordinates/visible 1, /speaker/2/proportion 100., /speaker/2/color 0. 0. 0. 1., /speaker/2/image, /speaker/2/label 2, /speaker/2/label/visible 1, /speaker/2/label/color 1. 1. 1. 1., /speaker/2/label/justification centred, /speaker/2/vumeter/visible 0, /speaker/2/vumeter/level -60., /stereo/number 0, /subwoofer/number 0, /listener/visible 1, /listener/editable 0, /listener/select 0, /listener/aed 90. 0. 0., /listener/constraint/circular 0, /listener/coordinates/visible 1, /listener/orientation/mode default, /listener/orientation 0. 0. 0. 1., /listener/lookat/aed 90. 0. 0., /listener/proportion 100., /listener/color 0. 0. 0. 0., /listener/headphones/visible 0, /multi/number 0, /microphone/number 0, /eigenmike/number 0, /format aed, /background/color 0.709804 0.709804 0.709804 1., /backgroundimage/file, /backgroundimage/visible 1, /backgroundimage/opacity 1., /backgroundimage/scale 100., /backgroundimage/angle 0., /backgroundimage/offset/xy 0. 0., /backgroundimage/quality medium, /display/zoom 100., /display/offset/xyz 0. 0. 0., /display/zoom/lock 0, /axis/visible 1, /axis/label/visible 1, /axis/origin/visible 1, /axis/color 1. 1. 1. 1., /axis/thickness 2., /grid/visible 1, /grid/mode circular, /grid/spacing 1., /grid/line/number 30, /grid/angulardivisions/number 16, /grid/angulardivisions/visible 0, /grid/dashed 0, /grid/color 1. 1. 1. 0.498039, /grid/thickness 1., /legend/visible 1, /legend/color 1. 1. 1. 1., /legend/unit meters, /emphasis/source 1, /emphasis/speaker 0, /emphasis/microphone 0, /ruler/visible 0, /ruler/color 1. 1. 1. 1., /ruler/unit meters, /hoa/number 0, /anchor/number 0, /phone/number 0, /area/number 0, /speakerhull/visible 0, /speakerhull/color 0. 0. 0. 1., /speakerhull/fill 0, /speakerhull/fill/color 0. 0. 0. 0.298039, /settings/visible 0, /settings/editable 1, /layout single, /source/1/pres 84.1, /source/1/warm 30., /source/1/bril 30., /source/1/prer 77.2, /source/1/revp 34., /source/1/env 24., /source/1/axis/params -11. 0. 0. 0. 177. 5657., /source/1/axis/mute 0, /source/1/axis/bypass 0, /source/1/omni/params 0. 1.7 0. -3.8 177. 5657., /source/1/omni/mute 0, /source/1/omni/bypass 0, /source/1/color 0.490196 1. 0. 1., /source/1/doppler 0, /source/1/air 1, /source/1/air/freq 10000., /source/1/drop 6., /source/1/drop/mode log2, /source/1/radius 1., /source/1/room/destination 1, /source/1/mute 0, /source/1/solo 0, /source/1/direct/mute 0, /source/1/early/mute 0, /source/1/cluster/mute 0, /source/1/reverb/mute 0, /source/1/early/width 30., /source/1/early/shape 50., /source/1/spread 0., /source/1/panrev 0., /source/1/lock 0, /source/2/pres 86.2, /source/2/warm 30., /source/2/bril 30., /source/2/prer 48., /source/2/revp 34., /source/2/env 24., /source/2/axis/params 0. 0. 0. 0. 177. 5657., /source/2/axis/mute 0, /source/2/axis/bypass 0, /source/2/omni/params 0. 1.7 0. -3.8 177. 5657., /source/2/omni/mute 0, /source/2/omni/bypass 0, /source/2/color 0.490196 1. 0. 1., /source/2/doppler 0, /source/2/air 1, /source/2/air/freq 10000., /source/2/drop 6., /source/2/drop/mode log2, /source/2/radius 1., /source/2/room/destination 1, /source/2/mute 0, /source/2/solo 0, /source/2/direct/mute 0, /source/2/early/mute 0, /source/2/cluster/mute 0, /source/2/reverb/mute 0, /source/2/early/width 30., /source/2/early/shape 50., /source/2/spread 0., /source/2/panrev 0., /source/2/lock 0, /source/3/pres 86.3, /source/3/warm 30., /source/3/bril 30., /source/3/prer 48., /source/3/revp 34., /source/3/env 24., /source/3/axis/params 0. 0. 0. 0. 177. 5657., /source/3/axis/mute 0, /source/3/axis/bypass 0, /source/3/omni/params 0. 1.7 0. -3.8 177. 5657., /source/3/omni/mute 0, /source/3/omni/bypass 0, /source/3/color 0.490196 1. 0. 1., /source/3/doppler 0, /source/3/air 1, /source/3/air/freq 10000., /source/3/drop 6., /source/3/drop/mode log2, /source/3/radius 1., /source/3/room/destination 1, /source/3/mute 0, /source/3/solo 0, /source/3/direct/mute 0, /source/3/early/mute 0, /source/3/cluster/mute 0, /source/3/reverb/mute 0, /source/3/early/width 30., /source/3/early/shape 50., /source/3/spread 0., /source/3/panrev 0., /source/3/lock 0, /source/4/pres 86.1, /source/4/warm 30., /source/4/bril 30., /source/4/prer 48., /source/4/revp 34., /source/4/env 24., /source/4/axis/params 0. 0. 0. 0. 177. 5657., /source/4/axis/mute 0, /source/4/axis/bypass 0, /source/4/omni/params 0. 1.7 0. -3.8 177. 5657., /source/4/omni/mute 0, /source/4/omni/bypass 0, /source/4/color 0.490196 1. 0. 1., /source/4/doppler 0, /source/4/air 1, /source/4/air/freq 10000., /source/4/drop 6., /source/4/drop/mode log2, /source/4/radius 1., /source/4/room/destination 1, /source/4/mute 0, /source/4/solo 0, /source/4/direct/mute 0, /source/4/early/mute 0, /source/4/cluster/mute 0, /source/4/reverb/mute 0, /source/4/early/width 30., /source/4/early/shape 50., /source/4/spread 0., /source/4/panrev 0., /source/4/lock 0, /source/5/pres 90., /source/5/warm 30., /source/5/bril 30., /source/5/prer 48., /source/5/revp 34., /source/5/env 24., /source/5/axis/params 0. 0. 0. 0. 177. 5657., /source/5/axis/mute 0, /source/5/axis/bypass 0, /source/5/omni/params 0. 1.7 0. -3.8 177. 5657., /source/5/omni/mute 0, /source/5/omni/bypass 0, /source/5/color 0.490196 1. 0. 1., /source/5/doppler 0, /source/5/air 1, /source/5/air/freq 10000., /source/5/drop 6., /source/5/drop/mode log2, /source/5/radius 1., /source/5/room/destination 1, /source/5/mute 0, /source/5/solo 0, /source/5/direct/mute 0, /source/5/early/mute 0, /source/5/cluster/mute 0, /source/5/reverb/mute 0, /source/5/early/width 30., /source/5/early/shape 50., /source/5/spread 0., /source/5/panrev 0., /source/5/lock 0, /room/number 2, /room/1/reverberance 65., /room/1/heaviness 25., /room/1/liveness 35., /room/1/reverb/fl 250., /room/1/reverb/fh 8000., /room/1/reverb/air/enable 1, /room/1/reverb/air/freq 10000., /room/1/reverb/infinite 0, /room/1/reverb/roomsize 2000., /room/1/early/min 22.2, /room/1/early/max 39.7, /room/1/early/distr 0.5, /room/1/cluster/min 42.5, /room/1/cluster/max 105.6, /room/1/cluster/distr 0.5, /room/1/reverb/min 95.4, /room/1/reverb/density 0.86, /room/1/reverb/roomoffset 0., /room/1/mute 0, /room/2/reverberance 65., /room/2/heaviness 25., /room/2/liveness 35., /room/2/reverb/fl 250., /room/2/reverb/fh 8000., /room/2/reverb/air/enable 1, /room/2/reverb/air/freq 10000., /room/2/reverb/infinite 0, /room/2/reverb/roomsize 2000., /room/2/early/min 22.2, /room/2/early/max 39.7, /room/2/early/distr 0.5, /room/2/cluster/min 42.5, /room/2/cluster/max 105.6, /room/2/cluster/distr 0.5, /room/2/reverb/min 95.4, /room/2/reverb/density 0.86, /room/2/reverb/roomoffset 0., /room/2/mute 0, /internals 8, /viewer/visible 1, /viewer/only 0, /style factors"
 								}
 
 							}
@@ -1339,9 +1339,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 11.0 ]
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1350,9 +1350,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 10.0 ]
+									"fontsize" : [ 10.0 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1361,6 +1361,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1370,9 +1372,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ]
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1398,6 +1398,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1407,8 +1408,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 9.0 ]
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1579,13 +1579,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-28",
-									"linecount" : 27,
+									"linecount" : 58,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 60.0, 1053.0, 370.0 ],
-									"text" : "/channel/number 1 /channel/1/equalizer/bypass 0 /channel/1/equalizer/gain 0. /channel/1/equalizer/filter/1/active 1 /channel/1/equalizer/filter/1/freq 50. /channel/1/equalizer/filter/1/order 2 /channel/1/equalizer/filter/2/active 1 /channel/1/equalizer/filter/2/freq 100. /channel/1/equalizer/filter/2/gain 0. /channel/1/equalizer/filter/2/q 1. /channel/1/equalizer/filter/3/active 1 /channel/1/equalizer/filter/3/freq 500. /channel/1/equalizer/filter/3/gain 0. /channel/1/equalizer/filter/3/q 1. /channel/1/equalizer/filter/4/active 1 /channel/1/equalizer/filter/4/freq 1000. /channel/1/equalizer/filter/4/gain 0. /channel/1/equalizer/filter/4/q 1. /channel/1/equalizer/filter/5/active 1 /channel/1/equalizer/filter/5/freq 2000. /channel/1/equalizer/filter/5/gain -7.4 /channel/1/equalizer/filter/5/q 3.8 /channel/1/equalizer/filter/6/active 1 /channel/1/equalizer/filter/6/freq 5000. /channel/1/equalizer/filter/6/gain 0. /channel/1/equalizer/filter/6/q 1. /channel/1/equalizer/filter/7/active 1 /channel/1/equalizer/filter/7/freq 2868. /channel/1/equalizer/filter/7/gain 7.6 /channel/1/equalizer/filter/7/q 1. /channel/1/equalizer/filter/8/active 1 /channel/1/equalizer/filter/8/freq 2653. /channel/1/equalizer/filter/8/order 2 /channel/1/equalizer/filter/1/color 0. 0. 0.513726 1. /channel/1/equalizer/filter/2/color 0. 0.07451 1. 1. /channel/1/equalizer/filter/3/color 0. 0.654902 1. 1. /channel/1/equalizer/filter/4/color 0.215686 1. 0.780392 1. /channel/1/equalizer/filter/5/color 0.796078 1. 0.2 1. /channel/1/equalizer/filter/6/color 1. 0.639216 0. 1. /channel/1/equalizer/filter/7/color 1. 0.058824 0. 1. /channel/1/equalizer/filter/8/color 0.498039 0. 0. 1. /channel/1/filtergraph/curve/number 9 /channel/1/filtergraph/samplerate 44100. /channel/1/filtergraph/title /channel/1/filtergraph/curve/1/visible 1 /channel/1/filtergraph/curve/1/foreground/color 0. 0. 0.513726 1. /channel/1/filtergraph/curve/1/color 0. 0. 0.513726 1. /channel/1/filtergraph/curve/1/fill 0 /channel/1/filtergraph/curve/1/thickness 1. /channel/1/filtergraph/curve/2/visible 1 /channel/1/filtergraph/curve/2/foreground/color 0. 0.07451 1. 1. /channel/1/filtergraph/curve/2/color 0. 0.07451 1. 1. /channel/1/filtergraph/curve/2/fill 0 /channel/1/filtergraph/curve/2/thickness 1. /channel/1/filtergraph/curve/3/visible 1 /channel/1/filtergraph/curve/3/foreground/color 0. 0.654902 1. 1. /channel/1/filtergraph/curve/3/color 0. 0.654902 1. 1. /channel/1/filtergraph/curve/3/fill 0 /channel/1/filtergraph/curve/3/thickness 1. /channel/1/filtergraph/curve/4/visible 1 /channel/1/filtergraph/curve/4/foreground/color 0.215686 1. 0.780392 1. /channel/1/filtergraph/curve/4/color 0.215686 1. 0.780392 1. /channel/1/filtergraph/curve/4/fill 0 /channel/1/filtergraph/curve/4/thickness 1. /channel/1/filtergraph/curve/5/visible 1 /channel/1/filtergraph/curve/5/foreground/color 0.796078 1. 0.2 1. /channel/1/filtergraph/curve/5/color 0.796078 1. 0.2 1. /channel/1/filtergraph/curve/5/fill 0 /channel/1/filtergraph/curve/5/thickness 1. /channel/1/filtergraph/curve/6/visible 1 /channel/1/filtergraph/curve/6/foreground/color 1. 0.639216 0. 1. /channel/1/filtergraph/curve/6/color 1. 0.639216 0. 1. /channel/1/filtergraph/curve/6/fill 0 /channel/1/filtergraph/curve/6/thickness 1. /channel/1/filtergraph/curve/7/visible 1 /channel/1/filtergraph/curve/7/foreground/color 1. 0.058824 0. 1. /channel/1/filtergraph/curve/7/color 1. 0.058824 0. 1. /channel/1/filtergraph/curve/7/fill 0 /channel/1/filtergraph/curve/7/thickness 1. /channel/1/filtergraph/curve/8/visible 1 /channel/1/filtergraph/curve/8/foreground/color 0.498039 0. 0. 1. /channel/1/filtergraph/curve/8/color 0.498039 0. 0. 1. /channel/1/filtergraph/curve/8/fill 0 /channel/1/filtergraph/curve/8/thickness 1. /channel/1/filtergraph/curve/9/visible 1 /channel/1/filtergraph/curve/9/foreground/color 0. 0. 0. 0.2 /channel/1/filtergraph/curve/9/color 0. 0. 0. 1. /channel/1/filtergraph/curve/9/fill 1 /channel/1/filtergraph/curve/9/thickness 3. /channel/1/filtergraph/mode magnitude /channel/1/filtergraph/font/size 10. /channel/1/filtergraph/grid/visible 1 /channel/1/filtergraph/grid/color 0.501961 0.501961 0.501961 1. /channel/1/filtergraph/phase/unwrap 0 /channel/1/filtergraph/phase/min -180. /channel/1/filtergraph/phase/max 180. /channel/1/filtergraph/freq/min 20. /channel/1/filtergraph/freq/max 22050. /channel/1/filtergraph/freq/logscale 1 /channel/1/filtergraph/magnitude/min -12. /channel/1/filtergraph/magnitude/max 12. /channel/1/filtergraph/magnitude/logscale 1 /channel/1/filtergraph/xtick/visible 1 /channel/1/filtergraph/xtick/color 0.501961 0.501961 0.501961 0.65098 /channel/1/filtergraph/xtick/position topandmiddle /channel/1/filtergraph/ytick/visible 1 /channel/1/filtergraph/ytick/color 0. 0. 0. 1. /channel/1/filtergraph/cursor/visible 0 /channel/1/filtergraph/cursor/color 1. 0. 0. 1. /channel/1/filtergraph/background/color 1. 1. 1. 0. /channel/1/filtergraph/frame/visible 1 /channel/1/filtergraph/frame/color 0. 0. 0. 1. /channel/1/filtergraph/frame/rounded 5. /channel/1/filtergraph/frame/thickness 2. /channel/1/filtergraph/marker/number 0 /channel/1/controllers/visible 1"
+									"text" : "/source/number 5 /source/1/visible 1 /source/1/editable 1 /source/1/select 0 /source/1/hidewhenmute 0 /source/1/aed -15.486629 0. 1.149666 /source/1/constraint/circular 0 /source/1/coordinates/visible 1 /source/1/orientation/mode default /source/1/orientation 0. 0. 0. 1. /source/1/lookat/aed 90. 0. 0. /source/1/proportion 100. /source/1/color 0.490196 1. 0. 1. /source/1/image  /source/1/label \"1\" /source/1/label/visible 1 /source/1/label/color 0. 0. 0. 1. /source/1/label/justification centred /source/1/vumeter/visible 0 /source/1/vumeter/level -60. /source/1/aperture 80. /source/1/aperture/visible 1 /source/1/aperture/color 1. 1. 1. 1. /source/1/radius/visible 0 /source/1/history/visible 0 /source/1/history/size 100 /source/1/history/color 0.490196 1. 0. 1. /source/1/history/thickness 1. /source/2/visible 1 /source/2/editable 1 /source/2/select 0 /source/2/hidewhenmute 0 /source/2/aed -1.219379 0. 1.156422 /source/2/constraint/circular 0 /source/2/coordinates/visible 1 /source/2/orientation/mode default /source/2/orientation 0. 0. 0. 1. /source/2/lookat/aed 90. 0. 0. /source/2/proportion 100. /source/2/color 0.490196 1. 0. 1. /source/2/image  /source/2/label \"2\" /source/2/label/visible 1 /source/2/label/color 0. 0. 0. 1. /source/2/label/justification centred /source/2/vumeter/visible 0 /source/2/vumeter/level -60. /source/2/aperture 80. /source/2/aperture/visible 1 /source/2/aperture/color 1. 1. 1. 1. /source/2/radius/visible 0 /source/2/history/visible 0 /source/2/history/size 100 /source/2/history/color 0.490196 1. 0. 1. /source/2/history/thickness 1. /source/3/visible 1 /source/3/editable 1 /source/3/select 0 /source/3/hidewhenmute 0 /source/3/aed 12.773861 0. 1.150931 /source/3/constraint/circular 0 /source/3/coordinates/visible 1 /source/3/orientation/mode default /source/3/orientation 0. 0. 0. 1. /source/3/lookat/aed 90. 0. 0. /source/3/proportion 100. /source/3/color 0.490196 1. 0. 1. /source/3/image  /source/3/label \"3\" /source/3/label/visible 1 /source/3/label/color 0. 0. 0. 1. /source/3/label/justification centred /source/3/vumeter/visible 0 /source/3/vumeter/level -60. /source/3/aperture 80. /source/3/aperture/visible 1 /source/3/aperture/color 1. 1. 1. 1. /source/3/radius/visible 0 /source/3/history/visible 0 /source/3/history/size 100 /source/3/history/color 0.490196 1. 0. 1. /source/3/history/thickness 1. /source/4/visible 1 /source/4/editable 1 /source/4/select 0 /source/4/hidewhenmute 0 /source/4/aed -22.943317 0. 1.160361 /source/4/constraint/circular 0 /source/4/coordinates/visible 1 /source/4/orientation/mode default /source/4/orientation 0. 0. 0. 1. /source/4/lookat/aed 90. 0. 0. /source/4/proportion 100. /source/4/color 0.490196 1. 0. 1. /source/4/image  /source/4/label \"4\" /source/4/label/visible 1 /source/4/label/color 0. 0. 0. 1. /source/4/label/justification centred /source/4/vumeter/visible 0 /source/4/vumeter/level -60. /source/4/aperture 80. /source/4/aperture/visible 1 /source/4/aperture/color 1. 1. 1. 1. /source/4/radius/visible 0 /source/4/history/visible 0 /source/4/history/size 100 /source/4/history/color 0.490196 1. 0. 1. /source/4/history/thickness 1. /source/5/visible 1 /source/5/editable 1 /source/5/select 1 /source/5/hidewhenmute 0 /source/5/aed 44.660889 0. 0.654717 /source/5/constraint/circular 0 /source/5/coordinates/visible 1 /source/5/orientation/mode default /source/5/orientation 0. 0. 0. 1. /source/5/lookat/aed 90. 0. 0. /source/5/proportion 100. /source/5/color 0.490196 1. 0. 1. /source/5/image  /source/5/label \"5\" /source/5/label/visible 1 /source/5/label/color 0. 0. 0. 1. /source/5/label/justification centred /source/5/vumeter/visible 0 /source/5/vumeter/level -60. /source/5/aperture 80. /source/5/aperture/visible 1 /source/5/aperture/color 1. 1. 1. 1. /source/5/radius/visible 0 /source/5/history/visible 0 /source/5/history/size 100 /source/5/history/color 0.490196 1. 0. 1. /source/5/history/thickness 1. /speaker/number 2 /speakers/aed -30. 0. 1. 30. 0. 1. /speaker/1/visible 1 /speaker/1/editable 0 /speaker/1/select 0 /speaker/1/aed -30. 0. 1. /speaker/1/constraint/circular 0 /speaker/1/coordinates/visible 1 /speaker/1/proportion 100. /speaker/1/color 0. 0. 0. 1. /speaker/1/image  /speaker/1/label \"1\" /speaker/1/label/visible 1 /speaker/1/label/color 1. 1. 1. 1. /speaker/1/label/justification centred /speaker/1/vumeter/visible 0 /speaker/1/vumeter/level -60. /speaker/2/visible 1 /speaker/2/editable 0 /speaker/2/select 0 /speaker/2/aed 30. 0. 1. /speaker/2/constraint/circular 0 /speaker/2/coordinates/visible 1 /speaker/2/proportion 100. /speaker/2/color 0. 0. 0. 1. /speaker/2/image  /speaker/2/label \"2\" /speaker/2/label/visible 1 /speaker/2/label/color 1. 1. 1. 1. /speaker/2/label/justification centred /speaker/2/vumeter/visible 0 /speaker/2/vumeter/level -60. /stereo/number 0 /subwoofer/number 0 /listener/visible 1 /listener/editable 0 /listener/select 0 /listener/aed 90. 0. 0. /listener/constraint/circular 0 /listener/coordinates/visible 1 /listener/orientation/mode default /listener/orientation 0. 0. 0. 1. /listener/lookat/aed 90. 0. 0. /listener/proportion 100. /listener/color 0. 0. 0. 0. /listener/headphones/visible 0 /multi/number 0 /microphone/number 0 /eigenmike/number 0 /format aed /background/color 0.709804 0.709804 0.709804 1. /backgroundimage/file  /backgroundimage/visible 1 /backgroundimage/opacity 1. /backgroundimage/scale 100. /backgroundimage/angle 0. /backgroundimage/offset/xy 0. 0. /backgroundimage/quality medium /display/zoom 100. /display/offset/xyz 0. 0. 0. /display/zoom/lock 0 /axis/visible 1 /axis/label/visible 1 /axis/origin/visible 1 /axis/color 1. 1. 1. 1. /axis/thickness 2. /grid/visible 1 /grid/mode circular /grid/spacing 1. /grid/line/number 30 /grid/angulardivisions/number 16 /grid/angulardivisions/visible 0 /grid/dashed 0 /grid/color 1. 1. 1. 0.498039 /grid/thickness 1. /legend/visible 1 /legend/color 1. 1. 1. 1. /legend/unit meters /emphasis/source 1 /emphasis/speaker 0 /emphasis/microphone 0 /ruler/visible 0 /ruler/color 1. 1. 1. 1. /ruler/unit meters /hoa/number 0 /anchor/number 0 /phone/number 0 /area/number 0 /speakerhull/visible 0 /speakerhull/color 0. 0. 0. 1. /speakerhull/fill 0 /speakerhull/fill/color 0. 0. 0. 0.298039 /settings/visible 0 /settings/editable 1 /layout single /source/1/pres 84.1 /source/1/warm 30. /source/1/bril 30. /source/1/prer 77.2 /source/1/revp 34. /source/1/env 24. /source/1/axis/params -11. 0. 0. 0. 177. 5657. /source/1/axis/mute 0 /source/1/axis/bypass 0 /source/1/omni/params 0. 1.7 0. -3.8 177. 5657. /source/1/omni/mute 0 /source/1/omni/bypass 0 /source/1/color 0.490196 1. 0. 1. /source/1/doppler 0 /source/1/air 1 /source/1/air/freq 10000. /source/1/drop 6. /source/1/drop/mode log2 /source/1/radius 1. /source/1/room/destination 1 /source/1/mute 0 /source/1/solo 0 /source/1/direct/mute 0 /source/1/early/mute 0 /source/1/cluster/mute 0 /source/1/reverb/mute 0 /source/1/early/width 30. /source/1/early/shape 50. /source/1/spread 0. /source/1/panrev 0. /source/1/lock 0 /source/2/pres 86.2 /source/2/warm 30. /source/2/bril 30. /source/2/prer 48. /source/2/revp 34. /source/2/env 24. /source/2/axis/params 0. 0. 0. 0. 177. 5657. /source/2/axis/mute 0 /source/2/axis/bypass 0 /source/2/omni/params 0. 1.7 0. -3.8 177. 5657. /source/2/omni/mute 0 /source/2/omni/bypass 0 /source/2/color 0.490196 1. 0. 1. /source/2/doppler 0 /source/2/air 1 /source/2/air/freq 10000. /source/2/drop 6. /source/2/drop/mode log2 /source/2/radius 1. /source/2/room/destination 1 /source/2/mute 0 /source/2/solo 0 /source/2/direct/mute 0 /source/2/early/mute 0 /source/2/cluster/mute 0 /source/2/reverb/mute 0 /source/2/early/width 30. /source/2/early/shape 50. /source/2/spread 0. /source/2/panrev 0. /source/2/lock 0 /source/3/pres 86.3 /source/3/warm 30. /source/3/bril 30. /source/3/prer 48. /source/3/revp 34. /source/3/env 24. /source/3/axis/params 0. 0. 0. 0. 177. 5657. /source/3/axis/mute 0 /source/3/axis/bypass 0 /source/3/omni/params 0. 1.7 0. -3.8 177. 5657. /source/3/omni/mute 0 /source/3/omni/bypass 0 /source/3/color 0.490196 1. 0. 1. /source/3/doppler 0 /source/3/air 1 /source/3/air/freq 10000. /source/3/drop 6. /source/3/drop/mode log2 /source/3/radius 1. /source/3/room/destination 1 /source/3/mute 0 /source/3/solo 0 /source/3/direct/mute 0 /source/3/early/mute 0 /source/3/cluster/mute 0 /source/3/reverb/mute 0 /source/3/early/width 30. /source/3/early/shape 50. /source/3/spread 0. /source/3/panrev 0. /source/3/lock 0 /source/4/pres 86.1 /source/4/warm 30. /source/4/bril 30. /source/4/prer 48. /source/4/revp 34. /source/4/env 24. /source/4/axis/params 0. 0. 0. 0. 177. 5657. /source/4/axis/mute 0 /source/4/axis/bypass 0 /source/4/omni/params 0. 1.7 0. -3.8 177. 5657. /source/4/omni/mute 0 /source/4/omni/bypass 0 /source/4/color 0.490196 1. 0. 1. /source/4/doppler 0 /source/4/air 1 /source/4/air/freq 10000. /source/4/drop 6. /source/4/drop/mode log2 /source/4/radius 1. /source/4/room/destination 1 /source/4/mute 0 /source/4/solo 0 /source/4/direct/mute 0 /source/4/early/mute 0 /source/4/cluster/mute 0 /source/4/reverb/mute 0 /source/4/early/width 30. /source/4/early/shape 50. /source/4/spread 0. /source/4/panrev 0. /source/4/lock 0 /source/5/pres 90. /source/5/warm 30. /source/5/bril 30. /source/5/prer 48. /source/5/revp 34. /source/5/env 24. /source/5/axis/params 0. 0. 0. 0. 177. 5657. /source/5/axis/mute 0 /source/5/axis/bypass 0 /source/5/omni/params 0. 1.7 0. -3.8 177. 5657. /source/5/omni/mute 0 /source/5/omni/bypass 0 /source/5/color 0.490196 1. 0. 1. /source/5/doppler 0 /source/5/air 1 /source/5/air/freq 10000. /source/5/drop 6. /source/5/drop/mode log2 /source/5/radius 1. /source/5/room/destination 1 /source/5/mute 0 /source/5/solo 0 /source/5/direct/mute 0 /source/5/early/mute 0 /source/5/cluster/mute 0 /source/5/reverb/mute 0 /source/5/early/width 30. /source/5/early/shape 50. /source/5/spread 0. /source/5/panrev 0. /source/5/lock 0 /room/number 2 /room/1/reverberance 65. /room/1/heaviness 25. /room/1/liveness 35. /room/1/reverb/fl 250. /room/1/reverb/fh 8000. /room/1/reverb/air/enable 1 /room/1/reverb/air/freq 10000. /room/1/reverb/infinite 0 /room/1/reverb/roomsize 2000. /room/1/early/min 22.2 /room/1/early/max 39.7 /room/1/early/distr 0.5 /room/1/cluster/min 42.5 /room/1/cluster/max 105.6 /room/1/cluster/distr 0.5 /room/1/reverb/min 95.4 /room/1/reverb/density 0.86 /room/1/reverb/roomoffset 0. /room/1/mute 0 /room/2/reverberance 65. /room/2/heaviness 25. /room/2/liveness 35. /room/2/reverb/fl 250. /room/2/reverb/fh 8000. /room/2/reverb/air/enable 1 /room/2/reverb/air/freq 10000. /room/2/reverb/infinite 0 /room/2/reverb/roomsize 2000. /room/2/early/min 22.2 /room/2/early/max 39.7 /room/2/early/distr 0.5 /room/2/cluster/min 42.5 /room/2/cluster/max 105.6 /room/2/cluster/distr 0.5 /room/2/reverb/min 95.4 /room/2/reverb/density 0.86 /room/2/reverb/roomoffset 0. /room/2/mute 0 /internals 8 /viewer/visible 1 /viewer/only 0 /style factors"
 								}
 
 							}
@@ -1648,9 +1648,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 11.0 ]
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1659,9 +1659,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 10.0 ]
+									"fontsize" : [ 10.0 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1670,6 +1670,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1679,9 +1681,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ]
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1707,6 +1707,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1716,8 +1717,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 9.0 ]
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -2144,9 +2144,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 11.0 ]
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2155,9 +2155,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2166,6 +2166,8 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2175,9 +2177,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2202,7 +2202,17 @@
 			}
 , 			{
 				"name" : "EAMIR",
+				"newobj" : 				{
+					"fontface" : [ 0 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ],
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ]
+				}
+,
 				"default" : 				{
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
@@ -2213,16 +2223,15 @@
 						"autogradient" : 0
 					}
 ,
-					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"fontface" : [ 0 ],
 					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
 					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
-					"color" : [ 0.8, 0.4, 1.0, 1.0 ]
+					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"fontface" : [ 0 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.701961, 0.415686, 0.886275, 0.37 ],
@@ -2232,16 +2241,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontface" : [ 0 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ]
-				}
-,
-				"newobj" : 				{
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"fontface" : [ 0 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -2282,9 +2282,9 @@
 , 			{
 				"name" : "default_style",
 				"newobj" : 				{
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"toggle" : 				{
@@ -2304,9 +2304,9 @@
 , 			{
 				"name" : "default_style-1",
 				"newobj" : 				{
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"toggle" : 				{
@@ -2326,9 +2326,9 @@
 , 			{
 				"name" : "helpfile_label-1",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-					"fontsize" : [ 13.0 ]
+					"fontsize" : [ 13.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2337,6 +2337,7 @@
 , 			{
 				"name" : "jbb",
 				"default" : 				{
+					"fontsize" : [ 9.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2346,8 +2347,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontname" : [ "Arial" ],
-					"fontsize" : [ 9.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2365,12 +2365,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2378,7 +2378,14 @@
 			}
 , 			{
 				"name" : "master_style",
+				"newobj" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
 				"message" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
@@ -2388,8 +2395,12 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
+
+				}
 ,
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				"attrui" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 				}
 ,
 				"umenu" : 				{
@@ -2405,42 +2416,7 @@
 
 				}
 ,
-				"newobj" : 				{
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"gain~" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 0.861448, 0.16921, 1.0 ]
-				}
-,
-				"slider" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
-				}
-,
 				"ezadc~" : 				{
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"button" : 				{
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"color" : [ 1.0, 0.95051, 0.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"ezdac~" : 				{
 					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -2451,18 +2427,42 @@
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"attrui" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+				"slider" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
 				}
 ,
-				"multislider" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"button" : 				{
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+					"color" : [ 1.0, 0.95051, 0.0, 1.0 ]
+				}
+,
+				"ezdac~" : 				{
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"gain~" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 1.0, 0.861448, 0.16921, 1.0 ]
 				}
 ,
 				"function" : 				{
 					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"multislider" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
@@ -2471,7 +2471,14 @@
 			}
 , 			{
 				"name" : "master_style-1",
+				"newobj" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
 				"message" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
@@ -2481,8 +2488,12 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
+
+				}
 ,
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				"attrui" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 				}
 ,
 				"umenu" : 				{
@@ -2498,42 +2509,7 @@
 
 				}
 ,
-				"newobj" : 				{
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"gain~" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 0.861448, 0.16921, 1.0 ]
-				}
-,
-				"slider" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
-				}
-,
 				"ezadc~" : 				{
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"button" : 				{
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"color" : [ 1.0, 0.95051, 0.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"ezdac~" : 				{
 					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -2544,18 +2520,42 @@
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"attrui" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+				"slider" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
 				}
 ,
-				"multislider" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"button" : 				{
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+					"color" : [ 1.0, 0.95051, 0.0, 1.0 ]
+				}
+,
+				"ezdac~" : 				{
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"gain~" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 1.0, 0.861448, 0.16921, 1.0 ]
 				}
 ,
 				"function" : 				{
 					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"multislider" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
@@ -2601,6 +2601,8 @@
 , 			{
 				"name" : "minimal",
 				"default" : 				{
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 0.9 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
@@ -2611,13 +2613,11 @@
 						"autogradient" : 0
 					}
 ,
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 0.9 ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 0.44 ],
 					"selectioncolor" : [ 0.862745, 0.741176, 0.137255, 0.7 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.878431, 0.878431, 0.858824, 1.0 ],
-					"color" : [ 0.345098, 0.513725, 0.572549, 0.78 ]
+					"color" : [ 0.345098, 0.513725, 0.572549, 0.78 ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2780,8 +2780,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2790,8 +2790,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2800,8 +2800,8 @@
 , 			{
 				"name" : "newobjYellow-3",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2810,8 +2810,8 @@
 , 			{
 				"name" : "newobjYellow-4",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2820,8 +2820,8 @@
 , 			{
 				"name" : "newobjYellow-5",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2830,8 +2830,8 @@
 , 			{
 				"name" : "newobjYellow-6",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2954,9 +2954,9 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
-					"fontname" : [ "Ableton Sans Light Regular" ],
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
+					"fontname" : [ "Ableton Sans Light Regular" ],
 					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ]
 				}
 ,
