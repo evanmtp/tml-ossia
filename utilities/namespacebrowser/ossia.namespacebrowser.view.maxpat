@@ -55,7 +55,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 209.0, 45.0, 633.0, 760.0 ],
+						"rect" : [ 954.0, -933.0, 679.0, 933.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -83,6 +83,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-48",
@@ -349,7 +350,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "all", "get", "set", "bi" ],
-											"parameter_longname" : "live.text[166]",
+											"parameter_longname" : "live.text[3]",
 											"parameter_mmax" : 3,
 											"parameter_shortname" : "live.text",
 											"parameter_type" : 2,
@@ -413,7 +414,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_longname" : "live.text[167]",
+											"parameter_longname" : "live.text[4]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.text",
 											"parameter_type" : 2
@@ -1388,8 +1389,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 30.0, 600.0, 89.0, 22.0 ],
-									"text" : "regexp ^/([^/]*)/"
+									"patching_rect" : [ 30.0, 600.0, 100.0, 22.0 ],
+									"text" : "regexp ^.*:/([^/]*)/"
 								}
 
 							}
@@ -3450,7 +3451,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 180.0, 35.0, 195.0, 730.0 ],
 									"rowheight" : 20,
-									"rows" : 200,
+									"rows" : 14,
 									"sccolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 									"selmode" : 3,
 									"sgcolor" : [ 0.7, 0.7, 0.7, 0.701961 ],
@@ -3486,7 +3487,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 35.0, 180.0, 730.0 ],
 									"rowheight" : 20,
-									"rows" : 32,
+									"rows" : 16,
 									"sccolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 									"selmode" : 3,
 									"sgcolor" : [ 0.7, 0.7, 0.7, 0.701961 ],
@@ -4435,7 +4436,11 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
@@ -4448,11 +4453,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -4686,7 +4687,7 @@
 					"rounded" : 0.0,
 					"style" : "default",
 					"tabmode" : 0,
-					"text" : "none",
+					"text" : "/wheel2/acc/qom2",
 					"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"varname" : "textEdit"
 				}
@@ -4931,7 +4932,11 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
@@ -4944,11 +4949,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
