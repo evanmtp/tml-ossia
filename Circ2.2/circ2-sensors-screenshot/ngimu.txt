@@ -1,0 +1,26 @@
+Wi-Fi Mode 
+OSC message to get value:
+/wifi/mode
+OSC message to set value:
+/wifi/mode, 1
+
+Wi-Fi AP Band 
+This setting has no effect if Wi-Fi is not in AP mode. 
+OSC message to get value:
+/wifi/ap/band
+OSC message to set value:
+/wifi/ap/band, 1
+
+Wi-Fi AP 2.4 GHz Channel 
+This setting has no effect if Wi-Fi is not in AP mode. 
+OSC message to get value:
+/wifi/ap/2ghzchannel
+OSC message to set value:
+/wifi/ap/2ghzchannel, 1
+
+Wi-Fi AP 5 GHz Channel 
+This setting has no effect if Wi-Fi is not in AP mode. 
+OSC message to get value:
+/wifi/ap/5ghzchannel
+OSC message to set value:
+/wifi/ap/5ghzchannel, 36
