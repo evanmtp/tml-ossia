@@ -3,7 +3,11 @@
 # ###########################################
 # 
 /cuejamoma/file/path "Macintosh HD:/Users/tml/src/tml-ossia/DEMO.KIT/jamoma_cue_3_dec18.cues.txt"
-# 
+#
+/baton1mode/value 1
+/baton2mode/value 1 
+/baton3mode/value 1 
+#
 /baton1-jackson/origin 1013
 /baton1-jackson/seq0 1001
 /baton1-jackson/seq1 3301
@@ -363,6 +367,11 @@
 # 
 /cuejamoma/file/path "Macintosh HD:/Users/tml/src/tml-ossia/DEMO.KIT/jamoma_cue_3_dec18.cues.txt"
 # 
+#
+/baton1mode/value 2
+/baton2mode/value 2 
+/baton3mode/value 2 
+#
 /baton1-jackson/origin 1013
 /baton1-jackson/seq0 1001
 /baton1-jackson/seq1 3301
