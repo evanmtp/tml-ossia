@@ -1,0 +1,718 @@
+- cue "sequence one"
+- description "something about this cue"
+# ###########################################
+# 
+/cuejamoma/file/path "Macintosh HD:/Users/tml/src/tml-ossia/DEMO.KIT/jamoma_cue_3_dec18.cues.txt"
+# 
+/baton1-jackson/origin 1013
+/baton1-jackson/seq0 1001
+/baton1-jackson/seq1 3301
+/baton1-jackson/seq2 0
+/baton1-jackson/seq3 30
+/baton1-jackson/seq4 0
+/baton1-jackson/seq5 0
+/baton1-jackson/seq6 0
+/baton1-jackson/seq7 0
+# 
+/baton1-johnson2/origin 112
+/baton1-johnson2/seq0 102
+/baton1-johnson2/seq1 1002
+/baton1-johnson2/seq2 1
+/baton1-johnson2/seq3 0
+/baton1-johnson2/seq4 0
+/baton1-johnson2/seq5 0
+/baton1-johnson2/seq6 0
+/baton1-johnson2/seq7 0
+# 
+/baton1-pitchbase/base 0
+# 
+/baton1-pitchbase.1/base 0
+# 
+/baton1-pitchbase.2/base 0
+# 
+/baton1-scale/degree 4
+/baton1-scale/scale 3
+# 
+/baton1_notealgo-johnsonnoteselpitch/origin 0
+/baton1_notealgo-johnsonnoteselpitch/seq0 0
+/baton1_notealgo-johnsonnoteselpitch/seq1 0
+/baton1_notealgo-johnsonnoteselpitch/seq2 0
+/baton1_notealgo-johnsonnoteselpitch/seq3 0
+/baton1_notealgo-johnsonnoteselpitch/seq4 0
+/baton1_notealgo-johnsonnoteselpitch/seq5 0
+/baton1_notealgo-johnsonnoteselpitch/seq6 0
+/baton1_notealgo-johnsonnoteselpitch/seq7 0
+# 
+/baton1_notealgo-johnsonnotseloctave/origin 0
+/baton1_notealgo-johnsonnotseloctave/seq0 0
+/baton1_notealgo-johnsonnotseloctave/seq1 0
+/baton1_notealgo-johnsonnotseloctave/seq2 0
+/baton1_notealgo-johnsonnotseloctave/seq3 0
+/baton1_notealgo-johnsonnotseloctave/seq4 0
+/baton1_notealgo-johnsonnotseloctave/seq5 0
+/baton1_notealgo-johnsonnotseloctave/seq6 0
+/baton1_notealgo-johnsonnotseloctave/seq7 0
+# 
+/baton1_notealgo-johnsonoctave/onoff 0
+# 
+/baton1_notealgo-keyseqrandoctave/range 0
+# 
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val01 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val02 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val03 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val04 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val05 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val06 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val07 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val08 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val09 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val10 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val11 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val12 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val13 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val14 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val15 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val16 0
+/baton1_notealgo-notesel1/valout 0.000000
+# 
+/baton1_notealgo-noteselmode/onoff 1
+# 
+/baton1_notealgo-octavebase/base 0
+# 
+/baton1_notealgo-pitchbase/base 0
+# 
+/baton1_notealgo-randoctave/onoff 1
+# 
+/baton1_notealgo-scalecoll/degree 0
+/baton1_notealgo-scalecoll/scale 0
+# 
+/baton1_notealgo-scalemode/onoff 0
+# 
+/baton1_noteseq-johnsonkeyseqoctave/origin 12
+/baton1_noteseq-johnsonkeyseqoctave/seq0 112
+/baton1_noteseq-johnsonkeyseqoctave/seq1 102
+/baton1_noteseq-johnsonkeyseqoctave/seq2 2210
+/baton1_noteseq-johnsonkeyseqoctave/seq3 0
+/baton1_noteseq-johnsonkeyseqoctave/seq4 0
+/baton1_noteseq-johnsonkeyseqoctave/seq5 0
+/baton1_noteseq-johnsonkeyseqoctave/seq6 0
+/baton1_noteseq-johnsonkeyseqoctave/seq7 0
+# 
+/baton1_noteseq-johnsonoctave/onoff 1
+# 
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val01 C
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val02 E
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val03 F
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val04 F
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val05 A
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val06 C
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val07 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val08 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val09 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val10 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val11 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val12 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val13 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val14 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val15 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val16 0
+/baton1_noteseq-keyseq1/steps 6.000000
+/baton1_noteseq-keyseq1/valout 36
+# 
+/baton1_noteseq-keyseqrandoctave/range 3
+# 
+/baton1_noteseq-octavebase/base 3
+# 
+/baton1_noteseq-randoctave/onoff 0
+# 
+/baton2-jackson/origin 3055
+/baton2-jackson/seq0 305
+/baton2-jackson/seq1 0
+/baton2-jackson/seq2 0
+/baton2-jackson/seq3 33005
+/baton2-jackson/seq4 0
+/baton2-jackson/seq5 503
+/baton2-jackson/seq6 0
+/baton2-jackson/seq7 0
+# 
+/baton2-johnson2/origin 2201
+/baton2-johnson2/seq0 201
+/baton2-johnson2/seq1 2201
+/baton2-johnson2/seq2 2220
+/baton2-johnson2/seq3 0
+/baton2-johnson2/seq4 0
+/baton2-johnson2/seq5 0
+/baton2-johnson2/seq6 0
+/baton2-johnson2/seq7 0
+# 
+/baton2-scale/degree 4
+/baton2-scale/scale 3
+# 
+/baton2_notealgo-johnsonnoteselpitch/origin 0
+/baton2_notealgo-johnsonnoteselpitch/seq0 0
+/baton2_notealgo-johnsonnoteselpitch/seq1 0
+/baton2_notealgo-johnsonnoteselpitch/seq2 0
+/baton2_notealgo-johnsonnoteselpitch/seq3 0
+/baton2_notealgo-johnsonnoteselpitch/seq4 0
+/baton2_notealgo-johnsonnoteselpitch/seq5 0
+/baton2_notealgo-johnsonnoteselpitch/seq6 0
+/baton2_notealgo-johnsonnoteselpitch/seq7 0
+# 
+/baton2_notealgo-johnsonnotseloctave/origin 0
+/baton2_notealgo-johnsonnotseloctave/seq0 0
+/baton2_notealgo-johnsonnotseloctave/seq1 0
+/baton2_notealgo-johnsonnotseloctave/seq2 0
+/baton2_notealgo-johnsonnotseloctave/seq3 0
+/baton2_notealgo-johnsonnotseloctave/seq4 0
+/baton2_notealgo-johnsonnotseloctave/seq5 0
+/baton2_notealgo-johnsonnotseloctave/seq6 0
+/baton2_notealgo-johnsonnotseloctave/seq7 0
+# 
+/baton2_notealgo-johnsonoctave/onoff 0
+# 
+/baton2_notealgo-keyseqrandoctave/range 0
+# 
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val01 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val02 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val03 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val04 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val05 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val06 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val07 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val08 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val09 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val10 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val11 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val12 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val13 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val14 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val15 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val16 0
+/baton2_notealgo-notesel1/valout 0.000000
+# 
+/baton2_notealgo-noteselmode/onoff 1
+# 
+/baton2_notealgo-octavebase/base 0
+# 
+/baton2_notealgo-pitchbase/base 0
+# 
+/baton2_notealgo-randoctave/onoff 1
+# 
+/baton2_notealgo-scalecoll/degree 0
+/baton2_notealgo-scalecoll/scale 0
+# 
+/baton2_notealgo-scalemode/onoff 0
+# 
+/baton2_noteseq-johnsonkeyseqoctave/origin 10
+/baton2_noteseq-johnsonkeyseqoctave/seq0 110
+/baton2_noteseq-johnsonkeyseqoctave/seq1 110
+/baton2_noteseq-johnsonkeyseqoctave/seq2 0
+/baton2_noteseq-johnsonkeyseqoctave/seq3 0
+/baton2_noteseq-johnsonkeyseqoctave/seq4 0
+/baton2_noteseq-johnsonkeyseqoctave/seq5 0
+/baton2_noteseq-johnsonkeyseqoctave/seq6 0
+/baton2_noteseq-johnsonkeyseqoctave/seq7 0
+# 
+/baton2_noteseq-johnsonoctave/onoff 1
+# 
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val01 C
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val02 E
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val03 C
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val04 A
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val05 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val06 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val07 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val08 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val09 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val10 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val11 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val12 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val13 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val14 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val15 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val16 0
+/baton2_noteseq-keyseq1/steps 4.000000
+/baton2_noteseq-keyseq1/valout 36
+# 
+/baton2_noteseq-keyseqrandoctave/range 0
+# 
+/baton2_noteseq-octavebase/base 4
+# 
+/baton2_noteseq-randoctave/onoff 0
+# 
+/baton3-jackson/origin 506
+/baton3-jackson/seq0 506
+/baton3-jackson/seq1 0
+/baton3-jackson/seq2 0
+/baton3-jackson/seq3 0
+/baton3-jackson/seq4 0
+/baton3-jackson/seq5 5506
+/baton3-jackson/seq6 660
+/baton3-jackson/seq7 0
+# 
+/baton3-johnson2/origin 3021
+/baton3-johnson2/seq0 2031
+/baton3-johnson2/seq1 31
+/baton3-johnson2/seq2 210
+/baton3-johnson2/seq3 30021
+/baton3-johnson2/seq4 0
+/baton3-johnson2/seq5 0
+/baton3-johnson2/seq6 0
+/baton3-johnson2/seq7 0
+# 
+/baton3-scale/degree 6
+/baton3-scale/scale 3
+# 
+/baton3_notealgo-johnsonnoteselpitch/origin 0
+/baton3_notealgo-johnsonnoteselpitch/seq0 0
+/baton3_notealgo-johnsonnoteselpitch/seq1 0
+/baton3_notealgo-johnsonnoteselpitch/seq2 0
+/baton3_notealgo-johnsonnoteselpitch/seq3 0
+/baton3_notealgo-johnsonnoteselpitch/seq4 0
+/baton3_notealgo-johnsonnoteselpitch/seq5 0
+/baton3_notealgo-johnsonnoteselpitch/seq6 0
+/baton3_notealgo-johnsonnoteselpitch/seq7 0
+# 
+/baton3_notealgo-johnsonnotseloctave/origin 0
+/baton3_notealgo-johnsonnotseloctave/seq0 0
+/baton3_notealgo-johnsonnotseloctave/seq1 0
+/baton3_notealgo-johnsonnotseloctave/seq2 0
+/baton3_notealgo-johnsonnotseloctave/seq3 0
+/baton3_notealgo-johnsonnotseloctave/seq4 0
+/baton3_notealgo-johnsonnotseloctave/seq5 0
+/baton3_notealgo-johnsonnotseloctave/seq6 0
+/baton3_notealgo-johnsonnotseloctave/seq7 0
+# 
+/baton3_notealgo-johnsonoctave/onoff 0
+# 
+/baton3_notealgo-keyseqrandoctave/range 0
+# 
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val01 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val02 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val03 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val04 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val05 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val06 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val07 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val08 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val09 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val10 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val11 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val12 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val13 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val14 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val15 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val16 0
+/baton3_notealgo-notesel1/valout 0.000000
+# 
+/baton3_notealgo-noteselmode/onoff 1
+# 
+/baton3_notealgo-octavebase/base 0
+# 
+/baton3_notealgo-pitchbase/base 0
+# 
+/baton3_notealgo-randoctave/onoff 1
+# 
+/baton3_notealgo-scalecoll/degree 0
+/baton3_notealgo-scalecoll/scale 0
+# 
+/baton3_notealgo-scalemode/onoff 0
+# 
+/baton3_noteseq-johnsonkeyseqoctave/origin 0
+/baton3_noteseq-johnsonkeyseqoctave/seq0 0
+/baton3_noteseq-johnsonkeyseqoctave/seq1 0
+/baton3_noteseq-johnsonkeyseqoctave/seq2 0
+/baton3_noteseq-johnsonkeyseqoctave/seq3 0
+/baton3_noteseq-johnsonkeyseqoctave/seq4 0
+/baton3_noteseq-johnsonkeyseqoctave/seq5 0
+/baton3_noteseq-johnsonkeyseqoctave/seq6 0
+/baton3_noteseq-johnsonkeyseqoctave/seq7 0
+# 
+/baton3_noteseq-johnsonoctave/onoff 0
+# 
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val01 C
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val02 E
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val03 F
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val04 A
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val05 C
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val06 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val07 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val08 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val09 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val10 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val11 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val12 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val13 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val14 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val15 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val16 0
+/baton3_noteseq-keyseq1/steps 5.000000
+/baton3_noteseq-keyseq1/valout 45
+# 
+/baton3_noteseq-keyseqrandoctave/range 1
+# 
+/baton3_noteseq-octavebase/base 3
+# 
+/baton3_noteseq-randoctave/onoff 1
+# 
+# ###########################################
+
+- cue "algorithm one"
+- description "something about this cue"
+# ###########################################
+# 
+/cuejamoma/file/path "Macintosh HD:/Users/tml/src/tml-ossia/DEMO.KIT/jamoma_cue_3_dec18.cues.txt"
+# 
+/baton1-jackson/origin 1013
+/baton1-jackson/seq0 1001
+/baton1-jackson/seq1 3301
+/baton1-jackson/seq2 0
+/baton1-jackson/seq3 30
+/baton1-jackson/seq4 0
+/baton1-jackson/seq5 0
+/baton1-jackson/seq6 0
+/baton1-jackson/seq7 0
+# 
+/baton1-johnson2/origin 112
+/baton1-johnson2/seq0 102
+/baton1-johnson2/seq1 1002
+/baton1-johnson2/seq2 1
+/baton1-johnson2/seq3 0
+/baton1-johnson2/seq4 0
+/baton1-johnson2/seq5 0
+/baton1-johnson2/seq6 0
+/baton1-johnson2/seq7 0
+# 
+/baton1-pitchbase/base 0
+# 
+/baton1-pitchbase.1/base 0
+# 
+/baton1-pitchbase.2/base 0
+# 
+/baton1-scale/degree 4
+/baton1-scale/scale 3
+# 
+/baton1_notealgo-johnsonnoteselpitch/origin 1105
+/baton1_notealgo-johnsonnoteselpitch/seq0 1105
+/baton1_notealgo-johnsonnoteselpitch/seq1 1005
+/baton1_notealgo-johnsonnoteselpitch/seq2 0
+/baton1_notealgo-johnsonnoteselpitch/seq3 0
+/baton1_notealgo-johnsonnoteselpitch/seq4 0
+/baton1_notealgo-johnsonnoteselpitch/seq5 5510
+/baton1_notealgo-johnsonnoteselpitch/seq6 0
+/baton1_notealgo-johnsonnoteselpitch/seq7 0
+# 
+/baton1_notealgo-johnsonnotseloctave/origin 0
+/baton1_notealgo-johnsonnotseloctave/seq0 0
+/baton1_notealgo-johnsonnotseloctave/seq1 0
+/baton1_notealgo-johnsonnotseloctave/seq2 0
+/baton1_notealgo-johnsonnotseloctave/seq3 0
+/baton1_notealgo-johnsonnotseloctave/seq4 0
+/baton1_notealgo-johnsonnotseloctave/seq5 0
+/baton1_notealgo-johnsonnotseloctave/seq6 0
+/baton1_notealgo-johnsonnotseloctave/seq7 0
+# 
+/baton1_notealgo-johnsonoctave/onoff 0
+# 
+/baton1_notealgo-keyseqrandoctave/range 0
+# 
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val01 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val02 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val03 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val04 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val05 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val06 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val07 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val08 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val09 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val10 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val11 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val12 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val13 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val14 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val15 0
+/baton1_notealgo-notesel1/baton1_notealgo-notesel1-val16 0
+/baton1_notealgo-notesel1/valout 36
+# 
+/baton1_notealgo-noteselmode/onoff 0
+# 
+/baton1_notealgo-octavebase/base 8
+# 
+/baton1_notealgo-pitchbase/base 3
+# 
+/baton1_notealgo-randoctave/onoff 1
+# 
+/baton1_notealgo-scalecoll/degree 1
+/baton1_notealgo-scalecoll/scale 0
+# 
+/baton1_notealgo-scalemode/onoff 1
+# 
+/baton1_noteseq-johnsonkeyseqoctave/origin 12
+/baton1_noteseq-johnsonkeyseqoctave/seq0 112
+/baton1_noteseq-johnsonkeyseqoctave/seq1 102
+/baton1_noteseq-johnsonkeyseqoctave/seq2 2210
+/baton1_noteseq-johnsonkeyseqoctave/seq3 0
+/baton1_noteseq-johnsonkeyseqoctave/seq4 0
+/baton1_noteseq-johnsonkeyseqoctave/seq5 0
+/baton1_noteseq-johnsonkeyseqoctave/seq6 0
+/baton1_noteseq-johnsonkeyseqoctave/seq7 0
+# 
+/baton1_noteseq-johnsonoctave/onoff 1
+# 
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val01 C
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val02 E
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val03 F
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val04 F
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val05 A
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val06 C
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val07 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val08 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val09 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val10 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val11 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val12 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val13 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val14 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val15 0
+/baton1_noteseq-keyseq1/baton1_noteseq-keyseq1-val16 0
+/baton1_noteseq-keyseq1/steps 6.000000
+/baton1_noteseq-keyseq1/valout 41
+# 
+/baton1_noteseq-keyseqrandoctave/range 3
+# 
+/baton1_noteseq-octavebase/base 3
+# 
+/baton1_noteseq-randoctave/onoff 0
+# 
+/baton2-jackson/origin 3055
+/baton2-jackson/seq0 305
+/baton2-jackson/seq1 0
+/baton2-jackson/seq2 0
+/baton2-jackson/seq3 33005
+/baton2-jackson/seq4 0
+/baton2-jackson/seq5 503
+/baton2-jackson/seq6 0
+/baton2-jackson/seq7 0
+# 
+/baton2-johnson2/origin 2201
+/baton2-johnson2/seq0 201
+/baton2-johnson2/seq1 2201
+/baton2-johnson2/seq2 2220
+/baton2-johnson2/seq3 0
+/baton2-johnson2/seq4 0
+/baton2-johnson2/seq5 0
+/baton2-johnson2/seq6 0
+/baton2-johnson2/seq7 0
+# 
+/baton2-scale/degree 4
+/baton2-scale/scale 3
+# 
+/baton2_notealgo-johnsonnoteselpitch/origin 102
+/baton2_notealgo-johnsonnoteselpitch/seq0 1102
+/baton2_notealgo-johnsonnoteselpitch/seq1 2001
+/baton2_notealgo-johnsonnoteselpitch/seq2 2200
+/baton2_notealgo-johnsonnoteselpitch/seq3 0
+/baton2_notealgo-johnsonnoteselpitch/seq4 0
+/baton2_notealgo-johnsonnoteselpitch/seq5 0
+/baton2_notealgo-johnsonnoteselpitch/seq6 0
+/baton2_notealgo-johnsonnoteselpitch/seq7 0
+# 
+/baton2_notealgo-johnsonnotseloctave/origin 100
+/baton2_notealgo-johnsonnotseloctave/seq0 100
+/baton2_notealgo-johnsonnotseloctave/seq1 1011
+/baton2_notealgo-johnsonnotseloctave/seq2 0
+/baton2_notealgo-johnsonnotseloctave/seq3 0
+/baton2_notealgo-johnsonnotseloctave/seq4 0
+/baton2_notealgo-johnsonnotseloctave/seq5 0
+/baton2_notealgo-johnsonnotseloctave/seq6 0
+/baton2_notealgo-johnsonnotseloctave/seq7 0
+# 
+/baton2_notealgo-johnsonoctave/onoff 1
+# 
+/baton2_notealgo-keyseqrandoctave/range 0
+# 
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val01 D
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val02 F#
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val03 A
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val04 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val05 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val06 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val07 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val08 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val09 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val10 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val11 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val12 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val13 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val14 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val15 0
+/baton2_notealgo-notesel1/baton2_notealgo-notesel1-val16 0
+/baton2_notealgo-notesel1/valout 42
+# 
+/baton2_notealgo-noteselmode/onoff 1
+# 
+/baton2_notealgo-octavebase/base 4
+# 
+/baton2_notealgo-pitchbase/base 3
+# 
+/baton2_notealgo-randoctave/onoff 0
+# 
+/baton2_notealgo-scalecoll/degree 2
+/baton2_notealgo-scalecoll/scale 0
+# 
+/baton2_notealgo-scalemode/onoff 0
+# 
+/baton2_noteseq-johnsonkeyseqoctave/origin 10
+/baton2_noteseq-johnsonkeyseqoctave/seq0 110
+/baton2_noteseq-johnsonkeyseqoctave/seq1 110
+/baton2_noteseq-johnsonkeyseqoctave/seq2 0
+/baton2_noteseq-johnsonkeyseqoctave/seq3 0
+/baton2_noteseq-johnsonkeyseqoctave/seq4 0
+/baton2_noteseq-johnsonkeyseqoctave/seq5 0
+/baton2_noteseq-johnsonkeyseqoctave/seq6 0
+/baton2_noteseq-johnsonkeyseqoctave/seq7 0
+# 
+/baton2_noteseq-johnsonoctave/onoff 1
+# 
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val01 C
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val02 E
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val03 C
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val04 A
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val05 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val06 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val07 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val08 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val09 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val10 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val11 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val12 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val13 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val14 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val15 0
+/baton2_noteseq-keyseq1/baton2_noteseq-keyseq1-val16 0
+/baton2_noteseq-keyseq1/steps 4.000000
+/baton2_noteseq-keyseq1/valout 40
+# 
+/baton2_noteseq-keyseqrandoctave/range 0
+# 
+/baton2_noteseq-octavebase/base 4
+# 
+/baton2_noteseq-randoctave/onoff 0
+# 
+/baton3-jackson/origin 506
+/baton3-jackson/seq0 506
+/baton3-jackson/seq1 0
+/baton3-jackson/seq2 0
+/baton3-jackson/seq3 0
+/baton3-jackson/seq4 0
+/baton3-jackson/seq5 5506
+/baton3-jackson/seq6 660
+/baton3-jackson/seq7 0
+# 
+/baton3-johnson2/origin 3021
+/baton3-johnson2/seq0 2031
+/baton3-johnson2/seq1 31
+/baton3-johnson2/seq2 210
+/baton3-johnson2/seq3 30021
+/baton3-johnson2/seq4 0
+/baton3-johnson2/seq5 0
+/baton3-johnson2/seq6 0
+/baton3-johnson2/seq7 0
+# 
+/baton3-scale/degree 6
+/baton3-scale/scale 3
+# 
+/baton3_notealgo-johnsonnoteselpitch/origin 1012
+/baton3_notealgo-johnsonnoteselpitch/seq0 102
+/baton3_notealgo-johnsonnoteselpitch/seq1 1102
+/baton3_notealgo-johnsonnoteselpitch/seq2 110
+/baton3_notealgo-johnsonnoteselpitch/seq3 0
+/baton3_notealgo-johnsonnoteselpitch/seq4 0
+/baton3_notealgo-johnsonnoteselpitch/seq5 0
+/baton3_notealgo-johnsonnoteselpitch/seq6 0
+/baton3_notealgo-johnsonnoteselpitch/seq7 0
+# 
+/baton3_notealgo-johnsonnotseloctave/origin 0
+/baton3_notealgo-johnsonnotseloctave/seq0 0
+/baton3_notealgo-johnsonnotseloctave/seq1 0
+/baton3_notealgo-johnsonnotseloctave/seq2 0
+/baton3_notealgo-johnsonnotseloctave/seq3 0
+/baton3_notealgo-johnsonnotseloctave/seq4 0
+/baton3_notealgo-johnsonnotseloctave/seq5 0
+/baton3_notealgo-johnsonnotseloctave/seq6 0
+/baton3_notealgo-johnsonnotseloctave/seq7 0
+# 
+/baton3_notealgo-johnsonoctave/onoff 0
+# 
+/baton3_notealgo-keyseqrandoctave/range 0
+# 
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val01 F#
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val02 A
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val03 C
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val04 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val05 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val06 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val07 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val08 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val09 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val10 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val11 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val12 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val13 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val14 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val15 0
+/baton3_notealgo-notesel1/baton3_notealgo-notesel1-val16 0
+/baton3_notealgo-notesel1/valout 45
+# 
+/baton3_notealgo-noteselmode/onoff 1
+# 
+/baton3_notealgo-octavebase/base 1
+# 
+/baton3_notealgo-pitchbase/base 3
+# 
+/baton3_notealgo-randoctave/onoff 1
+# 
+/baton3_notealgo-scalecoll/degree 0
+/baton3_notealgo-scalecoll/scale 0
+# 
+/baton3_notealgo-scalemode/onoff 0
+# 
+/baton3_noteseq-johnsonkeyseqoctave/origin 0
+/baton3_noteseq-johnsonkeyseqoctave/seq0 0
+/baton3_noteseq-johnsonkeyseqoctave/seq1 0
+/baton3_noteseq-johnsonkeyseqoctave/seq2 0
+/baton3_noteseq-johnsonkeyseqoctave/seq3 0
+/baton3_noteseq-johnsonkeyseqoctave/seq4 0
+/baton3_noteseq-johnsonkeyseqoctave/seq5 0
+/baton3_noteseq-johnsonkeyseqoctave/seq6 0
+/baton3_noteseq-johnsonkeyseqoctave/seq7 0
+# 
+/baton3_noteseq-johnsonoctave/onoff 0
+# 
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val01 C
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val02 E
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val03 F
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val04 A
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val05 C
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val06 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val07 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val08 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val09 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val10 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val11 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val12 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val13 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val14 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val15 0
+/baton3_noteseq-keyseq1/baton3_noteseq-keyseq1-val16 0
+/baton3_noteseq-keyseq1/steps 5.000000
+/baton3_noteseq-keyseq1/valout 36
+# 
+/baton3_noteseq-keyseqrandoctave/range 2
+# 
+/baton3_noteseq-octavebase/base 3
+# 
+/baton3_noteseq-randoctave/onoff 1
+# 
+# ###########################################
+
