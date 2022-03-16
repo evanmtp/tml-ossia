@@ -47,7 +47,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 405.0, 180.0, 144.0, 66.0 ],
+					"patching_rect" : [ 405.0, 165.0, 144.0, 66.0 ],
 					"text" : "send a message \"recall [presetname]\" to recall a preset by name"
 				}
 
@@ -179,7 +179,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 705.0, 450.0, 82.0, 22.0 ],
+					"patching_rect" : [ 600.0, 420.0, 82.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -244,7 +244,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 330.0, 142.0, 66.0 ],
+					"patching_rect" : [ 435.0, 375.0, 142.0, 66.0 ],
 					"text" : "select a cue from the dropdown menu and click delete to delete it"
 				}
 
@@ -258,7 +258,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 270.0, 144.0, 93.0 ],
+					"patching_rect" : [ 435.0, 240.0, 144.0, 93.0 ],
 					"text" : "type in the textedit and press enter to save a cue. If you enter the name of an existing cue, it will be replaced."
 				}
 
@@ -519,7 +519,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "simple_cues.maxpat",
+					"name" : "simple_cues_explorer.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -1066,7 +1066,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "simple_cues.maxpat",
+				"name" : "simple_cues_explorer.maxpat",
 				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/simple_cues",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
