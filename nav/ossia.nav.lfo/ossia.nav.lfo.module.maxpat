@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 334.0, 276.0, 799.0, 714.0 ],
+		"rect" : [ 34.0, 105.0, 1852.0, 941.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -64,14 +64,14 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "ossia.nav.randlfo.view.maxpat",
+					"name" : "ossia.nav.lfo.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 351.0, 75.0 ],
+					"patching_rect" : [ 0.0, 0.0, 242.0, 73.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 157.0, 74.0 ],
+					"presentation_rect" : [ 2.0, 2.0, 244.0, 74.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -97,9 +97,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 202.0, 174.0, 22.0 ],
-					"text" : "ossia.nav.randlfo.model #1"
+					"outlettype" : [ "signal", "" ],
+					"patching_rect" : [ 14.0, 202.0, 140.0, 22.0 ],
+					"text" : "ossia.nav.lfo.model #1"
 				}
 
 			}
