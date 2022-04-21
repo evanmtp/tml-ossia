@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 381.0, 79.0, 1457.0, 967.0 ],
+		"rect" : [ 1119.0, 79.0, 719.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -159,13 +159,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 12.0,
 					"id" : "obj-69",
-					"linecount" : 5,
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 270.0, 120.0, 90.0, 81.0 ],
-					"text" : "ossia.parameter wave/invert @type bool @default 0",
+					"patching_rect" : [ 270.0, 120.0, 90.0, 67.0 ],
+					"text" : "ossia.parameter invert @type bool @default 0",
 					"varname" : "rate/max[4]"
 				}
 
@@ -175,13 +175,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 12.0,
 					"id" : "obj-68",
-					"linecount" : 6,
+					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 135.0, 120.0, 110.0, 96.0 ],
-					"text" : "ossia.parameter wave/waveform @type int @range 0 5 @clip both @default 0",
+					"patching_rect" : [ 135.0, 120.0, 120.0, 81.0 ],
+					"text" : "ossia.parameter waveform @type int @range 0 5 @clip both @default 0",
 					"varname" : "rate/max[3]"
 				}
 
@@ -220,7 +220,7 @@
 					"comment" : "",
 					"hint" : "float",
 					"id" : "obj-60",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1489,7 +1489,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1502,7 +1502,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1733,6 +1733,16 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "ossia.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.parameter.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
