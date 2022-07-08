@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 161.0, 87.0, 1641.0, 810.0 ],
+		"rect" : [ 47.0, 87.0, 1153.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,24 +40,64 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-131",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 399.0, 307.0, 935.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"verbose" : 1
+					}
+,
+					"text" : "mubu.track data 4 sensor4 @matrixcols 16 @maxsize 600s @sampleperiod 10ms @timetagged no @info gui markers @info gui \"fgcolor 0 255 0, autobounds 1\" @predef yes"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-132",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 399.0, 277.0, 935.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"verbose" : 1
+					}
+,
+					"text" : "mubu.track data 3 sensor3 @matrixcols 16 @maxsize 600s @sampleperiod 10ms @timetagged no @info gui markers @info gui \"fgcolor 255 0 0, autobounds 1\" @predef yes"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.4, 1.0, 0.623529411764706, 1.0 ],
 					"id" : "obj-129",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.299987999999985, 266.0, 95.0, 22.0 ],
+					"patching_rect" : [ 56.299987999999985, 311.0, 95.0, 22.0 ],
 					"text" : "ngimugrab 8004"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.4, 1.0, 0.623529411764706, 1.0 ],
 					"id" : "obj-130",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.299987999999985, 209.0, 95.0, 22.0 ],
+					"patching_rect" : [ 56.299987999999985, 249.0, 95.0, 22.0 ],
 					"text" : "ngimugrab 8003"
 				}
 
@@ -72,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 180.799987999999985, 259.0, 149.0, 22.0 ],
+					"patching_rect" : [ 56.299987999999985, 339.0, 149.0, 22.0 ],
 					"text" : "mubu.record data sensor4"
 				}
 
@@ -87,13 +127,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 180.799987999999985, 229.0, 149.0, 22.0 ],
+					"patching_rect" : [ 56.299987999999985, 277.0, 149.0, 22.0 ],
 					"text" : "mubu.record data sensor3"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.4, 1.0, 0.623529411764706, 1.0 ],
 					"id" : "obj-121",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -106,12 +147,13 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.4, 1.0, 0.623529411764706, 1.0 ],
 					"id" : "obj-120",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.299987999999985, 129.5, 95.0, 22.0 ],
+					"patching_rect" : [ 56.299987999999985, 98.0, 95.0, 22.0 ],
 					"text" : "ngimugrab 8001"
 				}
 
@@ -566,7 +608,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 180.799987999999985, 199.0, 149.0, 22.0 ],
+					"patching_rect" : [ 56.299987999999985, 206.0, 149.0, 22.0 ],
 					"text" : "mubu.record data sensor2"
 				}
 
@@ -581,7 +623,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 297.0, 289.0, 935.0, 22.0 ],
+					"patching_rect" : [ 399.0, 247.0, 935.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"verbose" : 1
 					}
@@ -627,7 +669,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 603.0, 140.0, 49.0, 22.0 ],
+					"patching_rect" : [ 526.0, 67.0, 49.0, 22.0 ],
 					"text" : "clearall"
 				}
 
@@ -641,7 +683,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 532.0, 140.0, 47.0, 22.0 ],
+					"patching_rect" : [ 455.0, 67.0, 47.0, 22.0 ],
 					"text" : "readall"
 				}
 
@@ -655,7 +697,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 465.0, 140.0, 48.0, 22.0 ],
+					"patching_rect" : [ 388.0, 67.0, 48.0, 22.0 ],
 					"text" : "writeall"
 				}
 
@@ -669,7 +711,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 675.0, 140.0, 119.0, 22.0 ],
+					"patching_rect" : [ 598.0, 67.0, 119.0, 22.0 ],
 					"text" : "writetrack 1 accel.txt"
 				}
 
@@ -720,7 +762,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 297.0, 259.0, 935.0, 22.0 ],
+					"patching_rect" : [ 399.0, 217.0, 935.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"verbose" : 1
 					}
@@ -739,7 +781,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 180.799987999999985, 169.0, 149.0, 22.0 ],
+					"patching_rect" : [ 56.299987999999985, 134.0, 149.0, 22.0 ],
 					"text" : "mubu.record data sensor1"
 				}
 
@@ -839,7 +881,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 465.0, 187.0, 67.0, 22.0 ],
+					"patching_rect" : [ 388.0, 114.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
@@ -953,7 +995,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 612.5, 174.0, 474.5, 174.0 ],
+					"midpoints" : [ 535.5, 101.0, 397.5, 101.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -984,22 +1026,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"order" : 0,
-					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"order" : 1,
-					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-38", 0 ]
@@ -1009,7 +1035,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 684.5, 174.0, 474.5, 174.0 ],
+					"midpoints" : [ 607.5, 101.0, 397.5, 101.0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -1047,7 +1073,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 474.5, 174.0, 474.5, 174.0 ],
+					"midpoints" : [ 397.5, 101.0, 397.5, 101.0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -1055,7 +1081,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 541.5, 174.0, 474.5, 174.0 ],
+					"midpoints" : [ 464.5, 101.0, 397.5, 101.0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
