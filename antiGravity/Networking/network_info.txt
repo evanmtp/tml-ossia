@@ -1,0 +1,8 @@
+- router setup  
+	- admin page  
+		- 192.168.1.1  
+			- username: admin  
+			- password: antigravity1986!  
+	- wifi info  
+		- ssid: NGIMU Network  
+		- password: xiotechnologies  
