@@ -40,6 +40,28 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1150.5, 938.0, 35.0, 22.0 ],
+					"text" : "s gyr"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 974.200000000000045, 938.0, 37.0, 22.0 ],
+					"text" : "s acc"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-155",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -93,7 +115,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 522.0, 79.0, 1364.0, 744.0 ],
+						"rect" : [ 911.0, 287.0, 1364.0, 744.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -121,6 +143,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-117",
@@ -410,8 +433,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 502.5, 217.5, 85.0, 22.0 ],
-									"text" : "loadmess 200"
+									"patching_rect" : [ 502.5, 217.5, 83.0, 22.0 ],
+									"text" : "loadmess 120"
 								}
 
 							}
@@ -1508,7 +1531,7 @@
 								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "int", "" ],
 									"patching_rect" : [ 28.0, 301.0, 134.0, 22.0 ],
@@ -1783,7 +1806,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-67", 1 ],
-									"order" : 3,
+									"order" : 4,
 									"source" : [ "obj-116", 0 ]
 								}
 
@@ -1793,6 +1816,14 @@
 									"destination" : [ "obj-76", 0 ],
 									"midpoints" : [ 95.0, 110.0, 549.0, 110.0, 549.0, 110.0, 1030.314147999999932, 110.0 ],
 									"order" : 1,
+									"source" : [ "obj-116", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-95", 0 ],
+									"order" : 3,
 									"source" : [ "obj-116", 0 ]
 								}
 
@@ -1834,6 +1865,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-67", 0 ],
+									"order" : 4,
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-99", 0 ],
 									"order" : 3,
 									"source" : [ "obj-13", 0 ]
 								}
@@ -2269,7 +2308,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 974.200000000000045, 216.0, 151.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Altitude above sea level in m"
 				}
 
@@ -2336,7 +2374,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 884.99998800000003, 211.0, 78.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Acceleration in the Earth z axis in g"
 				}
 
@@ -2349,7 +2386,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 806.99998800000003, 211.0, 78.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Acceleration in the Earth y axis in g"
 				}
 
@@ -2362,7 +2398,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 728.799976000000015, 211.0, 78.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Acceleration in the Earth x axis in g"
 				}
 
@@ -2375,7 +2410,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 638.20000333333337, 208.0, 89.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Magnetometer magnitude in μT"
 				}
 
@@ -2388,7 +2422,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 553.825000833333434, 209.0, 89.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Accelerometer magnitude in g"
 				}
 
@@ -2401,7 +2434,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 467.199999999999989, 208.0, 70.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Gyroscope magnitude in °/s"
 				}
 
@@ -7431,13 +7463,31 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-148", 1 ],
+					"order" : 1,
 					"source" : [ "obj-152", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"order" : 0,
+					"source" : [ "obj-152", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"order" : 1,
+					"source" : [ "obj-153", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-148", 0 ],
+					"order" : 0,
 					"source" : [ "obj-153", 0 ]
 				}
 
@@ -8375,15 +8425,15 @@
 			}
 , 			{
 				"name" : "freefall.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBuExamples/examples/riot",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/MuBuExamples/examples/riot",
+				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"patcherrelativepath" : "./max-bitalino-riot2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "intensity.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBuExamples/examples/riot",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/MuBuExamples/examples/riot",
+				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"patcherrelativepath" : "./max-bitalino-riot2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8397,8 +8447,8 @@
 			}
 , 			{
 				"name" : "kick.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBuExamples/examples/riot",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/MuBuExamples/examples/riot",
+				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"patcherrelativepath" : "./max-bitalino-riot2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8467,8 +8517,8 @@
 			}
 , 			{
 				"name" : "shake.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBuExamples/examples/riot",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/MuBuExamples/examples/riot",
+				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"patcherrelativepath" : "./max-bitalino-riot2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8481,15 +8531,15 @@
 			}
 , 			{
 				"name" : "spin.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBuExamples/examples/riot",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/MuBuExamples/examples/riot",
+				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"patcherrelativepath" : "./max-bitalino-riot2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "still.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBuExamples/examples/riot",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/MuBuExamples/examples/riot",
+				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"patcherrelativepath" : "./max-bitalino-riot2",
 				"type" : "JSON",
 				"implicit" : 1
 			}

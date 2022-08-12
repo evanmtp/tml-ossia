@@ -150,7 +150,7 @@
 					"patching_rect" : [ 900.0, 855.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 330.0, 75.0, 60.0, 20.0 ],
-					"text" : "257.19"
+					"text" : "255.31"
 				}
 
 			}
@@ -175,7 +175,7 @@
 					"patching_rect" : [ 810.0, 855.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 255.0, 75.0, 45.0, 20.0 ],
-					"text" : "3.99"
+					"text" : "3.67"
 				}
 
 			}
@@ -200,7 +200,7 @@
 					"patching_rect" : [ 675.0, 855.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 75.0, 45.0, 20.0 ],
-					"text" : "184.97"
+					"text" : "34.22"
 				}
 
 			}
@@ -237,7 +237,7 @@
 					"patching_rect" : [ 585.0, 855.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 75.0, 45.0, 20.0 ],
-					"text" : "86.41"
+					"text" : "17.00"
 				}
 
 			}
@@ -361,7 +361,7 @@
 					"patching_rect" : [ 405.0, 2310.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 345.0, 30.0, 45.0, 20.0 ],
-					"text" : "8001"
+					"text" : "8005"
 				}
 
 			}
@@ -375,7 +375,7 @@
 					"patching_rect" : [ 270.0, 2310.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 225.0, 30.0, 90.0, 20.0 ],
-					"text" : "192.168.1.2"
+					"text" : "192.168.1.77"
 				}
 
 			}
@@ -473,7 +473,7 @@
 					"patching_rect" : [ 15.0, 2310.0, 92.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 30.0, 92.0, 20.0 ],
-					"text" : "192.168.1.1"
+					"text" : "192.168.1.95"
 				}
 
 			}
@@ -1238,7 +1238,22 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 150.0, 120.0, 24.0, 24.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 105.0, 75.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-346",
 									"maxclass" : "newobj",
@@ -1282,19 +1297,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 30.0, 435.0, 113.0, 22.0 ],
 									"text" : "r #0_from_ngimu"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-312",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 150.0, 120.0, 90.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 105.0, 75.0, 60.0, 20.0 ],
-									"text" : "1"
 								}
 
 							}
@@ -2209,6 +2211,13 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-507", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
 									"midpoints" : [ 849.5, 423.0, 819.5, 423.0 ],
 									"source" : [ "obj-100", 0 ]
@@ -2317,7 +2326,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-312", 0 ],
+									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-264", 0 ]
 								}
 
@@ -2999,7 +3008,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 604.0, 101.0, 103.0, 24.0 ],
 									"rounded" : 2.0,
-									"text" : "192.168.1.91",
+									"text" : "192.168.1.95",
 									"wordwrap" : 0
 								}
 
@@ -3033,7 +3042,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 360.0, 224.0, 103.0, 24.0 ],
 									"rounded" : 2.0,
-									"text" : "192.168.1.2",
+									"text" : "192.168.1.77",
 									"wordwrap" : 0
 								}
 
@@ -3322,7 +3331,7 @@
 									"patching_rect" : [ 515.0, 535.0, 90.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 345.0, 135.0, 120.0, 20.0 ],
-									"text" : "NGIMU - 004082C0",
+									"text" : "NGIMU - 004082B1",
 									"textjustification" : 2
 								}
 
@@ -3974,7 +3983,7 @@
 									"patching_rect" : [ 425.0, 130.0, 90.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 135.0, 45.0, 90.09708696603775, 20.0 ],
-									"text" : "192.168.1.1",
+									"text" : "192.168.1.95",
 									"textjustification" : 2
 								}
 
@@ -4055,7 +4064,7 @@
 									"patching_rect" : [ 35.0, 310.0, 90.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 105.0, 75.0, 119.660193562507629, 20.0 ],
-									"text" : "04-CD-15-12-3D-D8",
+									"text" : "04-CD-15-12-3E-80",
 									"textjustification" : 2
 								}
 
@@ -6381,7 +6390,7 @@
 									"patching_rect" : [ 615.0, 135.0, 90.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 105.0, 75.0, 165.0, 20.0 ],
-									"text" : "004082C0",
+									"text" : "004082B1",
 									"textjustification" : 2
 								}
 
@@ -7586,7 +7595,7 @@
 					"patching_rect" : [ 300.0, 795.0, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 600.0, 195.0, 60.0, 20.0 ],
-					"text" : "92.19"
+					"text" : "100.00"
 				}
 
 			}
@@ -7599,7 +7608,7 @@
 					"patching_rect" : [ 165.0, 795.0, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 600.0, 165.0, 60.0, 20.0 ],
-					"text" : "1.55"
+					"text" : "0.18"
 				}
 
 			}
