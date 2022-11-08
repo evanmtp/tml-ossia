@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 105.0, 1852.0, 941.0 ],
+		"rect" : [ 1366.0, 147.0, 326.0, 425.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -69,7 +69,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 242.0, 73.0 ],
+					"patching_rect" : [ -1.0, 0.0, 242.0, 73.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 2.0, 244.0, 74.0 ],
 					"viewvisibility" : 1
@@ -98,7 +98,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 14.0, 202.0, 140.0, 22.0 ],
+					"patching_rect" : [ 14.0, 202.0, 159.0, 22.0 ],
 					"text" : "ossia.nav.lfo.model #1"
 				}
 
