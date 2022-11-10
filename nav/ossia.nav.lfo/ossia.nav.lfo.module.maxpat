@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 3,
+			"minor" : 5,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -69,9 +69,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -1.0, 0.0, 242.0, 73.0 ],
+					"patching_rect" : [ -1.0, 0.0, 243.0, 98.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 244.0, 74.0 ],
+					"presentation_rect" : [ 2.0, 2.0, 244.0, 97.0 ],
 					"viewvisibility" : 1
 				}
 

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 3,
+			"minor" : 5,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1049.0, 517.0, 326.0, 425.0 ],
+		"rect" : [ 448.0, 341.0, 1196.0, 648.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -125,7 +125,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 30.552221298217773, 65.5, 245.5, 76.0 ],
+					"patching_rect" : [ 30.552221298217773, 64.5, 245.5, 99.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -171,6 +171,20 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-3::obj-7::obj-68" : [ "live.text", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "ossia.model.mxo",
 				"type" : "iLaX"
