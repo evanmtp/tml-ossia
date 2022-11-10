@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 460.0, 569.0, 1357.0, 614.0 ],
+		"rect" : [ 404.0, 478.0, 1357.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -187,8 +187,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 365.0, 109.0, 348.0, 23.0 ],
-					"text" : "ossia.parameter rateNoteValue @type string @priority 8",
+					"patching_rect" : [ 365.0, 109.0, 425.0, 23.0 ],
+					"text" : "ossia.parameter rateNoteValue @type string @priority 8 @default 1n",
 					"varname" : "rate/max[13]"
 				}
 
@@ -337,7 +337,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 498.0, 487.0, 454.0, 23.0 ],
+					"patching_rect" : [ 495.0, 480.0, 454.0, 23.0 ],
 					"text" : "ossia.parameter shape @type float @range 0 100 @clip both @default 50",
 					"varname" : "rate/max[11]"
 				}
@@ -449,7 +449,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1023.0, 112.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1020.0, 120.0, 150.0, 20.0 ],
 					"text" : "delete these? No"
 				}
 
