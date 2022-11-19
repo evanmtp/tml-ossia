@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 318.0, 112.0, 750.0, 308.0 ],
+		"rect" : [ 318.0, 112.0, 200.0, 220.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 155.0, 30.0, 30.0 ]
+					"patching_rect" : [ 8.0, 86.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -84,7 +84,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 73.5, 250.0, 25.0, 25.0 ]
+					"patching_rect" : [ 67.5, 181.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -98,7 +98,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 202.0, 151.0, 22.0 ],
+					"patching_rect" : [ 8.0, 133.0, 151.0, 22.0 ],
 					"text" : "ossia.nav.banger.model #1"
 				}
 
@@ -111,7 +111,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 250.0, 25.0, 25.0 ]
+					"patching_rect" : [ 8.0, 181.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -144,14 +144,14 @@
 			}
 , 			{
 				"name" : "ossia.nav.banger.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.rand 2",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.banger",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.banger.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.rand 2",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.banger",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
