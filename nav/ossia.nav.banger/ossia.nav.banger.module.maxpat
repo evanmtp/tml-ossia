@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 318.0, 112.0, 200.0, 220.0 ],
+		"rect" : [ 318.0, 112.0, 73.0, 111.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -69,9 +69,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 66.0, 74.0 ],
+					"patching_rect" : [ 0.0, 0.0, 65.0, 91.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 157.0, 74.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 66.0, 87.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -80,7 +80,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-35",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -98,7 +98,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 133.0, 151.0, 22.0 ],
+					"patching_rect" : [ 8.0, 133.0, 157.0, 22.0 ],
 					"text" : "ossia.nav.banger.model #1"
 				}
 
@@ -107,7 +107,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-45",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -138,38 +138,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "ossia.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.nav.banger.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.banger",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.nav.banger.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.banger",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.view.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 	}
 

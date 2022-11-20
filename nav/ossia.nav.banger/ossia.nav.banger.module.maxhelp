@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 445.0, 541.0, 339.0, 217.0 ],
+		"rect" : [ 445.0, 541.0, 577.0, 222.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -40,12 +40,59 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-16",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 279.25, 163.0, 272.0, 36.0 ],
+					"text" : "mode \"note\" only works in conjuction with the global transport"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 327.25, 69.5, 224.0, 36.0 ],
+					"text" : "turning defer off (0) turns metro into a qmetro: default behaviour"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 327.25, 9.5, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 327.25, 44.5, 159.0, 23.0 ],
+					"text" : "ossia.remote bangin/defer"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.25, 39.5, 267.0, 21.0 ],
-					"presentation_linecount" : 2,
 					"text" : "metro with randomized timing within a range"
 				}
 
@@ -71,7 +118,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 20.25, 172.0, 24.0, 24.0 ]
+					"patching_rect" : [ 20.25, 182.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -129,7 +176,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 20.25, 87.5, 64.5, 76.0 ],
+					"patching_rect" : [ 20.25, 87.5, 65.5, 88.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -149,7 +196,38 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
  ],
+		"parameters" : 		{
+			"obj-3::obj-43::obj-11::obj-60" : [ "Interval[1]", "Interval", 2 ],
+			"obj-3::obj-7::obj-6" : [ "live.tab", "live.tab", 0 ],
+			"obj-3::obj-7::obj-60" : [ "Interval[2]", "Interval", 2 ],
+			"obj-3::obj-7::obj-84" : [ "Interval[3]", "Interval", 2 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-3::obj-7::obj-60" : 				{
+					"parameter_longname" : "Interval[2]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "ossia.model.mxo",
 				"type" : "iLaX"
