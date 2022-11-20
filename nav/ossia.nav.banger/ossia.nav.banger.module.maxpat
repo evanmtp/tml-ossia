@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 318.0, 112.0, 73.0, 111.0 ],
+		"rect" : [ 318.0, 112.0, 203.0, 203.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 86.0, 30.0, 30.0 ]
+					"patching_rect" : [ 5.0, 96.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -84,7 +84,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 67.5, 181.0, 25.0, 25.0 ]
+					"patching_rect" : [ 124.5, 156.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -98,7 +98,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 133.0, 157.0, 22.0 ],
+					"patching_rect" : [ 5.0, 128.0, 176.0, 22.0 ],
 					"text" : "ossia.nav.banger.model #1"
 				}
 
@@ -111,7 +111,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 181.0, 25.0, 25.0 ]
+					"patching_rect" : [ 5.0, 156.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -126,6 +126,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
+					"midpoints" : [ 171.5, 154.5, 134.0, 154.5 ],
 					"source" : [ "obj-43", 1 ]
 				}
 

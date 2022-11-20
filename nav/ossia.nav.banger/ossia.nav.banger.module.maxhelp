@@ -41,11 +41,10 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 279.25, 163.0, 272.0, 36.0 ],
+					"patching_rect" : [ 97.25, 162.0, 367.0, 21.0 ],
 					"text" : "mode \"note\" only works in conjuction with the global transport"
 				}
 
@@ -57,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 327.25, 69.5, 224.0, 36.0 ],
+					"patching_rect" : [ 327.25, 69.5, 227.0, 36.0 ],
 					"text" : "turning defer off (0) turns metro into a qmetro: default behaviour"
 				}
 
@@ -130,7 +129,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 178.25, 122.5, 118.0, 21.0 ],
+					"patching_rect" : [ 163.25, 122.5, 118.0, 21.0 ],
 					"text" : "clock/metro output"
 				}
 
@@ -143,7 +142,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 97.25, 122.5, 58.0, 58.0 ]
+					"patching_rect" : [ 97.25, 122.5, 36.0, 36.0 ]
 				}
 
 			}
@@ -176,7 +175,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 20.25, 87.5, 65.5, 88.0 ],
+					"patching_rect" : [ 20.25, 78.5, 65.5, 88.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -219,6 +218,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-3::obj-7::obj-6" : 				{
+					"parameter_longname" : "live.tab"
+				}
+,
 				"obj-3::obj-7::obj-60" : 				{
 					"parameter_longname" : "Interval[2]"
 				}
