@@ -74,7 +74,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1051.0, 87.0, 476.0, 506.0 ],
+						"rect" : [ 1417.0, 538.0, 476.0, 506.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -1285,7 +1285,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.0, 420.0, 79.0, 20.0 ],
+									"patching_rect" : [ 180.0, 390.0, 79.0, 20.0 ],
 									"text" : "s #0_file_ms"
 								}
 
@@ -1373,7 +1373,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.0, 450.0, 60.0, 18.0 ],
+									"patching_rect" : [ 345.0, 450.0, 60.0, 18.0 ],
 									"text" : "> Selection"
 								}
 
@@ -1454,7 +1454,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 180.0, 374.0, 24.0, 18.0 ],
+									"patching_rect" : [ 180.0, 360.0, 24.0, 18.0 ],
 									"text" : "ms"
 								}
 
@@ -1470,7 +1470,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 120.0, 374.0, 56.0, 20.0 ],
+									"patching_rect" : [ 120.0, 360.0, 56.0, 20.0 ],
 									"prototypename" : "Live",
 									"triscale" : 0.75
 								}
@@ -1481,13 +1481,13 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-45",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 120.0, 420.0, 185.0, 42.0 ],
-									"text" : "ossia.parameter file/ms @type float @description \"Duration of file in ms.\""
+									"patching_rect" : [ 120.0, 420.0, 336.0, 31.0 ],
+									"text" : "ossia.parameter file/ms @type float @description \"Duration of file in ms.\" @recall_safe 1"
 								}
 
 							}
@@ -1589,7 +1589,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 129.5, 406.5, 339.5, 406.5 ],
+									"midpoints" : [ 129.5, 383.5, 189.5, 383.5 ],
 									"order" : 0,
 									"source" : [ "obj-44", 0 ]
 								}
@@ -5090,13 +5090,13 @@
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
 													"id" : "obj-45",
-													"linecount" : 4,
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 255.0, 105.0, 93.0, 57.0 ],
-													"text" : "ossia.parameter modAmt/gain @mode set @type float",
+													"patching_rect" : [ 255.0, 105.0, 165.0, 45.0 ],
+													"text" : "ossia.parameter modAmt/gain @mode set @type float @recall_safe 1",
 													"varname" : "/modAmt/delay[8]"
 												}
 
@@ -6277,7 +6277,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 85.0, 604.0, 771.0, 422.0 ],
+										"rect" : [ 34.0, 87.0, 908.0, 432.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -6314,17 +6314,6 @@
 													"outlettype" : [ "bang" ],
 													"patching_rect" : [ 675.0, 30.0, 53.0, 20.0 ],
 													"text" : "loadbang"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-8",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 450.0, 240.0, 152.0, 20.0 ],
-													"text" : "print #1-selectionRange"
 												}
 
 											}
@@ -6731,7 +6720,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 675.0, 135.0, 214.0, 31.0 ],
-													"text" : "ossia.parameter waveform/display @mode GET @type list @priority 2"
+													"text" : "ossia.parameter waveform/display @mode GET @type list @priority 2 @recall_safe 1"
 												}
 
 											}
@@ -6985,15 +6974,7 @@
 												"patchline" : 												{
 													"destination" : [ "obj-36", 1 ],
 													"midpoints" : [ 294.5, 227.5, 280.0, 227.5 ],
-													"order" : 2,
-													"source" : [ "obj-3", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-8", 0 ],
-													"order" : 0,
+													"order" : 1,
 													"source" : [ "obj-3", 0 ]
 												}
 
@@ -7002,7 +6983,7 @@
 												"patchline" : 												{
 													"destination" : [ "obj-9", 0 ],
 													"midpoints" : [ 294.5, 227.5, 309.5, 227.5 ],
-													"order" : 1,
+													"order" : 0,
 													"source" : [ "obj-3", 0 ]
 												}
 
@@ -7903,7 +7884,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 227.0, 87.0, 906.0, 787.0 ],
+										"rect" : [ 79.0, 87.0, 906.0, 787.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -8586,13 +8567,12 @@
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
 													"id" : "obj-73",
-													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 375.0, 1335.0, 140.0, 45.0 ],
-													"text" : "ossia.parameter modAmt/position @mode set @type float",
+													"patching_rect" : [ 375.0, 1335.0, 378.0, 21.0 ],
+													"text" : "ossia.parameter modAmt/position @mode set @type float @recall_safe 1",
 													"varname" : "/modAmt/delay"
 												}
 
@@ -15194,7 +15174,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 210.0, 60.0, 195.0, 30.0 ],
+																	"patching_rect" : [ 210.0, 60.0, 198.0, 30.0 ],
 																	"text" : "ossia.parameter modAmt/trigger @mode set @type float @recall_safe 1",
 																	"varname" : "/modAmt/delay[4]"
 																}
