@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
+			"minor" : 5,
 			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 249.0, 167.0, 1330.0, 691.0 ],
+		"rect" : [ 68.0, 239.0, 1330.0, 691.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -91,13 +91,12 @@
 					"fontname" : "Verdana",
 					"fontsize" : 12.0,
 					"id" : "obj-15",
-					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 690.0, 225.0, 120.0, 67.0 ],
-					"text" : "ossia.parameter minmax @type vec2f @range 0. 1. @mode GET",
+					"patching_rect" : [ 705.0, 195.0, 321.0, 23.0 ],
+					"text" : "ossia.parameter minmax @type vec2f @range 0. 1.",
 					"varname" : "rate/min[4]"
 				}
 
@@ -114,7 +113,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 5,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -346,7 +345,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 5,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1150,13 +1149,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
-					"linecount" : 7,
+					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 210.0, 90.0, 111.0 ],
-					"text" : "ossia.parameter range @type float @range 0. 1. @clip both @default 1. @mode GET",
+					"patching_rect" : [ 240.0, 210.0, 90.0, 96.0 ],
+					"text" : "ossia.parameter range @type float @range 0. 1. @clip both @default 1.",
 					"varname" : "rate/min[2]"
 				}
 
@@ -1166,13 +1165,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
-					"linecount" : 7,
+					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 135.0, 210.0, 97.0, 111.0 ],
-					"text" : "ossia.parameter offset @type float @range 0. 1. @clip both @default 0.5 @mode GET",
+					"patching_rect" : [ 135.0, 210.0, 97.0, 96.0 ],
+					"text" : "ossia.parameter offset @type float @range 0. 1. @clip both @default 0.5",
 					"varname" : "rate/min[1]"
 				}
 
@@ -1190,7 +1189,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 5,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1520,7 +1519,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 5,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1792,7 +1791,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 5,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
