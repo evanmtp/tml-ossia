@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 5,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -168,7 +168,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 802.0, 107.0, 22.0 ],
+					"patching_rect" : [ 480.0, 802.0, 117.0, 22.0 ],
 					"text" : "ossia.model #1"
 				}
 
@@ -300,12 +300,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 12.0,
 					"id" : "obj-8",
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 90.0, 360.0, 454.0, 23.0 ],
-					"text" : "ossia.parameter out/metro @mode get @type impulse @description bang"
+					"patching_rect" : [ 90.0, 330.0, 180.0, 67.0 ],
+					"text" : "ossia.parameter out/metro @mode get @type impulse @recall_safe 1 @description bang"
 				}
 
 			}
@@ -339,8 +340,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -385,8 +386,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 8,
+											"minor" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -978,8 +979,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1277,7 +1278,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 60.0, 315.0, 131.0, 22.0 ],
+					"patching_rect" : [ 60.0, 285.0, 131.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1295,13 +1296,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"linecount" : 5,
+					"linecount" : 7,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 75.0, 465.0, 180.0, 81.0 ],
-					"text" : "ossia.parameter out/pre-interpolation @mode get @type float @description \"pre-interpolated number.\""
+					"patching_rect" : [ 75.0, 465.0, 165.0, 111.0 ],
+					"text" : "ossia.parameter out/pre-interpolation @mode get @type float @recall_safe 1 @description \"pre-interpolated number.\""
 				}
 
 			}
