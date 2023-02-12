@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2216.0, 366.0, 890.0, 480.0 ],
+		"rect" : [ 346.0, 567.0, 1002.0, 354.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,17 +39,6 @@
 		"subpatcher_template" : "evan_template",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 60.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-12",
 					"linecount" : 3,
@@ -195,10 +184,10 @@
 					"id" : "obj-151",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 45.0, 105.0, 126.0, 22.0 ],
-					"text" : "ossia.remote direction"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 45.0, 105.0, 143.0, 22.0 ],
+					"text" : "ossia.parameter direction"
 				}
 
 			}
@@ -334,8 +323,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-398", 1 ],
-					"midpoints" : [ 108.0, 138.0, 39.5, 138.0 ],
-					"source" : [ "obj-151", 1 ]
+					"midpoints" : [ 54.5, 138.0, 39.5, 138.0 ],
+					"source" : [ "obj-151", 0 ]
 				}
 
 			}
