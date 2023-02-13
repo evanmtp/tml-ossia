@@ -200,7 +200,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 615.0, 15.0, 210.0, 35.0 ],
-					"text" : "ossia.parameter max @type int @min 2 @max 8 @clip both @default 5"
+					"text" : "ossia.parameter max @type int @min 2 @max 8 @clip both @default 8"
 				}
 
 			}
