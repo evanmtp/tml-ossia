@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 445.0, 541.0, 577.0, 222.0 ],
+		"rect" : [ 1031.0, 262.0, 577.0, 222.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 350.0, 118.0, 52.0, 23.0 ],
+					"text" : "register"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 403.0, 134.0, 104.0, 23.0 ],
+					"text" : "ossia.device this"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "comment",
@@ -183,6 +207,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -232,26 +263,30 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "ossia.device.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "ossia.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "ossia.nav.banger.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.banger",
+				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.banger",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.banger.module.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.banger",
+				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.banger",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.banger.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.banger",
+				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.banger",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
