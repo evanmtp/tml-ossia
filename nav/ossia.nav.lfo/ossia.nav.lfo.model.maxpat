@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 162.0, 1357.0, 569.0 ],
+		"rect" : [ 186.0, 268.0, 1357.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -78,29 +78,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 705.0, 105.0, 74.0, 20.0 ],
-					"text" : "filter out INF"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-27",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 630.0, 105.0, 63.0, 22.0 ],
-					"text" : "split 1000."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-18",
@@ -108,7 +85,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 630.0, 75.0, 134.0, 22.0 ],
+					"patching_rect" : [ 630.0, 105.0, 134.0, 22.0 ],
 					"text" : "translate notevalues hz"
 				}
 
@@ -653,7 +630,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2238,7 +2215,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
+					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -2299,13 +2276,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 1 ],
 					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
-					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -2417,7 +2387,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 459.5, 273.0, 615.0, 273.0, 615.0, 69.0, 639.5, 69.0 ],
+					"midpoints" : [ 459.5, 273.0, 615.0, 273.0, 615.0, 89.0, 639.5, 89.0 ],
 					"order" : 0,
 					"source" : [ "obj-42", 0 ]
 				}
