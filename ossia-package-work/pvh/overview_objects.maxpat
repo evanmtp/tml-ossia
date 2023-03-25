@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 563.0, 533.0, 1083.0, 661.0 ],
+		"rect" : [ 278.0, 137.0, 1368.0, 732.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,23 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-11",
+					"fontsize" : 18.0,
+					"id" : "obj-14",
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 675.0, 75.0, 150.0, 20.0 ],
-					"text" : "ossia.out"
+					"patching_rect" : [ 311.5, 132.0, 408.5, 107.0 ],
+					"presentation_linecount" : 4,
+					"text" : "///Components (no models or modules or views)///\nOssia.mix_gain – evan has\nOssia.autoscale (based on j.autoscale))\n, navid prefers mine\n"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-10",
+					"fontsize" : 18.0,
+					"id" : "obj-8",
+					"linecount" : 16,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 675.0, 45.0, 150.0, 20.0 ],
-					"text" : "ossia.in"
+					"patching_rect" : [ 720.0, 315.0, 510.0, 348.0 ],
+					"presentation_linecount" : 16,
+					"text" : "///Fun and mostly simple modules///\nOssia.complexosc~ (from pvh-lib)\nOssia.vca~ (from pvh-lib)\nOssia.envelope~ (from pvhlib, functiongen or adsr)\nOssia.record~ ?? (easy jamoma port) - peter has\nOssia.filebrowser ?? (jamoma port not sure how easy)\nOssia.euclid (from pvh-lib)\nOssia.panner (see ossia.pvh.balance~)\nOssia.switch (from pvh-lib)\nOssia.browse.receive (based on ossia.nav.oscroute, remove mapping)\nOssia.browse.send (based on ossia.nav.oscroute, remove mapping)\nOssia.condition (based on condition.model)\nOssia.gainslider~ (from ossia.pvh.gainslider~)\nossia.pvh.lpg~\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-11",
+					"linecount" : 13,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 720.0, 45.0, 510.0, 268.0 ],
+					"text" : "///Essential modules///\nOssia.in~ with multicable and not - navid has\nOssia.out~ with multicable and not - navid has\nOssia.limiter= - navid has\nOssia.equalizer= - navid has\nOssia.scale~ / ossia.scale\nOssia.mapper - like nav.oscroute but also like jamoma mapper\nOssia.cuemanager\nOssia.motion – evan already built it kind of\nOssia.qmetro\nOssia.rand - navid has but we can simplify maybe\nOssia.audio.gain= - see ossia.pvh.chanctl~, or ossia.mix_gain in nav library"
 				}
 
 			}
@@ -66,7 +85,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 105.0, 85.0, 22.0 ],
+					"patching_rect" : [ 315.0, 105.0, 85.0, 22.0 ],
 					"text" : "distant_device"
 				}
 
@@ -77,7 +96,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 75.0, 79.0, 22.0 ],
+					"patching_rect" : [ 315.0, 75.0, 79.0, 22.0 ],
 					"text" : "distant_client"
 				}
 
@@ -439,7 +458,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 675.0, 15.0, 150.0, 20.0 ],
+					"patching_rect" : [ 720.0, 15.0, 150.0, 20.0 ],
 					"text" : "modules"
 				}
 
@@ -450,7 +469,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 15.0, 150.0, 20.0 ],
+					"patching_rect" : [ 315.0, 15.0, 150.0, 20.0 ],
 					"text" : "components"
 				}
 
@@ -462,7 +481,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 450.0, 45.0, 111.0, 22.0 ],
+					"patching_rect" : [ 315.0, 45.0, 111.0, 22.0 ],
 					"text" : "ossia.remote_array"
 				}
 
