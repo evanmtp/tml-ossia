@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 318.0, 112.0, 750.0, 308.0 ],
+		"rect" : [ 318.0, 112.0, 203.0, 203.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,12 +42,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 155.0, 30.0, 30.0 ]
+					"patching_rect" : [ 5.0, 96.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -69,9 +69,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 66.0, 74.0 ],
+					"patching_rect" : [ 0.0, 0.0, 65.0, 91.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 157.0, 74.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 66.0, 87.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -80,11 +80,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-35",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 73.5, 250.0, 25.0, 25.0 ]
+					"patching_rect" : [ 124.5, 156.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -98,7 +98,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 202.0, 151.0, 22.0 ],
+					"patching_rect" : [ 5.0, 128.0, 176.0, 22.0 ],
 					"text" : "ossia.nav.banger.model #1"
 				}
 
@@ -107,11 +107,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-45",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 250.0, 25.0, 25.0 ]
+					"patching_rect" : [ 5.0, 156.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -126,6 +126,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
+					"midpoints" : [ 171.5, 154.5, 134.0, 154.5 ],
 					"source" : [ "obj-43", 1 ]
 				}
 
@@ -138,38 +139,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "ossia.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.nav.banger.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.rand 2",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.nav.banger.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.rand 2",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.view.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 	}
 
