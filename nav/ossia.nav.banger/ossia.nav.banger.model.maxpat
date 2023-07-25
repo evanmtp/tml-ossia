@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1034.0, 62.0, 781.0, 396.0 ],
+		"rect" : [ 1034.0, 87.0, 781.0, 396.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -294,7 +294,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-19",
@@ -884,7 +883,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 164.0, 50.0 ],
+					"patching_rect" : [ 30.0, 15.0, 164.0, 50.0 ],
 					"text" : "navid navab\n2011-2022\nTopological Media Lab"
 				}
 
