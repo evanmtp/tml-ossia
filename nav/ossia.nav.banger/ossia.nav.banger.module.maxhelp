@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1031.0, 262.0, 577.0, 222.0 ],
+		"rect" : [ 1031.0, 262.0, 577.0, 317.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 97.25, 211.0, 367.0, 50.0 ],
+					"presentation_linecount" : 3,
+					"text" : "delay: when ocked to transport (note mode) delay can function like \"phase\" to create syncopations amongst variously syncronized bang-events"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "message",
@@ -141,7 +154,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 20.25, 182.0, 24.0, 24.0 ]
+					"patching_rect" : [ 20.25, 202.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -199,7 +212,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 20.25, 78.5, 65.5, 88.0 ],
+					"patching_rect" : [ 20.25, 78.5, 65.5, 118.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -235,9 +248,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3::obj-43::obj-11::obj-60" : [ "Interval[1]", "Interval", 2 ],
+			"obj-3::obj-7::obj-15" : [ "Interval[2]", "Interval", 2 ],
 			"obj-3::obj-7::obj-6" : [ "live.tab", "live.tab", 0 ],
-			"obj-3::obj-7::obj-60" : [ "Interval[2]", "Interval", 2 ],
+			"obj-3::obj-7::obj-60" : [ "Interval[4]", "Interval", 2 ],
 			"obj-3::obj-7::obj-84" : [ "Interval[3]", "Interval", 2 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -254,7 +267,7 @@
 				}
 ,
 				"obj-3::obj-7::obj-60" : 				{
-					"parameter_longname" : "Interval[2]"
+					"parameter_longname" : "Interval[4]"
 				}
 
 			}
