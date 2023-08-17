@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 5,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Verdana",
@@ -127,6 +128,7 @@
 					"patching_rect" : [ 380.5, 107.0, 75.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 84.0, 85.0, 110.0, 18.0 ],
+					"text" : "right",
 					"varname" : "Context"
 				}
 
