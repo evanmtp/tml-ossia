@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,22 @@
 		"subpatcher_template" : "evan_template",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"annotation" : "The AHRS zero yaw command will zero the yaw component of the current orientation of the AHRS algorithm. This command may only be issued if the magnetometer is ignored in the AHRS settings.",
+					"hint" : "The AHRS zero yaw command will zero the yaw component of the current orientation of the AHRS algorithm. This command may only be issued if the magnetometer is ignored in the AHRS settings.",
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1395.0, 495.0, 62.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 156.0, 106.0, 63.0, 22.0 ],
+					"text" : "/ahrs/zero"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 1,
 					"id" : "obj-51",
@@ -150,7 +166,7 @@
 					"patching_rect" : [ 900.0, 855.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 330.0, 75.0, 60.0, 20.0 ],
-					"text" : "255.31"
+					"text" : "248.12"
 				}
 
 			}
@@ -175,7 +191,7 @@
 					"patching_rect" : [ 810.0, 855.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 255.0, 75.0, 45.0, 20.0 ],
-					"text" : "3.67"
+					"text" : "3.61"
 				}
 
 			}
@@ -200,7 +216,7 @@
 					"patching_rect" : [ 675.0, 855.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 75.0, 45.0, 20.0 ],
-					"text" : "34.22"
+					"text" : "16.59"
 				}
 
 			}
@@ -237,7 +253,7 @@
 					"patching_rect" : [ 585.0, 855.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 75.0, 45.0, 20.0 ],
-					"text" : "17.00"
+					"text" : "7.55"
 				}
 
 			}
@@ -361,7 +377,7 @@
 					"patching_rect" : [ 405.0, 2310.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 345.0, 30.0, 45.0, 20.0 ],
-					"text" : "8005"
+					"text" : "8002"
 				}
 
 			}
@@ -473,7 +489,7 @@
 					"patching_rect" : [ 15.0, 2310.0, 92.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 30.0, 92.0, 20.0 ],
-					"text" : "192.168.1.95"
+					"text" : "192.168.1.92"
 				}
 
 			}
@@ -512,8 +528,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1203,8 +1219,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1238,7 +1254,6 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -2931,8 +2946,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3008,7 +3023,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 604.0, 101.0, 103.0, 24.0 ],
 									"rounded" : 2.0,
-									"text" : "192.168.1.95",
+									"text" : "192.168.1.92",
 									"wordwrap" : 0
 								}
 
@@ -3331,7 +3346,7 @@
 									"patching_rect" : [ 515.0, 535.0, 90.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 345.0, 135.0, 120.0, 20.0 ],
-									"text" : "NGIMU - 004082B1",
+									"text" : "NGIMU - 00406E63",
 									"textjustification" : 2
 								}
 
@@ -3983,7 +3998,7 @@
 									"patching_rect" : [ 425.0, 130.0, 90.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 135.0, 45.0, 90.09708696603775, 20.0 ],
-									"text" : "192.168.1.95",
+									"text" : "192.168.1.92",
 									"textjustification" : 2
 								}
 
@@ -4064,7 +4079,7 @@
 									"patching_rect" : [ 35.0, 310.0, 90.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 105.0, 75.0, 119.660193562507629, 20.0 ],
-									"text" : "04-CD-15-12-3E-80",
+									"text" : "80-C9-55-1A-AB-BC",
 									"textjustification" : 2
 								}
 
@@ -6324,8 +6339,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6390,7 +6405,7 @@
 									"patching_rect" : [ 615.0, 135.0, 90.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 105.0, 75.0, 165.0, 20.0 ],
-									"text" : "004082B1",
+									"text" : "00406E63",
 									"textjustification" : 2
 								}
 
@@ -7595,7 +7610,7 @@
 					"patching_rect" : [ 300.0, 795.0, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 600.0, 195.0, 60.0, 20.0 ],
-					"text" : "100.00"
+					"text" : "96.29"
 				}
 
 			}
@@ -7608,7 +7623,7 @@
 					"patching_rect" : [ 165.0, 795.0, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 600.0, 165.0, 60.0, 20.0 ],
-					"text" : "0.18"
+					"text" : "1.75"
 				}
 
 			}
@@ -10387,6 +10402,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-239", 0 ],
 					"source" : [ "obj-199", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}

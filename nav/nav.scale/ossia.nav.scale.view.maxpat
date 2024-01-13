@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,8 +50,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -113,8 +113,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1045,7 +1045,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 120.0, 95.0, 23.0 ],
+					"patching_rect" : [ 15.0, 120.0, 98.0, 23.0 ],
 					"text" : "set #1"
 				}
 
@@ -1072,8 +1072,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 150.0, 134.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 2.0, 54.0, 18.0 ],
-					"text" : "#1"
+					"presentation_rect" : [ -1.0, 2.0, 106.0, 18.0 ],
+					"text" : "#1.spinSum"
 				}
 
 			}
@@ -1307,7 +1307,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 408.0, 104.0, 22.0 ],
+					"patching_rect" : [ 5.0, 408.0, 131.0, 22.0 ],
 					"text" : "ossia.view #1",
 					"varname" : "ossia.model #1"
 				}
@@ -1478,8 +1478,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2225,8 +2225,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2412,8 +2412,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4269,7 +4269,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1065.0, 570.0, 180.0, 21.0 ],
+					"patching_rect" : [ 1065.0, 570.0, 181.0, 21.0 ],
 					"text" : "ossia.remote function/parameter1"
 				}
 
@@ -4299,7 +4299,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1065.0, 630.0, 180.0, 21.0 ],
+					"patching_rect" : [ 1065.0, 630.0, 181.0, 21.0 ],
 					"text" : "ossia.remote function/parameter2"
 				}
 
