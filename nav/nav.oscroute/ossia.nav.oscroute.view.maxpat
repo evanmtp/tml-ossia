@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 0,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -49,7 +49,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 0,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -90,7 +90,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 240.0, 180.0, 62.0 ],
+									"patching_rect" : [ 15.0, 240.0, 180.0, 60.0 ],
 									"text" : "trying to pass all the data back and forth in a single parameter/remote, because registration is slow"
 								}
 
@@ -817,7 +817,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 0,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1341,7 +1341,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 0,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1832,7 +1832,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 0,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2238,7 +2238,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 0,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2426,7 +2426,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 0,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2472,7 +2472,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 0,
+																			"revision" : 7,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -2677,7 +2677,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 0,
+																			"revision" : 7,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -2893,7 +2893,7 @@
 																						"appversion" : 																						{
 																							"major" : 8,
 																							"minor" : 5,
-																							"revision" : 0,
+																							"revision" : 7,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -3383,7 +3383,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 0,
+																			"revision" : 7,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -3521,7 +3521,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 0,
+																			"revision" : 7,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -3614,7 +3614,7 @@
 																						"appversion" : 																						{
 																							"major" : 8,
 																							"minor" : 5,
-																							"revision" : 0,
+																							"revision" : 7,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -3917,7 +3917,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 0,
+																			"revision" : 7,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -4073,7 +4073,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 0,
+																			"revision" : 7,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -4179,7 +4179,7 @@
 																						"appversion" : 																						{
 																							"major" : 8,
 																							"minor" : 5,
-																							"revision" : 0,
+																							"revision" : 7,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -5004,7 +5004,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 0,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5282,7 +5282,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 0,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5515,7 +5515,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 0,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5907,7 +5907,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 0,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -6116,7 +6116,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 0,
+																			"revision" : 7,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -6724,7 +6724,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 0,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -9549,8 +9549,316 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "bartlett.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "blackman.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "blackmanHarris.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInBack.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInBounce.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInCircular.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInCubic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInElastic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInExponential.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutBack.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutBounce.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutCircular.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutCubic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutElastic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutExponential.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutQuadratic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutQuartic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutQuintic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutSine.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInQuadratic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInQuartic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInQuintic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInSine.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutBack.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutBounce.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutCircular.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutCubic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutElastic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutExponential.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutQuadratic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutQuartic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutQuintic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutSine.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "expodec.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "exponential.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "freehand.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gauss.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hamming.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hanning.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "j.map.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "kaiser.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "linear.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "logarithm.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lowpass.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nuttall.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.explorer.mxo",
@@ -9562,15 +9870,15 @@
 			}
 , 			{
 				"name" : "ossia.get_onscreen_position.js",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia-2022-11-20-17-18/javascript",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/ossia-2022-11-20-17-18/javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/javascript",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia-2022-11-20-17-18/patchers/namespacebrowser",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/ossia-2022-11-20-17-18/patchers/namespacebrowser",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/patchers/namespacebrowser",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/patchers/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -9583,9 +9891,65 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "power.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rectangular.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rosenbergGlottalPulse.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "smoothPolynomial.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tanh.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "thru.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "trapezoid.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tukey.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "welch.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
 				"implicit" : 1
 			}
  ],

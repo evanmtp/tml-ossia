@@ -40,16 +40,108 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1497.0, 497.0, 91.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 30.0, 130.0, 91.0, 22.0 ],
+					"text" : "/ahrs/alignment"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 820.0, 497.0, 121.0, 22.0 ],
+					"text" : "route /ahrs/alignment"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 820.0, 523.0, 72.0, 22.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "@brief Axes alignment describing the sensor axes relative to the body axes.  * For example, if the body X axis is aligned with the sensor Y axis and the  * body Y axis is aligned with sensor X axis but pointing the opposite direction  * then alignment is +Y-X+Z.",
+					"hint" : "Don't mess with this unless if you know why/what. @brief Axes alignment describing the sensor axes relative to the body axes.  * For example, if the body X axis is aligned with the sensor Y axis and the  * body Y axis is aligned with sensor X axis but pointing the opposite direction  * then alignment is +Y-X+Z.",
+					"id" : "obj-55",
+					"maxclass" : "live.menu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 820.0, 548.0, 100.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 136.0, 130.0, 82.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "(0)Defualt", "+X+Y+Z", "+X-Z+Y", "+X-Y-Z", "+X+Z-Y", "-X+Y-Z", "-X+Z+Y", "-X-Y+Z", "-X-Z-Y", "+Y-X+Z", "+Y-Z-X", "+Y+X-Z", "+Y+Z+X", "-Y+X+Z", "-Y-Z+X", "-Y-X-Z", "-Y+Z-X", "+Z+Y-X", "+Z+X+Y", "(19)+Z-X-Y", "-Z+Y+X", "-Z-X+Y", "-Z-Y-X", "-Z+X-Y" ],
+							"parameter_info" : "@brief Axes alignment describing the sensor axes relative to the body axes.  * For example, if the body X axis is aligned with the sensor Y axis and the  * body Y axis is aligned with sensor X axis but pointing the opposite direction  * then alignment is +Y-X+Z.",
+							"parameter_longname" : "live.menu",
+							"parameter_mmax" : 23,
+							"parameter_shortname" : "live.menu",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "live.menu"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 820.0, 566.0, 107.0, 22.0 ],
+					"text" : "/ahrs/alignment $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1215.0, 1125.0, 91.0, 22.0 ],
+					"text" : "/ahrs/alignment"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "The AHRS zero yaw command will zero the yaw component of the current orientation of the AHRS algorithm. This command may only be issued if the magnetometer is ignored in the AHRS settings.",
+					"fontsize" : 10.0,
 					"hint" : "The AHRS zero yaw command will zero the yaw component of the current orientation of the AHRS algorithm. This command may only be issued if the magnetometer is ignored in the AHRS settings.",
 					"id" : "obj-2",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1395.0, 495.0, 62.0, 22.0 ],
+					"patching_rect" : [ 1499.0, 531.0, 53.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 156.0, 106.0, 63.0, 22.0 ],
+					"presentation_rect" : [ 30.0, 107.0, 54.0, 20.0 ],
 					"text" : "/ahrs/zero"
 				}
 
@@ -166,7 +258,7 @@
 					"patching_rect" : [ 900.0, 855.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 330.0, 75.0, 60.0, 20.0 ],
-					"text" : "248.12"
+					"text" : "232.19"
 				}
 
 			}
@@ -191,7 +283,7 @@
 					"patching_rect" : [ 810.0, 855.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 255.0, 75.0, 45.0, 20.0 ],
-					"text" : "3.61"
+					"text" : "4.02"
 				}
 
 			}
@@ -216,7 +308,7 @@
 					"patching_rect" : [ 675.0, 855.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 75.0, 45.0, 20.0 ],
-					"text" : "16.59"
+					"text" : "262.22"
 				}
 
 			}
@@ -253,7 +345,7 @@
 					"patching_rect" : [ 585.0, 855.0, 45.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 75.0, 45.0, 20.0 ],
-					"text" : "7.55"
+					"text" : "88.35"
 				}
 
 			}
@@ -7084,7 +7176,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 840.0, 450.0, 65.0, 22.0 ],
+					"patching_rect" : [ 951.0, 454.0, 65.0, 22.0 ],
 					"text" : "r #0-poll"
 				}
 
@@ -7610,7 +7702,7 @@
 					"patching_rect" : [ 300.0, 795.0, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 600.0, 195.0, 60.0, 20.0 ],
-					"text" : "96.29"
+					"text" : "100.10"
 				}
 
 			}
@@ -7623,7 +7715,7 @@
 					"patching_rect" : [ 165.0, 795.0, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 600.0, 165.0, 60.0, 20.0 ],
-					"text" : "1.75"
+					"text" : "4.00"
 				}
 
 			}
@@ -8390,7 +8482,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 555.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.0, 135.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 165.0, 154.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -8418,7 +8510,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 135.0, 555.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.0, 165.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 165.0, 179.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -8435,7 +8527,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 480.0, 555.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.0, 225.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 165.0, 230.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -8452,7 +8544,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 300.0, 555.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.0, 195.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 165.0, 205.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -8874,7 +8966,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 840.0, 540.0, 101.0, 22.0 ],
+					"patching_rect" : [ 951.0, 544.0, 101.0, 22.0 ],
 					"text" : "s #0_to_ngimu"
 				}
 
@@ -8956,7 +9048,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 150.0, 450.0, 48.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 105.0, 48.0, 20.0 ],
+					"presentation_rect" : [ 106.0, 105.0, 48.0, 20.0 ],
 					"text" : "/ahrs"
 				}
 
@@ -9479,9 +9571,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 840.0, 495.0, 61.0, 22.0 ],
+					"patching_rect" : [ 951.0, 499.0, 61.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 135.0, 61.0, 22.0 ],
+					"presentation_rect" : [ 30.0, 154.0, 61.0, 22.0 ],
 					"text" : "/ahrs/gain"
 				}
 
@@ -9493,9 +9585,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 915.0, 495.0, 94.0, 22.0 ],
+					"patching_rect" : [ 1026.0, 499.0, 94.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 165.0, 94.0, 22.0 ],
+					"presentation_rect" : [ 30.0, 179.0, 94.0, 22.0 ],
 					"text" : "/ahrs/gyroscope"
 				}
 
@@ -9507,7 +9599,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1260.0, 495.0, 116.0, 22.0 ],
+					"patching_rect" : [ 1371.0, 499.0, 116.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 255.0, 116.0, 22.0 ],
 					"text" : "/ahrs/magnetometer"
@@ -9521,9 +9613,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1140.0, 495.0, 110.0, 22.0 ],
+					"patching_rect" : [ 1251.0, 499.0, 110.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 225.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 30.0, 230.0, 110.0, 22.0 ],
 					"text" : "/ahrs/magnetic/min"
 				}
 
@@ -9535,9 +9627,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1020.0, 495.0, 113.0, 22.0 ],
+					"patching_rect" : [ 1131.0, 499.0, 113.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 195.0, 113.0, 22.0 ],
+					"presentation_rect" : [ 30.0, 205.0, 113.0, 22.0 ],
 					"text" : "/ahrs/magnetic/max"
 				}
 
@@ -10206,7 +10298,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"midpoints" : [ 1224.5, 1113.0, 909.5, 1113.0 ],
-					"order" : 7,
+					"order" : 8,
 					"source" : [ "obj-168", 0 ]
 				}
 
@@ -10215,7 +10307,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"midpoints" : [ 1224.5, 1053.0, 999.5, 1053.0 ],
-					"order" : 5,
+					"order" : 6,
 					"source" : [ "obj-168", 0 ]
 				}
 
@@ -10224,7 +10316,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"midpoints" : [ 1224.5, 1113.0, 804.5, 1113.0 ],
-					"order" : 10,
+					"order" : 11,
 					"source" : [ "obj-168", 0 ]
 				}
 
@@ -10233,7 +10325,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"midpoints" : [ 1224.5, 1053.0, 1104.5, 1053.0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-168", 0 ]
 				}
 
@@ -10242,7 +10334,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"midpoints" : [ 1224.5, 993.0, 1149.5, 993.0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-168", 0 ]
 				}
 
@@ -10251,7 +10343,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"midpoints" : [ 1224.5, 1053.0, 909.5, 1053.0 ],
-					"order" : 8,
+					"order" : 9,
 					"source" : [ "obj-168", 0 ]
 				}
 
@@ -10260,7 +10352,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"midpoints" : [ 1224.5, 993.0, 1074.5, 993.0 ],
-					"order" : 3,
+					"order" : 4,
 					"source" : [ "obj-168", 0 ]
 				}
 
@@ -10269,7 +10361,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"midpoints" : [ 1224.5, 993.0, 789.5, 993.0 ],
-					"order" : 12,
+					"order" : 13,
+					"source" : [ "obj-168", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"order" : 0,
 					"source" : [ "obj-168", 0 ]
 				}
 
@@ -10278,7 +10378,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"midpoints" : [ 1224.5, 1113.0, 1104.5, 1113.0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-168", 0 ]
 				}
 
@@ -10287,7 +10387,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"midpoints" : [ 1224.5, 1113.0, 999.5, 1113.0 ],
-					"order" : 4,
+					"order" : 5,
 					"source" : [ "obj-168", 0 ]
 				}
 
@@ -10296,7 +10396,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"midpoints" : [ 1224.5, 1053.0, 804.5, 1053.0 ],
-					"order" : 11,
+					"order" : 12,
 					"source" : [ "obj-168", 0 ]
 				}
 
@@ -10305,7 +10405,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"midpoints" : [ 1224.5, 993.0, 984.5, 993.0 ],
-					"order" : 6,
+					"order" : 7,
 					"source" : [ "obj-168", 0 ]
 				}
 
@@ -10314,7 +10414,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"midpoints" : [ 1224.5, 993.0, 879.5, 993.0 ],
-					"order" : 9,
+					"order" : 10,
 					"source" : [ "obj-168", 0 ]
 				}
 
@@ -10519,6 +10619,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-26", 0 ]
 				}
@@ -10565,7 +10672,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"midpoints" : [ 849.5, 528.0, 849.5, 528.0 ],
+					"midpoints" : [ 960.5, 532.0, 960.5, 532.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -10672,7 +10779,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"midpoints" : [ 924.5, 528.0, 849.5, 528.0 ],
+					"midpoints" : [ 1035.5, 532.0, 960.5, 532.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -10680,7 +10787,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"midpoints" : [ 1269.5, 528.0, 849.5, 528.0 ],
+					"midpoints" : [ 1380.5, 532.0, 960.5, 532.0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -10688,8 +10795,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"midpoints" : [ 849.5, 483.0, 849.5, 483.0 ],
-					"order" : 4,
+					"midpoints" : [ 960.5, 487.0, 960.5, 487.0 ],
+					"order" : 5,
 					"source" : [ "obj-296", 0 ]
 				}
 
@@ -10697,8 +10804,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 849.5, 483.0, 924.5, 483.0 ],
-					"order" : 3,
+					"midpoints" : [ 960.5, 487.0, 1035.5, 487.0 ],
+					"order" : 4,
 					"source" : [ "obj-296", 0 ]
 				}
 
@@ -10706,16 +10813,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"midpoints" : [ 849.5, 483.0, 1269.5, 483.0 ],
-					"order" : 0,
-					"source" : [ "obj-296", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"midpoints" : [ 849.5, 483.0, 1149.5, 483.0 ],
+					"midpoints" : [ 960.5, 487.0, 1380.5, 487.0 ],
 					"order" : 1,
 					"source" : [ "obj-296", 0 ]
 				}
@@ -10723,9 +10821,26 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"midpoints" : [ 849.5, 483.0, 1029.5, 483.0 ],
+					"destination" : [ "obj-32", 0 ],
+					"midpoints" : [ 960.5, 487.0, 1260.5, 487.0 ],
 					"order" : 2,
+					"source" : [ "obj-296", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"midpoints" : [ 960.5, 487.0, 1140.5, 487.0 ],
+					"order" : 3,
+					"source" : [ "obj-296", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"order" : 0,
 					"source" : [ "obj-296", 0 ]
 				}
 
@@ -10734,6 +10849,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-94", 0 ],
+					"source" : [ "obj-31", 0 ]
 				}
 
 			}
@@ -10776,7 +10898,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"midpoints" : [ 1149.5, 528.0, 849.5, 528.0 ],
+					"midpoints" : [ 1260.5, 532.0, 960.5, 532.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -10784,7 +10906,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"midpoints" : [ 1029.5, 528.0, 849.5, 528.0 ],
+					"midpoints" : [ 1140.5, 532.0, 960.5, 532.0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -11159,6 +11281,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-443", 0 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-440", 0 ],
 					"midpoints" : [ 54.5, 1248.0, 24.5, 1248.0 ],
 					"source" : [ "obj-530", 0 ]
@@ -11219,6 +11348,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-516", 0 ],
 					"source" : [ "obj-556", 0 ]
 				}
@@ -11226,9 +11362,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"order" : 0,
+					"source" : [ "obj-582", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-583", 0 ],
 					"midpoints" : [ 24.5, 483.0, 309.5, 483.0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-582", 0 ]
 				}
 
@@ -11237,7 +11381,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-589", 0 ],
 					"midpoints" : [ 24.5, 483.0, 24.5, 483.0 ],
-					"order" : 4,
+					"order" : 5,
 					"source" : [ "obj-582", 0 ]
 				}
 
@@ -11246,7 +11390,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-590", 0 ],
 					"midpoints" : [ 24.5, 483.0, 144.5, 483.0 ],
-					"order" : 3,
+					"order" : 4,
 					"source" : [ "obj-582", 0 ]
 				}
 
@@ -11255,7 +11399,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-591", 0 ],
 					"midpoints" : [ 24.5, 483.0, 654.5, 483.0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-582", 0 ]
 				}
 
@@ -11264,7 +11408,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-592", 0 ],
 					"midpoints" : [ 24.5, 483.0, 489.5, 483.0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-582", 0 ]
 				}
 
@@ -11344,6 +11488,20 @@
 					"destination" : [ "obj-94", 0 ],
 					"midpoints" : [ 999.5, 1158.0, 789.5, 1158.0 ],
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"source" : [ "obj-62", 0 ]
 				}
 
 			}
