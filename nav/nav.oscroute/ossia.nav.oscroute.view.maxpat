@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 7,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -49,7 +49,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -817,13 +817,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"openrect" : [ 30.0, 30.0, 139.0, 165.0 ],
+						"openrect" : [ 30.0, 30.0, 139.0, 182.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -851,7 +851,60 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 8.0,
+									"id" : "obj-53",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 90.0, 14.5, 56.0, 15.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 45.350257999999997, 4.5, 29.0, 15.0 ],
+									"text" : "zl.nth",
+									"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.2, 0.2, 0.2, 0.61 ],
+									"fontsize" : 10.0,
+									"hint" : "nth element of the list/ 0 = bypass",
+									"id" : "obj-46",
+									"maxclass" : "number",
+									"minimum" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 780.0, 90.0, 30.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 71.0, 2.0, 30.0, 20.0 ],
+									"triangle" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 825.0, 90.0, 101.0, 21.0 ],
+									"text" : "ossia.remote zl-nth",
+									"varname" : "offset[2]"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontface" : 1,
 									"fontname" : "Arial",
@@ -862,7 +915,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 83.0, 127.0, 51.0, 13.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 81.0, 101.0, 33.0, 13.0 ],
+									"presentation_rect" : [ 80.0, 117.5, 33.0, 13.0 ],
 									"text" : "samples",
 									"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
 								}
@@ -879,7 +932,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 59.0, 143.0, 51.0, 13.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 59.0, 124.0, 19.0, 13.0 ],
+									"presentation_rect" : [ 58.0, 140.5, 19.0, 13.0 ],
 									"text" : "ms",
 									"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
 								}
@@ -902,7 +955,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 388.0, 373.5, 32.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 28.0, 65.5, 40.0, 19.0 ],
+									"presentation_rect" : [ 27.0, 82.0, 40.0, 19.0 ],
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"triangle" : 0,
 									"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
@@ -920,7 +973,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 347.0, 377.0, 30.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1.0, 67.0, 30.0, 17.0 ],
+									"presentation_rect" : [ 0.0, 83.5, 30.0, 17.0 ],
 									"text" : "offset"
 								}
 
@@ -967,7 +1020,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 412.0, 325.5, 40.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 4.0, 2.5, 28.666665999999992, 17.111111000000001 ],
+									"presentation_rect" : [ 3.0, 19.0, 28.666665999999992, 17.111111000000001 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
@@ -995,7 +1048,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 428.0, 281.0, 30.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1.0, 143.0, 30.0, 17.0 ],
+									"presentation_rect" : [ 0.0, 159.5, 30.0, 17.0 ],
 									"text" : "offset"
 								}
 
@@ -1017,7 +1070,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 469.0, 277.5, 32.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 28.5, 143.0, 40.0, 19.0 ],
+									"presentation_rect" : [ 27.5, 159.5, 40.0, 19.0 ],
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"triangle" : 0,
 									"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
@@ -1067,7 +1120,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 493.0, 229.5, 40.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 28.333336000000003, 85.292937999999992, 29.666665999999992, 17.111110999999994 ],
+									"presentation_rect" : [ 27.333336000000003, 101.792937999999992, 29.666665999999992, 17.111110999999994 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
@@ -1098,7 +1151,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 30.0, 60.0, 20.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 73.5, 8.25, 13.5, 13.5 ]
+									"presentation_rect" : [ 72.5, 24.75, 13.5, 13.5 ]
 								}
 
 							}
@@ -1113,7 +1166,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 347.0, 101.0, 56.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 50.0, 7.0, 28.0, 15.0 ],
+									"presentation_rect" : [ 49.0, 23.5, 28.0, 15.0 ],
 									"text" : "reset",
 									"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
 								}
@@ -1316,7 +1369,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 525.0, 90.0, 37.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 116.350257999999997, 3.25, 18.087311, 16.5 ],
+									"presentation_rect" : [ 115.350257999999997, 19.75, 18.087311, 16.5 ],
 									"rounded" : 80.0,
 									"text" : "b",
 									"textcolor" : [ 0.596765, 0.578232, 0.615298, 1.0 ],
@@ -1341,7 +1394,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1583,7 +1636,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 60.0, 810.0, 60.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1.0, 124.0, 31.0, 17.0 ],
+									"presentation_rect" : [ 0.0, 140.5, 31.0, 17.0 ],
 									"text" : "ramp",
 									"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
 								}
@@ -1604,7 +1657,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 60.0, 900.0, 44.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 28.5, 124.0, 31.0, 19.0 ],
+									"presentation_rect" : [ 27.5, 140.5, 31.0, 19.0 ],
 									"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 									"triangle" : 0
 								}
@@ -1645,7 +1698,7 @@
 									"patching_rect" : [ 165.0, 75.0, 76.0, 19.0 ],
 									"pattrmode" : 1,
 									"presentation" : 1,
-									"presentation_rect" : [ 45.0, 22.085937999999999, 55.5, 19.0 ],
+									"presentation_rect" : [ 44.0, 38.585937999999999, 55.5, 19.0 ],
 									"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ],
 									"varname" : "mode"
 								}
@@ -1677,7 +1730,7 @@
 									"patching_rect" : [ 660.0, 420.0, 58.0, 19.0 ],
 									"pattrmode" : 1,
 									"presentation" : 1,
-									"presentation_rect" : [ 100.375045999999998, 144.0, 32.0, 19.0 ],
+									"presentation_rect" : [ 99.375045999999998, 160.5, 32.0, 19.0 ],
 									"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ],
 									"varname" : "clipp"
 								}
@@ -1694,7 +1747,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 60.0, 630.0, 60.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1.0, 103.0, 31.0, 17.0 ],
+									"presentation_rect" : [ 0.0, 119.5, 31.0, 17.0 ],
 									"text" : "slide",
 									"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
 								}
@@ -1715,7 +1768,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 60.0, 720.0, 44.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 28.5, 103.0, 25.0, 19.0 ],
+									"presentation_rect" : [ 27.5, 119.5, 25.0, 19.0 ],
 									"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 									"triangle" : 0
 								}
@@ -1736,7 +1789,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 240.0, 720.0, 44.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 57.208297999999999, 103.0, 25.0, 19.0 ],
+									"presentation_rect" : [ 56.208297999999999, 119.5, 25.0, 19.0 ],
 									"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 									"triangle" : 0
 								}
@@ -1810,7 +1863,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 570.0, 420.0, 37.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 59.208297999999999, 45.335937999999999, 25.916656, 15.335938000000001 ],
+									"presentation_rect" : [ 58.208297999999999, 61.835937999999999, 25.916656, 15.335938000000001 ],
 									"rounded" : 15.0,
 									"text" : "func",
 									"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
@@ -1832,7 +1885,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2238,7 +2291,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 7,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2426,7 +2479,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 7,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2472,7 +2525,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 7,
+																			"revision" : 4,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -2677,7 +2730,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 7,
+																			"revision" : 4,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -2893,7 +2946,7 @@
 																						"appversion" : 																						{
 																							"major" : 8,
 																							"minor" : 5,
-																							"revision" : 7,
+																							"revision" : 4,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -3383,7 +3436,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 7,
+																			"revision" : 4,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -3521,7 +3574,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 7,
+																			"revision" : 4,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -3614,7 +3667,7 @@
 																						"appversion" : 																						{
 																							"major" : 8,
 																							"minor" : 5,
-																							"revision" : 7,
+																							"revision" : 4,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -3917,7 +3970,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 7,
+																			"revision" : 4,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -4073,7 +4126,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 7,
+																			"revision" : 4,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -4179,7 +4232,7 @@
 																						"appversion" : 																						{
 																							"major" : 8,
 																							"minor" : 5,
-																							"revision" : 7,
+																							"revision" : 4,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -5004,7 +5057,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 7,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5282,7 +5335,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 7,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5515,7 +5568,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 7,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5907,7 +5960,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 7,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -6116,7 +6169,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 5,
-																			"revision" : 7,
+																			"revision" : 4,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -6724,7 +6777,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 7,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8237,7 +8290,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 735.0, 420.0, 26.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 73.375045999999998, 144.0, 25.0, 17.0 ],
+									"presentation_rect" : [ 72.375045999999998, 160.5, 25.0, 17.0 ],
 									"text" : "clip",
 									"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
 								}
@@ -8288,7 +8341,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 30.0, 345.0, 44.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 4.0, 22.085937999999999, 40.0, 19.0 ],
+									"presentation_rect" : [ 3.0, 38.585937999999999, 40.0, 19.0 ],
 									"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 									"triangle" : 0
 								}
@@ -8310,7 +8363,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 180.0, 345.0, 44.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 100.312522999999999, 22.085937999999999, 37.0, 19.0 ],
+									"presentation_rect" : [ 99.312522999999999, 38.585937999999999, 37.0, 19.0 ],
 									"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 									"triangle" : 0
 								}
@@ -8332,7 +8385,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 60.0, 555.0, 44.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 4.0, 44.335937999999999, 37.0, 19.0 ],
+									"presentation_rect" : [ 3.0, 60.835937999999999, 37.0, 19.0 ],
 									"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 									"triangle" : 0
 								}
@@ -8354,7 +8407,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 240.0, 555.0, 39.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 100.312522999999999, 44.335937999999999, 37.0, 19.0 ],
+									"presentation_rect" : [ 99.312522999999999, 60.835937999999999, 37.0, 19.0 ],
 									"textcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 									"triangle" : 0
 								}
@@ -8459,6 +8512,13 @@
 									"destination" : [ "obj-109", 0 ],
 									"midpoints" : [ 39.5, 414.0, 15.0, 414.0, 15.0, 339.0, 39.5, 339.0 ],
 									"source" : [ "obj-116", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-46", 0 ],
+									"source" : [ "obj-12", 0 ]
 								}
 
 							}
@@ -8624,6 +8684,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
 									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-46", 0 ]
 								}
 
 							}
@@ -9549,316 +9616,8 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "bartlett.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "blackman.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "blackmanHarris.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInBack.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInBounce.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInCircular.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInCubic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInElastic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInExponential.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutBack.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutBounce.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutCircular.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutCubic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutElastic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutExponential.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutQuadratic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutQuartic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutQuintic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutSine.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInQuadratic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInQuartic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInQuintic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInSine.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutBack.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutBounce.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutCircular.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutCubic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutElastic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutExponential.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutQuadratic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutQuartic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutQuintic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutSine.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "expodec.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "exponential.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "freehand.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gauss.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hamming.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hanning.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "j.map.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "kaiser.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "linear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "logarithm.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lowpass.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "nuttall.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.explorer.mxo",
@@ -9870,15 +9629,15 @@
 			}
 , 			{
 				"name" : "ossia.get_onscreen_position.js",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/javascript",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/javascript",
+				"patcherrelativepath" : "../../../../Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/patchers/namespacebrowser",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/patchers/namespacebrowser",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/patchers/namespacebrowser",
+				"patcherrelativepath" : "../../../../Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/patchers/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -9891,65 +9650,9 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "power.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rectangular.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rosenbergGlottalPulse.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "smoothPolynomial.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tanh.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "thru.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "trapezoid.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tukey.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "welch.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],
