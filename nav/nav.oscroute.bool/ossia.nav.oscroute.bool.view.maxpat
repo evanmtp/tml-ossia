@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 81.0, 226.0, 50.0 ],
+		"rect" : [ 59.0, 81.0, 402.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.37 ],
+					"fontsize" : 9.0,
+					"hint" : "note duration",
+					"id" : "obj-6",
+					"maxclass" : "number",
+					"minimum" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 13.0, 203.0, 29.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 219.488653999999997, 0.0, 28.0, 19.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"triangle" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 58.0, 203.0, 139.0, 21.0 ],
+					"text" : "ossia.remote note/duration",
+					"varname" : "offset[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -51,23 +87,6 @@
 					"patching_rect" : [ 13.0, 162.0, 105.0, 21.0 ],
 					"text" : "ossia.remote mode",
 					"varname" : "reference[2]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-8",
-					"linecount" : 5,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 45.0, 510.0, 135.0, 69.0 ],
-					"text" : "ossia.parameter mode @type int @default 0 @description \"0 = bypass / 1 = bool2bang / 2=bang2bool.\"",
-					"varname" : "reference[1]"
 				}
 
 			}
@@ -85,7 +104,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 13.0, 127.0, 29.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 196.988653999999997, 0.0, 21.0, 19.0 ],
+					"presentation_rect" : [ 152.988653999999997, 0.0, 23.0, 19.0 ],
 					"triangle" : 0
 				}
 
@@ -226,7 +245,7 @@
 					"fontname" : "Verdana",
 					"fontsize" : 8.0,
 					"id" : "obj-34",
-					"items" : [ "bypass", ",", "bool2bang", ",", "bang2bool" ],
+					"items" : [ "bypass", ",", "bool2bang", ",", "bang2bool", ",", "bool2note>1", ",", "bool2note=0", ",", "change2note", ",", "bang2note" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -235,7 +254,7 @@
 					"patching_rect" : [ 126.0, 162.0, 76.0, 18.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 148.988653999999997, 0.0, 52.5, 18.0 ],
+					"presentation_rect" : [ 169.988653999999997, 0.0, 52.5, 18.0 ],
 					"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ],
 					"varname" : "mode"
 				}
@@ -293,6 +312,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
@@ -335,10 +368,6 @@
 				"patcherrelativepath" : "../../../../Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/patchers/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.parameter.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "ossia.remote.mxo",
